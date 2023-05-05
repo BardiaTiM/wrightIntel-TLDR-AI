@@ -9,7 +9,7 @@ import numpy as np
 # Set OpenAI API key as environment variable
 os.environ["OPENAI_API_KEY"] = ''
 
-# Initialize the sentence transformer model
+# Initialize t\he sentence transformer model
 model = SentenceTransformer('paraphrase-distilroberta-base-v1')
 
 # Define a function to calculate cosine similarity

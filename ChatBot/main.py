@@ -9,14 +9,27 @@ import numpy as np
 # Set OpenAI API key as environment variable
 os.environ["OPENAI_API_KEY"] = ''
 
-# Initialize t\he sentence transformer model
+# Initialize t\he sentences transformer model
 model = SentenceTransformer('paraphrase-distilroberta-base-v1')
+
 
 # Define a function to calculate cosine similarity
 def cosine_similarity(a, b):
     return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
 
+
 # Define a function to check whether the input question is related to the content in the PDF
+"""
+
+This code defines a function called is_related that takes a question as input and checks if the question is related to 
+any text documents in the "Knowledge" directory. The function uses a pre-trained language model to encode the question 
+and each document as vectors, and then computes the cosine similarity between the question vector and each document 
+vector. The highest similarity score is returned, and if it is greater than the min_similarity threshold 
+(which defaults to 0.2), the function returns True, indicating that the question is related to at least one of 
+the documents. If the highest similarity score is lower than the threshold, the function returns False.
+"""
+
+
 def is_related(question, min_similarity=0.2):
     # Load the text documents from the specified directory
     docs = SimpleDirectoryReader("Knowledge").load_data()
@@ -31,9 +44,10 @@ def is_related(question, min_similarity=0.2):
     max_similarity = max(similarities)
     return max_similarity > min_similarity
 
+
 # Define a function to construct and save the GPT-based index
 def construct_index(directory_path):
-    num_outputs = 512 # Number of text tokens in GPT model output
+    num_outputs = 512  # Number of text tokens in GPT model output
     # Create a language model predictor using OpenAI's GPT model
     llm_predictor = LLMPredictor(llm=OpenAI(temperature=0.7, model_name="text-davinci-003", max_tokens=num_outputs))
     # Create a service context object for the GPT-based index
@@ -47,6 +61,7 @@ def construct_index(directory_path):
     # Return the index object
     return index
 
+
 # Modify the chatbot function to check if the input question is related
 def chatbot(input_text):
     # Check if the input question is related to the content in the PDF
@@ -59,6 +74,7 @@ def chatbot(input_text):
         return response.response
     else:
         return "I'm sorry, I cannot answer questions unrelated to my knowledge base."
+
 
 # Create a Gradio interface for the chatbot function
 iface = gr.Interface(fn=chatbot,

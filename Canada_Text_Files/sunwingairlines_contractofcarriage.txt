@@ -1,0 +1,1690 @@
+SUNWING CTA (A) No. 5
+1st Revision Title page
+Cancels Original Title Page
+TARIFF CONTAINING RULES
+APPLICABLE TO SCHEDULED SERVICES
+FOR THE TRANSPORTATION OF
+PASSENGERS AND BAGGAGE OR GOODS
+BETWEEN
+POINTS IN CANADA
+ISSUE DATE
+September 21, 2022
+ISSUED BY
+Leonardo Corrado
+President
+Sunwing
+27 Fasken Drive
+Toronto, Ontario
+M9W 1K6, Canada
+EFFECTIVE DATE
+September 22, 2022
+SUNWING CTA (A) No. 5
+Original Page 2
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+ISSUE DATE
+November 29, 2016
+EFFECTIVE DATE
+November 30, 2016
+TABLE OF CONTENTS
+EXPLANATION OF ABBREVIATIONS, REFERENCE MARKS AND
+SYMBOLS ...................................................................................................................................................3
+SECTION I - GENERAL RULES ............................................................................................................. 4
+DEFINITIONS AND INTERPRETATION .............................................................................................. 4
+Definitions....................................................................................................................................... 4
+Currency........................................................................................................................................................ 8
+Mileage Determination.................................................................................................................... 8
+APPLICATION OF TARIFF.................................................................................................................... 8
+Application.............................................................................................................................................. 8
+Air Transportation Contract Requirement ............................................................................................... 9
+Incorporation of Tariff into Air Transportation Contract........................................................................ 9
+Conditions of Application ....................................................................................................................... 9
+RATES AND CHARGES – DOMESTIC SERVICE ............................................................................ 10
+Domestic Service Rates and Charges..................................................................................................... 10
+Payment Terms....................................................................................................................................... 10
+Passenger Cancellation, Change and Refund Terms ............................................................................. 10
+RATES AND CHARGES – CARGO SERVICE .................................................................................... 10
+Bulk Cargo Service Agreement.............................................................................................................. 10
+TRAVEL DOCUMENTS ......................................................................................................................... 11
+Responsibility of Passenger.................................................................................................................... 11
+Capacity Limitations .............................................................................................................................. 12
+Transportation of a Person with a Disability .......................................................................................... 12
+Refusal to Transport............................................................................................................................... 16
+Acceptance of Children.......................................................................................................................... 20
+Limitation of Liability –Passengers........................................................................................................ 23
+Limitation of Liability for Baggage and Goods ..................................................................................... 23
+SECTION II – TICKETS ......................................................................................................................... 26
+Tickets.................................................................................................................................................... 26
+SECTION III – RESERVATIONS .......................................................................................................... 27
+Confirmation of Reserved Space............................................................................................................ 27
+Cancellation of Reservations.................................................................................................................. 27
+Responsibility for Schedules and Operations........................................................................................ 27
+Traveller’s Rights................................................................................................................................... 32
+SECTION IV - FARES AND ROUTINGS.............................................................................................. 33
+Application of Fares and Routings......................................................................................................... 34
+SECTION V - BAGGAGE AND CARGO............................................................................................... 35
+Acceptance of Baggage and Cargo.........................................................................................................35
+SECTION VI – REFUNDS...................................................................................................................... 38
+Refunds ................................................................................................................................................. 38
+Denied Boarding Compensation..................................................................................................................39
+SUNWING CTA (A) No. 5
+Original Page 3
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+ISSUE DATE
+November 29, 2016
+EFFECTIVE DATE
+November 30, 2016
+EXPLANATION OF ABBREVIATIONS, REFERENCE MARKS AND SYMBOLS
+CTA (A) .................................. Canadian Transportation Agency
+IATA ..................................... International Air Transport Association
+Cont'd ..................................... Continued
+No. .......................................... Number
+$ .............................................. Dollar(s)
+¢ .............................................. Cent(s)
+[R] .......................................... Denotes reductions
+[A].......................................... Denotes increases
+[C] .......................................... Denotes changes which result in neither increases or reductions
+[X].......................................... Denotes cancellation
+[N].......................................... Denotes addition
+CAN ....................................... Canadian
+N/A......................................... Not Applicable
+Cy ........................................... Currency
+Kilo’s/Kg’s… ........................... Kilograms
+USD........................................ U.S. Dollars
+CAD ....................................... Canadian Dollars
+SUNWING
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+ISSUE DATE
+September 21, 2022
+EFFECTIVE DATE
+September 22, 2022
+CTA (A) No. 5
+2
+nd Revision Page 4
+Cancels 1st Revision Page 4
+SECTION I - GENERAL RULES
+RULE 1. DEFINITIONS AND INTERPRETATION
+1.1 Definitions
+In this Tariff, the following words shall have meanings set out below:
+Air Crew means the flight crew and one or more persons who, under the authority of the Carrier,
+perform in-flight duties in the passenger cabin of an aircraft of the Carrier;
+Air Service includes a Live Flight and a Ferry Flight;
+Air Transportation Contract means with respect to Domestic Service, a contract entered into
+between the Passenger and the Carrier for the provision of Air Service to the Passenger and his/her
+Baggage and goods in the form of a Ticket issued by the Carrier or an agent of the Carrier
+authorized for that purpose and, in respect of Cargo, a contract entered into between the Carrier and
+any person for the carriage of Cargo on an Domestic Service flight;
+Air Transportation Regulations mean the Regulations Respecting Air Transportation, SOR/88- 58
+as amended from time to time, and any substitute regulations prescribed in relation to the subjectmatter therein;
+Air Waybill means a non-negotiable air-bill of the required number of copies, covering the Cargo
+transported by the Carrier subject to this Tariff;
+Applicable Adult Fare means the fare which would be applicable to an adult for the
+transportation to be used except those special fares which would be applicable due to adult's status
+(such as senior citizens fare, etc.);
+Applicable Full Fare means the full adult fare for the Class of Service designated in the Carrier's
+official general schedule for the aircraft, or compartment of the aircraft used by the Passenger.
+APPR means the Air Passenger Protection Regulations: SOR/2019-150 enacted under the Canada
+Transportation Act. (N)
+Assistive device means any medical device, mobility aid, communication aid or other aid that is
+specially designed to assist a person with a disability with a need related to their disability. (N)
+Assistant a person who travels with a person with a disability and is fully capable of providing a
+service related to the disability that is not usually provided by the Carrier’s staff.
+ATPDR means the Accessible Transportation for Persons with Disabilities Regulations. (N)
+Baggage which is equivalent to luggage means such articles, effects and other personal property of
+the Passenger as are necessary or appropriate for wear, use in connection with the Passenger trip.
+Unless otherwise specified, it shall include both checked and unchecked baggage of the passenger.
+Baggage Check means those portions of the Ticket which provide for the carriage of Passenger(s)
+checked baggage and which are issued by the Carrier as a receipt for Passenger(s) checked baggage;
+SUNWING
+CTA (A) No. 5
+1st Revision Page 5
+Cancels Original Page 5
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+ISSUE DATE
+September 21 2022
+EFFECTIVE DATE
+September 22, 2022
+Baggage Tag means a document issued by the Carrier solely for identification of checked baggage,
+one portion of which is attached by Carrier to a particular article of checked baggage and the other
+portion of which is given to the Passenger;
+Boarding time deadline is the time limit specified by the carrier by which the passenger must be
+present at the designated boarding area of their flight. (N)Barrier means anything – including
+anything physical, architectural, technological or attitudinal, anything that is based on information
+or communications or anything that is the result of a policy or a practice – that hinders the full and
+equal participation in society of persons with an impairment, including a physical, mental,
+intellectual, cognitive, learning, communication or sensory impairment or a functional limitation.
+(N)
+Canada means the ten provinces of Canada, the Yukon Territory, the Districts and Islands
+comprising the Northwest Territories of Canada and Nunavut;
+Canada Transportation Act or CTA means the Canada Transportation Act, 1996, as amended
+from time to time;
+Cargo means goods which are accepted for transport by the Carrier from a person who is not a
+Passenger of the Carrier, or who is a Passenger, but who has executed an agreement with the
+Carrier for treatment of the goods as “Cargo”, and has paid the rates as agreed upon by the Carrier
+and the person who has executed the agreement;
+Cargo Service means the carriage of Cargo by the Carrier in accordance with the terms and
+provisions of this Tariff on a Domestic Service Flight;
+Carrier means Sunwing [C];
+Circle Trip means any trip, the ultimate destination of which is the point of origin, but which
+includes, at least, a stop at one other point, and which is not made via the same Routing in both
+directions;
+Class of Service means the compartment of the aircraft in which the Passenger is entitled to be
+transported pursuant to the general schedule of the Carrier;
+Curbside zone means an area that is located outside of a terminal where passengers are picked up or dropped
+off and that is owned, operated, leased or otherwise controlled by the terminal operator. (N)
+Destination means the point to which the Passenger(s) to be transported on a flight is bound.
+Disability means any impairment, including a physical, mental, intellectual, cognitive, learning, communication
+or sensory impairment — or a functional limitation — whether permanent, temporary or episodic in nature, or
+evident or not, that, in interaction with a barrier, hinders a person’s full and equal participation in society. (N)
+Domestic Service means an air service provided between points in Canada.
+SUNWING
+CTA (A) No. 5
+Original Page 5 A
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+ISSUE DATE
+September 21 2022
+EFFECTIVE DATE
+September 22 2022
+Emotional support Dog means a dog that provides emotional support, comfort, or therapeutic benefits to
+meet the disability-related needs of a person with disability, but has not been individually trained by an
+organization or person specializing in such training to perform a specific task to assist the person with a
+disability-related need.(N)
+Event of Force Majeure means an event, the cause or causes of which are not attributable to the
+wilful misconduct or gross negligence of the Carrier, including, but not limited to (i) earthquake,
+flood, hurricane, explosion, fire, storm, epidemic, other acts of God or public enemies, war,
+national emergency, invasion, insurrection, riots, strikes, picketing, boycott, lockouts or other
+civil disturbances, (ii) interruption of flying facilities, navigational aids or other services, (iii) any
+laws, rules, proclamations, regulations, orders, declarations, interruptions or requirements of or
+interference by any government or governmental agency or official thereof, (iv) inability to
+procure materials, accessories, equipment or parts from suppliers, mechanical failure to the
+aircraft or any part thereof, damage, destruction or loss of use of an aircraft, confiscation,
+nationalization, seizure, detention, theft or hijacking of an aircraft, or (v) any other cause or
+circumstances whether similar or dissimilar, seen or unforeseen, which the Carrier is unable to
+overcome by the exercise of reasonable diligence and at a reasonable cost;
+ISSUE DATE
+September 21, 2022
+EFFECTIVE DATE
+September 22, 2022
+SUNWING
+CTA (A) No. 5
+2nd Revision Page 6
+Cancels 1st Revision Page 6
+Fare or Fare class means the rate charged to a Passenger in respect of a particular class of
+Domestic Service offered by the Carrier, from time to time, as more particularly referred to in
+Rule 3;
+Ferry Flight means the movement of an aircraft without Passengers or goods to position the
+aircraft to perform a flight or upon completion of a flight to position the aircraft to a point
+required by the Carrier;
+Goods mean anything that can be transported by air, including animals, other than in plane-load
+and Baggage;
+Itinerary means a schedule setting forth the name of the relevant Passenger(s), the flight, flight
+number, class of flight, flight times, as well as the Origin and Destination of the flight issued to a
+Passenger on payment of the appropriate rates and charges in respect of that flight;
+Large Carrier APPR means a carrier that has transported a worldwide total of two million
+passengers or more during each of the two preceding calendar years. (N)
+Live Flight means the movement of an aircraft with Passengers or Goods from the point of takeoff at the Origin to a point or points of landing thereafter, inclusive of the point of landing at the
+Destination (intermediate technical or fuel landings excepted);
+Mobility aid means any manual or electric wheelchair, scooter, boarding chair, walker, cane,
+crutch, prosthesis or other aid that is specially designed to assist a person with a disability with a
+need related to mobility.(N)
+Origin means the point from which a flight commences with the Passengers to be transported;
+Outward Destination means that Stopover point on the Passenger's Itinerary which is furthest
+from the Passenger's point of Origin;
+Passenger means any person, except members of the Air Crew, carried or to be carried in an
+aircraft with the consent of the Carrier pursuant to an agreement;
+Passenger Liability means the legal liability of the Carrier to any Passenger or other person in
+respect of a Passenger, arising from the Carrier’s operation, ownership or possession of an
+aircraft, for:
+(a) injury to or death of persons who are Passengers;
+(b) losses suffered or sustained by a Passenger or other person as a result of the Carrier’s
+inability to perform, in whole or in part, the Air Service contracted for;
+(c) damage to or loss of Goods in the Carrier’s charge; or
+(d) losses due to any delay in delivery of any Goods in the Carrier’s charge.
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+ISSUE DATE
+September 21, 2022 EFFECTIVE DATE
+September 22, 2022
+Person means an individual, firm, corporation, association, partnership, or other legal entity,
+as the context requires or otherwise permits;
+Person with a disability means a person with any impairment, including a physical, mental,
+intellectual, cognitive, learning, communication or sensory impairment — or a functional
+limitation — whether permanent, temporary or episodic in nature, or evident or not, that, in
+interaction with a barrier, hinders a person’s full and equal participation in society. (N)
+Prepaid Ticket Advice means the notification between offices of a Carrier or between Carriers
+that a Person in one location has purchased and requested issuance of prepaid transportation as
+described in the authority to another Person in another location.
+Priority baggage means baggage that will be the last items to be stowed in the aircraft hold and the first
+items to be removed. Aids required for the mobility or well-being of persons with disabilities shall be
+treated as priority baggage.
+SUNWING
+CTA(A)No.5
+Original Page 6 A
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+ISSUE DATE
+September 21, 2022
+EFFECTIVE DATE
+September 22, 2022
+SUNWING CTA (A) No. 5
+ 1st Revision Page 7
+ Cancels Original Page 7
+Required for safety purposes means required by law in order to reduce risk to passenger safety
+and includes required by safety decisions made within the authority of the pilot of the aircraft or
+any decision made in accordance with a safety management system as defined in subsection
+101.01(1) of the Canadian Aviation Regulations but does not include scheduled maintenance in
+compliance with legal requirements.(N)
+Reroute means to issue a new Ticket covering transportation to the same destination as, but via a
+different Routing than that designated on the Ticket, or portion thereof, then held by the
+Passenger, or to honour the Ticket, or portion thereof, then held by the Passenger for
+transportation to the same destination as, but via a different Routing than, that designated
+thereon;
+Round Trip means any trip, the ultimate destination of which is the point of origin, and which is
+made via the same Routing in both directions;
+Routing means the Carrier(s) and/or the cities and/or Class of Service and/or type of aircraft via
+which transportation is provided between two points, as specified in this Tariff;
+Self-reliant means that a person does not require services related to a disability beyond that normally
+provided by the carrier, or beyond that which applicable rules or regulations require the carrier to provide.(N)
+Service dog means a dog that has been individually trained by an organization or person specializing in
+service dog training to perform a task to assist a person with a disability with a need related to their
+disability. (N)
+Severe allergy means an allergy to an allergen that may cause a person to experience significant physical
+distress if they are directly exposed to the allergen. (N)
+Situations outside the carrier's control include, but are not limited to the following:
+• war or political instability;
+• illegal acts or sabotage;
+• meteorological conditions or natural disasters that make the safe operation of the aircraft impossible;
+• instructions from air traffic control;
+• a NOTAM, (Notice to Airmen) as defined in subsection 101.01(1) of the Canadian Aviation
+Regulations;
+• a security threat;
+• airport operation issues;
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+ISSUE DATE
+September 21, 2022
+EFFECTIVE DATE
+September 22, 2022
+• a medical emergency;
+• a collision with wildlife;
+• a labour disruption within the carrier or within an essential service provider such as an airport or an air
+navigation service provider;
+• a manufacturing defect in an aircraft that reduces the safety of passengers and that was identified by
+the manufacturer of the aircraft concerned, or by a competent authority; and
+• an order or instruction from an official of a state or a law enforcement agency or from a person
+responsible for airport security. (N)
+Small Carrier APPR means any carrier that is not a Large Carrier APPR. For greater certainty, Small
+Carrier APPR means a carrier that has not transported a worldwide total of two million passengers or more
+during each of the two preceding calendar years. (N)
+Special drawing rights (SDR) is a unit of account of the International Monetary Fund. (N)
+Support person means a person who is needed by a person with a disability, because of the nature of their
+disability, after departure and before arrival for assistance with eating meals, taking medication, using the
+washroom, transferring to and from a passenger seat, orientation and communication; or for physical
+assistance in an emergency, including in the case of an evacuation or decompression. (N)
+Stopover means a deliberate interruption of a journey by the Passenger, agreed to in advance by
+the Carrier, at a point between the place of departure and the place of destination;
+Tarmac delay occurs when a flight is delayed on the tarmac after the doors of the aircraft are
+closed for take-off or after the flight has landed. (N)
+Tariff means this tariff of terms and conditions of carriage applicable to the provision of
+Domestic Services and ancillary services thereto;
+Ticket means the electronic confirmation generated by the Carrier’s central reservations system,
+or confirmation number, Baggage Check and accompanying notices, if any, that incorporate this
+contract of carriage;
+Traffic means any Passengers, Goods or mail that is transported by air;
+Voucher means a monetary credit provided either in paper or electronic format to a passenger that may be
+used toward future travel services or the provision of incidental services such as meals, ground
+transportation, and hotel accommodation.(N)
+SUNWING
+CTA (A) No. 5
+ Original Page 7A
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+ISSUE DATE
+July 12, 2019
+EFFECTIVE DATE
+June 24 2022
+SUNWING
+1.2 Currency
+CTA (A) No. 5
+2nd Revision Page 8
+1st Revision Page 8
+All rates and charges published in this Tariff are published in the lawful currency of Canada.
+1.3 Mileage Determination
+For the purposes of computing all rates and charges under this Tariff, the mileage to be used,
+including both Live Flight and Ferry Flight mileage, will be the shortest mileage covering the
+actual airport to airport great circle distance of the applicable flight, using the following sources
+in the order set out below or in combination:
+(a) Air Distance Manual, published jointly by International Air Transport Association and
+International Aeradio Limited;
+(b) IATA Mileage Manual, published by the International Air Transport Association;
+(c) Jeppesen Airway Manual, published by Jeppesen & Co. GmbH, Frankfurt, Germany;
+(d) Book of Official C.A.B. Airline Route Maps and Airport Mileages, revisions thereto, and
+reissues thereof, published by Airline Tariff Publishing Company;
+(e) And/or any combination thereof.
+RULE 2. APPLICATION OF TARIFF
+2.1 Application
+(a) This Tariff shall apply to the Traffic and transportation of Passengers, Goods and/or
+Cargo using aircraft operated by the Carrier, which is a Small Carrier in respect of a
+Domestic Service or a Cargo Service.
+For the purposes of APPR Sunwing Airlines Inc. is considered a small carrier.
+The obligations of the carrier under APPR form part of this tariff and supersede any
+incompatible or inconsistent term and condition of carriage set out in the tariff to the
+extent of such inconsistency or incompatibility, but do not relieve the carrier from
+applying terms and conditions of carriage of this tariff that are more favorable to the
+passenger than the obligations set out in the APPR.
+The obligations of the carrier under ATPDR form part of this tariff and supersede
+any incompatible or inconsistent term and condition of carriage set out in the tariff
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+ISSUE DATE
+21 September 2022
+EFFECTIVE DATE
+22 September 2022
+to the extent of such inconsistency or incompatibility, but do not relieve the carrier
+from applying terms and conditions of carriage of this tariff that are more favorable
+to the passenger than the obligations set out in the ATPDR.
+(b) This Tariff contains the conditions of carriage and practices upon which the Carrier
+transports and agrees to transport and are expressly agreed to by the Passenger to the
+same extent as if such rules were included as conditions in the contract of carriage.
+Transportation is subject to the rules, Fares and charges in effect on the date on which
+such transportation commences at the point of Origin designated on the Tickets.
+(c) This Tariff contains the Fares, rates, charges and terms and conditions of carriage and
+practices upon which the Carrier transports and agrees to transport and are expressly
+agreed to by the Passenger to the same extent as if such rules were included as
+conditions in the contract of carriage. Except as provided herein, the Carrier’s general
+rule provisions (terms and conditions) are subject to fare rule provisions which are
+considered to be part of this Tariff. The Carrier will at the time of ticket purchase
+inform the Passenger of any fare rule or condition which is associated with the Fare
+Passenger is purchasing. Fares, rates, charges and applicable terms and conditions
+are published and filed through the Airline Tariff Publishing Company (ATPCO) in
+Tariff 526 (the “ATPCO Tariff”) or as published on the Carrier’s website.
+(d) References to pages, rules, items and notes are continuous and include revisions,
+supplements thereto and reissues thereof.
+(e) The Carrier will be responsible for the furnishing of transportation only over its own
+lines. When any Carrier undertakes to issue a Ticket, check baggage, or make any other
+arrangements for transportation over the lines of any other carrier (whether or not such
+transportation is part of a through service), such Carrier will act only as agent for such
+other carrier and will assume no responsibility for the acts or omissions of such other
+carrier. The Carrier does not code share with any other carrier.
+(f) No agent, employee or representative of the Carrier has authority to alter, modify or
+waive any provisions of the air transportation contract or of this Tariff unless authorized
+in writing by an officer of the Carrier
+(g) The obligations of the Carrier under the APPR form part of the tariff and supersede any
+incompatible or inconsistent term and condition of carriage set out in the tariff to the extent of such
+inconsistency or incompatibility, but do not relieve the Carrier from applying terms and conditions
+of carriage that are more favorable to the passenger than the obligations set out in the APPR .
+Should any of the provisions of these Rules or the provisions of the APPR be contrary to the
+Montreal Convention, or, where applicable, the Warsaw Convention, or to the provisions of the
+Transportation Modernization Act, the provisions of the Montreal Convention, or, where
+applicable, the Warsaw Convention or the provisions of the Transportation Modernization Act shall
+prevail.
+SUNWING
+CTA (A) No. 5
+Original Page 8 A
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+ISSUE DATE
+21 September 2022
+EFFECTIVE DATE
+22 September 2022
+SUNWING AIRLINES INC.
+2.2 Air Transportation Contract or Ticket Requirement
+CTA (A) No. 5
+2nd Revision Page 9
+Cancels 1st Revision Page 9
+No Domestic Service or Cargo Service shall be furnished by the Carrier under the terms of this Tariff
+unless an appropriate written Air Transportation Contract, in the form prescribed by the Carrier, is
+executed by the Passenger and the Carrier or a Ticket is issued to the Passenger by the Carrier or unless,
+in respect of a Cargo Service, an appropriate written Air Transportation Contract in the form prescribed
+by the Carrier is executed by the shipper and the Carrier.
+2.3 Incorporation of Tariff into Air Transportation Contract
+The contents of this Tariff shall form part of any Air Transportation Contract between the Carrier and a
+Passenger (including with respect to the Passenger’s Goods), between the Carrier and any other Person in
+respect of Cargo Services, and if there is a conflict between this Tariff and that contract, this Tariff shall
+prevail.
+2.4 Conditions of Application
+Unless otherwise specified herein, all Domestic Services and Cargo Services provided by the Carrier
+under this Tariff shall be subject to the rules published or referred to in this Tariff in effect, from time
+to time, by virtue of the effective date on each page, on the date of signing of an Air Transportation
+Contract, or the issuance of a Ticket. The Fares, rates and charges shall be referred to in this Tariff or
+on the Carrier’s website.
+SUNWING AIRLINES INC. CTA (A) No. 5
+Original Page 10
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+ISSUE DATE
+November 29, 2016
+EFFECTIVE DATE
+November 30, 2016
+RULE 3. RATES AND CHARGES – DOMESTIC SERVICE
+3.1 Domestic Service Fares, Rates and Charges
+Fares, rates and charges are filed through the Airline Tariff Publishing Company
+(ATPCO) in Tariff 526 (the “ATPCO Tariff”) or as published on the Carrier’s website.
+3.2 Payment Terms
+Payments terms are filed through the ATPCO Tariff.
+3.3 Passenger Cancellation, Change and Refund Terms
+Passenger rights of cancellation, change and/or refund are filed through the ATPCO
+Tariff.
+3.4 Fares Rates and Charges
+All fares are due and payable by a passenger at the time of the booking of the flight and
+on payment in respect of such flight, the Carrier, or an agent of the Carrier, authorized
+for that purpose, shall issue an itinerary to the passenger setting forth details of the
+flight.
+RULE 4. CARGO
+Carrier’s acceptance of Cargo onboard any flight, shall be subject to the following conditions:
+(a) The Carrier shall have the right, but not the obligation, to make such inspections of Cargo
+as it deems necessary or appropriate, with or without the shipper’s consent or knowledge.
+The existence or exercise of such right shall not be construed as an agreement, expressed
+or implied, by the Carrier to carry such Cargo as would otherwise be precluded from
+carriage in accordance with this Tariff.
+(b) The Carrier shall not be liable for any damage to any Cargo resulting from exposure to
+electro-magnetic x-ray or fluoroscopic metal or other detecting devices as a result of any
+such inspections.
+(c) All Cargo presented for carriage shall be crated or otherwise suitably enclosed and be of
+weight, size and character that is suitable for carriage on the aircraft.
+SUNWING AIRLINES INC. CTA (A) No. 5
+Original Page 11
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+ISSUE DATE
+November 29, 2016
+EFFECTIVE DATE
+November 30, 2016
+(d) Perishable Goods shall be properly packed by the shipper to prevent damage, or deterioration in
+flight. The Carrier shall not be liable for any loss, damage, deterioration or destruction of perishable
+Goods regardless of its cause, including loss, damage, deterioration or destruction resulting from delay
+in departure or enroute unless directly caused by the gross negligence or willful misconduct of the
+Carrier.
+SUNWING CTA (A) No. 5
+Original Page 12
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+ISSUE DATE
+November 29, 2016
+EFFECTIVE DATE
+November 30, 2016
+(e) Non-acceptance by Consignee – where any Goods are refused by the consignee, or
+effective arrangements have not been made by the shipper for the consignee to accept the
+Goods at the destination, or where instructions for disposal cannot be obtained from the
+shipper or consignee, or where there is danger that the Goods shall become worthless
+because of delay in transit or delivery or non-delivery, the Carrier shall without prior
+notice, dispose of the Goods upon such terms as shall appear fit and proper to the Carrier
+with any and all costs of disposal, delivery or storage thereof payable by the shipper.
+(f) Refusal of Carriage – the Carrier shall refuse to carry or shall remove enroute any Cargo
+when:
+(i) Such Cargo:
+- May endanger the safety of the aircraft, Air Crew, other Cargo, Passengers or
+Baggage;
+- Is shipped contrary to any applicable laws, regulations or orders of any place
+to be flown from, into or over;
+- Is likely to be damaged by air carriage;
+- Is improperly packed or otherwise defective.
+(ii) The weight, size or character of the Cargo is unsuitable for carriage on the
+aircraft.
+(g) Restricted Articles
+In addition to the rules set forth in this Tariff, the provisions of the IATA Restricted
+Articles Regulations shall apply in connection with carriage in the aircraft.
+RULE 5. TRAVEL DOCUMENTS
+5.1 Responsibility of Passenger
+Each Passenger will be responsible for having all necessary travel documents and/or
+appropriate identification.
+SUNWING CTA (A) No. 5
+Original Page 13
+RULE 6. CAPACITY LIMITATIONS
+The Carrier may limit the number of Passengers carried on any one flight at Fares governed by
+rules making reference hereto and such Fares will not necessarily be available on all flights
+operated by the Carrier. The number of seats which the Carrier shall make available on a given
+flight will be determined by the Carrier's best judgment as to the anticipated total Passenger load
+on each flight.
+RULE 7. TRANSPORTATION OF A PERSON WITH A DISABILITY
+(a) Transportation of Passengers with Disabilities:
+(i) Definitions
+A Passenger whose physical, medical or mental health condition requires individual
+attention on enplaning, deplaning, during flight in an emergency evacuation or during
+ground handling which is normally not extended to other Passengers.
+(a) "Ambulatory" - a Person who is able to move within the aircraft unassisted.
+(b) "Non-Ambulatory" - a Person who is not able to move within the aircraft
+unassisted.
+(c) "Self-Reliant" - a Person who is independent, self-sufficient and capable of taking
+care of all physical needs during the flight, and who requires no special or unusual
+onboard attention beyond that afforded to the general public, except that assistance
+boarding and deplaning may be required.
+(d) "Non-Self Reliant" - means a Person who is incapable of self-care during flight and
+therefore dependent upon an assistant.
+(e) "Determination of Self - Reliance" – the Carrier will accept the disabled Person’s
+determination as to self-reliance.
+(f) "Assistant (Personal Attendant) " - a Person who is physically capable of providing
+assistance of a personal nature (i.e. using the washroom, eating, taking medication) to
+Non-Self Reliant Person during flight.
+(g) "Wheelchair - Athlete" - non-ambulatory Person with upper body and arm
+development such as to make him/her physically capable of egressing an aircraft in
+an emergency with minimal assistance, and who is a member of a bonafide sports
+organization.
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+ISSUE DATE
+November 29, 2016
+EFFECTIVE DATE
+November 30, 2016
+SUNWING CTA (A) No. 5
+Original Page 14
+(h) "Service animal" - means an animal that is required by a Person with a disability for
+assistance and is certified in writing as having been trained to assist a Person with a
+disability by a professional service animal institution and which is properly harnessed
+in accordance with standards established by a professional service animal institution.
+(ii) Acceptance of a Passenger with a disability
+(a) Carrier will accept the determination of a Person with a disability as to selfreliance. When a Passenger has advised a Carrier of his self-reliance, a Carrier
+shall not refuse such Passenger transportation on the basis that there is a lack of
+escort or that the Passenger may require additional attention from airline
+employees.
+(b) Carrier will refuse to transport or will remove at any point, any Passenger whose
+mental or physical condition is such as to render him incapable of caring for
+himself/herself without assistance, unless:
+(i) he/she is accompanied by an attendant who will be responsible for caring for
+him enroute, and;
+(ii) with the care of such attendant, he/she will not require unreasonable attention
+or assistance from employees of the Carrier.
+Passengers with a disability will be accepted for transportation as outlined below:
+Disability Assistant Required Maximum Per Flt.
+Mental health disability/self-reliant No No Limit
+Mental health disability /non self-reliant Yes No Limit
+Blind No No Limit
+Deaf No No Limit
+Blind and Deaf /Self-reliant No No Limit
+Blind and Deaf /Non Self-reliant Yes No Limit
+Intellectual /Self-reliant No No Limit
+Intellectual /Non-self-reliant Yes No Limit
+Passenger requiring wheelchair:
+- Ambulatory/Self-reliant No No Limit
+- Ambulatory/Non-self-reliant Yes No Limit
+- Non-ambulatory/Self-reliant No No limit
+- Non-ambulatory/Non-self-reliant Yes No limit
+Note 1: Seating will be in accordance with Transport Canada Guidelines.
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+ISSUE DATE
+November 29, 2016
+EFFECTIVE DATE
+November 30, 2016
+SUNWING
+CTA (A) No. 5
+1
+st Revision Page 15
+Cancels Original Page 15
+(iii) Medical Clearance
+The Carrier reserves the right to require a medical clearance from the Company
+Medical Authorities if travel involves any unusual risk or hazard to the Passenger or to
+other Persons (including, in cases of pregnant Passengers, unborn children).
+(iv) Seating restrictions
+Passengers with a disability will not be permitted to occupy seats in designated
+emergency exit rows, over-wing emergency exit rows.
+(v) Reservations/Check-in requirements
+Reservation should be made at least 48 hours in advance of travel advising the nature of
+the disability and the assistance that will be required. However every effort will be
+made to accommodate Passenger’s request who fail to make their reservation 48 hours
+in advance.
+(vi) Acceptance of Mobility Aids
+The Carrier will accept in addition to the regular free Baggage allowance, the following
+items as priority checked Baggage without charge and which will be stowed in the
+Baggage compartment of the aircraft unless otherwise indicated below:
+(a) Canes and crutches will be stowed in the Passenger cabin of the Aircraft.
+(b) Manually operated wheelchairs and walkers.
+(c) Scooters or wheelchairs with non-spillable batteries (with terminals disconnected
+and taped) will be accepted and transported by the Carrier according to Dangerous
+Goods Regulations.
+(d) Mobility aids such as, but not limited to manually operated wheelchairs and walkers.
+(e) If a mobility aid is damaged or lost, the Carrier will immediately provide a suitable
+temporary replacement without charge. If a damaged aid can be repaired, the Carrier
+will arrange, at its expense, for the prompt and adequate repair of the aid and return
+it to the Passenger as soon as possible. If a damaged aid cannot be repaired or is lost
+and cannot be located within 96 hours after the Passenger’s arrival, the Carrier will,
+at its discretion, replace it with an identical aid satisfactory to the Passenger, or
+reimburse the Passenger for the replacement cost of the aid.
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+ISSUE DATE
+November 29, 2016
+EFFECTIVE DATE
+June 24, 2022
+SUNWING
+CTA (A) No. 5
+1st Revision Page 16
+Cancels Original Page 16
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+ISSUE DATE
+November 29, 2016
+EFFECTIVE DATE
+June 24, 2022
+NOTE: Notwithstanding the normal Carrier liability as contained in this rule, the
+limit of liability will be waived for claims involving the loss of, damage to, or delay
+in delivery of mobility aids, when such items have been accepted as checked
+Baggage or otherwise. In the event that a mobility aid is lost or damaged,
+compensation is to be based on the cost of the repair or replacement value of the
+mobility aid.
+(f) Walkers, Crutches and canes may be retained in the Passengers custody
+provided they are stowed in accordance with the Carrier’s safety regulation.
+(vii) Service Animals
+The Carrier accepts for transportation, without charge a properly harnessed service
+animal certified as having been trained by a professional service animal institution to
+lead a Passenger with a visual impairment, and/or assist Passenger with a hearing
+impairment, who is dependent upon such a service animal. The service animal will be
+permitted to accompany such Passenger into the cabin, but will not be permitted to
+occupy a seat. For the comfort of all Passengers, the Carrier staff will determine, in
+consultation with the Person with a disability, where he/she and the service animal will
+be seated. Service animals will not be carried unless proper permits are obtained for
+entry into the countries of transit/final destination, and such permits are presented prior
+to commencement of travel. Should injury to or death of a service animal result from the
+fault or negligence of the Carrier, the Carrier will undertake to provide expeditiously,
+and at its own expense, for medical care, and if necessary, replacement of the animal.
+(viii) Additional Services
+The Carrier will ensure that services are provided to Persons with disabilities when a
+request for such services is made at least 48 hours prior to departure, and will make
+reasonable efforts to accommodate requests not made within this time limit.
+Services to be provided upon request will include:
+1. Assisting with registration at the check-in counter;
+2. Assisting in proceeding to the boarding area;
+3. Assisting in boarding deplaning;
+4. Assisting in stowing and retrieving carry-on Baggage and retrieving checked
+Baggage;
+5. Assisting in moving to and from an aircraft lavatory;
+6. Assisting in proceeding to the general public area or, in some cases, to a
+representative of another carrier;
+7. Assisting in transferring a Person between the Person’s own mobility aid and a
+mobility provided by the Carrier;
+SUNWING
+CTA (A) No. 5
+1st Revision Page 17
+Cancels Original Page 17
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+ISSUE DATE
+November 29, 2016
+EFFECTIVE DATE
+June 24, 2022
+8. Assisting in transferring a Person between a mobility aid and the Person’s
+Passenger seat;
+9. Providing limited assistance with meals, such as opening packages, identifying
+items and cutting large food portions;
+10. Inquiring periodically during a flight about a Person’s needs, and
+11. Briefing individual Passengers with disabilities and their attendant on
+emergency procedures and at the layout of the cabin.
+RULE 8. REFUSAL TO TRANSPORT
+(A) In the reasonable exercise of the Carrier’s discretion, the Carrier may refuse to carry a
+Passenger or a Passenger’s Baggage on the Carrier’s flights, if the Carrier has previously notified
+the Passenger in writing of prohibited conduct as mentioned in (C) (iv) below. The Carrier may
+also refuse to carry the Passenger or the Passenger’s Baggage if one of the following has
+occurred, or the Carrier has reason to believe will occur, in which case there will be no refund of
+the Passenger’s Ticket:
+(i) Such action is necessary in order to comply with any applicable national or international
+regulations; or to comply with any government request for emergency transportation in
+connection with national defence, or wherever such action is necessary or advisable by
+reason of weather or other conditions beyond its control (including but without
+limitations: acts of God, Event of Force Majeure, strikes, civil commotion, embargoes,
+wars, hostilities or disturbances) actual, threatened or reported; or
+(ii) When the Passenger refuses on request to produce positive identification; or
+(iii) When a Passenger is to travel across any international boundary, if:
+(a) the travel documents of such Passengers are not in order; or
+(b) for any reason, such Passenger’s embarkation from, transit through, or entry into
+any country from, through, or to which such Passenger desires transportation would
+be unlawful; or
+(c) such Passenger fails or refuses to comply with the rules and regulations of the
+Carrier; or
+(d) the Passenger does not appear to have valid travel documents and may seek to enter
+a country which he or she is only entitled to transit, or for which the Passenger does
+not have valid travel documents, destroys his or her travel documents during flight
+or refuse to surrender his or her travel documents to the Air Crew – against receipt –
+when so requested; or
+(iv) The carriage of the Passenger or the Passenger’s Baggage may endanger or affect the
+safety, health, or materially affect the comfort of other Passengers or Air Crew; or
+SUNWING
+CTA (A) No. 5
+1st Revision Page 18
+Cancels Original Page 18
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+ISSUE DATE
+November 29, 2016
+EFFECTIVE DATE
+June 24, 2022
+(v) The Passengers mental or physical condition, including impairment by alcohol or drugs
+(except a medical patient under proper care), presents a hazard or risk to yourself, to
+Passengers, to Air Crew or to property; or
+(vi) The Person’s conduct, or condition is or has been known to be verbally or physically
+abusive, offensive, threatening, intimidating, violent or otherwise disorderly and in the
+reasonable judgment of a Carrier employee there is a possibility that such Passenger(s)
+would cause disruption or serious impairment to the physical comfort or safety of other
+Passengers or Carrier’s employees, interfere with an Air Crew member in the
+performance of his duties aboard Carrier’s aircraft, or otherwise jeopardize safe and
+adequate flight operations; or
+(vii) The Person fails to observe the instructions of the Carrier and its employees, including
+instructions to cease prohibited conduct; or
+(viii) The Person is unable/unwilling to sit in the seat with the seatbelt fastened; or
+(ix) The Person smokes or attempts to smoke in the aircraft; or
+(x) The Person uses or continues to use a cellular phone, a laptop computer or an electronic
+device on board the aircraft after being advised to cease such use by a member of the
+Air Crew; or
+(xi) The Person is wearing or has on or about their Person concealed or unconcealed
+deadly or dangerous weapons, provided, however , that Carrier will carry Passengers
+who meet the qualification and conditions established in appropriate Regulation; or
+(xii) The Person is manacled and in the custody of law enforcement personnel; or
+(xiii) The Person has resisted or may reasonably be believed to be capable of resisting escorts;
+or
+(xiv) The Passengers mental or physical condition is such as to render him /her incapable or
+caring himself/herself without assistance or medical treatment enroute unless:
+(a) He/She is accompanied by a ticketed attendant who will be responsible for caring
+for him/her enroute; and
+(b) With the care of such attendant he/she will not require unreasonable attention or
+assistance from Carrier personnel; or
+(xv) The Passenger appears to have an obvious contagious disease; or has an offensive odour
+(for example, such as from a draining wound); or
+SUNWING
+CTA (A) No. 5
+1
+st Revision Page 19
+Cancels Original Page 19
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+ISSUE DATE
+November 29, 2016
+EFFECTIVE DATE
+June 24, 2022
+(xvi) The Passenger has committed misconduct on a previous flight, and the Carrier has
+reason to believe that such conduct may be repeated; or
+(xvii) The Passenger has refused to submit to a security check; or
+(xviii) The Passenger has not paid the applicable Fare, taxes, fees or charges; or
+(xix) The Passenger presents a Ticket that has been acquired unlawfully, has been purchased
+from an entity other than the Carrier or its Authorized Agent, or has been reported lost
+or stolen or the Passenger cannot prove that he or she is the Person named in the Ticket;
+or
+(xx) The Passenger fails to observe the Carrier’s instructions with respect to safety and
+security or other instructions; or
+(xxi) The Passenger has resisted or may reasonably be believed to be capable of resisting his
+or her attendant; or
+(xxii) The Passenger fails to meet the stipulated cut-off times at the check-in counter or at the
+gate in accordance with Rule 15(5).
+(B) Sanctions
+Where, in the exercise of its reasonable discretion, the Carrier decides that the Passenger has
+engaged in prohibited conduct described above, the Carrier may impose any one or a
+combination of any of the following sanctions:
+(i) Removal of the Passenger at any point;
+(ii) The Carrier may stipulate that the Passenger is to follow certain probationary conditions
+such as to not engage in prohibited conduct, in order for the Carrier to provide transport
+to said Passenger. Such probationary conditions may be imposed for any length of time,
+which, in the exercise of the Carrier’s reasonable discretion, is necessary to ensure the
+Passenger’s continued compliance with the prohibition of certain conduct; or
+(iii) Refuse to transport the Passenger. The length of such refusal to transport may range
+from a one-time or other specified number to an indefinite lifetime ban. The length of
+the refusal period will be in the Carriers reasonable discretion, and will be for a period
+commensurate with the nature of the prohibited conduct and until the Carrier is satisfied
+that the Passenger no longer constitutes a threat to the safety of the other Passengers,
+Air Crew or the aircraft or to the comfort of the other Passengers or Air Crew; the
+unhindered performance of the Air Crew members in their duty aboard; or safe and
+adequate flight operations.
+SUNWING
+CTA (A) No. 5
+1
+st Revision Page 20
+Cancels Original Page 20
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+ISSUE DATE
+November 29, 2016
+EFFECTIVE DATE
+June 24, 2022
+(C) The following conduct is likely to result in an indefinite ban, up to lifetimeban:
+(i) The Person continues to interfere with the performance of an Air Crew member’s duties
+notwithstanding verbal warnings by the Air Crew to stop such behaviour;
+(ii) The Person injures or subjects to a credible threat of injury to an Air Crew member or
+other Passengers;
+(iii) The Person has conduct that requires an unscheduled landing and/or the use of restraints
+such as ties and handcuffs; or
+(iv) The Person repeats a prohibited conduct after receiving a notice of probation as
+mentioned in (A) above.
+(D) The remedies set out in this Rule are without prejudice to a Carrier’s other rights and
+recourses, namely to seek recovery of any damage resulting from the prohibited conduct or
+as otherwise provided in the Carrier’s Tariffs.
+(E) Recourse of the Passenger and Limitation of Liability
+Where the Person is subject to probationary conditions imposed by the Carrier or where a
+Person has been refused carriage on a one-time or other specified basis or is subject to an
+indefinite or lifetime ban, the Person may provide to the Carrier, in writing the reasons the
+Carrier should remove the sanction. Carrier will respond to the Passenger within a
+reasonable period of time with Carrier’s assessment as to the need or not to continue
+applying the sanction(s). Carrier shall not be liable for its refusal to transport any Passenger
+or for its removal of any Passenger in accordance with the preceding paragraphs of this rule.
+Despite anything written elsewhere in this Tariff the Carrier’s sole liability to a Person
+whom the Carrier refuses to carry following an incident of prohibited conduct is to provide a
+refund to the Person of the unused portion or portions of the Person’s Fare.
+SUNWING
+CTA (A) No. 5
+1
+st Revision Page 21
+Cancels Original Page 21
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+ISSUE DATE
+November 29, 2016
+EFFECTIVE DATE
+June 24, 2022
+RULE 9. ACCEPTANCE OF CHILDREN AND YOUNG PASSENGERS
+A. General
+(i) Children under 12 years of age are accepted for transportation when accompanied on the
+same flight and in the same compartment by a Passenger at least 16 years of age.
+(ii) Children of ages between 5 to 11years inclusive travelling alone will only be accepted as
+Unaccompanied Minors (UM)
+(iii) A request for unaccompanied minor has to be made directly with Sunwing Reservations at
+least 12 hours prior to the schedule time of departure of the concerned flight
+(iv) Unaccompanied Minors will be carried on direct flights only.
+(v) The child is brought to the airport check-in by a parent or a responsible adult who must
+present positive photo-identification.
+(vi) The child has satisfactory evidence establishing his/her age on the date of commencement
+of travel.
+(vii) The child possesses written information showing the name and address of the responsible
+adult meeting the child at destination.
+(viii) The child is in possession of all proper identification/documentation required for entry in
+destination.
+(ix) The Unaccompanied Minor form/ paperwork is verifiably complete and signed by the
+parent/accompanying adult.
+(x) Prior to releasing custody of an unaccompanied child the agent will obtain positive
+identification of the responsible party meeting the child and the signature of the said party.
+(xi) Unaccompanied children will not be accepted for carriage if the travel includes a
+connection from another flight of the Carrier or any other carrier.
+(xii) After check-in, the parent/guardian who has brought the child to the airport will retain
+custody of the child until an hour before the departure of the flight, after which the Carrier
+will take responsibility of the unaccompanied child.
+(xiii) The parent/guardian of the unaccompanied child must remain at the airport until 30
+minutes after the flight has departed; in the event of a flight delay or cancellation, the
+parent/guardian will take charge of the child.
+(xiv) Should any other Person, other than the one authorized as per the completed forms, attempt
+to receive the unaccompanied child, the drop-off parent/guardian must provide
+authorization to do so.
+(xv) If the Person authorized to receive the unaccompanied child, as per the completed forms, is
+not available at the time of arrival and/or within a reasonable amount of time, the Carrier
+will take necessary action as it deems reasonable.
+(xvi) On Domestic flights a child travelling alone must have their own passport and visas. A
+parent’s passport in which they are listed cannot be used. Some countries also have specific
+limitations regarding the expiry date and other features of the passport. Additionally, some
+countries require special documentation, such as a notarized letter stating the child has
+permission to fly alone.
+SUNWING
+CTA (A) No. 5
+1
+st Revision Page 22
+Cancels Original Page 22
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+ISSUE DATE
+November 29, 2016
+EFFECTIVE DATE
+June 24, 2022
+(xvii) The Carrier will not assume any financial or guardianship responsibility for
+unaccompanied children beyond those applicable to an adult Passenger.
+(xviii)The Carrier reserves the right to refuse transportation to the child and accompanying adult
+if a seat has not been purchased for the child and the Carrier does not assume any liability
+for any consequence thereof.
+B. Assignment of seats to accompanied children under the age of 14 years
+1. In order to facilitate the assignment of a seat to a child who is under the age of 14 years that
+is in close proximity to an accompanying person (parent, guardian or tutor) in accordance
+with part (2) (below), the carrier will, at no additional charge:
+I. advise passengers before check-in that the carrier will facilitate seat assignment of
+children in close proximity to an accompanying person at no additional charge at the
+time of check-in or at the boarding gate,
+II. assign seats at the time of check-in, if possible,
+III. if it is not possible to assign seats at the time of check-in, the carrier will, via an
+announcement at the gate, ask for volunteers to change seats at the time of boarding,
+and
+IV. if it is not possible to assign seats at the time of check-in and no passenger has
+volunteered to change seats at the time of boarding,
+V. the carrier will ask again for volunteers on-board the aircraft to change seats before
+take-off.
+2. Proximity to accompanying person’s seat
+The carrier will facilitate, pursuant to the steps outlined in (1) (above), the
+assignment of a seat to a child who is under the age of 14 years by offering, at no
+additional charge:
+a) in the case of a child who is 4 years of age or younger, a seat that is
+adjacent to their accompanying person’s seat;
+b) in the case of a child who is 5 to 11 years of age, a seat that is in the same
+row as their accompanying person’s seat, and that is separated from that
+accompanying person’s seat by no more than one seat; and
+c) in the case of a child who is 12 or 13 years of age, a seat that is in a row
+that is separated from the row of their accompanying person’s seat by no
+more than one row.
+SUNWING
+CTA (A) No. 5
+1
+st Revision Page 23
+Cancels Original Page 23
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+ISSUE DATE
+November 29, 2016
+EFFECTIVE DATE
+June 24, 2022
+3. At the Time of Check-in
+If advance seat selection is not chosen by the Accompanying Child’s parent(s) or
+guardian(s), the following steps will be taken by Carrier free of charge pursuant to the
+provisions of paragraphs 1.
+i. Sometimes due to unavailability of unassigned seats if it is not possible to seat the
+whole family together, then at least one parent or guardian member of the family
+will be seated in accordance with age proximity seating policies outlined in
+paragraph 2.
+ii. In an effort to accommodate Passengers with special seating requests,
+Carrier blocks two rows of six seats each on each flight for availability of
+such Passengers having special requests for seat selection at check-in.
+Special seating requests include, but also extend beyond, requests by
+parents or guardians for seating with a child.
+iii. Remaining available seats are selected by Passengers on a first come, first
+served basis.
+4. At Time of Boarding
+Prior to boarding, at time of check-in closure, if a situation is known where a
+minor child is not seated with a Parent/Guardian, the check-in counter will
+follow steps indicated in paragraph 1.
+5. On Board the Aircraft
+I. Should a circumstance arise where available seats, if any, prevent age
+proximity seating of an Accompanying Child with at least one parent or
+guardian, the situation will be brought to the attention of the Cabin Safety
+Manager.
+II. The Ground Supervisor will work to attempt to resolve the situation
+together with the Cabin Safety Manager, through seeking volunteers on
+board to move seats to accommodate the Accompanying Child, not seated
+with at least one parent or guardian.
+SUNWING
+CTA (A) No. 5
+1
+st Revision Page 24
+Cancels Original Page 24
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+ISSUE DATE
+November 29, 2016
+EFFECTIVE DATE
+June 24, 2022
+RULE 10. LIMITATION OF LIABILITY - PASSENGERS
+(a) The liability of the Carrier in respect of the death of, or injury to, a passenger is limited to
+the sum of $100, 000 exclusive of legal fees and costs, per passenger, per incident.
+(b) In no cases shall the Carrier’s liability exceed the actual loss suffered by the passenger.
+All claims are subject to proof of amount of loss.
+(c) The Carrier is not liable:
+(i) In the case of any passenger whose age or mental or physical condition,
+including pregnancy, is such as to involve an unusual risk or hazard, for any
+damages sustained by that passenger that would not have been sustained but
+for his/her age or mental or physical condition; or
+(i) In the case of a pregnant passenger, for any damagesin respect of the unborn
+child of that passenger.
+RULE 11. LIMITATION OF LIABILITY FOR BAGGAGE OR GOODS
+(a) Subject to paragraph (b) of this Rule, the liability of the Carrier in respect of loss,
+or damage to, or delay of baggage, whether caused directly or indirectly by the
+act, neglect or default of the Carrier or not, is limited to 1,131 SDR which is the
+approximate equivalent of CAD$2,000 (per passenger) for all baggage.
+(b) In addition to the above:
+(i) In no case shall the Carrier’s liability exceed the actual loss suffered by the
+Passenger. All claims are subject to adequate proof of amount of loss.
+(ii) In the case of damage or partial loss, the Person entitled to delivery must
+complain to the Carrier forthwith after discovery of the damage or partial
+loss, and, at the latest, within seven days from the date of receipt of the
+Baggage. In the case of delay, the complaint must be made at the latest
+within twenty-one days from the date on which the Baggage has been
+placed at his disposal. In the case of loss, the complaint must be made at
+the latest within 30 days from the date the Baggage should have been
+delivered. The Passenger must notify the Carrier immediately upon arrival
+in the case of missing checked-in Baggage. Every complaint, whether for
+loss, partial loss, damage or delay, must be made in writing and must be
+dispatched within the times aforesaid. Failing complaint within the times
+aforesaid, no action shall lie against the Carrier.
+SUNWING CTA (A) No. 5
+Original Page 25
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+ISSUE DATE
+November 29, 2016
+EFFECTIVE DATE
+November 30, 2016
+(iii) All Baggage must be suitably identified externally and packed in suitcases or in
+similar containers in order to ensure safe and convenient carriage with ordinary care
+and handling. Fragile or perishable articles, including medication or medical
+devices money, jewellery, silverware, laptop computers, personal audio/video
+devices, negotiable documents, securities, samples of business documents or other
+valuables (other than articles of clothing) shall not be accepted as checked Baggage.
+Any such items declared or found in checked Baggage are subject to removal prior
+to the Baggage in question being accepted for carriage by the Carrier.
+(iv) The Carrier shall not be liable for damage to fragile, valuable or perishable items
+where such damage is the result of the inherent defect, quality or vice of the item in
+question. Unsuitably or inadequately packed items will be accepted at the Carrier's
+discretion and, where accepted a limited release tag will be issued recording all the
+Baggage deficiencies of such checked Baggage, compensation may be denied as a
+result of the afore-mentioned factors. The Carrier assumes liability for the delay in
+delivery of any perishable items accepted as checked Baggage in the event it has
+failed to take all reasonable measures to avoid such delay.
+(v) No claim shall be eligible under this Rule unless the Person presents a valid
+Baggage Tag issued by the Carrier for the lost, damaged or delayed bag.
+(vi) Notwithstanding paragraphs a) and b) of this rule, in the case of damaged Baggage,
+the Carrier’s liability shall be limited to repairing the damaged bag, paying the cost
+of the repair, if such were pre-approved by the Carrier on the basis of an estimate or
+replacing the bag if it is not repairable.
+(vii) In the case of unclaimed Baggage which cannot be identified, the Carrier will hold
+the Baggage and items therein for up to 30 days, subsequent to which it will dispose
+of the bag and its contents as it sees fit. If the Baggage can be identified by a name,
+address, telephone number, the Carrier will make reasonable efforts to inform the
+Passenger that his/her bag is in the possession of the Carrier and that he/she should
+make arrangements at his/her own cost and expense for collecting the said Baggage
+within 30 days after which time the Carrier will dispose of the bag and its contents
+as it sees fit.
+(viii) The Carrier is not liable for any damages directly and solely arising out of its
+compliance with laws, government regulations, order or requirements or from the
+failure of the Passenger to comply with same or out of any cost beyond the
+Carrier’s control.
+SUNWING CTA (A) No. 5
+Original Page 26
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+ISSUE DATE
+November 29, 2016
+EFFECTIVE DATE
+November 30, 2016
+(ix) The Carrier is not liable for damage to the Passenger’s Baggage caused by contents
+in the Passenger’s Baggage. Any Passenger whose property cause damage to
+another Passenger’s Baggage or to the property of the Carrier will compensate the
+Carrier for all the losses and expenses it incurs as a result of the above.
+(x) In the event of loss or partial loss the Passenger must provide adequate proof of loss
+when filing a claim. The Carrier may disallow any and all claims when the
+Passenger fails to provide the above referred adequate proof of loss.
+SUNWING CTA (A) No. 5
+Original Page 27
+SECTION II – TICKETS
+RULE 12. TICKETS
+(i) Carriage will be provided only to the Person named in the Ticket. Passenger will be
+required to produce appropriate identification at any time.
+(ii) Tickets are not transferable and the Carrier shall not be required to honour any Ticket or
+provide any transportation where such Ticket is presented by someone other than the
+Person entitled to be transported there under.
+(iii) Tickets are valid for carriage only on the flights and dates shown thereon and are not
+refundable by the Carrier to the Passenger, except as provided by applicable Fare
+conditions.
+Coupon Sequence and Use
+The Ticket purchased is valid only for transportation as shown on the Ticket,
+from the place of departure via any stopping places to the final destination. The Ticket
+will not be honoured and will lose its validity if all coupons are not used in the sequence
+provided for in the Ticket.
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2
+ISSUE DATE
+November 29, 2016
+EFFECTIVE DATE
+November 30, 2016
+SUNWING
+CTA (A) No. 5 Cancels
+Original Page 28
+ 1st Revision Page 28
+ISSUE DATE
+November 29, 2016
+EFFECTIVE DATE
+June 24, 2022
+SECTION III - RESERVATIONS
+RULE 13. CONFIRMATION OF RESERVED SPACE
+A reservation of space on a given flight is valid when the availability and allocation of such
+space is confirmed by the Carrier to a Person subject to payment or other satisfactory credit
+arrangements. A Passenger with a valid confirmation number reflecting reservations for a
+specific flight and date on the Carrier is considered confirmed, unless the reservation was
+cancelled due to one of the reasons indicated in Rule 14. The Carrier does not guarantee to
+provide any particular seat on the aircraft.
+RULE 14. CANCELLATION OF RESERVATIONS
+Refer to Rule 3.3 Passenger Cancellation, Change and Refund Terms for applicable terms
+and conditions.
+RULE 15. RESPONSIBILITY FOR SCHEDULES AND OPERATIONS
+(1) General
+(a) Should there be a conflict between any of the provisions of Rules 10 and 11 –
+Limitation of Liability, Rule 15A – Travellers’ Rights, Rule 18 – Refunds and/or
+Rule 19, and any one or more of the provisions of this Rule 15, the provisions in the
+above referred to Rules 10, 11, 15A, 18 and/or 19 shall prevail.
+(b) For the purposes of this Rule, the term “Advance Flight Departure” shall mean an
+advancement of the scheduled flight departure by more than the minimum period
+established in the Carrier’s Tariff for the Passenger to check-in in accordance with
+this Rule 15(5).
+(c) The provisions of this Rule are not intended to make Carrier responsible for the acts
+outside of the carrier’s control.
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+SUNWING
+CTA (A) No. 5
+Cancels Original Page 29
+ 1st Revision Page 29
+ISSUE DATE
+November 29, 2016
+EFFECTIVE DATE
+June 24, 2022
+(d) The Carrier will endeavor to transport the Passenger and Baggage with reasonable
+dispatch, but times shown in timetables or elsewhere are not guaranteed. No
+employee, agent or representative of the Carrier is authorized to bind the Carrier by
+any statement or representation regarding the dates or times of departure or arrival
+or the operation of any flight unless stated in writing.
+It is always recommended that the Passenger communicate with the Carrier either
+by telephone, electronic device or via the Carrier’s website or to refer to airport
+terminal displays to ascertain the flight’s status and departure time.
+(e) The agreed stopping places are those places shown in the Carrier’s timetable as
+scheduled stopping places on that route. The Carrier may, without notice, substitute
+alternative carriers or aircraft and, if necessary, may alter, add, and/ or omit
+stopping places shown in the timetable.
+(f) Passengers have a right to information on flight times and schedule changes. In the
+event of a delay, an advanced flight departure or schedule change the Carrier will
+make reasonable efforts to inform the Passengers of delays, proposed advanced
+flight departures and schedule changes, and, to the extent possible, the reasons for
+them.
+(2) Oversold Flight
+If a Passenger’s journey is interrupted by an oversold flight, the Passenger’s rights
+are detailed in Rule 19 below.
+(3) Advance Departures, Delays or Cancellations
+(a) If the Passenger’s journey is interrupted by an Advance Flight Departure, a flight
+delay or, a flight cancellation without reasonable notice, the Carrier will take into account
+all the circumstances of the case as known to it and will provide the Passenger with the
+protections indicated by the APPR. Passengers’ entitlement will vary dependent on the
+classification of the delay and if it is considered to be:
+(i) Within the control of the carrier.
+(ii) Within the control of the carrier but required for safety.
+(iii) Outside the carrier’s control.
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+ISSUE DATE
+January 03,2018
+EFFECTIVE DATE
+June 30, 2022
+SUNWING
+CTA (A) No. 5
+Cancel 1
+st Revision Page 30
+2
+nd Revision Page 30
+(b) In case of a delay of three hours or more, if the passenger desires, or a flight cancellation,
+the carrier will provide alternate travel arrangements free of charge to ensure that
+passengers complete their itinerary as soon as feasible.
+Large Carrier APPR:
+(a) a confirmed reservation for the next available flight that is operated by the original carrier, or a
+carrier with which the original carrier has a commercial agreement, is travelling on any reasonable
+air route from the airport at which the passenger is located to the destination that is indicated on the
+passenger’s original ticket and departs within 48 hours of the end of the event that caused the delay
+or cancellation of flight,
+(b) if the carrier cannot provide a confirmed reservation that complies with subparagraph (a) (above),
+(i) a confirmed reservation for a flight that is operated by any carrier and is travelling on any
+reasonable air route from the airport at which the passenger is located, or another airport that
+is within a reasonable distance of that airport, to the destination that is indicated on the
+passenger’s original ticket, and
+(ii) if the new departure is from an airport other than the one at which the passenger is located,
+transportation to that other airport.
+Small Carrier APPR:
+(a) a confirmed reservation for the next available flight that is operated by the original carrier, or a
+carrier with which the original carrier has a commercial agreement, and is travelling on any reasonable
+air route from the same airport to the destination that is indicated on the passenger’s original ticket
+(c) Compensation for inconvenience is only payable when the delay or cancellation is within
+the carrier's control and is not required for safety purposes. If a passenger is informed 14
+days or less before the departure time on their original ticket that the arrival of their flight
+at the destination that was indicated on their ticket will be delayed, the carrier will provide
+the minimum compensation for inconvenience as dictated by the APPR dependent on
+carrier size. To receive the minimum compensation a passenger must file a request for
+compensation with the carrier before the first anniversary of the day on which the flight
+delay or flight cancellation occurred.
+(d) Any Passenger seeking reimbursement for expenses resulting from Advance Flight
+Departure, delays or cancellations must provide the Carrier with: (i) written notice of his
+or her claim, (ii) particulars of the expenses for which reimbursement is sought, and (iii)
+receipts or other documents establishing to the reasonable satisfaction of the Carrier that
+the expenses were incurred; and
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+ISSUE DATE
+May 08, 2019
+EFFECTIVE DATE
+June 24, 2022
+SUNWING
+CTA (A) No. 5 Cancel
+1
+st Revision Page 31
+ 2nd Revision Page 31
+(e) The Carrier may refuse or decline any claim, in whole or in part, if:
+(i) the Passenger has failed or declined to provide proof or particulars
+establishing, to the reasonable satisfaction of the Carrier, that the expenses
+claimed were incurred by the Passenger and resulted from an Advanced
+Flight Departure, delay or cancellationsfor which compensation is available
+under this Rule 15; or
+(ii) the expenses for which reimbursement is claimed, or any portion thereof,
+are not reasonable or did not result from the delay or advanced flight
+departure, delay or flight cancellations as determined by the Carrier, acting
+reasonably.
+(4) Baggage Delays
+(a) The Carrier cannot guarantee that the Passenger’s Baggage will be carried on the
+flight if sufficient space is not available as determined by the Carrier.
+(b) Passengers have a right to retrieve their luggage quickly. The Carrier will take steps
+to deliver the luggage to the Passenger’s residence/hotel as soon as possible. The
+Carrier will take steps to inform the Passenger on the status of the luggage.
+Compensation will be provided as set out herein.
+(c) Notwithstanding the foregoing, Passengers will be entitled to reimbursement from
+Carrier for reasonable expenses incurred as a result of the Baggage loss,
+damage or delay, subject to the following conditions:
+(i) An action for damages must be brought within two years, and a complaint
+must be made to the carrier within seven calendar days in the case of damage
+to baggage, and 21 calendar days in the case of delay thereof. For baggage
+claims, reimbursement for expenses will be based upon acceptable proof of
+claim.
+(ii) If no claim as described above has been made within the time periods referred
+to above, no action shall lie against the Carrier.
+(iii) The liability of the Carrier in the case of destruction, lost, damaged or
+delayed Baggage shall not exceed 1,131 SDR J (the “basic Carrier liability”
+which is the approximate Canada dollar equivalent of CAD$2,000, at the
+time of the filing of this Tariff, for each Passenger).
+SUNWING CTA (A) No. 5
+Original Page 32
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+ISSUE DATE
+November 29, 2016
+EFFECTIVE DATE
+November 30, 2016
+(a) After a 21 day delay, the Carrier will provide a settlement in accordance with the
+following rules:
+(i) the settlement will be for the value of the delayed Baggage or 1131 SDR
+(the “basic Carrier liability” which is the approximate Canada dollar
+equivalent of CAD$2,000, at the time of the filing of this Tariff);
+(ii) the settlement will be for the value of the delayed Baggage; and
+(iii) In connection with any settlement under this subsection (d), the passenger
+shall be required to furnish proof of the value of the delayed Baggage which
+establishes such value to the satisfaction of the Carrier, acting reasonably.
+(b) The Carrier may refuse or decline any claim relating to delayed Baggage, in
+whole or in part, if:
+(i) the conditions set out in subsection 15(4)(c) above have not been met;
+(ii) the Passenger has failed or declined to provide proof or particulars
+establishing, to the reasonable satisfaction of the Carrier, that the expenses
+claimed were incurred by the Passenger and resulted from a delay for which
+compensation is available under this Rule 15; or
+(iii) the expenses for which reimbursement is claimed, or any portion thereof,
+are not reasonable or did not result from the delay, as determined by the
+Carrier, acting reasonably.
+(c) Notwithstanding the above, the Carrier’s maximum liability for Baggage delay is
+as set out in Rule 11.
+SUNWING
+CTA (A) No. 5
+1
+st Revision Page 33
+Cancels Original Page 33
+(5) Cut-off Times
+Check-in counters are open 3 hours prior to the scheduled departure, and will close 60
+minutes before scheduled departure. Passenger(s) arriving for check-in after 60 minutes
+prior to the scheduled departure will not be accepted for travel.
+After Passenger(s) have checked in for their flight, they should be available at the gate not
+later than 30 minutes prior to the scheduled departure for boarding the aircraft. Passengers
+who arrive at the boarding gate after the gate has closed will not be accepted for travel.
+Passenger(s) who arrive later than the times referred to above for check-in or at the
+boarding gate will not be eligible for any denied boarding compensation or refund.
+(6) Missed Connections
+Carrier will not be liable for missed connections unless it is with respect to a missed connection
+on another flight of Carrier.
+RULE 15A. TRAVELLER’S RIGHTS
+(a) If a flight is delayed and the delay between the scheduled departure of the flight and the
+actual departure of the flight exceeds 4 hours, the Carrier will provided the Passenger
+with a meal voucher.
+(b) If a flight is delayed by more than 8 hours and the delay involves an overnight stay, the
+Carrier will pay for overnight hotel stay and airport transfers for Passengers who did not
+start their travel at that airport.
+(c) If the Passenger is already on the aircraft when a delay occurs, the Carrier will offer
+drinks and snacks if it is safe, practical and timely to do so. If the delay exceeds
+180 minutes and circumstances permit, the Carrier will offer Passengers the option
+of disembarking from the aircraft until it is time to depart if safe and practical to do
+so.
+(d) The Carrier will endeavor to transport the Passenger and Baggage with reasonable
+dispatch, but times shown in timetables or elsewhere are not guaranteed and form no part
+of this contract.
+(e) The agreed stopping places are those places shown in the Carrier’s timetable as
+scheduled stopping places on the route. The Carrier may, without notice, substitute
+alternative carriers or aircraft and, if necessary, may alter, add, and/ or omit stopping
+places shown in the timetable.
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+ISSUE DATE
+21 September 2022
+EFFECTIVE DATE
+22 September 2022
+SUNWING AIRLINES INC. CTA (A) No. 5
+Original Page 33
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+ISSUE DATE
+November 29, 2016
+EFFECTIVE DATE
+November 30, 2016
+SECTION IV - FARES AND ROUTINGS
+RULE 16. APPLICATION OF FARES AND ROUTINGS
+(a) General
+The price of transportation between points in Canada shall be disclosed at the time of
+confirmation; however Fares are subject to change without notice.
+(b) Currency
+All Fares and charges are stated in Canadian Dollars.
+(c) Fare Changes
+The Carrier's Fares are changed from time to time, subject to the applicable government
+filing requirements.
+(d) Connecting Flights
+When an area is served by more than one airport and a Passenger arrives at one airport
+and departs from another airport, transportation between those airports must be arranged
+by and at the expense of the Passenger.
+(e) Stopover
+(i) A stopover means a deliberate interruption of a journey by the Passenger, agreed to in
+advance by the Carrier, at a point between the place of departure and the place of
+destination.
+(ii) In no event will a Stopover occur when the Passenger departs from the intermediate
+city on a flight scheduled to depart within 4 hours after the Passenger's arrival.
+NOTE: All Fares are filed with the airline Tariff Publishing Company (ATPCO)
+(f) Routing
+A Fare applies only to:
+(i) Transportation via the Routing specified by the Carrier in reference to that Fare. Any
+other Routing may subject the Passenger to an additional charge.
+(ii) Transportation between the airports. Tickets may not be issued or accepted for
+transportation that will either originate or terminate at an airport other than the airport
+for which the Fares are published.
+SUNWING CTA (A) No. 5
+Original Page 35
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+ISSUE DATE
+November 29, 2016
+EFFECTIVE DATE
+November 30, 2016
+(g) Infants
+(i) An Infant is a Passenger aged 8 days up to their 2nd Birthday inclusive, when
+accompanied on the same flight and in the same compartment by a Passenger at least
+16 years of age. An infant will be lap held unless a seat has been purchased. If the
+infant completes the age of 2 years after the outbound travel but before completing
+the return portion of the travel, then a seat must be purchased for the child on those
+sectors to be traveled after reaching 2 years of age.
+(ii) Only one infant will be permitted to accompany a Passenger 16 years or older at any
+given time.
+(iii) The Carrier does not provide bassinets on board due to aircraft limitations.
+RULE 16.1 FEES AND CHARGES
+(1) Fuel Surcharges
+(a) Domestic Travel within Canada – 70.00 CAD one way
+(2) Navcan Fees
+(a) Domestic Travel within Canada – 20.00 CAD one way
+SUNWING
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+ISSUE DATE
+August 01, 2017
+EFFECTIVE DATE
+September 14, 2017
+CTA (A) No. 5
+Cancel Original Page 36
+1
+st Revision Page 36
+SECTION V - BAGGAGE AND CARGO
+RULE 17. ACCEPTANCE OF BAGGAGE AND CARGO
+(a) All Baggage or Goods presented for transportation is/are subject to inspection by the
+Carrier and must be identified externally and packed in suitcases or in similar containers
+in order to ensure safe and convenient carriage with ordinary care and handling. Carrier
+shall have the right to refuse carrying Baggage and restrict the weight, size and character
+of the said Baggage, whether used or new, if it is not suitably packaged/or is damaged to
+the extent such as to render it unable to withstand ordinary handling and unsuitable for air
+transportation
+(b) Check-in Baggage will be carried without payment or subject to additional charges under
+the following conditions:
+Checked
+Bag Info
+Maximum
+Weight
+Maximum
+Dimensions
+Regular
+Fee
+Elite
+Plus Fee
+Prepurchased
+Baggage
+Allowance**
+1st checked bag 23 kilograms(50
+lbs)
+30 kilograms(65
+lbs) for Elite Plus
+158 linear cm or
+62 “(L + H + W)
+$27
+(includes
+taxes)
+$27
+(includes
+taxes)
+$21 (includes
+taxes)
+2nd checked
+bag
+23 kilograms(50
+lbs)
+158 linear cm or
+62 “(L + H + W)
+$37
+(includes
+taxes)
+$37
+(includes
+taxes)
+$31 (includes
+taxes)
+*Overweight 24 kg – 32 kg (51 159 to 292 linear $79 per $79 per N/A
+and/or lbs to 70 lbs) cm bag bag
+oversized bags (63 to 115 linear (includes (includes
+inches) If your bag taxes) taxes)
+exceeds the
+maximum allowable
+weight and/or
+dimensions it will not
+be accepted.
+3 or more 23 kilograms (50 158 linear cm or $210 per $210 per N/A
+checked bags lbs) 62" (L + H + W) bag bag
+(includes (includes
+taxes) taxes)
+*A strict “per piece” concept applies. No pooling is permitted in the event passengers combine their
+bags together and relevant excess charges will apply.
+**If any passengers’ checked bags are overweight and/or oversized, the $79 fee will be applied per
+piece.
+SUNWING CTA (A) No. 5
+Original Page 37
+(c) One piece of Baggage equivalent to hand Baggage may carried onboard the aircraft by
+the Passenger not weighing more than 5kgs and provided that the dimensions do not
+exceed 9 inches x 16 inches x 20 inches and is convenient to be stowed in the Passenger
+compartment of the aircraft.
+(d) Baggage shall not be carried when such Baggage is likely to endanger aircraft, Persons or
+property, or if the carriage would violate the laws, orders or regulations of countries to be
+flown from, into or over.
+(e) Carrier shall have the right to restrict the weight, size and character of Baggage, and shall
+refuse to carry Baggage, with the following articles unless prior arrangements have been
+made with the Carrier and such articles will be subject to carriage under a waiver of
+liability as evidenced by a Limited Release Tag affixed to the article at the time of checkin. Baggage with any of the articles listed below shall be carried at the discretion of the
+Carrier:
+(i) Firearms,
+(ii) explosives, ammunitions, corrosives, flammables, or otherwise dangerous
+materials,
+(iii) electronic or motorized equipment,
+(iv) musical instruments,
+(v) objects of art,
+(vi) Pets, dogs, cats, and birds or any Live animals will not be carried onboard or in the
+Cargo compartment of the Carrier’s flights, with the exception of service animals
+for Passengers with disabilities.
+(vii) Photo-flash bulbs when appropriately marked and contained in the original
+package of the manufacturer.
+(viii) Dangerous Goods as defined by Transport Canada are not accepted for
+carriage under any circumstances
+(f) The following items will be considered as one piece of Baggage included in allowance
+and will be subject to a limited liability evidenced by a Limited Release Tag affixed to
+the article at the time of check-in:
+(i) One sleeping bag or bed roll, baby accessories (strollers, playpens, carseats)
+(ii) One rucksack/knapsack/backpack
+(iii) One duffel type bag
+(g) Carrier may refuse to carry Baggage or property for transportation on any flight other
+than the one on which the Passenger is being transported
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+ISSUE DATE
+November 29, 2016
+EFFECTIVE DATE
+November 30, 2016
+SUNWING
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+ISSUE DATE
+August 01, 2017
+EFFECTIVE DATE
+September 14, 2017
+CTA (A) No. 5
+Cancels Original Page 38
+1
+st Revision Page 38
+Charges for Gate Check Baggage
+A fee will be charged to passengers for Baggage checked at the gate if such Baggage
+exceeds the weight allowed for carry-on Baggage. The fee is based on passengers’
+sequence of checked bags and depends on the amount of Baggage the passengers already
+checked in.
+NOTE: For example, if passenger has already checked first bag, the gate charge will be the
+second bag charge. ($37)
+(i) Irregular Items Limitations
+The following articles do not fall under the Baggage allowance and shall not be
+accepted unless prior arrangements have been made with the Carrier and
+appropriate charges have been collected prior to acceptance of the following
+items. Carrier reserves the right to limit the number of such special articles that
+they may be carried on the aircraft and to charge for the same as indicated below:
+(i) Golf Clubs (Regular size Golf bag, incl. 14 clubs, 12 golf balls, 1 pair of shoes)
+Accepted as a courtesy (*)
+(ii) Scuba Equipment (Empty Tank, mask, weight belt, fins.) Accepted as a courtesy (*)
+(iii) Skis : Accepted as a courtesy (*)
+(*) Limited to only one of the items listed per Person up to 20kgs free of
+charge.
+(iv) Bicycles: 1 per Person, Maximum weight 20kgs - Charge CAD $ 30.00
+(v) Fishing Rods / Snorkeling equipment – Accepted as courtesy up to 5 kgs.
+(vi) Kayak: 1 per Person, - Charge CAD $ 100 each way, if roundtrip Charge
+CAD $ 200 to be paid at the point of origin.
+Note: Above charges are for Kayak only, it does not include Helmets,
+Paddles, like preservers and related equipment.
+(vii) Surfboards: 1 per Person, - Charge CAD $ 100 each way, if roundtrip Charge
+CAD $ 200 to be paid at the point of origin
+Note: Maximum length of Surfboard not to exceed 12 feet.
+(viii) Windsurfing Equipment: 1 per Person, - Charge CAD $ 100 each way
+if, roundtrip Charge CAD $ 200 to be paid at the point of origin.
+Note: Windsurfing Equipment to consist of 1 Windsurf board, 1 Mast boom
+and/or Sail.
+(j) Carrier may refuse to carry Baggage or property for transportation on any flight other
+than the one on which the Passenger is being transported.
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+ISSUE DATE
+July 29, 2019
+EFFECTIVE DATE
+July 30, 2019
+SUNWING
+18.2 Musical Instruments
+CTA (A) No. 5
+Cancels Original Page 38A
+1
+st Revision Page 38A
+Carrier accepts Musical instruments for Travel on its flights as checked or carry-on Carrier accepts
+Musical instruments for Travel on its flights as checked or carry-on baggage as provided for
+in this Section V. of the Carrier’s tariff with respect to the weight or dimension of baggage.
+You may bring your musical instrument on board as part of your carry-on baggage provided it
+meets the Carrier’s Transport Canada approved Carry on Baggage Size requirements, and it
+is able to fit safely in the overhead bin, or under the seat in front of you. The maximum size
+for carry-on is 23 cm x 40 cm x 51 cm (9" x 16" x 20") and the packed instrument must weigh
+less than 5 kilograms. Where possible Carrier will allow the passenger to board during the
+preboarding process to allow passengers more time to stow the instrument safely. Musical
+Instruments will be accepted into the cabin on a first come, first serve basis, limited to one
+piece per passenger. In the event your Musical Instrument is too big, or there is not sufficient
+space to accommodate it in the Cabin safely, you will be asked to check this into the Hold of
+the aircraft. Charges may apply inline with the Baggage Limitations and Irregular Items
+provisions of this Section V. Musical instruments checked as baggage are subject to the
+baggage and cargo Terms and Conditions as set out in this Section V of the Carriers Tariff.
+If due to substitution of aircraft, there is insufficient space to safely stow a musical instrument
+in the cabin, the Carrier will offer, at no additional charge:
+(a) To carry the piece as cabin seat baggage, if space on board and the nature of the
+instrument allows it; or alternatively
+(b) To accept the instrument as checked baggage.
+For example of abbreviations, reference marks and symbols used but not explained hereon, see page 2.
+ISSUE DATE
+November 29, 2016
+EFFECTIVE DATE
+May 31, 2022
+SECTION VI - REFUNDS
+RULE 18. REFUNDS
+(a) Voluntary Cancellations
+See Rule 3.3.
+(b) Involuntary Cancellations
+Subject to Rules 5 and 8 herein, in the event a refund is required because of the Carrier's
+failure to operate or refusal to transport, the refund will be made as follows:
+If the Ticket is totally or partially unused, the total Fare paid for each unused segment will
+be refunded.
+(c) A Passenger will not be eligible for compensation or refund under the following
+condition:
+(i) The Passenger checked-in or presents himself/herself at the boarding gate after the
+Carrier’s minimum check-in time or gate time as set out in Rule 15 (5) for any reason
+including being delayed in security or customs.
+(d) Application for refund shall be made to the Carrier or its duly authorized Agent.
+RULE 19. DENIED BOARDING
+The Carrier does not intentionally oversell flights. However, if a flight is oversold, the provisions
+set out below in this Rule will apply.
+(a) General
+A denial of boarding when a passenger is not permitted to occupy a seat on board a
+flight because the number of seats that may be occupied on the flight is less than the
+number of passengers who have checked in by the required time, hold a confirmed
+reservation and valid travel documentation and are present at the boarding gate at the
+required boarding time.
+This Rule does not apply in the situation of a refusal to transport a passenger due to, for instance, health, safety or
+security reasons, or where the passenger has failed to follow carrier rules or instructions, has inappropriate travel
+documents or has failed to respect check-in time limits.
+CTA (A) No. 5
+1
+st Revision Page 39
+Cancels Original Page 39
+SUNWING
+CTA (A) No. 5
+1
+st Revision Page 40
+Cancels Original Page 40
+SUNWING
+(b) Volunteers and Boarding Priorities. If a flight is oversold (more Passengers hold
+confirmed reservations than there are seats available), no one may be denied boarding
+against his or her will until the Carrier’s personnel first ask for volunteers who will give
+up their reservations willingly, in exchange for a payment of the Carrier’s choosing. If
+there are not enough volunteers, Sunwing Airlines will select passengers who will be
+denied boarding involuntarily, giving priority for boarding to the following categories
+of passengers:
+(i) Passengers travelling due to death or illness of a member of the Passenger’s
+family, or
+(ii) unaccompanied minors, or
+(iii)a person with a disability and their support person, service dog or other service animal, or
+emotional support animal, if any, or
+(iv) a passenger who is travelling with family members; or
+(v) a passenger who was previously denied boarding on the same ticket.
+(c) Compensation for Involuntary Denied Boarding.
+Compensation is only payable when the denial of boarding is within the carrier's control
+and is not required for safety purposes
+(d) Amount of Denied Boarding Compensation.
+If a denial of boarding that is within the carrier’s control occurs, the carrier will provide the following
+compensation for inconvenience to the affected passenger:
+(i) $900 CAD, if the arrival time of the passenger's flight at the destination that is
+indicated on the original ticket is delayed by less than six hours
+(ii) $1,800 CAD, if the arrival of the passenger's flight at the destination that is indicated on the
+original ticket is delayed by six hours or more, but less than nine hours; and
+(iii) $2,400 CAD, if the arrival of the passenger's flight at the destination that is indicated on the
+original ticket is delayed by nine hours or more.
+CTA (A) No. 5
+1
+st Revision Page 41
+Cancels Original Page 41
+SUNWING
+(e) Alternative travel arrangements-Passengers denied boarding for reasons within the carrier’s
+control and within the carriers control but required for safety purposes the carrier will provide
+alternative travel arrangements free of vharge to ensure the passenger completes their itinerary:
+I. Large Carrier APPR
+(a) a confirmed reservation for the next available flight that is operated by the original carrier,
+or a carrier with which the original carrier has a commercial agreement, is travelling on
+any reasonable air route from the airport at which the passenger is located to the
+destination that is indicated on the passenger’s original ticket and departs within 9 hours of
+the departure time that is indicated on that original ticket,
+(b) a confirmed reservation for a flight that is operated by any carrier and is travelling on any
+reasonable air route from the airport at which the passenger is located to the destination
+that is indicated on the passenger’s original ticket and departs within 48 hours of the
+departure time that is indicated on that original ticket if the carrier cannot provide a
+confirmed reservation that complies with subparagraph (a), or
+(c) if the carrier cannot provide a confirmed reservation that complies with subparagraph (a)
+or (b) (above),
+1. a confirmed reservation for a flight that is operated by any carrier and is travelling on any
+reasonable air route from another airport that is within a reasonable distance of the airport
+at which the passenger is located to the destination that is indicated on the passenger’s
+original ticket and
+2. if the new departure is from an airport other than one at which the passenger is located,
+transportation to that other airport.
+II. Small Carrier APPR
+(a) a confirmed reservation for the next available flight that is operated by the original carrier,
+or a carrier with which the original carrier has a commercial agreement and is travelling on
+any reasonable air route from the airport at which the passenger is located to the
+destination that is indicated on the passenger’s original ticket.
+CTA (A) No. 5
+1
+st Revision Page 42
+Cancels Original Page 42
+SUNWING AIRLINES INC.
+(f) Standards of Treatment – the carrier will meet all obligations under the APPR
+for required standards of treatment in reasonable quantities when feasible,
+limited to availability, while considering the length of the wait, the time of day
+and the location of the passenger.
+(g) Refund
+If the travel arrangements offered do not accommodate the passenger’s travel needs,
+the carrier will:
+1. in the case where the passenger is no longer at the point of origin that is indicated on the ticket and
+the travel no longer serves a purpose because of denied boarding, refund the ticket, Involuntary
+Refunds, and provide the passenger with a confirmed reservation that is for a flight to that point of
+origin which accommodates the passenger’s travel needs; and
+2. in any other case, refund the unused portion of the air ticket.
+(h) Method of Payment.
+The carrier will process the compensation to the passenger as soon as it is
+operationally feasible, but not later than 48 hours after the denial of boarding.
+Compensation will be provided in the method and form agreed upon with the
+passenger.
+Refunds will be provided in the original form of payment.
+(i) Written Confirmation
+The passenger volunteering will receive written confirmation of any benefit
+provided by the carrier before the flight departs.

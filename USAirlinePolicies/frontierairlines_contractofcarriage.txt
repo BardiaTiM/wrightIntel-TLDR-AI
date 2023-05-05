@@ -1,0 +1,1086 @@
+Contract of Carriage
+ Effective Date: 04/10/23
+Pg. 1 of 25 Table of Contents
+C ONTRACT O F C ARRIAGE
+1. Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+2. Definitions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+3. Refusal to Transport and Special Conditions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+4. International Transportation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+5. Child Passengers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+6. Service Animals. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+7. Smoking . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+8. Tickets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+9. Ticket Validity and Itinerary Changes. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+10.Check-in Times . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+11.Fares . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+12.Checked Baggage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+13.Carry-On Baggage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+14.Conditions and Charges for Special Items . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+15.Limitations of Liability. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+16.Claim Limits and Procedures . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+17.Failure to Operate on Schedule or Failure to Carry . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+18.Denied Boarding Compensation. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+19.Refunds; No-Show Cancellations and Service Charges. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+20.Currency and Mode of Payment and Fees. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+21.Miscellaneous . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+22.Contingency Plan for Extended Tarmac Delays . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
+Rev83 04/10/23
+I
+Table of Contents
+Section Subject Page
+Introduction Pg. 2 of 25
+C ONTRACT O F C ARRIAGE
+1. Introduction
+25
+The following terms and conditions as well as such additional terms and conditions presented on Frontier Airlines'
+website, fare rules, published schedules or printed on or in any ticket or ticket-less travel authorization apply to
+all tickets issued for travel on flights operated by or for Frontier Airlines, Inc. (“Frontier”), as well as that
+transportation, regardless of whether such ticket was sold by Frontier or its authorized agents or whether such
+ticket is used (“Contract of Carriage”).
+This document is available for public inspection at all Frontier locations. Copies may be obtained by visiting the
+Frontier's web site at www.FlyFrontier.com or by writing to: Frontier Airlines, Inc., Customer Relations, 4545 Airport
+Way, Denver, CO 80239.
+2. Definitions
+A. Codeshare -- A marketing and business arrangement in which two airlines “share” the same flight (which
+might include connecting legs). One airline places its designator code and flight number on a flight operated
+by the other airline, and markets and sells tickets for that shared flight as part of its published schedule.
+B. Code -- The U.S. Internal Revenue Code of 1986, as amended.
+C. DOT -- U.S. Department of Transportation.
+D. FAA -- U.S. Federal Aviation Administration.
+E. Fare Rules -- The rules and requirements associated with a ticket.
+F. IATA -- International Air Transport Association.
+G. No-Show Cancellation -- The automatic cancellation of a passenger’s ticket upon such passenger failing to
+either (i) check-in for such passenger’s flight, or (ii) board such passenger’s flight, in either instance within
+the required times. The automatic cancellation will apply to all subsequent flights, including return flights, on
+the itinerary. Presentation of a ticket by someone other than the named passenger renders the ticket void
+and the ticket will then be treated as a No-Show Cancellation for all purposes of this Contract of Carriage.
+(See section 19. )
+H. Qualified Individual with a Disability -- An individual with a disability who: (i) has a physical or mental
+impairment that, on a permanent or temporary basis, substantially limits one or more major life activities; (ii)
+has a record of such an impairment; or, (iii) is regarded as having such an impairment, as further defined in
+14 CFR 382.5.
+I. Standby Passenger -- A passenger boarded subject to availability of seat space at departure time and only
+after all passengers having confirmed reservations for the flight have been boarded.
+J. Stopover -- An intentional interruption in a passenger’s trip in excess of 4 hours at a point between the place
+of departure and the final destination.
+K. STRETCH Seat - A seat located in the front rows and exit rows of certain Frontier aircraft that have additional
+legroom. These seats are made available to passengers for a fee.
+L. Ticket -The record of agreement, including electronic tickets, for passenger air transportation provided by the
+airline under certain terms and conditions to the passenger as described on the ticket, in the fare rules, and
+in this Contract of Carriage.
+M. TSA -- U.S. Transportation Security Administration.
+Rev83 04/10/23
+Pg. 3 of 25 Refusal to Transport and Special Conditions
+C ONTRACT O F C ARRIAGE
+3. Refusal to Transport and Special Conditions
+A. Frontier may refuse to provide transportation to any person and may require that a passenger leave an
+aircraft or be removed from an aircraft for the following reasons, in which case Frontier will provide a refund
+of the amount paid for their ticket, which will be the limit of Frontier's liability.
+1) Government Request -- To comply with a government requisition of space or request for emergency
+transportation (e.g., in connection with national defense or natural disaster (actual, threatened, or
+reported)).
+2) No Seat for Safety Assistant - If a passenger requires a safety assistant (see section 3. B.6) and there is
+not a seat available on the applicable flight and, thus, both the passenger and the safety assistant are
+denied transportation. For purposes of determining whether a seat is available for a safety assistant, the
+safety assistant is deemed to have checked in at the same time as the individual with the disability.
+B. Frontier may refuse to provide transportation to any person and may require that a passenger leave an
+aircraft or be removed from an aircraft for the following reasons, in which case no refund will be due and
+Frontier will have no further liability.
+1) Government Direction - To comply with a direction of a government official acting in their official capacity
+to remove or not provide transportation to a specific individual.
+2) Identification -- The passenger refuses to produce a government-issued identification as required by
+Frontier's representatives or as required by law.
+3) MyFrontier Account; Card on File - The passenger refuses to create a MyFrontier account or have a credit
+or debit card on file with Frontier, each of which is active at the time of travel. Any fees owed to Frontier
+may be unilaterally charged by Frontier using the card or other method of payment that is on file with
+Frontier.
+4) Balance Due - If at the time of travel there is any balance unpaid to Frontier for ticket or optional services
+charges, the ticket and all optional services may be canceled, whether or not a passenger has been
+notified of such cancellation.
+5) Passports/Visas -- The passenger intending to travel across any international border fails to possess and
+present all valid documents (passports, visas, certificates, etc.) required by the laws of the countries
+from, over, or into which the passenger will fly, which will in all cases be the passenger’s exclusive
+responsibility.
+6) Failure to Check In or Appear - The passenger fails to check-in for their flight within the required times or
+appear for boarding of that flight within the required times. (The ticket will be deemed to be a No-Show
+Cancellation (see Section 2.G) and canceled. All subsequent flights, including return flights, on the
+itinerary will also be treated as No-Show Cancellations (see Section 20)).
+7) Special Medical Requirements -- The passenger will be refused transport if the passenger requires
+medical equipment be used in flight or services (i) not provided by Frontier, (ii) that may not be used in
+flight, or (iii) does not have sufficient supplies therefor. The foregoing includes any medical equipment
+that would require use of power from the aircraft, medical equipment for which the passenger does not
+have sufficient batteries for the duration of the flight plus unexpected delays. Passengers must be able
+to sit in a single seat with the seat in the full and upright position, which precludes passengers that must
+lie flat or that must be transported on a stretcher. Frontier does not provide medical oxygen.
+Rev83 04/10/23
+Refusal to Transport and Special Conditions Pg. 4 of 25
+C ONTRACT O F C ARRIAGE
+EXCEPTION: A respiratory device (e.g., ventilator, respirator, CPAP machine or Portable Oxygen
+Concentrator) is considered an assistive device and is permitted as carry-on or checked baggage at no
+charge provided that all batteries must be transported in carry-on baggage and must be packaged in
+a manner that protects them from physical damage and short circuits, and provided that if the device
+is to be used in flight: (i) the passenger must carry enough fully-charged batteries to power the device
+throughout the entire journey including all ground time (between connections), the duration of the flight
+and for unexpected delays, (ii) the device must be approved by the FAA with stickers indicating such,
+and (iii) prior to traveling, the passenger must complete the Portable Oxygen Concentrator Medical
+Authorization (form 30881) available on Frontier's website or obtain a medical statement from the
+passenger’s physician addressing the points on the POC Medical Authorization form.
+NOTE: Passengers are referred to 14 CFR Part 121, SFAR No. 106 for regulations regarding and
+a list of Portable Oxygen Concentrators that are approved for use on aircraft.
+8) Qualified Individual with a Disability -- If transportation is refused because the passenger fails to comply
+with the following: Qualified individuals with a disability will be transported in accordance with the
+conditions and requirements of 14 C.F.R. § 382 unless the carriage of such individuals may impair the
+safety of the flight or violate Federal Aviation Regulations. Pursuant to 14 C.F.R. § 382.113, Frontier does
+not provide certain extensive in flight special services such as assistance in actual eating, assistance
+within the lavatory or at the individual's seat with elimination functions, or provision of medical services.
+Moreover, pursuant to 14 C.F.R. § 382.29, a qualified individual with a disability may be required to be
+accompanied by a safety assistant as a condition of being provided air transportation in any of the
+following circumstances: (i) when the individual, because of a mental disability, is unable to comprehend
+or respond appropriately to safety instructions from employees, including the required safety briefing, (ii)
+when the individual has a mobility impairment so severe that the individual is unable to assist in the
+passenger’s own evacuation of the aircraft, (iii) when the individual has both severe hearing and severe
+vision impairments, if the individual cannot establish some means of communication with employees
+adequate to permit transmission of the required safety briefing, (iv) on the day of departure, if it is
+determined that an individual meeting the criteria of (i), (ii) or (iii) must travel with a safety assistant,
+contrary to the individual's self-assessment that the passenger is capable of traveling independently, the
+safety assistant will not be charged to accompany the individual with a disability.
+9) Prisoners - Frontier will not transport any prisoners under any circumstances.
+10) Proper Attire - Any passenger who is barefoot and over 3 years of age, unless required to be barefoot for
+medical reasons, or who is not otherwise fully clothed in clothing that is not lewd or obscene, threatening,
+intimidating, or would be objectionable to reasonable persons.
+11) Malodorous Condition - Any passenger who has a severe or offensive body odor that is not due to a
+disability.
+12) Intoxication - Any passenger who appears to be intoxicated or under the influence of drugs.
+Rev83 04/10/23
+Pg. 5 of 25 Refusal to Transport and Special Conditions
+C ONTRACT O F C ARRIAGE
+13) Communicable Disease or Infection - A passenger who has a communicable disease or infection (that is
+known or reasonably believed to pose a direct threat to the health or safety of others in the course of
+flight) may be denied boarding by Frontier. If such a passenger presents a medical certificate dated within
+10 days of the date of the flight for which it is being presented that includes specific conditions under
+which the individual can travel and not pose a direct threat to the health and safety of other persons,
+transportation will be provided to such individual unless it is not reasonable or feasible to implement the
+conditions set forth in the medical certificate as necessary to prevent the transmission of the disease or
+infection to other persons in the normal course of flight. Unacceptable measures include, but are not
+limited to: a required separation between the passenger and other persons, use of medical equipment
+not permitted to be used on the aircraft, or a requirement that any other passenger wear protective gear.
+a) 2019 Novel Coronavirus (COVID-19) – Frontier may screen passengers during the check-in and
+boarding process, and may deny boarding to passengers who Frontier reasonably believes do not
+meet Frontier’s COVID-19 screening measures. Screening will include, but is not be limited to:
+completion of a health acknowledgment, required wearing of facial coverings, and submission to a
+temperature check. Notwithstanding Section 11 above, a passenger who presents a medical
+certificate dated within 10 days of the date of the flight for which it is being presented may be denied
+boarding if, on the planned date of travel, the passenger fails to meet Frontier’s COVID-19 screening
+measures.
+14) Refusal or Inability to Sit - Any passenger who is unwilling or unable to sit in an upright position during
+takeoff and landing with the seat belt fastened.
+15) Failure to Follow Instructions - Any passenger who refuses to obey instructions from an employee or
+crewmember.
+16) Use of Ticket Issued to Other Person - Any passenger who attempts to use a ticket not issued to that
+person. Transfer of a ticket by a passenger to another person is not permitted. (This ticket will be deemed
+to be a No-Show Cancellation (see Section 2.G) and canceled. All subsequent flights, including return
+flights, on the itinerary will also be treated as No-Show Cancellations (see Section 20)).
+17) Interference - Any passenger who interferes with any member of the flight crew in pursuit of their duties
+or attempts to do so.
+18) Smoking - Any passenger who smokes or attempts to smoke on an aircraft.
+19) Weapon - Any passenger who, except as permitted by law (see 49 C.F.R. § 1544.219), wears or has on or
+about their persons concealed or unconcealed, deadly or dangerous weapons.
+20) Purchase in Violation of Contract of Carriage - Any passenger that purchases a ticket in violation of this
+Contract of Carriage or any fare rule. In addition, Frontier may (i) invalidate the tickets or any other that
+may have been purchased in the same manner, (ii) cancel any remaining portion of the passenger's
+itinerary, or (iii) confiscate any unused portions of the ticket.
+21) General Refusal - Any person whom Frontier has informed is not permitted to purchase transportation
+from Frontier.
+C. Refusal to Sell Transportation - Frontier may refuse to sell transportation to any person, including the
+following, and may inform such persons that they are not permitted to purchase transportation from Frontier:
+1) Refusal to Comply - A person who refuses to comply with instruction given by employees or
+representatives prohibiting the solicitation of items for sale or purchase, including airline tickets, passes,
+or travel award certificates.
+2) Prior Conduct - A person who has disrupted airline operations, mistreated employees, or has not complied
+with Frontier's policies or otherwise violates this Contract of Carriage.
+Rev83 04/10/23
+International Transportation Pg. 6 of 25
+C ONTRACT O F C ARRIAGE
+3) Misconduct - A person who has committed a fraudulent act against Frontier.
+D. Customer of Size - If, in Frontier's sole judgment, a passenger is unable to sit in an aircraft seat without lifting
+either or both armrests and occupying all or a portion of the adjacent seats, or encroaching into the aisle or
+adjacent seats, the passenger will be required to purchase a ticket for an additional seat (or more, if required
+to accommodate the passenger) at the price then applicable. If sufficient, contiguous seats are not available,
+the passenger will be given the option to switch to flights on which such seats are available (for which
+applicable fees will apply) or be given a refund.
+E. Allergies (Peanut, Pet, or Chemical) - Items are not removed from the aircraft to accommodate a passenger's
+allergy to a particular food, substance, or chemical. A variety of snacks are served on board many flights,
+including products that may contain peanuts or other nuts. A “peanut-free” or “chemical-free” environment
+cannot be provided to passengers onboard the aircraft. Passengers are advised to consult a healthcare
+professional regarding the risks of onboard exposure to any allergen.
+F. Pregnancy - Passengers who are pregnant are urged to consult with their doctor on whether it is safe to travel
+by air, including with due consideration to the possibility of turbulence, cabin pressurization, significantly
+increased risk of deep vein thrombosis associated with pregnancy, and lack of ready access to medical care.
+This is particularly important for women in their ninth month of pregnancy, who are urged to obtain an
+examination from their physician shortly before flying to confirm air travel will be safe. Women with a history
+of complications or premature delivery should not fly if pregnant. By traveling with Frontier, pregnant women
+acknowledge and accept these risks. Different policies for passengers who are pregnant may apply on any
+leg of a codeshare flight that is operated by the codeshare airline.
+G. Electronic Surveillance of Passengers and Baggage - Passengers and their baggage are subject to inspection,
+including via electronic means, with or without the passenger's consent or knowledge.
+H. Diversion While in Flight or Return to Gate- In the event that Frontier is required to divert an aircraft while in
+flight or return to gate because a passenger requires medical attention or due to the passenger's conduct,
+the passenger may be required to reimburse Frontier for the costs that Frontier incurs, including the cost to
+accommodate other passengers. The amount due will be as determined by Frontier.
+4. International Transportation
+A. Compliance with Regulations - Passengers shall comply with all laws, regulations, orders, demands, or travel
+requirements of countries to be flown from, into, or over. Frontier is not liable for any aid or information given
+by any agent or employee to any passenger in connection with obtaining necessary documents or complying
+therewith (including as may be provided in this Contract of Carriage) or the consequences to any passenger
+resulting from the passenger’s failure to obtain such documents or to comply with such laws, regulations,
+orders, demands, requirements, or instructions.
+B. Compliance with Foreign Country Regulations regarding Importation of Goods - Passengers shall comply with
+all laws, regulations, orders, demands, or travel requirements of countries to be flown from, into, or over.
+Frontier is not liable for the consequences to any passenger resulting from the passenger’s failure to comply
+with such laws, regulations, orders, demands, requirements, or instructions.
+C. Customs Inspection - If required, a passenger must attend the inspection of the passenger’s baggage,
+checked or unchecked, by customs or other government officials. Frontier accepts no responsibility to the
+passenger if they fail to observe this condition.
+Rev83 04/10/23
+Pg. 7 of 25 Child Passengers
+C ONTRACT O F C ARRIAGE
+D. Government Regulation - No liability shall attach to Frontier if, based on what it understands to be applicable
+law, government regulation, demand, order, or requirement, it refuses to carry passenger. If, however, it is
+ultimately determined that Frontier was incorrect, the limit of its liability will be to refund the amount paid for
+the ticket on which transportation was refused.
+E. International Operations - Frontier is required to make an attempt to obtain emergency contact information
+from a passenger traveling into or out of a foreign country. If a passenger refuses to provide emergency
+contact information, Frontier will document the attempt and may require the passenger to sign the document.
+F. Indemnification - A passenger shall indemnify Frontier for any loss, damage, or expense suffered or incurred
+by Frontier by reason of the passenger's failure to possess any required travel documents or other failure to
+comply with the provisions of this section, including the applicable fare if Frontier is required to transport the
+passenger home from a country. Frontier is not liable to the passenger for loss or expense due to the
+passenger's failure to comply with this provision.
+G. Baggage Limitation - Passengers shall comply with all laws, regulations, orders, demands, or travel
+requirements regarding baggage size and weight limitations of countries to be flown from, into, or over.
+Frontier is not liable for the consequences to any passenger resulting from the passenger’s failure to comply
+with such laws, regulations, orders, demands, requirements, or instructions.
+5. Child Passengers
+A. Accompanied Children -- Children from 7 days through 14 years of age may travel with another passenger who
+is at least 15 years old.
+B. Unaccompanied Children
+1) Frontier does not allow children under the age of 15 years old to travel unaccompanied; they must be
+accompanied by a passenger who is at least 15 years old. Passengers who are 15 years old or older may
+travel on Frontier without an adult companion. A birth certificate, official school ID, or other form of ID may
+be requested for age verification purposes if the child's age appears questionable.
+NOTE: Passengers under age 18 traveling without both parents may need additional documentation
+to travel across international borders, depending on the country's requirements.
+C. Infant and Child Fares (except as otherwise provided in a specific fare rule) are as follows:
+1) Infants under 2 years of age are accepted, without charge, when the infant does not occupy a separate
+seat and is accompanied by a fare-paying passenger at least 15 years old. A birth certificate may be
+requested for age verification purposes if the infant’s age appears questionable.
+NOTE: Due to supplemental equipment considerations, the number of infants accepted per flight
+may be limited based on aircraft type.
+2) One adult may accompany up to two infants under the age of 2.
+a) When an adult passenger is traveling with two infants under 2 years of age, a seat must be purchased
+for at least one infant. The fare is the same as an adult fare.
+3) Children 7 days - 14 years of age occupying a seat are charged the same fare as an adult passenger.
+NOTE: Passengers under age 2 traveling as lap children (not purchasing a seat) are subject to
+international taxes. These taxes must be paid prior to boarding the originating departure
+flight.
+Rev83 04/10/23
+Child Passengers Pg. 8 of 25
+C ONTRACT O F C ARRIAGE
+D. Child Restraint Systems - Frontier accepts infant and child restraint systems (car seat or harness) approved
+for air travel that fit in the applicable aircraft seat with the arm rest down that meet the following
+requirements:
+1) Approved seats manufactured to U.S. standards between January 1, 1981, and February 25, 1985, must
+bear the label: “This child restraint system conforms to all applicable Federal motor vehicle safety
+standards.”
+2) Seats manufactured to U.S. standards on or after February 26, 1985, must bear two labels: (i) “This child
+restraint system conforms to all applicable Federal motor vehicle safety standards” and (ii) “THIS
+RESTRAINT IS CERTIFIED FOR USE IN MOTOR VEHICLES AND AIRCRAFT” in red lettering.
+3) Seats not meeting the above criteria must bear a label or markings showing: (i) the seat was approved by
+a foreign government, (ii) the seat was manufactured under the standards of the United Nations, (iii) the
+seat or child restraint device furnished by the certificate holder was approved by the FAA through Type
+Certificate or Supplemental Type Certificate, or (iv) the seat or child restraint device was approved by the
+FAA in accordance with 14 C.F.R § 21.8(d), or FAA Technical Standard Order C-100b, or a later version.
+NOTE 1: A child under the age of 2 must be held in the passenger's lap or be seated in an approved
+car seat for taxi, takeoff, and landing.
+NOTE 2: Frontier encourages all adults traveling with infants under 2 years of age to secure the
+infant in an approved car seat or harness in the infant's own purchased seat.
+4) Child Harness - The FAA-approved AMSafe Aviation C.A.R.E.S. child harness device may be used on-board
+the aircraft. It is designed for children weighing between 22 and 44 pounds (between 10 and 20
+kilograms) and must bear the label “FAA Approved in accordance with 14 CFR 21.305(d) approved for
+aircraft use only.”
+5) Car Seats - A car seat may be used by a child between the ages of 7 days and 2 years if seat space is
+available after boarding, even if a seat has not been purchased for the child. A car seat may be used by
+any child when a separate seat has been purchased. To use a car seat onboard the aircraft:
+a) It must bear manufacturer labels identifying approval for aircraft use, as described in subsection (1)
+and (2) above.
+b) It must have a solid seat and solid back.
+c) It must have restraint straps installed to hold the child in the car seat.
+d) The child may not exceed the weight limitation of the car seat.
+e) It may not be placed in the emergency exit rows, in the seats immediately in front of or behind the exit
+rows, or in any seat that has an airbag seatbelt installed.
+f) Window seats are the preferred location for a car seat, so it does not impede a passenger's movement
+or egress into the aisle. Other seat assignments are permitted provided the car seat is not obstructing
+the egress of any passenger.
+g) It must be secured by a seat belt at all times.
+6) Booster Seats - Booster seats may be carried onboard aircraft but must be stowed in an overhead
+compartment or underneath the seat for takeoff and landing. Once the aircraft has reached cruising
+altitude, the passenger may use the seat during the flight. The booster seat must be stowed when the
+aircraft begins its descent.
+Rev83 04/10/23
+Pg. 9 of 25 Service Animals
+C ONTRACT O F C ARRIAGE
+6. Service Animals
+A. General - The following categories of service animals are allowed in the cabin without charge:
+1) Trained service dogs that assist passengers with disabilities. Passengers traveling with a service dog
+must complete and submit the Department of Transportation Service Animal Air Transportation Form,
+attesting to the dog’s health, behavior, and training. For reservations booked more than 48 hours prior to
+travel, passengers must submit the completed form no later than 48 hours prior to travel. For reservations
+booked less than 48 hours prior to travel, passengers must submit the completed form in person to a
+Customer Service Agent upon arrival at the airport. Only dogs will be accepted as trained service animals.
+The animal must be at least 4 months old. The passenger is required to keep the animal under control at
+all times, with the animal on a leash or harness while in the boarding area and onboard the aircraft.
+Psychiatric support animals are recognized as trained service animals. Comfort animals, companionship
+animals, or any other non-task-trained animals are not recognized as service animals. Service animals in
+training will not be accepted.
+2) Service Animals trained in explosive detection, contraband search, or search and rescue on active duty
+and traveling for that purpose will be accepted for travel. The passenger must present credible
+documentation the animal is traveling for that purpose.
+B. Seating - The passenger may sit anywhere, except in an emergency exit row, provided the animal does not
+obstruct an aisle or egress of passengers in an emergency evacuation. The animal must fit under the seat or
+on the passenger's lap. If the passenger is seated in row 1, the animal will not be allowed on the passenger's
+lap. The animal may not occupy a seat. An animal that cannot or does not comply with the foregoing will not
+be accepted.
+C. International - Restrictions for travel with an animal to international destinations vary by country. Frontier
+recommends contacting the appropriate embassy or consulate before purchasing a ticket for travel with a
+service animal or emotional support animal. Different policies may apply on any leg of a codeshare flight that
+is operated by the codeshare airline.
+D. Oxygen - No oxygen will be administered to a service animal in the event of an emergency.
+7. Smoking
+A. Smoking is prohibited on all flights.
+B. Federal law prohibits tampering with, disabling, or destroying any smoke detector installed in an aircraft
+lavatory.
+C. The use of electronic smoking devices is prohibited at all times on all aircraft.
+8. Tickets
+A. A passenger is entitled to transportation only upon presentation of a valid electronic ticket (e-ticket). The
+ticket entitles the passenger to transportation between the point of origin and the destination.
+NOTE: Paper tickets are not issued on Frontier ticket stock. Only electronic tickets are issued for travel on
+Frontier. However, paper tickets from other airlines may be accepted for travel at Frontier's
+discretion.
+Rev83 04/10/23
+Ticket Validity and Itinerary Changes Pg. 10 of 25
+C ONTRACT O F C ARRIAGE
+B. Tickets are honored only in the order in which they are issued.
+C. The following practices are prohibited:
+1) Back to Back Ticketing -- The purchase or use of portions of tickets from two or more tickets issued as
+round-trip fares or other scheme for circumventing minimum stay requirements.
+2) Throwaway Ticketing -- The purchase or use of round-trip tickets for one-way travel.
+3) Hidden City/Point Beyond Ticketing -- The purchase or use of a ticket from a point before the passenger's
+actual origin or to a point beyond the passenger's actual destination.
+D. A ticket which has not been properly issued or paid for, or which has been altered, mutilated, or improperly
+issued by an unauthorized party is not valid for travel or refund.
+E. The purchaser of a ticket and the passenger intending to use it are responsible for ensuring that the ticket
+accurately states the name of the passenger.
+F. A ticket may only be used by the person named on the ticket. Frontier is not liable to the purchaser of a ticket
+if the ticket is used by someone other than the person named on the ticket. Tickets may not be purchased for
+the transport of items of baggage that are too large to be stowed safely in a suitable baggage compartment
+in the aircraft cabin or under a passenger seat (such as, but not limited to, musical instruments, electronic
+equipment).
+G. Presentation of a ticket by someone other than the named passenger renders the ticket void. The ticket is
+subject to confiscation, and the ticket will then be treated as a No-Show Cancellation for all purposes of this
+Contract of Carriage. (See section 19. )
+H. An additional processing fee may apply to each ticket purchased or changed via Frontier's reservation center.
+9. Ticket Validity and Itinerary Changes
+A. Period of Validity
+1) Tickets issued by Frontier are valid for transportation only on the flights and dates shown on the ticket
+and have no value and are not valid for transportation thereafter. If a passenger cancels a ticket before
+the scheduled flight departure time, the value of the ticket less a service fee and certain other carrier
+charges will be retained for 90 days from the date of cancellation of the ticket in the form of a credit. The
+credit has no cash or refund value and may only be applied to subsequent tickets on Frontier flights for
+the same passenger as the original ticket. In the case of a No-Show Cancellation, see section 19.
+2) Except as required by law or as provided in this Contract of Carriage, Frontier shall have no obligation of
+any kind to reschedule any passengers who cancels a ticket before the scheduled flight departure time
+or to provide them with any refund or other credit for unused tickets.
+3) Except as required by law or as provided in this Contract of Carriage, in the case of a No-Show
+Cancellation, Frontier shall have no obligation of any kind to reschedule any such passengers on any other
+flight, and the rules respecting No-Show Cancellations shall apply (see section 19. ).
+B. Except for tickets purchased for travel within 7 days (168 hours) of purchase, all tickets may be canceled
+within twenty-four (24) hours of the purchase and a full refund will be given. After that time, except for tickets
+and services that are purchased as refundable, all tickets and optional charges or services are nonrefundable.
+Rev83 04/10/23
+Pg. 11 of 25 Check-in Times
+C ONTRACT O F C ARRIAGE
+10. Check-in Times
+A. Airport Check-In - It is the passenger's responsibility to arrive at the airport, taking into consideration travel
+time both to and within the applicable airport, with enough time to complete check-in, to drop off any checked
+bags with a Frontier representative or Frontier-provided system, and to complete processing through the
+security check point.
+B. Passengers can check in beginning 2 hours before departure at Frontier's airport check-in counters or 24
+hours before departure at www.FlyFrontier.com or on the Frontier mobile app, if the reservation is eligible for
+online or mobile app check-in.
+C. Check-In Times
+1) For domestic flights (originating and to a destination within the United States), the passenger must be
+checked in with a printed boarding pass or a Frontier mobile app boarding pass in-hand at least 45
+minutes prior to scheduled departure whether or not checking bags.
+a) Effective August 16, 2023, all passengers must be checked in with a printed boarding pass or a
+Frontier mobile app digital boarding pass in-hand, and with checked bags, if any, presented to and
+accepted by a Frontier representative or Frontier-provided system, at least 60 minutes prior to
+scheduled departure.
+2) For international flights, the passenger must be checked in with a printed boarding pass or a Frontier
+mobile app digital boarding pass in-hand and with checked bags, if any, presented to and accepted by a
+Frontier representative or Frontier-provided system, at least 60 minutes prior to scheduled departure.
+D. Time Limit for Checking Bags - Baggage to be checked must be presented at the airport within the minimum
+check-in time. Passengers who present baggage after the minimum check-in time may be refused transport.
+At some airports, the counter may close at the check-in cut-off time, in such cases, passenger and baggage
+check-in are not permitted after the check-in deadline. In the event that baggage is accepted after the
+minimum check-in time, the passenger will be liable for any costs and fees for the bag to be delivered in the
+event that it is not carried on the same flight.
+E. Availability for Boarding - Tickets and seat assignments are subject to cancellation for passengers who fail to
+make themselves available for boarding at the departure gate at least 20 minutes prior to scheduled
+departure.
+F. Failure to Check In or Appear - If a passenger fails to check in or board the flight within the required time, the
+ticket will be deemed to be a No-Show Cancellation (see Section 2.G) and canceled. All subsequent flights,
+including return flights, on the itinerary will also be treated as No-Show Cancellations (see Section 20).
+G. Misconnected Passengers - The ticket of any passenger who does not meet the minimum check-in time due
+to the late arrival of an inbound connecting flight operating by Frontier will be accommodated on the next
+available flight operated by Frontier to the same destination. Frontier will not provide transportation on
+another airline or reimburse the cost of transportation purchased from another airline. The ticket of any
+passenger who does not meet the minimum check-in time due to the late arrival of an inbound connecting
+flight operated by any other airline will be canceled and no refund or accommodation on another flight will be
+due unless available and purchased at the applicable price by the passenger.
+11. Fares
+A. Fares apply for transportation only between the airports for which they are published.
+Rev83 04/10/23
+Checked Baggage Pg. 12 of 25
+C ONTRACT O F C ARRIAGE
+B. When a passenger requires connecting service with arrival at one airport and departure from another airport,
+transportation between those airports must be arranged by and at the expense of the passenger.
+C. Fares are subject to change without notice until a ticket is issued.
+12. Checked Baggage
+A. Fees applicable to checked baggage:
+1) Baggage fees apply to each checked bag.
+2) Active U.S. military personnel, with Common Access Card (CAC), may check two bags at no charge for all
+types of tickets. Overweight and oversize charges for the first two free bags are also waived. This policy is
+for active U.S. military personnel only and does not extend to family members or traveling companions.
+B. Baggage Allowance Exceptions - The following may be checked or carried on at no charge and do not count
+toward the passenger's baggage allowance.
+1) Medical Assistive Devices - Canes, crutches, braces, wheelchairs, etc. for the use of the passenger. There
+is no limit to the number of mobility aids a passenger may check. Medical assistive devices must be
+packed separately, in protective packaging, for baggage fees to be waived.
+2) Wheelchairs - In compliance with federal law, wheelchairs or other types of mobility devices for the
+passenger are accepted as checked baggage in addition to the passenger's baggage allowance at no
+additional charge. Certain Frontier aircraft can accommodate up to two wheelchairs up to 40 inches (101
+cm) high, 50 inches (127 cm) long, 13 inches (33 cm) wide, and weighing no more than 70 pounds (31
+kilograms) in the cabin of the aircraft on a first-come, first-served basis. Wheelchairs carried in the cabin
+of the aircraft will be brought to the front of the aircraft after all other passengers have deplaned.
+3) Essential Infant or Child Items - Child restraint devices, car seats, strollers, diaper bags, and other
+essential baby items when the infant is traveling. These items must be packed separately, in protective
+packaging, for baggage fees to be waived.
+C. Acceptable Baggage - Frontier will accept for transportation as baggage such personal property necessary or
+appropriate for the wear, use, comfort, or convenience of the passenger for the purpose of the trip, subject
+to the following:
+1) Checked Baggage Size and Weight:
+a) Excess baggage charge will be applied to any checked baggage that exceeds the standard weight or
+dimension. Standard baggage size is defined as maximum of 62 inches (157 cm) in linear dimension
+(height plus length plus width).
+Standard baggage weight is defined as:
+– For tickets purchased before January 18, 2022, maximum of 50 pounds (22.6 kilograms).
+– For tickets purchased on or after January 18, 2022, and travel completed before March 1,
+2022, maximum of 50 pounds (22.6 kilograms).
+– For tickets purchased on or after January 18, 2022, and travel on or after March 1, 2022,
+maximum of 40 pounds (18.1 kilograms).
+b) Baggage weighing 100 or more pounds (45 kilograms) or exceeding 110 linear inches will not be
+accepted, with the exception of assistive devices or musical instruments.
+2) The TSA website maintains a list of items that passengers are not permitted to check in baggage. See
+www.tsa.gov for a complete list. Baggage containing any items on that list will not be accepted.
+Rev83 04/10/23
+Pg. 13 of 25 Carry-On Baggage
+C ONTRACT O F C ARRIAGE
+3) An item for transportation not suitably packaged to withstand ordinary handling and turbulence, or of a
+size, weight, or character that renders it unsuitable for transportation will not be accepted.
+4) The passenger is responsible for ensuring that all items packed in checked baggage are properly
+packaged and padded to resist handling and turbulence. (Refer to section 16. )
+5) All baggage is subject to inspection by Frontier. Frontier is not, however, obligated to perform an
+inspection. Frontier will refuse to transport or will remove baggage if the passenger refuses to submit the
+baggage for inspection.
+6) Frontier will not accept baggage or other personal property for storage.
+7) Frontier will check baggage only when the passenger presents a valid ticket for transportation on the
+applicable flight.
+8) The passenger's name, address, and telephone number must appear on the baggage.
+9) Frontier has the right to refuse to transport baggage on any flight other than the one carrying the
+passenger.
+10) Baggage will not be checked:
+a) To a point that is not reflected on the passenger's ticket.
+b) Other than the passenger's destination on the applicable flight, but if the flight is a connecting flight,
+to the final destination, but if that connecting flight is scheduled to depart from an airport different
+from the one at which the passenger is scheduled to arrive then only to the destination of the first leg.
+11) Live animals are not accepted as checked baggage.
+12) Agricultural items, perishable items, or products that do not conform with customs or agricultural
+government law at the flight's destination will not be accepted.
+13) Frontier will not accept for carriage any restricted/hazardous materials as defined in the DOT Hazardous
+Materials Regulations (49 C.F.R. §§ 171-177) and IATA Dangerous Goods Regulations. Examples of such
+goods are (i) liquor products over 140 proof, (ii) gasoline-powered tools, (iii) compressed gases, (iv)
+corrosives (such as acids and wet batteries), (v) explosives (such as dynamite and fireworks), (vi)
+flammables (such as matches and lighter fuels), (vii) poisons, and (viii) magnetic and radioactive
+materials. Electronic smoking devices (commonly referred to as e-cigarettes or personal vaporizers) pose
+a safety risk and are not permitted in checked baggage. These items are permitted in carry-on baggage.
+Spare lithium batteries are not allowed in checked baggage.
+14) Perishable items must be packaged properly such that they cannot leak through their packaging. (Refer
+to section 16. )
+D. Codeshare Flights – The baggage policy of the airline on which a passenger originally booked the codeshare
+flight will apply to the entire itinerary.
+13. Carry-On Baggage
+A. Passengers are permitted up to two carry-on items:
+1) One free personal item not larger than 8" x 14" x 18" (20 cm x 35 cm x 45 cm) that must fit within the
+personal item portion of the bag sizer.
+Rev83 04/10/23
+Conditions and Charges for Special Items Pg. 14 of 25
+C ONTRACT O F C ARRIAGE
+2) One carry-on item not larger than 10"H x 16"W x 24"L (25 cm x 40 cm x 114 cm) and weighing not more
+than 35 pounds (15 kilograms) that may be placed in the overhead compartment or under the seat. A fee
+for the carry-on item may apply based on the ticket type purchased. Active U.S. military personnel, with
+Common Access Card (CAC), may take a carry-on item free of charge for all types of tickets.
+3) The size and weight of an item may be measured using manual or automated methods. If a bag sizer is
+used, items must fit completely into the applicable portion, including any wheels and handles, and
+without the passenger using undue force, as determined at Frontier’s sole direction. If an item exceeds
+allowed dimensions, the item may be gate checked or considered to be a carry-on item, in each case to
+which the applicable fee will apply. Any fees owed may be unilaterally charged by Frontier using the card
+or other method of payment that is on file with Frontier.
+B. The TSA website maintains a list of items that passengers are not permitted to carry onboard an aircraft. See
+www.tsa.gov for a complete list. Carry-on items containing any items on that list will not be accepted.
+C. The passenger is responsible for all items brought on board the aircraft. Items must be stored under a seat
+or in the overhead compartment.
+D. Use of Portable Electronic Devices (PEDs)
+1) Small authorized PEDs are devices under 2 pounds and are of a size that can easily be placed in a seat
+pocket along with the other materials that are normally found in the seat pocket (Passenger Safety
+Information Card, Menu or airsickness bag). They include devices like tablets, readers, and mobile
+phones and may be used during all phases of flight when in airplane mode including taxi, takeoff, and
+landing. However, if using them during taxi, takeoff, and landing, you must secure these devices by
+holding them, putting them in your pocket or holster, or placing them in a seatback pocket.
+2) Large authorized PEDs are devices 2 pounds or more such as full-size laptops. They must be turned off
+and stowed during taxi, takeoff, and landing. You may stow them under the seat in front of you or in an
+overhead compartment. These devices may be used above 10,000 feet when authorized by a Flight
+Attendant announcement.
+3) On all flights operating outside U.S. airspace, PEDs cannot be used during taxi, takeoff, and landing, but
+may be used in airplane mode above 10,000 feet when authorized by a Flight Attendant announcement.
+E. Sound Emitting Devices - Portable electronic devices that emit sound (e.g., music or video players or games)
+may be used only with headphones and provided the sound, even via the headphones, cannot be heard by
+others.
+F. Codeshare Flights – The baggage policy of the airline on which a passenger originally booked the codeshare
+flight will apply to the entire itinerary.
+14. Conditions and Charges for Special Items
+The following items are accepted as checked or carry-on baggage, subject to the conditions specified and
+payment of applicable fees.
+NOTE: Refer to the Sports Equipment and Special/Fragile Items chart hosted at www.FlyFrontier.com for other
+items which have specific packaging or other requirements which need to be met in order to be
+transported by air. All items listed on the Sports Equipment and Special/Fragile Items chart are subject
+to baggage fees. Baggage fees for excess, oversize, and overweight are cumulative and all may be
+assessed on one item.
+A. Firearms -- Firearms are accepted as checked baggage on flights within the United States, but not
+international flights. Carriage of any firearm is subject to the following conditions:
+Rev83 04/10/23
+Pg. 15 of 25 Conditions and Charges for Special Items
+C ONTRACT O F C ARRIAGE
+1) In accordance with federal law, a passenger who presents baggage that contains a firearm must (i)
+ensure the firearm is unloaded, (ii) pack the firearm in a lockable, hard-sided container, (iii) declare the
+firearm unloaded at the time of check-in, and (iv) sign a “Firearms Unloaded” declaration.
+2) If the firearm is in a locked, hard-sided container INSIDE a piece of checked baggage, the declaration
+must be placed inside the checked baggage and proximate to, but not inside of, that container.
+3) If the firearm is in a locked, hard-sided container, but NOT INSIDE a piece of checked baggage, the
+declaration must be placed inside the container.
+4) After screening, the passenger must lock the firearm container and retain the key or combination.
+5) The passenger must make arrangements for and assume full responsibility for complying with any
+applicable laws, customs and government regulations, or restrictions of the state or territory to which the
+firearm is being transported.
+B. Ammunition - Ammunition for firearms (whether or not the firearm is also being carried) is accepted as
+checked baggage on flights within the United States, but not international flights, subject to the following
+conditions:
+1) The ammunition must be securely packed in the original manufacturer's packaging, fiber (such as
+cardboard), wood, or metal boxes or other sturdy and durable packaging providing sufficient cartridge
+separation.
+2) Each passenger is allowed up to 11 pounds (4.9 kilograms) of ammunition.
+3) Loaded ammunition clips and magazines must also be securely boxed.
+4) Ammunition may be packed with the firearm.
+C. Live Animals -- Frontier accepts live animals only in the cabin of the aircraft, not as checked baggage. The
+transportation of live animals is subject to fees for carriage and the terms and conditions below.
+EXCEPTION: See separate rules with respect to service animals referred to in 6. Service Animals.
+1) Only the following animals are permitted:
+a) Domestic Flights -- Domesticated dogs, cats, rabbits, guinea pigs, hamsters, or small household birds.
+b) International Flights -- Domesticated dogs and cats.
+2) The passengers carrying the animal are responsible for making arrangements and assuming full
+responsibility for complying with any applicable laws, customs and other governmental regulations,
+requirements or restrictions of the country, state or territory to which the animal is being transported.
+3) The passengers carrying the animal are responsible for paying any import/export fees, duties, or taxes
+that may apply as well as any fines for failing to comply with applicable law.
+4) International - Restrictions for travel with an animal to international destinations vary by country. Frontier
+recommends contacting the appropriate embassy or consulate before purchasing a ticket for travel.
+5) The passengers carrying the animal are responsible for making advance reservations because no more
+than ten pet containers will be accepted per flight.
+6) No passenger may carry more than one pet container.
+7) The animal must remain in a pet container at all times and may not be fed while onboard the aircraft.
+8) The pet container must be large enough for the pet to stand, turn around, and lie down in a natural
+position and fit underneath the seat in front of the passenger.
+Rev83 04/10/23
+Limitations of Liability Pg. 16 of 25
+C ONTRACT O F C ARRIAGE
+9) The animal may not disrupt other passengers and the passenger must be able to quiet the animal without
+removing it from the container.
+10) The container counts toward the carry-on baggage allowance.
+11) No oxygen will be administered to an animal in the event of an emergency.
+D. Human Remains:
+1) Crematory remains (human or animal) may be transported as carry-on or checked baggage subject to the
+following conditions:
+a) The container must be made of a material such as wood or plastic that can be successfully screened
+by the TSA. If the container cannot be screened, it will not be allowed.
+b) If the container is checked, it must be sufficiently packaged in a well-insulated and sturdy container.
+c) If the container is carried onboard the flight, it counts toward the passenger's carry-on allowance and
+it must meet carry-on baggage dimensions.
+2) Human remains in caskets are not accepted.
+E. Dry Ice (frozen carbon dioxide) -- Dry ice may be carried under the following conditions:
+1) A maximum of 5.5 pounds (2.5 kilograms) of dry ice per passenger is accepted in checked or carry-on
+baggage.
+2) The cooler or package must permit the release of carbon dioxide gas. Styrofoam containers are not
+accepted.
+F. Bicycle - Bicycles may be carried under the following conditions:
+1) The handlebars must be fixed sideways, and the pedals removed or wrapped in plastic foam or similar
+material and the entire bicycle is encased in a hard-sided case.
+2) Bicycles may only be carried as checked baggage.
+3) A fee applies for each bicycle checked as baggage.
+4) Bicycles are excluded from baggage liability unless packaged in a hard-sided case.
+G. Special Items - The following items may exceed carry-on baggage dimensions but may be taken as a carry-on
+item (and count toward the carry-on bag allowance) as long as they fit in the overhead bin: fishing rods, tennis
+rackets, wedding attire, poster tubes, and musical instruments. If any such items are comprised of more than
+one piece, they must be packaged together to be considered one item. The carry-on bag fee applies.
+H. Codeshare Flights – The baggage policy of the airline on which a passenger originally booked the codeshare
+flight will apply to the entire itinerary.
+15. Limitations of Liability
+A. Consequential Damages – Unless it is specifically stated otherwise in this Contract of Carriage, or as required
+by any applicable law, Frontier is not liable for any indirect, special, or consequential damages arising out of
+or resulting from transportation provided, delay in transportation, or any failure to provide transportation.
+Rev83 04/10/23
+Pg. 17 of 25 Claim Limits and Procedures
+C ONTRACT O F C ARRIAGE
+B. International Transportation – With respect to international transportation, as defined in the following
+referenced conventions, as applicable, Frontier’s liability will be limited as specified in, as and if applicable,
+(i) the Convention for the Unification of Certain Rules Relating to International Carriage by Air signed at
+Warsaw, October 12, 1929, as amended (“Warsaw Convention”), but subject to the Agreement entered into
+by Frontier pursuant to 14 C.F.R. Part 203 or (ii) the Convention for the Unification of Certain Rules for
+International Carriage by Air, signed at Montreal, May 28, 1999 (“Montreal Convention”).
+16. Claim Limits and Procedures
+A. Limitations of Liability
+1) Domestic Flights – With respect to domestic flights (i.e., those flights originating and ending within the
+United States) without any scheduled stops outside of the United States, or international flights to which
+neither the Warsaw Convention or the Montreal Convention apply, Frontier’s limit of liability, if any, for the
+loss, damage or delay in the carriage of checked baggage shall be limited to $3,800 for all bags checked
+under a single ticketed passenger’s name. Frontier will not be liable for:
+i) The following items included in checked baggage, with or without the knowledge of Frontier:
+ii) Articles strapped, taped, or tied to other pieces of baggage, which may become separated as a result
+of normal handling during transportation
+iii) Damage to the following items when not packed in a hard-sided case or other packing that is suitable
+for the item:
+• Prosthetic devices
+• Medical equipment
+• Musical instruments
+• alcohol
+• antiques
+• art, paintings
+• art supplies
+• artifacts
+• bags made from lightweight
+material not designed for
+shipping
+• blueprints
+• books
+• business documents
+• CDs
+• cell phones
+• Cigars, cigarettes,
+electronic cigarettes, vape
+pens
+• collectibles
+• computer equipment
+(including hardware,
+software and all
+accessories)
+• dentures
+• drugs prohibited by federal
+or state law
+• DVDs
+• eyeglasses
+• files
+• food/perishables
+• fragile articles or other
+similar valuable items and
+commercial effects
+• hand and power tools
+• heirlooms
+• irreplaceable items
+• jewelry
+• keys
+• machinery and its parts
+• manuscripts
+• medication
+• money
+• natural fur products
+• negotiable papers/
+instruments
+• optics
+• orthodontics
+• orthotics
+• photographic/video/
+electronic equipment and
+accessories
+• precious metals or stones
+• publications
+• samples
+• securities
+• silverware
+• sound reproduction
+equipment
+• sunglasses
+• surgical supports
+• toys
+Rev83 04/10/23
+Claim Limits and Procedures Pg. 18 of 25
+C ONTRACT O F C ARRIAGE
+• Recreational or sporting equipment
+• Baby items including car seats and strollers
+iv) Damage to handles, straps, wheels, and zippers arising from normal wear and tear caused by
+ordinary handling of baggage
+v) Damage arising from ordinary wear and tear, such as cuts, scratches, scuffs, stains, dents,
+punctures, marks, and dirt
+vi) Damage resulting from over-packing or misuse
+vii) Damage arising from liquids on or in baggage; including weather (e.g., rain, snow)
+2) International Flights/Montreal Convention – With respect to international flights to which the Montreal
+Convention applies, Frontier’s limit of liability, if any, for the loss, damage or delay in the carriage of
+baggage (whether checked or carry-on) shall be limited to 1,288 Special Drawing Rights per ticketed
+passenger. The conversion rate, available at www.imf.org, in effect on the date of loss will be used for
+determining maximum liability amount.
+3) International Flights/Warsaw Convention – With respect to international flights to which the Warsaw
+Convention applies, Frontier’s limit of liability, if any, for the loss, damage or delay of (i) checked baggage
+shall be limited to 17 Special Drawing Rights per pound, or actual value, whichever is less, (ii) carry-on
+baggage shall be limited to 332 Special Drawing Rights or actual value, whichever is less. The conversion
+rate, available at www.imf.org, in effect on the date of loss will be used for determining maximum liability
+amount. Absent evidence to the contrary, bags will be presumed to weigh 20 pounds.
+4) Frontier does not accept declarations of higher value or accept fees based on such declarations.
+5) Subject to the above specified limits of liability, Frontier will compensate a passenger whose baggage has
+been lost, damaged or delayed for reasonable, documented direct damages up to the specified limit of
+liability, provided the passenger has made reasonable effort to minimize the amount of damage and
+provided documentation of the loss. The compensation due for lost or damaged property will be
+determined by the lesser of the documented original purchase price less applicable depreciation or the
+cost to make repairs.
+6) Frontier’s liability for wheelchairs, mobility aids, and assistive devices used by a passenger with a
+disability if lost or damaged by Frontier shall be up to the original purchase price of the device without
+regard to the above limitations of liability.
+7) Passengers who incur incidental expenses as a result of delayed baggage delivery will be reimbursed per
+established DOT guidelines, subject to the above limitations of liability (as applicable). Any amounts paid
+to the passenger for incidental expenses will be deducted from the total loss amount prior to check
+issuance.
+8) Frontier will not be liable for loss or damage to carry-on baggage unless such damage is caused by
+Frontier’s or its agent’s negligence, which does not include damage resulting from turbulence, shifting of
+items during flight, or ordinary handling, including placing the baggage in overhead compartments or
+under seats.
+9) Frontier’s employees and agents are not liable to passengers.
+B. Time Limit to Make Claims and Procedures
+Rev83 04/10/23
+Pg. 19 of 25 Failure to Operate on Schedule or Failure to Carry
+C ONTRACT O F C ARRIAGE
+1) With respect to domestic flights and those international flights to which the Montreal Convention does
+not apply, any claim based on damage, delay, or loss of baggage must be reported to Frontier within 4
+hours of the arrival of the flight on which the loss or damage is claimed to have occurred. Claims for
+pilferage may be made up to 24 hours after flight arrival. Any documentation required to support the claim
+must be submitted within 30 days from the date the requesting passenger receives the claim form packet
+from Frontier; Frontier will not be liable if the completed claims are not submitted, with documentation,
+within that time period.
+2) With respect to international flights to which the Montreal Convention applies, in the case of baggage
+damage, the person entitled to delivery must submit in writing to Frontier as soon as possible after
+discovery of the damage, and at the latest in writing 7 days from receipt of checked baggage and in the
+case of delay or loss, complaints must be made at the latest within 21 days from the date on which the
+baggage has been placed at the passenger’s disposal or should have been placed at the passenger’s
+disposal in the case of loss. All claims must be made in writing and must be accompanied by supporting
+documentation. Any subsequent request for documentation from Frontier must be provided to Frontier
+within 21 days of the request.
+17. Failure to Operate on Schedule or Failure to Carry
+A. Liability Limited - Frontier will use reasonable efforts to transport passengers and baggage to the purchased
+destination, but published schedules, flight times, aircraft types, seat assignments, and similar details set
+forth in the ticket or Frontier’s published schedules are not guaranteed and form no part of this Contract of
+Carriage. Frontier may substitute alternate aircraft, change schedules, delay or cancel flights, change seat
+assignments, and alter or omit stopping places shown on the ticket as required by its operations in Frontier’s
+sole discretion. Frontier’s obligations for failure to operate any flight, failure to operate a flight according to
+its schedule, or for changing the schedule or type of equipment used on any flight, with or without notice to
+the passenger, are set forth below.
+B. Force Majeure - In the occurrence of a force majeure event, Frontier may cancel, divert, or delay any flight
+without liability except to provide a refund for the unused portion of the ticket.
+C. Delay, Misconnection, or Cancellation - In the event (i) a passenger's flight is canceled, (ii) a passenger is
+denied boarding because an aircraft with lesser capacity is substituted, (iii) a passenger misses a connecting
+Frontier flight due to a delay or cancellation of a Frontier flight (but not flights of other carriers), (iv) a
+passenger is delivered to a different destination because of the omission of a scheduled stop to which the
+passenger held a ticket, to the extent possible, Frontier will provide transportation on its own flights at no
+additional charge to the passenger’s original destination or equivalent destination as provided herein.
+Frontier will have no obligation to provide transportation on another carrier. If Frontier cannot provide the
+foregoing transportation, Frontier shall, if requested, provide a refund for the unused portion of the
+passenger's ticket in lieu of the transportation under the foregoing. The foregoing shall be the limit of
+Frontier's liability for the matters covered by this provision.
+D. For purposes of involuntary reroute (a diversion), use this link https://www.flyfrontier.com/travel/travel-info/
+travel-policies#same-day-flight-changes and see under the title Same Day Flight Changes section of the
+flyfrontier.com page for the groups of cities that are considered to be the same point. If Frontier is able to
+provide transportation to one of the specified alternative cities, Frontier has met its obligation for transport
+to the final destination.
+E. Schedule Change Prior to Day of Travel -- When a passenger’s itinerary is changed because of a modification
+in Frontier’s schedule, arrangements will be made to:
+Rev83 04/10/23
+Denied Boarding Compensation Pg. 20 of 25
+C ONTRACT O F C ARRIAGE
+1) Transport the passenger over its own route system to the destination; or
+2) In the event Frontier determines that the schedule modification is significant, Frontier shall, if requested,
+provide passengers a refund of the cost of the unused portion of the ticket.
+F. Extended Onboard Ground Delays -- In accordance with FAA regulations, Frontier maintains and complies with
+a separate Contingency Plan for Lengthy Tarmac Delays. Frontier's Contingency Plan for Lengthy Tarmac
+Delays may be found on Frontier's website at
+https://az832049.vo.msecnd.net/media/1567/f9-contingency-plan-for-extended-tarmac-delays-2015.pdf.
+Frontier's Contingency Plan for Lengthy Tarmac Delays is subject to change without notice and is not part of
+this Contract of Carriage.
+18. Denied Boarding Compensation
+When a seat cannot be provided due to an inadequate number of seats for the number of passengers holding
+confirmed reservations (overbooking), the actions described in this section will be taken.
+A. Voluntary -- Passengers on a flight with an overbooking will be encouraged to voluntarily relinquish their seats
+in exchange for alternate travel and for compensation in the form of an Electronic Travel Voucher for future
+transportation to be booked within 365 days on Frontier. The request and selection of volunteers will be in a
+manner determined solely by Frontier.
+B. Involuntary -- If insufficient passengers volunteer, passengers who cannot be accommodated on the flight will
+be denied boarding and Frontier will provide transportation on a Frontier flight to the same destination. After
+a passenger’s boarding pass is collected or scanned and accepted by the gate agent, and the passenger has
+boarded, a passenger may be removed from a flight only for safety or security reasons or in accordance with
+Section 3 of this Contract of Carriage.
+C. Amount of Compensation -- Frontier will compensate a passenger for involuntary-denied boarding based on
+the new arrival time after the originally scheduled arrival time as follows:
+NOTE 1: Frontier is not obligated to provide compensation for denied boarding when an aircraft of
+lesser capacity is substituted due to operational or safety reasons.
+NOTE 2: No compensation will be due if boarding is denied for reasons other than overbooking (e.g.,
+pursuant to applicable law or other provisions of this Contract of Carriage).
+D. Onward Transportation for Passengers Denied Boarding
+1) A passenger denied boarding, voluntarily or involuntarily, pursuant to this section, will be transported on
+Frontier’s next available flight on which space is available and at no additional charge.
+2) If a passenger who has been denied boarding, voluntarily or involuntarily, pursuant to this section, wishes
+to modify the travel date, if space is available, a ticket will be provided for travel within 72 hours at no
+additional charge.
+Domestic International Compensation
+New arrival time within :59 New arrival time within :59 No Compensation
+New arrival time within 1 - 1:59 New arrival time within 1 - 3:59 200% (2x) of the one-way fare, not to
+exceed $775
+New arrival time 2 hours or more New arrival time 4 hours or more 400% (4x) of the one-way fare, not to
+exceed $1550
+Rev83 04/10/23
+Pg. 21 of 25 Refunds; No-Show Cancellations and Service Charges
+C ONTRACT O F C ARRIAGE
+E. Electronic Travel Voucher
+1) Involuntary Denied Boarding - Frontier may offer passengers denied boarding involuntarily an Electronic
+Travel Voucher good for transportation on Frontier in lieu of cash compensation otherwise due under this
+section. Passengers may decline such offer in favor of the applicable cash compensation. The Electronic
+Travel Voucher has no refund value, will expire 365 days from date of issuance, is not transferable, cannot
+be applied to group travel (more than nine passengers on a booking), and may be used towards a booking
+with multiple people as long as the passenger to whom it is issued is present in the same booking.
+Electronic Travel Vouchers can be applied to ancillary services (e.g., seats, baggage), fees, and taxes. If a
+ticket purchased with an Electronic Travel Voucher costs less than the amount of the voucher, no residual
+value remains. Changes to a ticket purchased with an Electronic Travel Voucher may result in a change
+fee and any additional fare difference based on the rules of the issued ticket.
+2) Voluntary Denied Boarding - Frontier may offer passengers who volunteer for denied boarding an
+Electronic Travel Voucher good for transportation on Frontier. The Electronic Travel Voucher has no refund
+value, will expire 365 days from date of issuance, is not transferable, cannot be applied to group travel
+(more than nine passengers on a booking), and may be used towards a booking with multiple people as
+long as the passenger to whom it is issued is present in the booking. Electronic Travel Vouchers can be
+applied to ancillary services (e.g., seats, baggage) and fees; no taxes will be covered by the Electronic
+Travel Voucher. If a ticket purchased with an Electronic Travel Voucher costs less than the amount of the
+voucher, no residual value remains. Changes to a ticket purchased with an Electronic Travel Voucher may
+result in a change fee and any additional fare difference based on the rules of the issued ticket.
+F. Time of Offer and Payment of Compensation
+1) The offer of compensation for overbooking will be made by Frontier on the day and at the place where the
+failure to provide confirmed space occurred. If accepted, compensation will be given to the passenger. If
+the alternative transportation arranged for the passenger's convenience departs before the payment can
+be made, payment will be made by mail or other means within 24 hours after the denied boarding occurs.
+2) Acceptance of any Denied Boarding Compensation constitutes full compensation for damages incurred
+by the passenger as a result of Frontier's failure to provide the passenger with a confirmed seat.
+19. Refunds; No-Show Cancellations and Service Charges
+A. The provisions of this Section (20.A) shall apply with respect to refunds for tickets under this Contract of
+Carriage:
+1) All refunds will be subject to government laws, rules, regulations, or orders of the country in which the
+ticket was originally purchased and of the country in which the refund is being made.
+2) The first portion of any amount refunded will be the full amount of government-imposed taxes and fees,
+as well as certain carrier charges applied to the ticket purchase.
+3) If applicable, cancellation fees or service charges will be assessed in a separate transaction and netted
+against the refunded amount.
+4) No Use - If no portion of the ticket has been used, the refund amount will be equal to the fare, plus any
+ancillary purchases (checked or carry-on bag, seat assignments, etc.), all government-imposed charges,
+taxes, and fees, and certain carrier charges paid for the ticket issued to the passenger.
+5) Partial use - If a portion of the ticket has been used:
+Rev83 04/10/23
+Refunds; No-Show Cancellations and Service Charges Pg. 22 of 25
+C ONTRACT O F C ARRIAGE
+a) One-way ticket: If travel was terminated at an intermediate or stopover point, the refund amount will
+be equal to the amount of the fare and all ancillary purchases (checked or carry-on bag, seat
+assignments, etc.) paid from the point of termination to the destination or to the point at which
+transportation is to resume and will be the lowest one-way fare for the class of service paid for minus
+any discount, plus all government-imposed charges, taxes, and fees and certain carrier charges, as
+proportionately attributable, which shall be reasonably determined by Frontier.
+b) Round-trip ticket purchased: the refund amount will be equal to the amount of the fare and ancillary
+purchases (checked or carry-on bag, seat assignments, etc.) paid on the unused portion of the ticket,
+plus all government-imposed charges, taxes, and fees and certain carrier charges, as proportionately
+attributable, which shall be reasonably determined by Frontier.
+B. In addition to the provisions of Section 20.A, in situations other than No-Show Cancellations, the provisions
+of this Section (20.B) shall apply with respect to refunds for tickets under this Contract of Carriage:
+1) For refundable tickets that are canceled prior to flight departure, passengers should fill out an online
+request, available at www.FlyFrontier.com.
+2) For tickets that are canceled up to 24 hours after the time of purchase (excluding tickets purchased within
+seven days before travel, which will be held as a credit, less the applicable cancellation fee and certain
+carrier charges), passengers should cancel their tickets online at www.FlyFrontier.com.
+3) Payment - A refund will be provided only to the original purchaser's form of payment. However, if, at the
+time of the application for refund, evidence is submitted that a company purchased the ticket on behalf
+of its employee or a travel agency has made a refund to its client, the refund will be made directly to the
+employee's company or the travel agency. The Table below illustrates other rules respecting payment:
+4) Identity - Frontier does not assume responsibility to confirm that the person using or presenting a ticket
+for refund is the true owner of the ticket.
+C. In situations involving a No-Show Cancellation, in addition to the provisions of Section 20.A, the provisions of
+this Section (20.C) shall apply with respect to refunds for tickets under this Contract of Carriage.
+1) Automatic Refund; No Additional Submission Required – In the case of a No-Show Cancellation, the
+refund described in Section 20.A shall be automatically refunded to the purchaser.
+2) Automatic Imposition of a No-Show Cancellation Service Charge.
+Payment Type Refunded To
+Universal Air Travel Plan The subscriber against whose account the ticket was charged
+Transportation Request issued by a
+government agency other than a U.S.
+government agency
+The government agency that issued the transportation request
+U.S. Government Transportation
+Request
+The U.S. government agency that issued the U.S. Government
+Transportation Request with a check payable to the “Treasurer
+of the United States”
+Card The account of the person to whom the credit or debit card was
+issued
+Electronic Travel Voucher The original voucher value will be reinstated if the cancellation is
+within 90 days of the voucher issue date
+Rev83 04/10/23
+Pg. 23 of 25 Currency and Mode of Payment and Fees
+C ONTRACT O F C ARRIAGE
+a) Refund – The refund described in Section 20.A shall be given, but will be netted against the No-Show
+Cancellation Service Charge in a separate transaction.
+b) Imposition of a No-Show Cancellation Service Charge – A No-Show Cancellation Service Charge will
+apply with respect to the ticket (or the segment for which the No-Show Cancellation applies) in the
+amount of the fare plus all ancillary purchases plus all government-imposed charges, taxes and fees
+and certain carrier charges attributable to the fare and ancillary purchases.
+c) The payment of the No-Show Cancellation Service Charge shall not entitle the purchaser (and, if
+different, the passenger or other party to whom a refund would otherwise be due) to transportation.
+D. To the extent required by applicable law, including Code § 6415(a) and the regulations promulgated
+thereunder, the purchaser (and, if different, the passenger or other party to whom a refund would otherwise
+be due) hereby consents to Frontier recovering any allowance of a credit or refund of any overpayment of
+governmental fees or tax imposed, including pursuant to Code § 4261, including in each case which
+overpayment arises directly or indirectly as a result of a No-Show Cancellation as contemplated in this
+Contract of Carriage.
+20. Currency and Mode of Payment and Fees
+A. Fares, fees, charges, and taxes charged or collected by Frontier are due in United States dollars, except for
+bookings made through available Canadian online travel sites, which are due in Canadian dollars. Any
+purchases made in connection with such bookings would also be due in Canadian dollars.
+B. All amounts due to Frontier must be paid with a credit or debit card; Frontier may require that each passenger
+have a card on file with Frontier to purchase a ticket and complete transport on Frontier. Frontier does not
+accept cash for any transactions, including those on Frontier's aircraft, except that Frontier may accept cash
+at certain international locations.
+C. Frontier does not accept personal checks, traveler's checks, certified (cashier's) checks, or money orders.
+D. A service charge will apply to any improper chargeback on a credit or debit card and may be charged to the
+same card via which the chargeback is made.
+21. Miscellaneous
+A. Subordination to Law - In all cases, this Contract of Carriage will be subordinate to any applicable law.
+B. Metric References - Conversion of British units to metric units are approximate and for reference only. The
+British unit will apply.
+C. Change Without Notice - Except as may be required by applicable laws, government regulations, orders, and
+requirements, Frontier reserves the right to amend this Contract of Carriage without notice, provided that no
+such change shall apply to carriage that has commenced.
+D. No Waiver/Modification of Terms - No employee or agent of Frontier has the authority to waive, modify, or alter
+any provisions of the Contract of Carriage unless authorized by a corporate officer of Frontier.
+Accommodations provided beyond what is required by the Contract of Carriage do not alter the Contract of
+Carriage. Frontier's employees and agents, including third party travel agents and online travel sites, are only
+authorized to sell tickets for air transportation on Frontier subject to the Contract of Carriage.
+Rev83 04/10/23
+Contingency Plan for Extended Tarmac Delays Pg. 24 of 25
+C ONTRACT O F C ARRIAGE
+E. Changes in Rules, Fares, and Charges - Unless otherwise provided within specific fare rules, transportation
+is subject to the rules, fares, and charges in effect on the date a ticket is issued, determined by the validation
+stamped or imprinted on the ticket, or valid electronic ticket.
+F. Use of Images - Passengers (or in the case of minors, their parents or legal guardians) consent to the unpaid
+use of any photos, videos, or other images taken of them by or for Frontier, for advertising or marketing
+purposes.
+G. Taxes and Charges - When the ticket is issued for the effective date, all government, airport, vendor, or other
+charges that apply to passenger travel into foreign countries are the responsibility of the passenger to whom
+the ticket was originally issued and are in addition to the published fare and charges.
+H. Fares/Charges - Specific fares and charges information is available through Frontier reservations offices and
+at www.FlyFrontier.com.
+I. No Class Action - Any case brought pursuant to this Contract of Carriage, Frontier’s Tarmac Delay Plan, or
+Frontier’s Customer Service Plan may be brought in a party's individual capacity and not as a plaintiff or class
+member in any purported class or representative proceeding.
+J. Time Limit for Action - No legal action may be brought by a passenger against Frontier unless commenced
+within 6 months from the date of the alleged incident.
+K. Choice of Law - This Contract of Carriage will be governed by and construed in accordance with the laws of
+the United States of America and the State of Colorado without regard to conflict of law principles or law. All
+right to trial by jury in any action, proceeding or counterclaim arising out of or in connection with this Contract
+of Carriage is irrevocably waived.
+L. Codeshare Flights – Except for baggage policies (see section 12. , section 13. , and section 14. ), the policies,
+rules, and procedures of the operating airline will apply on any codeshare flight.
+22. Contingency Plan for Extended Tarmac Delays
+The safety of our passengers is our #1 priority at Frontier Airlines. With that in mind, Frontier works hard to avoid
+extended tarmac delay situations. However, occasionally these situations do arise. Frontier maintains a plan to
+resolve the extended tarmac delays as quickly as possible as well as mitigating the impact and inconvenience to
+our passengers.
+For all flights that remain at the gate or other disembarkation area with the main cabin door open 30 minutes
+after scheduled departure time (including any revised departure time that passengers were notified about
+before boarding) from which there is an opportunity to deplane, Frontier will notify passengers that they have the
+opportunity to deplane from the aircraft and repeat that notice at least every 30 minutes thereafter while that
+opportunity continues to exist.
+A. For all flights that have departed from a gate without taking off or after a flight has landed without arriving
+at a gate (“Delay”), Frontier will notify passengers of the status of the Delay every 30 minutes while the aircraft
+is Delayed, including the reasons for the Delay, if known.
+B. No later than 120 minutes after a Delay begins, Frontier will ensure that all passengers have been afforded
+the opportunity to receive food and water, unless the pilot-in-command determines that safety or security
+considerations preclude such service.
+C. At 150 minutes (210 for international flights) after a delay begins, unless the pilot in command deems that
+departure is imminent, Frontier will look to return the aircraft to a gate or move to a remote parking location
+where passengers can be afforded the opportunity to deplane.
+Rev83 04/10/23
+Pg. 25 of 25 Contingency Plan for Extended Tarmac Delays
+C ONTRACT O F C ARRIAGE
+D. By no later than 180 (240 for international flights) minutes after a Delay begins Frontier will return the aircraft
+to a gate or other location where passengers will have the opportunity to deplane, unless:
+E. The pilot in command determines there is a safety related or security related reason (e.g., weather, a directive
+from an appropriate government agency) why the aircraft cannot leave its position on the tarmac to deplane
+passengers; or
+F. Air traffic control advises the pilot in command that returning to the gate or another disembarkation point
+elsewhere in order to deplane passengers would significantly disrupt airport operations.
+G. During any Delay, Frontier will ensure that a comfortable temperature is maintained throughout the
+passenger cabin.
+H. During any Delay, Frontier will ensure access to medical attention is available to meet all requests, including
+the use of a third-party medical consultation service.
+I. During any Delay, Frontier will ensure that operable lavatory facilities are available provided the pilot-incommand determines that it is safe and secure for passenger to move about the aircraft cabin.
+J. At each airport where Frontier flies, including diversion airports, this plan has been coordinated with airport
+authorities, Customs & Border Protection, and the Transportation Security Administration.
+K. Frontier has ensured that it has adequate resources available to administer this plan.
+Frontier would also like our passengers to be aware of certain the following that will apply in the case of a Delay:
+A. If a flight returns to a gate or diverts from its planned destination, in most cases, the delayed or diverted flight
+will attempt to continue to its final destination. The right to deplane in such cases will be determined in
+accordance with the above.
+B. Frontier maintains information and arrangements with both airports and other airlines to secure additional
+gate space if needed during a tarmac delay. If allowed by the airport, the deplaning of passengers may take
+place when it is safe and secure to do so, either at a gate or at an approved remote parking position via stairs
+and ground transportation.
+C. Any passengers who choose to deplane from a flight that has experienced a delay and make alternative travel
+arrangements may do so when it is determined to be safe and secure, after the aircraft has been moved into
+position for deplaning, all operational requirements for deplaning have been completed, and the pilot-incommand has allowed customer deplaning to begin.
+D. Passengers should be aware that if they choose to deplane, they do so at their own risk and the flight may
+depart without them. Frontier will make reasonable attempts, e.g., via airport announcements, to
+communicate the new departure time of the flight. In cases where an aircraft that has returned to a gate,
+passengers may be advised how long the aircraft will remain at the gate to determine how much time (if any)
+passengers may spend inside the terminal prior to having to re-board the aircraft for the continuation of the
+flight. Such time may, however, be shorted in which case an announcement will be made to return to the
+aircraft.
+E. Passengers who choose to deplane and/or make alternative travel arrangements should be aware that on
+most domestic flights their checked baggage will remain on the aircraft. In cases where a flight returns to the
+gate and is canceled baggage will be returned to the baggage claim area.
+F. In instances where passengers are permitted to deplane at a remote aircraft parking position, reboarding the
+aircraft may not be possible.
+Rev83 04/10/23

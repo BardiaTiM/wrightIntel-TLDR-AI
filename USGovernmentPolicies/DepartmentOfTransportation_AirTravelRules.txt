@@ -1,0 +1,563 @@
+
+- Air Cancellation Delays
+These ten large U.S. airlines and their regional operating partners, which operate flights for them but do not sell tickets, account for approximately 96 percent of the domestic scheduled passenger air traffic.
+Use the above dashboard to learn about the amenities that the U.S. airline that you are flying on has promised to provide should there be a controllable flight cancellation or delay. You can also use the dashboard to compare amenities that the airlines commit to provide in the event of a controllable flight cancellation or delay when deciding which airline to fly.
+A controllable flight cancellation or delay is essentially a delay or cancellation caused by the airline. Examples include: maintenance or crew problems; cabin cleaning; baggage loading; and fueling.
+Airlines are required to adhere to the promises that they make in their customer service plan, including commitments to care for customers in the event of controllable delays or cancellations. The Department will hold airlines accountable if they fail to do so.
+These ten large U.S. airlines and their regional operating partners, which operate flights for them but do not sell tickets, account for approximately 96 percent of the domestic scheduled passenger air traffic.
+Use the above dashboard to learn about the amenities that the U.S. airline that you are flying on has promised to provide should there be a controllable flight cancellation or delay. You can also use the dashboard to compare amenities that the airlines commit to provide in the event of a controllable flight cancellation or delay when deciding which airline to fly.
+A controllable flight cancellation or delay is essentially a delay or cancellation caused by the airline. Examples include: maintenance or crew problems; cabin cleaning; baggage loading; and fueling.
+Airlines are required to adhere to the promises that they make in their customer service plan, including commitments to care for customers in the event of controllable delays or cancellations. The Department will hold airlines accountable if they fail to do so.
+Remember these commitments do not impact your entitlement to a refund. If an airline cancels a passenger�s flight or makes a significant change in the flight, regardless of the reason, airlines are required to provide a prompt refund to a ticketed passenger, including those with non-refundable tickets, should the passenger choose not to accept the alternative offered, such as rebooking on another flight. Learn more about your right to a refund. If you have a problem obtaining a refund that you believe that you are entitled to receive, you may file a complaint with the DOT. If you are an airline passenger with a disability looking for more information regarding your rights during air travel, please follow this link to our disability webpage.
+
+- Airline commitments
+airline_commitments = [
+    {
+    'carrier': 'Alaska',
+        'rebook_same_airline': True,
+        'rebook_partner_airline': True,
+        'meal_voucher': True,
+        'complimentary_hotel': True,
+        'ground_transportation': True,
+        'rebook_same_airline_delay': True,
+        'rebook_partner_airline_delay': True,
+        'meal_voucher_delay': True,
+        'complimentary_hotel_delay': True,
+        'ground_transportation_delay': True
+    },
+
+    {
+    'carrier': 'Allegiant',
+        'rebook_same_airline': True,
+        'rebook_partner_airline': False,
+        'meal_voucher': True,
+        'complimentary_hotel': True,
+        'ground_transportation': True,
+        'rebook_same_airline_delay': True,
+        'rebook_partner_airline_delay': False,
+        'meal_voucher_delay': True,
+        'complimentary_hotel_delay': True,
+        'ground_transportation_delay': True
+    },
+
+    {
+
+    'carrier': 'American',
+        'rebook_same_airline': True,
+        'rebook_partner_airline': True,
+        'meal_voucher': True,
+        'complimentary_hotel': True,
+        'ground_transportation': True,
+        'rebook_same_airline_delay': True,
+        'rebook_partner_airline_delay': True,
+        'meal_voucher_delay': True,
+        'complimentary_hotel_delay': True,
+        'ground_transportation_delay': True
+    },
+
+{
+        'carrier': 'Delta',
+        'rebook_same_airline': True,
+        'rebook_partner_airline': True,
+        'meal_voucher': True,
+        'complimentary_hotel': True,
+        'ground_transportation': True,
+        'rebook_same_airline_delay': True,
+        'rebook_partner_airline_delay': True,
+        'meal_voucher_delay': True,
+        'complimentary_hotel_delay': True,
+        'ground_transportation_delay': True
+    },
+
+    {
+        'carrier': 'Frontier',
+        'rebook_same_airline': True,
+        'rebook_partner_airline': False,
+        'meal_voucher': True,
+        'complimentary_hotel': False,
+        'ground_transportation': False,
+        'rebook_same_airline_delay': True,
+        'rebook_partner_airline_delay': False,
+        'meal_voucher_delay': True,
+        'complimentary_hotel_delay': False,
+        'ground_transportation_delay': False
+    },
+
+
+    {
+        'carrier': 'Hawaiian',
+        'rebook_same_airline': True,
+        'rebook_partner_airline': True,
+        'meal_voucher': True,
+        'complimentary_hotel': True,
+        'ground_transportation': True,
+        'rebook_same_airline_delay': True,
+        'rebook_partner_airline_delay': False,
+        'meal_voucher_delay': True,
+        'complimentary_hotel_delay': True,
+        'ground_transportation_delay': True
+    },
+
+
+
+    {
+        'carrier': 'JetBlue',
+        'rebook_same_airline': True,
+        'rebook_partner_airline': True,
+        'meal_voucher': True,
+        'complimentary_hotel': True,
+        'ground_transportation': True,
+        'rebook_same_airline_delay': True,
+        'rebook_partner_airline_delay': True,
+        'meal_voucher_delay': True,
+        'complimentary_hotel_delay': True,
+        'ground_transportation_delay': True
+    },
+
+
+
+    {
+        'carrier': 'SouthWest',
+        'rebook_same_airline': True,
+        'rebook_partner_airline': False,
+        'meal_voucher': True,
+        'complimentary_hotel': True,
+        'ground_transportation': True,
+        'rebook_same_airline_delay': True,
+        'rebook_partner_airline_delay': False,
+        'meal_voucher_delay': True,
+        'complimentary_hotel_delay': True,
+        'ground_transportation_delay': True
+    },
+
+
+
+    {
+        'carrier': 'Spirit',
+        'rebook_same_airline': True,
+        'rebook_partner_airline': False,
+        'meal_voucher': True,
+        'complimentary_hotel': True,
+        'ground_transportation': True,
+        'rebook_same_airline_delay': True,
+        'rebook_partner_airline_delay': False,
+        'meal_voucher_delay': True,
+        'complimentary_hotel_delay': True,
+        'ground_transportation_delay': True
+    },
+
+
+
+    {
+        'carrier': 'United',
+        'rebook_same_airline': True,
+        'rebook_partner_airline': True,
+        'meal_voucher': True,
+        'complimentary_hotel': True,
+        'ground_transportation': True,
+        'rebook_same_airline_delay': True,
+        'rebook_partner_airline_delay': True,
+        'meal_voucher_delay': True,
+        'complimentary_hotel_delay': True,
+        'ground_transportation_delay': True
+    },
+
+
+]
+
+
+
+
+
+- ost, Delayed, or Damaged Baggage
+While the vast majority of airline passengers� checked bags arrive at their destination on time and in the condition received, a passengers� bag may occasionally become damaged, delayed, or lost in transit.� Under DOT regulations (for domestic travel) and international treaties (for international travel), airlines are required to compensate passengers if their bags are damaged, delayed, or lost.� You can find tips on how to pack, check-in, and claim your luggage to minimize the chance of damage, delay, or loss in DOT�s Fly Rights publication here.
+Damaged Baggage
+What are airlines� responsibilities when they damage your baggage?
+
+Airlines are responsible for repairing or reimbursing a passenger for damaged baggage and/or its contents when the damage occurs while the bag is under the airline�s control during transportation (subject to maximum limits on liabilities).
+
+Airlines are not responsible for pre-existing damage to the bag or if the damage was caused by improper packing.
+
+When the damage to the bag cannot be repaired, airlines will negotiate a compensation amount based on the value of the bag and its depreciation.
+
+Can the airlines exclude liability for certain items?
+
+Airlines often exclude liability for certain categories of items (for example: fragile items, electronics, cash, perishable items, other valuables, etc.). �These exclusions are typically listed in the airlines� contracts of carriage.
+
+For DOMESTIC travel, airlines are not required to compensate passengers for items they have excluded in their contracts of carriage.
+
+For INTERNATIONAL travel (including the domestic segment of an international itinerary), airlines are responsible for these items if they have accepted them for transportation.� This applies even if passengers did not disclose, when they checked-in, that these items were packed in the bag.
+
+Passengers may wish to consider purchasing additional insurance for valuable items.
+
+What about damage to the wheels, handles, or straps of baggage?
+
+Although airlines are not required to cover fair wear and tear, airlines cannot exclude liability for damage to wheels, handles, straps, and other components of checked baggage.�
+
+Delayed Baggage
+What should a passenger do if his or her bag is missing after taking a flight
+
+When a checked bag does not arrive at its destination, airlines are responsible for locating the bag.� Airlines have tracking systems in place to try to identify the bag�s location. �
+
+Some airlines now offer applications for cell phones, tablets, and other electronic devices, which provide passengers with data on the location of their baggage.� It may be helpful to use this technology to locate your baggage, if available.
+
+Passengers should file a baggage claim with their airline as soon as possible.�
+
+Passengers should stay in close communication with the airline after filing a claim and during the baggage location process.�
+
+What are airlines� responsibilities when your bag is delayed?
+
+Airlines are required to compensate passengers for reasonable, verifiable, and actual incidental expenses that they may incur while their bags are delayed - subject to the maximum liability limits.
+
+Airlines are not allowed to set an arbitrary daily amount for interim expenses.� For example, an airline cannot have a policy that they will reimburse a passenger up to only $50 for each day that a passenger�s bag is delayed.
+
+Lost Baggage
+When does an airline consider a bag lost?
+
+Airlines may have different policies to determine when a bag is officially lost.� Most airlines will declare a bag lost between five and fourteen days after the flight, but this can vary from one airline to another.
+
+Whether your bag is declared lost may also depend on the type of itinerary (international vs. domestic), whether more than one airline is responsible for the flight, the airline�s searching mechanism, and other circumstances.
+
+If an airline unreasonably refuses to consider a bag lost after it has been missing for an unreasonable period of time, the airline could be subject to enforcement action by the DOT.
+
+What are the airlines� responsibilities when your bag is lost?
+
+Once an airline determines that your bag is lost, the airline is responsible for compensating you for your bags� contents - subject to depreciation and maximum liability limits.
+
+Airlines are also required to refund any fees you paid the airline to transport the bag that was lost.
+
+Airlines may require receipts or other proof for valuable items that were in the lost bags.
+
+Limits on Baggage Liability
+Domestic Baggage Liability
+
+For DOMESTIC flights, DOT regulation�allows airlines to limit their liability for a lost, damaged, or delayed bag.�Airlines are free to pay more than the limit, but are not required to do so.
+
+The maximum liability amount allowed by the regulation is�$3,800 per passenger.
+
+International Baggage Liability
+
+For most INTERNATIONAL flights, a treaty called the Montreal Convention applies to the carriage of baggage.� The maximum baggage liability for flights covered by the Montreal Convention is currently 1,288�Special Drawing Rights (approximately $1,700.00 US) per passenger. �This is the most that airlines must pay a passenger for a lost, damaged, or delayed bag.� Airlines are free to pay more than the limit, but are not required to do so.
+
+The Montreal Convention�s international baggage liability limit is reviewed for inflationary adjustment every five years�by the International Civil Aviation Organization (ICAO)(link is external).
+
+In the few situations when the Montreal Convention does not apply to travel to and from the United States, an older treaty called the �Warsaw Convention(link is external)� may apply.
+
+Assistive Devices
+An assistive device is any piece of equipment that assists a passenger with a disability in coping with the effects of his or her disability.� These devices are intended to assist passengers with a disability to hear, see, communicate, maneuver, or perform other functions of daily life.� Assistive devices include (but are not limited to):
+
+Crutches, Canes, and Walkers
+
+Braces/Prosthetics
+
+Wheelchairs
+
+Hearing aids
+
+Portable Oxygen Concentrators (POCs)
+
+Continuous Positive Airway Pressure (CPAP) machines
+
+Prescription medications and any medical devices needed to administer those medications, such as syringes or auto-injectors
+
+Note:� If you are not sure if your device is an assistive device, contact your airline�s disability or special assistance desk.
+
+Assistive devices used by passengers with disabilities that are lost or damaged �during DOMESTIC air travel are not subject to the rules limiting liability for lost or damaged baggage. On domestic flights, airlines� liability for lost or damaged assistive devices is the original purchase price of the assistive device.� If an airline destroys or loses a $20,000 assistive device during a domestic flight, the airline is liable for $20,000. If an airline damages but doesn�t destroy a $20,000 assistive device, then the airline is liable for the damage up to the cost of original purchase price.
+
+Assistive devices used by passengers with disabilities that are lost or damaged during INTERNATIONAL air travel are subject to the maximum liability limit set by the applicable international treaty.�
+
+When a passenger�s wheelchair or other assistive device must be disassembled for stowage during air transportation, the airline must return the assistive device in the same condition in which the airline accepted it, including making necessary repairs if the device is damaged.
+
+
+
+
+
+Bumping & Oversales
+
+
+
+
+Bumping
+The vast majority of the time, passengers don�t have any problems boarding their flights.  But occasionally, airlines may �bump� passengers and have them give up their seats.  Bumping, also known as �denied boarding,� happens when there are more passengers scheduled to fly on an airplane than available seats. 
+The business practice of bumping is not illegal.  Airlines oversell their scheduled flights to a certain extent in order to compensate for �no-shows.�  Most of the time, airlines correctly predict the �no shows� and everything goes smoothly.  But sometimes, passengers are bumped as a result of oversales practices.
+Not all airlines engage in the practice of selling more tickets than available seats on an aircraft.  Some airlines simply sell enough tickets to fill every seat.  Although this practice significantly reduces the chances that a passenger will be bumped, the airline may still bump passengers in rare circumstances - such as when the seat is needed for a Federal Air Marshall.
+It�s important for passengers to understand why they may be asked to give up their seats and what rights they may have.  Before an airline forces a passenger to give up his/her seat due to overbooking, the airline must ask passengers on the flight if they are willing to give up their seat voluntarily in exchange for compensation.
+Voluntarily Giving Up Your Seat
+When a flight has more passengers who are ready to fly than there are seats available, airlines must first ask passengers to give up their seats voluntarily, in exchange for compensation, before bumping anyone involuntarily.  Airlines may offer passengers incentives, such as money or vouchers, to volunteer.  There is no limit to the amount of money or vouchers that the airline may offer, and passengers are free to negotiate with the airline.
+If an airline offers a reduced rate ticket, free ticket, or voucher to passengers in exchange for volunteering to fly on a different flight, the airline must tell passengers about any and all restrictions that may apply to the use of the reduced rate ticket, free ticket, or voucher before passengers decide whether or not to give up their confirmed reserved space on the currently oversold flight. 
+If you decide to give your seat back to the airline in exchange for compensation and a later flight, you may want to get answers to these important questions:
+When is the next flight on which the airline can confirm your seat?  The alternate flight may be just as acceptable to you.  On the other hand, if the airline offers to put you on standby on another flight that�s full, you could be stuck at your departure airport for a long time.
+	 
+Will the airline provide other amenities such as free meals, a hotel room, transfers between the hotel and the airport, and a phone card?  If not, you might have to spend the money it offers you on food or lodging while you wait for the next flight.
+	 
+How long is the ticket or voucher good for?
+	 
+Is the ticket or voucher unusable during holiday periods when you might want to use it?
+	 
+Can it be used for international flights?
+Involuntarily Giving Up Your Seat (Bumping)
+Sometimes, when an airline asks for volunteers to give up their seats and fly on a different flight, there are not enough volunteers.  When this occurs, the airline will select passengers to give up their seats.  This is called �involuntary denied boarding� or �bumping.�
+How does an airline determine who has to give up their seat?
+While it is legal for airlines to involuntarily bump passengers from an oversold flight when there are not enough volunteers, it is the airline�s responsibility to determine its own fair boarding priorities.
+	 
+If there are not enough passengers who are willing to give up their seats voluntarily, an airline may deny you a seat on an aircraft based on criteria that it establishes, such as the passenger�s check-in time, the fare paid by the passenger, or the passenger�s frequent flyer status.  However, the criteria cannot subject a passenger to any unjust or unreasonable prejudice or disadvantage.  For example, an airline could not lawfully use a passenger�s race or ethnicity as a criterion. 
+Do airlines have to tell me my rights when I�m involuntarily bumped?
+Yes.  DOT requires airlines to give all passengers who are bumped involuntarily a written statement describing their rights and explaining how the carrier decides who gets bumped.
+Can airlines involuntarily bump me after I have boarded the flight?
+Generally, no.  If you have met the following conditions, airlines are not allowed to deny you permission to board, or remove you from the flight if you have already boarded the flight:
+	You have checked-in for your flight before the check-in deadline set by the airlines; and
+A gate agent has accepted your paper boarding pass or electronically scanned your boarding pass and let you know that you may proceed to board.
+
+However, airlines may deny boarding or remove you from a flight even after accepting your boarding pass and informing you that you may proceed to board if the denial or removal is due to a safety, security, or health risk, or due to a behavior that is considered obscene, disruptive, or otherwise unlawful.
+Are airlines required to pay me money when I�m involuntarily bumped?
+It depends.  An airline is required to compensate you after involuntarily bumping you from an oversold flight in certain situations.  However, there are many situations where you are not entitled to compensation.
+Bumped passengers are NOT eligible for compensation in the following situations:
+Aircraft Change - A smaller plane is substituted for the larger one the airline originally planned on using due to operational or safety reasons.
+	 
+Weight and Balance - Weight or balance restrictions that apply to planes with 60 or fewer seats for operational or safety reasons.
+	 
+Downgrading - A passenger is downgraded from a higher class of seating to a lower class.  In this case, the passenger is entitled to a refund for the difference in price.
+	 
+Charter Flights -  A flight contracted for a specific trip that is not part of an airline�s regular schedule.
+	 
+Small Aircraft - Scheduled flights on planes holding fewer than 30 passengers.
+	 
+Flights Departing a Foreign Location - International flights to the United States.  However, some airlines on these routes may provide compensation voluntarily. Also, the European Commission has a rule on bumping passengers from flights that apply to passengers departing from a European Union member state; ask the airline for details, or visit this page(link is external). 
+Situations when bumped passengers ARE eligible for compensation:
+If you are not bumped from a flight for one of the reasons above, you qualify for involuntary denied boarding compensation if an airline requires you to give up your seat on an oversold flight and:
+	 
+	You have a confirmed reservation,
+		 
+You checked-in to your flight on time,
+		 
+You arrived at the departure gate on time, and
+		 
+The airline cannot get you to your destination within one hour of your flight�s original arrival time.
+
+If I am entitled to compensation, how is the amount of compensation calculated?
+Passengers who are denied boarding involuntarily due to oversales are entitled to compensation that is based on the price of their ticket, the length of time that they are delayed in getting to their destination because of being denied boarding, and whether their flight is a domestic flight or an international flight leaving from the United States.  This is called �denied boarding compensation� or �DBC� for short.
+	 
+Most bumped passengers who experience short delays on flights will receive compensation equal to double the one-way price of the flight they were bumped from, but airlines may limit this amount to up to $775.  Passengers experiencing longer delays on flights will receive payments of four times the one-way value of the flight they were bumped from, but airlines may limit this amount to up to $1,550.  Please see the tables below.
+
+
+
+Domestic - Denied Boarding Compensation (DBC)
+Length of Delay and Compensation
+
+
+0 to 1 hour arrival delay
+No compensation
+
+
+1 to 2 hour arrival delay
+200% of one-way fare (airlines may limit the compensation to $775 if 200% of the one-way fare is higher than $775)
+
+
+Over 2 hour arrival delay
+400% of one-way fare (airlines may limit the compensation to $1,550 if 400% of the one-way fare is higher than $1,550)
+
+
+
+International - Denied Boarding Compensation (DBC)
+Length of Delay and Compensation
+
+0 to 1 hour arrival delay
+No compensation
+
+
+1 to 4 hour arrival delay
+200% of one-way fare (airlines may limit the compensation to $775 if 200% of the one-way fare is higher than $775)
+
+
+Over 4 hour arrival delay
+400% of one-way fare (airlines may limit the compensation to $1,550 if 400% of the one-way fare is higher than $1,550)
+
+When will I receive compensation if I am eligible to receive it?
+Following a bumping incident, airlines must offer passengers compensation at the airport on the same day. 
+	 
+If the airline provides substitute transportation that leaves the airport before the airline can pay the passenger, the airline must pay the passenger within 24 hours of the bumping incident.   
+Is there is a limit on how much money airlines are allowed to give me when I am involuntarily bumped?
+No.  Although airlines are required to give you a certain amount of money by law, airlines are free to give you more money than is required if they want to.
+Other Reasons You May Be Removed From a Flight
+An airline can refuse to transport a passenger for the reasons listed in its contract of carriage, a legal agreement between the passenger and airline, so long as the refusal is not discriminatory, such as:
+Being intoxicated or under the influence of illegal drugs.
+	 
+Attempting to interfere with the duties of a flight crew member.
+	 
+Disrupting flight operations or engaging in unruly behavior.
+	 
+Having an offensive odor that is not caused by a disability or illness.
+FAA regulations state that �no person may assault, threaten, intimidate, or interfere with a crewmember in the performance of the crewmember�s duties aboard an aircraft being operated.�  
+To read the federal regulation implementing these rules, click here.
+
+
+
+
+- Buying a Ticket
+Before You Buy a Ticket
+Comparing ticket prices, analyzing ticket restrictions, and comparing the cost of optional services is all part of the ticket buying process.� DOT has in place passenger protection requirements to make this process easier for consumers.
+Comparing Ticket Prices 
+It is relatively easy to compare ticket prices using the internet (through airline websites, online travel agencies, etc.).� DOT requires airlines and travel agencies that display ticket prices to advertise the total price that a consumer must pay to purchase a ticket.� Wherever an airfare is advertised, such as on a website, in an email, or during the booking process, the fare price must include all applicable government taxes and fees, and any mandatory carrier-imposed surcharges.�
+Taxes, fees, and Surcharges - When the total ticket price is displayed to a consumer, airlines and ticket agents (travel agents and online travel agents) may break down the fees included in the total ticket price.� However, the total ticket price must be more prominent than the breakdown of the charges.
+Restrictions on Tickets
+Airlines are free to create different ticket types with different types of restrictions (fare classes).� While some tickets are fully-refundable and may include two free checked bags, free drinks, a seat assignment, and other amenities, other tickets may provide only transportation on the airplane and may be non-refundable.� It is important that you understand the type of ticket you are purchasing and what types of restrictions apply.�
+Note:� Generally, discounted tickets have the strictest rules such as non-refundability, baggage restrictions, and the absence of a seat assignment.� In contrast, first class or business class tickets typically are the least restrictive and provide many amenities to consumers.�
+Purchasing Optional Services 
+Optional services are amenities that airlines provide to consumers that are separate from the consumer�s ability to travel on an airplane after buying a ticket.� While purchasing a ticket may give you the ability to travel on a flight, purchasing an optional service (for example - onboard Wi-Fi) gives you the ability to obtain an additional service.�
+Optional services on some airlines may include:
+	�
+	Advance seat selection
+Baggage Fees
+Onboard meals, snacks, or drinks
+Onboard Wi-Fi
+Pet travel
+Priority check-in
+Travel insurance
+Unaccompanied minor fees
+
+Airlines and ticket agents are prohibited from automatically including optional services in the ticket price.� For example, an airline cannot preselect optional services such as on-board Wi-Fi, baggage fees, extra legroom, and other optional services during the booking process thereby forcing the consumer to opt-out of these services (and additional charges) by unselecting them.�
+	�
+Optional services can be added to the total airfare to be paid by the consumer only if the consumer agrees to pay a fee for such a service (for example - by checking a box to select a particular optional service or by taking some other affirmative action).�
+How can I find out about an airline�s baggage fees?
+Airlines are required to provide information about their baggage fees through: 1) a clear link from the airline�s homepage to a page or place on the airline�s website that displays all of the airline�s baggage fees and other optional service fees, and 2) a link on the first screen that appears with a fare quotation for a specific itinerary.
+
+Note:� Airlines may have additional charges and restrictions for overweight and oversized baggage.� This information should be displayed on the carrier�s optional services and baggage fees page.� You may wish to check the carrier�s baggage policies before you book your ticket.
+
+Do I have to pay a baggage fee for my assistive device?
+No.�Airlines cannot charge you a fee for traveling with an assistive device.� For more information, please visit our assistive devices webpage.
+Purchasing a ticket through a travel agency
+Passengers often book air travel through travel agencies.� When you purchase a ticket through a travel agency or agent, you are not buying a ticket directly from the airline.� You are allowing the agency or agent to find and book air travel on your behalf.�
+If you encounter any problems with your ticket during your travel, you should first contact the travel agency or agent directly.� The airline that you are flying on may be limited in the type of assistance that it can provide to you because you did not purchase your ticket directly from it.� You should check with your travel agent for any restrictions on these tickets.
+Which airline is operating your flight?
+Sometimes when you book a ticket, the airline that you purchase the ticket from will not be the airline operating your flight.�Airlines often partner with each other so that one airline markets a flight to consumers (displays a ticket price and sells a ticket) while another airline is responsible for operating the flight (flying you to your destination).�When airlines engage in such an arrangement (code-sharing) they are required to clearly and prominently identify the airline that is operating the flight(s).� During the booking process, this information must be clearly and prominently displayed on the first screen that appears following a search for a specific itinerary.�Airlines cannot provide code-share disclosures through roll-overs, pop-ups, and hyper-links.�Airlines are also required to clearly and prominently identify code-share partners in all advertisements and on ticket confirmations following the purchase of air fare.�
+After You Buy a Ticket
+After purchasing an airline ticket, you may have questions or concerns about the ticket that you bought. For instance, you may want a refund because you bought a ticket for the wrong day or you may want to change your name on the ticket because you spelled it incorrectly during the booking process.�
+Cancelling or refunding a ticket within 24-hours of booking
+For airline tickets that are purchased at least seven days before a flight�s scheduled departure, airlines are required to either:
+	�
+	allow passengers to cancel their reservation within 24 hours and receive a full refund without a penalty, or
+		�
+allow passengers to reserve a ticket (place it on hold) at the quoted price without paying for the ticket for 24 hours
+		�
+
+Airlines are not required to offer both a hold and a refund option.� Check your airline�s policy before purchasing a ticket.�
+	�
+Although airlines must hold a reservation for 24 hours or provide a refund to passengers at their request within 24 hours of making a reservation, airlines are not required to make changes to a ticket free of charge (for example - change your ticket to a different date or correct a misspelled name on the reservation).
+	�
+	Note:� In some cases, instead of paying for a ticket change fee and a potential difference between the original ticket price and the current ticket price, it may be cheaper to request a refund for the ticket and rebook.� However, please keep in mind that ticket prices can change quickly.
+		�
+
+When a refund is due, it must be issued to passengers within seven business days for credit card transactions and 20 business days for cash or check payments.
+	�
+The refund/reservation requirement for airlines does not apply to tickets booked through online travel agencies, travel agents, or other third-party agents.�However, these agents are free to apply the same or similar procedures to provide equivalent or similar customer service.� If you purchased your ticket through an online travel agency (or other agent), you should contact the travel agent directly to obtain a refund before contacting the airline.
+Can an airline increase the price of my ticket after I complete the booking process?
+After a ticket is fully purchased � with either money or points � and the transaction is completed, the airline is prohibited from increasing the price of the ticket or requiring the passenger to pay additional money unless the airline provided notice to the consumer of the potential for an increase in a government imposed tax or fee and obtained the consumer�s consent.
+	�
+Some airlines and other sellers of airline tickets allow consumers to pay for a portion of the air travel up front.� In this case, the airline or other seller can increase the cost of the airfare after a partial payment has been made IF, before the consumer pays for a portion of the ticket, the airline discloses that the ticket price might increase after the partial payment has been made AND the consumer consents.
+	�
+Sometimes, due to computer errors, airlines may offer a fare by mistake.� For example, an airline may accidentally list a first-class ticket from New York to Dubai for $1, a price far lower than the typical fare price.� When this happens, airlines may cancel any reservations booked at the mistaken fare price, but airlines are required to reimburse consumers for the full ticket price, all optional services purchased, and any reasonable, actual, and verifiable out-of-pocket expenses that were made in reliance upon the ticket purchase (for example, non-refundable hotel or rental car reservations).�
+Are airlines required to provide me with the appropriate travel documentation to complete international travel (for example, a visa)?
+No, airlines are not required to provide you with appropriate travel documents to complete international travel.� It is your responsibility to ensure that you have all the valid travel documents required to complete travel.� If you do not arrive at the airport with proper travel documentation, you will not be allowed to travel.
+
+
+
+
+- Charter Flights
+When passengers travel on an airplane, they usually take a scheduled flight.� Scheduled flights operate according to pre-published schedules for departures and arrivals from one destination to another.� However, another option for travel is a charter flight, which is different from a scheduled flight.�
+A charter flight is a flight that is not part of an airline�s published schedule.� For example, an airline will not post on its website that the airline will operate a flight from Point A to Point B at 3pm every Wednesday.� Instead, charter flights are typically operated for specific unscheduled itineraries. There are many different types of charter flights, including:
+Public Charters �
+Special Event Tours �
+Affinity (pro rata) Charters �
+Single Entity Charters
+Traveling with a Disability on a Charter Flight
+Airlines operating charter flights (direct air carriers) are required to comply with the Air Carrier Access Act (ACAA) and the Department of Transportation�s disability regulations. ��The ACAA is a law that makes it unlawful to discriminate against air travelers because they have a disability.� DOT is responsible for enforcing the ACAA and its implementing regulations, which applies to all flights to, from, or within the United States.�
+	�
+Companies that sell tickets on public charter flights but do not operate the flights are known as public charter operators.� Public charter operators must accommodate passengers with disabilities if they provide facilities or services that would have been provided by a direct air carrier.�
+	�
+	For example, ABC Airlines uses its aircraft and crew to operate a flight for Tropical Vacations (the public charter operator).� Tropical Vacations sells seats on the flight to members of the public.� In this case, Tropical Vacations must comply with DOT�s rule implementing the ACAA if Tropical Vacations provides check-in service, gate agents, wheelchair service, or other air transportation-related services at the airport as these are the services that typically would have been provided by the direct air carrier.
+		�
+
+For more information about the ACAA or traveling with a disability, please visit our Traveling with a Disability webpage.
+Baggage Liability on a Charter Flight
+DOT�s domestic baggage liability rules apply to all domestic charter flights, regardless of their type, that are operated on an aircraft designed to hold more than 60 seats.
+	�
+The domestic baggage liability requirements for public charter flights are the same as the requirements that apply to scheduled flights.�� For more information on these requirements, please visit our Baggage Liability webpage.
+	�
+Additionally, the Montreal Convention (a treaty that includes international baggage liability rules) applies to some international charter flights.� For more information on the provisions of the Montreal Convention, please visit our Baggage Liability webpage.
+Public Charters
+Typically, a public charter exists when a person or company contracts for the operation of an aircraft to and from a destination and then advertises and sells seats to members of the public, either directly or through a travel agent. �The company may be an airline or other entity such as a tour or vacation package company.� Some public charters operate only seasonally, and are often sold as part of a vacation package deal.� Public charter flights may provide excellent value and they often operate nonstop between cities.�
+How do I find out who is operating my public charter flight?
+All sales materials, including advertisements and price quotes, must include the name of the airline that will operate the flight and provide crewmembers to staff the flight.
+Is the public charter that I am taking approved?
+Check to make sure the public charter you are booking is approved.� The Department must approve a public charter �prospectus� that lists the flights a public charter operator wants to sell before it can sell any seat on those flights. �You can determine whether your public charter has an approved public charter prospectus by the U.S. Department of Transportation by visiting the Public Charter webpage. Once on the webpage, scroll to �List of Public Charters� and choose the year applicable to your travel.
+Do I have to sign a contract when I take a public charter?
+Yes. When you purchase a ticket for a public charter, you must also enter into an operator-participant agreement with a public charter company as a charter �participant.� �Your rights are outlined in the operator-participant contract, which must be signed by you before you travel. You have the right to receive this contract prior to making a booking, and you have the right to a full refund of any charges made to your credit card if you cancel your booking before signing the operator-participant contract.
+	�
+Note:� Most operator-participant contracts are now electronic and are provided to consumers during the booking process.� In many cases, your agreement to the terms is incorporated into the booking process.�
+Tarmac delays during public charter flights
+A tarmac delay occurs when an airplane on the ground is either awaiting takeoff or has just landed and passengers do not have the opportunity to get off the plane.� DOT�s tarmac delay rule applies to public charter flights but does not apply to other types of charter flights.
+Responsible Party - The company flying the airplane and providing staff to assist in operating the airplane (the direct air carrier) is responsible for complying with DOT�s tarmac delay rules.
+	�
+Applies at U.S. Airports - The DOT tarmac delay rule does not apply to public charter flight operations at all airports.� The Department�s tarmac delay rule applies only to public charter flights that experience a tarmac delay at a U.S. airport.
+	�
+Size of Aircraft Matters - DOT�s tarmac delay rule applies only to carriers with at least one aircraft in their fleet with a designed seating capacity of 30 or more seats who operate to, from, or within the United States.�
+	�
+Passenger Rights During a Tarmac Delay - The requirements for public charter flights are the same as the requirements applicable to scheduled flights.� For more information on these requirements, please visit our Tarmac Delay webpage.�
+Refunds due to a cancellation or major change
+If you purchase a ticket on a public charter, the public charter company is required to notify you in writing if the charter will be cancelled or undergo a major change. �The company has seven days to notify you of the cancellation or major change if the scheduled departure date is at least 10 days away.� If the scheduled departure date is less than 10 days away, the company must notify you in writing as soon as possible. A public charter company can only cancel a charter within 10 days of the flight if there are circumstances that make it physically impossible to perform the charter trip.
+	�
+Major changes include:
+	�
+	A change in departure or return city (not including a simple change in the order in which cities are visited).
+		�
+A change in departure or return date, unless the date change results from a flight delay. (However, a flight delay of more than 48 hours is a major change).
+		�
+A substitution of a hotel that was not named as an alternate hotel in your contract.
+		�
+An increase in price, if the total of all increases billed to you is more than 10% of what you originally paid. (No increases are allowed during the last 10 days before departure.)
+		�
+
+If the charter flight is cancelled, you are entitled to receive a refund within 14 days of the cancellation. If the charter company announces a major change to the charter trip prior to departure, you may cancel your trip within seven days of the major change, or up until the scheduled departure of the trip, whichever is earlier, for a full refund. �
+	�
+If the charter operator has not announced a major change to your trip, but you cancel your travel plans, your right to a refund may be limited. �Additionally, you may not be entitled to a refund if your flight experiences a flight delay or a last-minute schedule change that changes the flight departure time by 48 hours or less. Furthermore, you may not be entitled to a refund if the charter company increases the cost of your trip by 10% or less ten or more days before departure.
+	�
+If you pay for your trip using a credit card, you may also have some protection through your credit card company if the charter operator failed to provide you with the transportation or a refund.
+	�
+Under the Department�s public charter rule, passenger funds are protected.� For example, passengers who do not receive refunds from the public charter operator may file a claim within 60 days of the termination of the charter.� Details on where and how to file such a claim can be found in the operator-participant contract.
+Special Event Tours
+A special event tour is a type of public charter that is organized for the purpose of attending a sporting, social, religious, educational, cultural, political, or other event of a special nature and limited duration, which exists for reasons separate from the air transportation itself � for example, a tour operator who sells admission to college and/or professional sporting events, the Olympics, concerts, or other events along with air transportation to the event.
+Note:� For these charters, the operator of the tour/event must make it clear that the charter flight includes admission to the event.�
+Advertising a Special Event Tour
+Specific rules apply to situations where an organization offers tickets to a game or other special event that are purchased with the cost of the flight to the event, whether it is a charter or a regularly scheduled flight.
+Any operator marketing an air package that is promoted as including tickets to a game or special event must have the tickets in hand or have a written contract for the tickets at the time of each sale. �DOT cautions travelers that if a game or event ticket is not specifically mentioned in advertisements or other solicitation material or listed as a tour feature, the ticket is probably not included. �
+Price Increases for Special Event Tours
+Special Event Tour Operators can increase the price of a tour, but the amount of the increase and the timing of the increase matter, specifically:
+Amount of the price increase - If the tour operator increases a participant�s total tour price by more than 10 percent, that participant has the option of canceling his or her participation in the tour and receiving a full refund within 14 days after the cancellation.
+	�
+Timing of the price increase - The tour operator cannot increase the tour price to any participant less than ten days before departure.
+Receiving a Refund for a Special Event Tour
+If a tour operator does not provide a consumer with admission to an advertised event at the advertised price agreed to before departure, the operator must provide the consumer with a refund of the total tour price.� This refund must be provided within 14 calendar days after the scheduled return date of the charter flight.� If a tour operator advertises a ticket combined with air transportation but does not provide the ticket with the advertised air transportation, consumers may file a complaint with the U.S. Department of Transportation�s Aviation Consumer Protection Division.
+Affinity Charters
+If your flight has been arranged by a club or other organization for its members, it may be what is called an "affinity" charter flight. �Affinity charters are charter flights where all passengers are members of a specific group or organization and pay for their own airfare individually.� These charters generally do not carry the consumer protection provisions of Public Charters. �It is important for you to understand the type of charter flight you are purchasing.
+Membership Requirements
+When an organization arranges an Affinity Charter for its members, the members of the organization:
+Cannot have joined the organization merely to travel on the affinity charter flight, and
+	�
+Must be members of the organization for a minimum of six months before the date of the charter flight, unless:
+	�
+	Note:� The �six-month rule� does not apply to:
+		�
+		Employees of a single commercial establishment, industrial plant, or government agency, or
+			�
+Students and employees of a single school.
+
+
+Affinity Charter Pricing
+The price for each ticket to fly on an Affinity Charter must be the same for all adult members taking the charter flight.� Children under the age of 12 years old may be offered discounted or free transportation.
+Single Entity Charters
+A single entity charter exists when an individual or company contracts and pays for the operation of an entire airplane (as opposed to one or two seats, or a group of seats, on an airplane).� Individuals passengers on single entity charters do not pay their own airfare.� The individual or company that contracted for the operation of the airplane must bear the entire cost of travel and cannot sell individual seats on the aircraft.� For example, when a professional basketball team charters an entire aircraft to fly the basketball team and accompanying staff to games, the basketball players and accompanying staff do not pay for their individual seats on the aircraft.�
+Note:� A single entity charter also exists when a group of individuals, who have self-aggregated, form a single entity for flights to be operated using small aircraft.
+
+
+
+

@@ -1,0 +1,2204 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JetBlue Airways
+JetBlue Airways Contract of Carriage
+Domestic transportation and international transportation by JetBlue Airways Corporation
+(“Carrier” or “JetBlue”) is subject to the terms and conditions contained in this Contract
+of Carriage and, where applicable, also subject to treaties, government regulations,
+and tariffs on file with the U.S. Department of Transportation, as well as any terms,
+conditions, and/or restrictions applicable to your booking channel. If your itinerary
+involves travel on a flight operated by a JetBlue Codeshare Partner (as defined below),
+please see Section 35. If your itinerary involves travel on a flight operated by a
+JetBlue interline partner, please see Section 36. By making a reservation or accepting
+transportation on Carrier, each Passenger (as defined below) agrees to be bound by
+all of the following terms and conditions.
+1. Definitions
+Assistive Device refers to any piece of equipment that assists an Individual with a
+Disability to cope with the effects of his or her disability, and may include medical devices
+and medications.
+Battery-Powered Mobility Aid refers to an assistive device used by individuals with
+mobility impairments such as a wheelchair, scooter or a Segway when it is used as a
+mobility device by a person with a mobility-related disability.
+Blue Basic Fare, Blue Fare, Blue Plus Fare, Blue Extra Fare, and Mint refer
+to fare options offered for purchase. Details regarding fare options are available at
+www.jetblue.com/fares.
+Carriage refers to the transportation of passengers and/or baggage by air, together with
+any related services of Carrier in connection with such transportation.
+Carrier means JetBlue Airways Corporation.
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-1
+JetBlue Airways
+Codeshare Partner means another airline operating a flight on which Carrier has placed
+its airline designator code, “B6.”
+Confirmed Reservation means a space on a specific date and on a specific flight and in
+a specific class of service of Carrier which has been requested by a Passenger, including
+a Passenger with a “Zero Fare Ticket,” and which Carrier or its agent has verified, by
+appropriate notation on the ticket or in any other manner provided therefore by Carrier,
+as being reserved for the accommodation of the Passenger.
+Controllable Irregularity as used in Section 38, means a delay, cancellation or diversion
+that is not caused by a Force Majeure Event. For the sake of clarity, if in a chain of
+multiple events, the original irregularity is due to a Force Majeure Event, the cause of the
+subsequent event(s) reasonably related to the original irregularity shall not be deemed a
+Controllable Irregularity.
+Convention means, whichever of the following applies:
+• Convention for the Unification of Certain Rules Relating to International Carriage
+By Air, signed at Warsaw, October 12, 1929 (“Warsaw Convention”).
+• Warsaw Convention, as Amended at the Hague, 1955 (“Hague Protocol”).
+• Warsaw Convention, as Amended at the Hague, 1955 and by Protocol No. 4 of
+Montreal, 1975 (“Montreal Protocol No. 4”).
+• Convention for the Unification of Certain Rules for International Carriage By Air
+done at Montreal 1999 (“Montreal Convention”).
+Credit shall mean a credit in a specified dollar amount valid for one (1) year from the date
+of issuance if issued before March 8, 2023, and one (1) year from the booking date of the
+original ticket if issued on or after March 8, 2023. A Credit must be used (travel booked)
+during its validity period. Credits are non-transferable unless otherwise stated herein.
+Departure Delay, as used in Sections 37 and 38, means a delay prior to pushback
+from the Gate.
+Force Majeure Event means an event(s) outside of JetBlue’s reasonable control
+which includes, but is not limited to, weather conditions; acts of government or airport
+authorities (e.g., Air Traffic Control Delays, runway closures, airport construction); acts
+of God; U.S. military or airlift emergency or substantially expanded U.S. military airlift
+requirements, as determined by the U.S. government; grounding of a substantial number
+of aircraft as a result of activation of the U.S. Civil Reserve Air Fleet; strikes or labor
+unrest; civil commotions, embargoes, wars or other hostilities, whether actual, threatened
+or reported; government regulation, demand or requirement; damage to aircraft caused
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-2
+JetBlue Airways
+by a third-party; emergency situation requiring care, protection or response to protect
+person or property or any event that is not reasonably foreseen, predicted or anticipated
+by JetBlue.
+Gate means either where a plane loads or deplanes Passengers into a terminal building
+via a jetbridge or, in the case of a hardstand, via a people mover, bus, or air stairs.
+Ground Delay, as used in Section 37, means a delay involving a flight that, in the case
+of departures, has boarded and pushed back from the Gate but that is not in the air and,
+in the case of arrivals, has landed but has not yet arrived at a Gate.
+Individual with a Disability is an individual or Passenger who:
+a. has a physical or mental impairment that, on a permanent or temporary
+b. basis, substantially limits one or more major life activities,
+c. has a record of such an impairment, or is regarded as having such an
+impairment, as further defined in U.S. Department of Transportation regulations
+in 14 CFR Part 382.3 or Regulation (EC) No. 1107/2006, as applicable.
+Interline Transportation means carriage on more than one carrier where carriers agree
+to accept each other’s tickets and baggage.
+Mint refers to Carrier’s premium service fare option. Details regarding Mint service are
+available at http://www.jetblue.com/flying-on-jetblue/mint/.
+Non-Revenue Passenger is a Passenger who is traveling on a JetBlue travel certificate,
+an employee pass, a travel pass issued to JetBlue employees for transfer to family and
+friends (known as a “Buddy Pass”), a JetBlue frequent flyer program award (known as
+a “TrueBlue Award” or “True Pass”), VIP pass, Travel Card, other airline employees
+traveling free of charge or at a reduced rate.
+Passenger is any person, except members of the crew working the flight, who enters into
+a contract of transportation or other agreement (or for whom a contract of transportation
+or other agreement is entered into) with Carrier by which the person is to be transported
+in an aircraft with the consent of Carrier. A person who is identified, at any time and in
+any way, as a knowing participant in the commission of a War Risk Occurrence shall not
+be considered to be a “Passenger” for the purposes of this Contract of Carriage.
+Qualified Individual with a Disability means a Passenger or individual with a disability
+who:
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-3
+JetBlue Airways
+a. with respect to accompanying or meeting a traveler, use of ground
+transportation, use of terminal facilities or obtaining information about
+schedules, fares or policies, takes those actions necessary to avail himself or
+herself of facilities or services offered by Carrier to the general public, with
+reasonable accommodations, as needed, provided by Carrier;
+b. with respect to obtaining a reservation for air transportation on Carrier, offers
+or makes a good faith attempt to offer to purchase or otherwise to validly
+obtain a reservation;
+c. with respect to obtaining air transportation on other services or accommodations
+required by U.S. Department of Transportation regulations in 14 CFR Part 382:
+1. purchases or possesses a valid reservation for air transportation on
+Carrier and presents himself or herself at the airport for the purpose
+of traveling on the flight for which the ticket has been purchased or
+obtained;
+2. meets reasonable, nondiscriminatory Contract of Carriage requirements
+applicable to all Passengers; and
+3. whose carriage will not violate the requirements of Federal Aviation
+Regulations or, in the reasonable expectation of Carrier personnel,
+jeopardize the safe completion of the flight or the health or safety of
+other persons.
+Service Animal refers to a dog, regardless of breed or type, that is individually trained
+to do work or perform tasks for the benefit of a Qualified Individual with a Disability,
+including a physical, sensory, psychiatric, intellectual, or other mental disability.
+Stopover refers to a deliberate interruption of a journey by a Passenger, scheduled to
+exceed four (4) hours, at a point between the place of departure and the final destination.
+Tariffs mean the international passenger rules tariffs publicly filed with the U.S.
+Department of Transportation.
+Uncontrollable Irregularity, as used in Section 37, means a delay, cancellation or
+diversion that is caused by a Force Majeure Event. For the sake of clarity, if in a chain of
+multiple events, the original irregularity is due to a Force Majeure Event, the cause of the
+subsequent event(s) reasonably related to the original irregularity shall be deemed an
+Uncontrollable Irregularity.
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-4
+
+
+
+
+
+JetBlue Airways
+Zero Fare Ticket means a ticket acquired without a substantial monetary payment
+such as by using frequent flier miles or vouchers, or a consolidator ticket obtained after
+a monetary payment that does not show a fare amount on the ticket. A Zero Fare
+Ticket does not include free or reduced rate air transportation provided to employees
+and guests.
+2. Nature of Contract
+This Contract of Carriage applies to and governs Carrier's routes only. No agent, servant
+or representative of Carrier has authority to change or waive any provision of this
+Contract of Carriage, unless authorized in writing by a corporate officer of Carrier. Unless
+otherwise prohibited by law, this Contract constitutes the entire agreement between
+Carrier and Passenger or the party on behalf of whom this contract was entered.
+3. Reservations
+a. All reservations on Carrier are confirmed and delivered electronically.
+b. No person shall be entitled to transportation without a valid, Confirmed
+Reservation. No reservation shall be considered a Confirmed Reservation
+if purchase is not completed at least thirty (30) minutes prior to scheduled
+departure and until payment in full has been received. No reservation paid by
+credit card shall be considered a Confirmed Reservation if the transaction is
+not accepted by Carrier for any reason, whether or not Passenger is notified
+that the reservation has been cancelled.
+c. Name changes are only permitted in the case of refundable fares. All other
+reservations are non-transferable and non-assignable. Non-refundable fares
+may only be used by the Passenger named on the reservation at the time the
+reservation is made.
+d. Carrier reserves the right to refuse carriage to any person who has acquired
+a reservation in violation of applicable law or Carrier’s rules and regulations,
+or without legal capacity to contract.
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-5
+JetBlue Airways
+e. Seat assignments are not guaranteed and are subject to change without notice.
+Passenger may not occupy a seat other than the seat(s) to which Passenger is
+assigned except when so authorized or instructed by crewmembers on duty.
+4. Changes, Cancellations, and Refunds
+a. Non-Refundable Fares
+a. Changes
+a. Non-refundable fares, with the exception of Blue Basic Fares,
+may be changed prior to the scheduled departure time without
+penalty, subject to availability and any applicable fare difference.
+Blue Basic Fares may be changed prior to the scheduled
+departure time for up to a Two Hundred Dollar ($200) or
+One Hundred and Fifty Pound (£150) change fee, subject to
+availability and any applicable fare difference.
+b. Cancellations:
+a. Non-refundable fares may be cancelled prior to the scheduled
+departure time for a Credit for future air-only travel on Carrier.
+Refunds are not allowed. Credit is issued without penalty,
+except Blue Basic Fares, for which Credit is subject to up to a
+Two Hundred Dollar ($200) or One Hundred and Fifty Pound
+(£150) service fee.
+b. Credit may be used to book a new air-only reservation on
+Carrier in the name of the Passenger or in the name of any
+other person designated by the Passenger. Failure to cancel
+prior to scheduled departure will result in the cancellation of
+all remaining segments associated with the reservation and
+forfeiture of fare and any fees for ancillary products or services
+purchased. In the event of cancellation of a non-refundable fare,
+taxes and fees will be included in the Credit where permitted by
+applicable law. Taxes and fees will not be refunded except when
+required by applicable law and, where permitted, only upon
+written request by Passenger.
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-6
+JetBlue Airways
+c. Standby Travel:
+In the case of reservations for non-refundable fares for travel that
+does not involve (i) a change in departure city or arrival city, or (ii) a
+change between a JetBlue-operated flight and a JetBlue flight that
+contains a segment operated by a Codeshare Partner or interline
+partner, Passengers may change their reservation to standby travel for
+the flight immediately preceding their original departure with payment
+of the additional service fee applicable to the fare option purchased.
+Passengers may not change their reservation to standby travel for the
+flight immediately preceding their original departure if such a change
+would result in changing the date of travel, a change in the departure
+city or arrival city, or a change between a JetBlue-operated flight and a
+JetBlue flight that contains a segment operated by a JetBlue Codeshare
+Partner or interline partner.
+d. Following receipt of payment from a Passenger, JetBlue will allow a
+reservation to be held at the quoted fare for twenty-four (24) hours, if
+the reservation is made at least one week prior to the flight’s departure.
+If such reservation is canceled within twenty-four (24) hours of booking,
+Passenger will receive a full refund without assessment of a cancellation
+fee.
+2. Federal Government Fares:
+1. Changes: Fully refundable Federal Government Fares may be changed
+at any time subject to availability and any applicable fare difference.
+2. Cancellations: Fully refundable Federal Government Fares may be
+cancelled at any time and Passenger will receive a full refund. Fare
+refunds will be made by Carrier to the original form of payment.
+3. Refunds: Refunds shall be made by Carrier to the original form of
+payment, except that when a portion of the trip has been made, the
+refund will be made in an amount equal to the applicable one-way fare
+(less any applicable discount) for the portion of the trip cancelled or not
+operated as scheduled by Carrier.
+3. Refundable Fares:
+1. Changes:
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-7
+JetBlue Airways
+The fare paid for a Passenger who purchases a fully refundable ticket
+may be changed at any time prior to scheduled departure, subject to
+availability and any applicable fare difference. If the reservation is not
+changed prior to scheduled departure, all money associated with the
+fare will be a Credit valid for future travel on JetBlue.
+2. Cancellations:
+Reservations for refundable fares may be cancelled at any time prior to
+scheduled departure and Passenger will receive a full refund. Failure
+to cancel prior to scheduled departure will result in the cancellation of
+all remaining segments associated with the reservation and all money
+associated with the fare will be a Credit valid for future travel on JetBlue.
+3. Refunds:
+For Passengers who are eligible to receive a refund under this Section,
+refunds shall be made by Carrier to the original form of payment,
+except that when a portion of the trip has been made, the refund will
+be made in an amount equal to the applicable one-way fare (less any
+applicable discount) for the portion of the trip cancelled or not operated
+as scheduled by Carrier.
+4. Combined Fares
+Where one leg of a fare is ticketed as a refundable fare and another leg of a
+fare is ticketed as a non-refundable fare, the applicable refund and cancellation
+policies for refundable fares will apply only to the refundable portion and the
+applicable refund and cancellation policies for the non-refundable fare will
+apply to the non-refundable portion.
+5. Failure of a Passenger to adhere to the following time requirements may result
+in the cancellation of the Passenger’s reservation, seat assignments and
+forfeiture of payment:
+1. For domestic travel:
+a. Passengers traveling without checked baggage must have
+obtained a boarding pass thirty (30) minutes prior to scheduled
+departure;
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-8
+
+
+
+
+
+
+
+
+
+JetBlue Airways
+b. Passengers traveling with checked baggage must have obtained
+a boarding pass and have dropped off their baggage forty (40)
+minutes prior to scheduled departure; and
+c. All Passengers must be onboard the aircraft fifteen (15) minutes
+prior to scheduled or posted aircraft departure time.
+2. For international travel:
+a. Passengers traveling with or without checked baggage must
+have obtained a boarding pass and have dropped off their
+baggage sixty (60) minutes prior to scheduled departure; and
+b. All Passengers must be onboard the aircraft fifteen (15) minutes
+prior to scheduled or posted aircraft departure time.
+6. Carrier will refuse to honor any reservation when such action is reasonably
+deemed to be necessary to comply with applicable governmental regulations
+or requests.
+7. Except in the case of Federal Government Fares, when a round trip or
+multi-segment reservation has been made and the Passenger fails to honor
+his or her reservation for the first portion of the trip, Carrier will cancel, without
+notification, the return portion or the continuing portion of the Passenger's
+reservation and Passenger forfeits any remaining fare.
+8. If part of your itinerary involves travel on an interline partner, please see
+Section 36 for information regarding changes, cancellations and refunds.
+5. Group Reservations
+Reservations for eight (8) or nine (9) Passengers traveling on the same itinerary may
+be made by calling 1-800-JETBLUE. Reservations for ten (10) or more Passengers
+traveling on the same itinerary must be made through Carrier’s Group Desk. Refundable
+fares are not available for group reservations. If a group reservation is canceled within
+twenty-four (24) hours of booking and such reservation is made one week or more
+prior to the flight’s departure, payment will be refunded in full without assessment of a
+cancellation fee. Such refund will include any deposit that a party or individual is required
+to make at the time of booking. Such group reservations are subject to all applicable
+group policies and procedures established by Carrier.
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-9
+JetBlue Airways
+6. Fares
+a. Transportation on Carrier is subject to the fares, taxes and charges in effect
+on the date on which the Confirmed Reservation was made. If the reservation
+has been confirmed and e-ticket issued before an increase in the fare becomes
+effective, the reservation shall be honored for transportation as purchased. If
+the fare decreases after a Confirmed Reservation has been made and e-ticket
+issued, Carrier will not refund, credit or make any adjustment to the original fare.
+b. Fares apply only between the points named and via the routing as shown in
+Carrier’s current schedule and are not applicable to or from intermediate points.
+c. Carrier has non-refundable fares and refundable fares. Refundable fares
+may not be available on all flights. Refundable fares are not available for
+group reservations (as further explained in Section 5). Refundable Federal
+Government Fares are available only to travelers who utilize a SmartPay
+government issued credit card or GTRs. Federal Government Fares are not
+available to the general public.
+d. No Stopovers are permitted on published fares, except upon combination of
+local fares.
+e. Carrier does not offer special fares for infants, children, senior citizens, military
+personnel or any other category of passenger, except Federal Government
+employees.
+f. Carrier reserves the right to collect additional taxes, fees or charges imposed
+by a governmental entity after the reservation has been made and paid for,
+but before transportation commences.
+7. Unaccompanied Minors
+a. Carrier will not allow any child under the age of five (5) years to travel on any
+flight unless accompanied by a Passenger fourteen (14) years of age or older.
+b. Subject to an additional fee, unaccompanied children between the ages of five
+(5) and under fourteen (14) years will be accepted by Carrier, provided the
+child has a Confirmed Reservation, and the flight on which he/she travels is a
+non-stop flight. Unaccompanied children will not be accepted on flights with
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-10
+JetBlue Airways
+intermediate stops, on connecting flights or on Carrier’s flights to and from
+London. The parent or adult guardian/custodian must provide Carrier with
+the completed Unaccompanied Minor Form, evidencing that the child will be
+met by another parent or adult guardian/custodian upon deplaning at his/her
+destination. The person meeting the child at his/her destination will be required
+to present positive identification and sign a release on the Form. The terms
+and conditions of the Form are hereby incorporated by reference.
+c. Passengers fourteen (14) years of age or older are considered adults for
+purposes of this Section.
+d. Carrier reserves the right to limit the number of unaccompanied minors on any
+flight in the interest of safety, and such determination is made solely at the
+discretion of Carrier. Should Carrier refuse carriage to any unaccompanied
+minor on this basis, no recovery is available under Section 27 or 37, but Carrier
+will endeavor to accommodate the unaccompanied minor on the next available
+flight.
+e. Carrier will assign seating to unaccompanied minors entirely at its discretion. If
+any additional fees were collected by Carrier for the purpose of a particular seat
+assignment for the unaccompanied minor, an appropriate refund will be issued.
+f. If any part of the itinerary involves travel on a Codeshare Partner, please see
+Section 35 and if any part of the itinerary involves travel on an interline partner,
+please see Section 36 for differences regarding additional requirements that
+may apply.
+8. Infants and Small Children; Child Restraint Systems
+a. Carrier encourages all adults traveling with children under the age of two (2)
+years to secure the child in an approved car seat or child restraint system in
+the child’s own, purchased seat. A paying adult Passenger may carry, free
+of charge, on his or her lap, one child over three (3) days and under two (2)
+years of age. For Passengers departing from international destinations with
+lap infants, Carrier will collect APHIS (Department of Agriculture) and INS
+(Customs and Border Protection) taxes at the airport for the lap infant. Carrier
+reserves the right to request proof of age (e.g. passport, birth certificate or
+immunization record) before accepting an infant for travel as a lap child. Infants
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-11
+JetBlue Airways
+between three (3) and fourteen (14) days old must have written approval from
+their attending physician to travel. Carrier does not reserve a seat for such
+children unless a separate reservation is purchased at the regular, applicable
+fare.
+b. If a separate reservation has been made for the child over three (3) days and
+under two (2) years of age, the child may travel in a separate seat, provided
+that the child must be securely placed in an FAA-approved child restraint
+system that conforms to the following guidelines:
+1. Car seats manufactured on or after February 26, 1985 must bear two
+labels, (1) “THIS RESTRAINT IS CERTIFIED FOR USE IN MOTOR
+VEHICLES AND AIRCRAFT”, in red lettering; and (2) “THIS CHILD
+RESTRAINT SYSTEM CONFORMS TO ALL APPLICABLE FEDERAL
+MOTOR VEHICLE SAFETY STANDARDS,” this second statement
+need not be in red lettering.
+2. Car seats manufactured between 1981 and 1985 must state “THIS
+CHILD RESTRAINT SYSTEM CONFORMS TO ALL APPLICABLE
+FEDERAL MOTOR VEHICLE SAFETY STANDARDS.”
+3. FAA approved CARES Child Restraint System must state “FAA
+APPROVED IN ACCORDANCE WITH 14 CFR PART 21.305(D)
+APPROVED FOR AIRCRAFT USE ONLY.”
+4. Booster type seats, vest and harness type child restraint systems,
+lap held child restraints or seats manufactured before 1981 are not
+acceptable for use.
+5. Child restraint systems may not be used in an emergency exit row, aisle
+seat or middle seat if the window seat is occupied.
+6. It is the responsibility of the child’s parent or accompanying adult to
+ensure that the restraint device functions correctly, that the child is
+adequately secured by the device, that the child’s weight does not
+exceed applicable limitations and that the device has been properly
+secured to the aircraft seat.
+7. Children may not be placed in booster seats, restraint vests, restraint
+harnesses and other devices not meeting the FAA requirements set
+forth above.
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-12
+
+
+
+JetBlue Airways
+9. Inspection of Passengers and Baggage
+Baggage tendered for transportation either as checked baggage or as carry-on baggage
+is subject to inspection for security and safety reasons. Passengers and their baggage
+are subject to inspection with or without the Passenger's consent or knowledge.
+10. Carry-on Baggage
+a. All carry-on baggage must be stowed in an overhead bin or placed completely
+under the passenger seat directly in front of the Passenger. Carry-on baggage
+is the sole responsibility of the Passenger. Claims for lost, forgotten, or stolen
+carry-on baggage will not be accepted by Carrier, except as otherwise required
+by applicable law.
+b. For Blue Fare, Blue Plus Fare, Blue Extra Fare, and Mint, provided there is
+space for its stowage at the time the Passenger boards, each Passenger is
+restricted to one (1) carry-on item that must be placed in the overhead bin. On
+all aircraft, carry-on items must not exceed external dimensions of twenty-two
+inches by fourteen inches by nine inches (22” x 14” x 9”), except for musical
+instruments as set forth in Section 10F. In addition to the one (1) carry-on
+item, Passenger may carry a small personal item such as a purse, briefcase,
+laptop computer case, small backpack, or a small camera. The personal item
+must fit completely under the seat in front of the Passenger. On any given
+flight, Carrier reserves the right to further restrict the number of carry-on items
+as circumstances may require. For Blue Basic Fares, except for itineraries
+including travel on Carrier to or from the United Kingdom, Passengers are
+restricted to one (1) personal item, as described above, and a Passenger
+traveling on a Blue Basic Fare that brings any carry-on item, as described
+above, to the gate will incur the applicable excess baggage charges as
+described in Section 13 and the item will be handled as checked baggage.
+c. Mobility and other Assistive Devices upon which a Qualified Individual with a
+Disability is dependent may be carried in addition to the carry-on baggage
+allowance.
+d. Pets
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-13
+JetBlue Airways
+1. No animals are allowed to be transported on Carrier as checked
+baggage; however, Carrier will permit small dogs and cats to be
+transported by Passengers in-cabin (no other animals are allowed).
+Pets will not be permitted in Mint. Passengers are responsible for
+complying with any applicable laws and/or governmental regulations
+of the destination to and from which the animal is being transported,
+including furnishing valid health and rabies vaccination certificates when
+required. The charge to the Passenger for transporting a pet in-cabin
+is One Hundred and Twenty-Five Dollars ($125) per pet, each way. A
+Passenger may not transport more than one pet per flight. Payment
+must be made at the time the Passenger makes his or her reservation.
+2. All in-cabin pets must be transported in an approved kennel, with only
+one pet per kennel.
+3. In certain cases, search and rescue dogs may be permitted to travel on
+Carrier. A fee may apply.
+4. maximum of six pets may travel in-cabin on any flight.
+5. Refer to Section 34 for restrictions relating to travel to and from
+international destinations.
+6. If part of your itinerary involves travel on a Codeshare Partner, please
+see Section 35 for differences regarding acceptance of pets.
+7. If part of your itinerary involves travel on an interline partner, please see
+Section 36 for differences regarding acceptance of pets.
+e. Service Animals
+1. Carrier will accept Service Animals for use by Qualified Individuals with
+a Disability to accompany a Passenger on a flight at no charge. Only
+two Service Animals will be accepted per traveling Qualified Individual
+with a Disability and Service Animals must be harnessed, leashed,
+or otherwise tethered. Upon request, Carrier, or airport personnel, as
+applicable, will escort a Passenger with a Service Animal to an animal
+relief area at the airport.
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-14
+JetBlue Airways
+2. Carrier requires that a Passenger traveling with a Service Animal
+provide 48 hours’ advance notice prior to travel and the submission at
+the time of notice the applicable form attesting to the animal’s training
+and good behavior, and certifying the animal’s good health.
+3. Carrier will permit a Service Animal to accompany a Passenger who is a
+Qualified Individual with a Disability in any seat in which the Passenger
+sits, as long as the Service Animal fits within the Passenger’s foot space
+without obstructing an aisle or other area that must remain unobstructed
+in order to facilitate emergency evacuation. Service Animals may not
+occupy a seat.
+4. For travel to/from international destinations or to/from Puerto Rico or
+the U.S. Virgin Islands, certain additional health requirements may
+apply. Refer to Section 34 for restrictions relating to travel to and from
+international destinations.
+5. A trained Service Animal being delivered to its owner's domicile by a
+trainer will be permitted to travel at no charge.
+6. Animals in training will not be transported.
+7. Passenger assumes full responsibility for the conduct of his or her
+accompanying Service Animal. In the event Carrier incurs any loss,
+damage, delay, expense or legal liability of any kind in connection with
+the transport of such animal, Passenger accepts full liability for and
+shall reimburse Carrier for all such sums incurred.
+8. Carrier reserves the right to refuse transport of a Service Animal if
+the animal is too large to permit safe transport, exhibits aggressive
+behavior, demonstrates behavior that is inappropriate for a public setting
+or is otherwise determined by Carrier to pose a safety or security threat.
+f. Musical Instruments
+1. Small musical instruments (such as violins and guitars) of an appropriate
+size and weight are permitted for stowage in the overhead bin or under
+a Passenger seat on a first-come, first-served basis if there is space for
+such stowage at the time the Passenger boards, and will count as the
+Passenger’s carry-on item.
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-15
+JetBlue Airways
+2. Large musical instruments (such as basses and cellos) of a size
+that prevents the instrument from being handled as normal carry-on
+baggage, and electronic equipment of a size that prevents it from being
+handled as normal carry-on baggage, will be accepted in the aircraft
+cabin subject to the following:
+a. the instrument or equipment must be contained in a case and
+the weight of the instrument, including the case or covering,
+cannot exceed one hundred and sixty five (165) pounds;
+b. the Passenger carrying the instrument or equipment in
+the aircraft cabin has purchased the additional seat(s) to
+accommodate the instrument or equipment ; and
+c. the instrument or equipment can be stowed in accordance with
+FAA requirements for carriage of carry-on baggage or cargo.
+g. Carrier will refuse baggage articles or items that, for whatever reason, might
+create a risk of harm to the aircraft, its crew or its Passengers.
+h. If part of your itinerary involves travel on a Codeshare Partner, please see
+Section 35. If part of your itinerary involves travel on an interline partner,
+please see Section 36.
+11. Checked Baggage General
+Subject to operational constraints and the restrictions set forth below, Carrier will
+check the baggage of a fare-paying Passenger for the flight on which the Passenger is
+traveling. Passenger may not check baggage for transportation on any flight other than
+the flight on which the Passenger is traveling. Carrier will not check baggage to a
+destination other than the final destination on the Passenger’s reservation. Acceptance
+of baggage by Carrier is subject to the following terms and conditions:
+a. Each piece of baggage must have a current identification tag or label on the
+outside containing the Passenger's name, address and telephone number;
+b. Carrier will refuse to accept property as baggage which, because of its nature
+or characteristics, might cause damage to other baggage; and
+c. Carrier will not accept as baggage any article which cannot be carried in the
+baggage compartment of the aircraft.
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-16
+
+
+
+JetBlue Airways
+Passengers may check baggage up to four (4) hours prior to their scheduled departure,
+provided that the Passengers remain in the airport facility. See Section 34 for additional
+restrictions that apply to international destinations.
+If part of your itinerary involves travel on a Codeshare Partner, please see Section 35. If
+part of your itinerary involves travel on an interline partner, please see Section 36.
+12. Baggage Allowance
+Carrier will allow Passengers with Confirmed Reservations the following included
+checked baggage allowance (see Section 34 for additional terms and restrictions that
+may apply to international travel):
+a. For Blue Plus Fares one (1) piece of baggage and Mint two (2) pieces of
+baggage, of which the sum of the greatest outside length, plus the greatest
+outside width, plus the greatest outside height does not exceed sixty-two
+(62) inches for any individual piece or sporting equipment as described in
+Section 13B and weighing less than 51 pounds. In the case of oversize and
+overweight baggage or items, excess baggage charges described in Section
+13 may apply, except for travel to and from international destinations, which
+is governed by Section 34.
+b. One infant stroller and one infant car seat may be checked in addition to the
+included baggage allowance at no charge to any Passenger.
+c. Mobility and Assistive Devices which cannot be carried in the cabin due
+to space limitations will be checked and carried in addition to the included
+baggage allowance, without charge, provided the Passenger is dependent
+upon such items.
+d. One musical instrument packed in a hard-sided container may be transported
+as the Passenger’s checked baggage in accordance with the included baggage
+allowance if meeting the size and weight restrictions contained in Section 12A.
+In the case of large or additional musical instruments, excess baggage charges
+described in Section 13 may apply.
+e. If part of your itinerary involves travel on a Codeshare Partner, please see
+Section 35. If part of your itinerary involves travel on an interline partner,
+please see Section 36.
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-17
+JetBlue Airways
+13. Excess Baggage Charges
+a. The following excess baggage fees apply (see Section 34 for additional terms
+and restrictions that may apply to international travel and for the excess
+baggage fees that apply to itineraries including travel on Carrier to or from
+the United Kingdom):
+1. For Blue Basic Fares, Blue Fares, and Blue Extra Fares, one (1) piece
+of baggage that meets the weight and size limitations set forth in
+Section 12 is subject to a charge of Thirty Five Dollars ($35).
+2. For all Fares except Mint, a second piece of checked baggage that
+meets the weight and size limitations set forth in Section 12 is subject to
+a charge of Forty Five Dollars ($45).
+3. For all Fares, including Mint, baggage in excess of two pieces that
+meets the weight and size limitations set forth in Section 12 is subject
+to a charge of One Hundred and Fifty Dollars ($150) per piece, except
+as further limited to certain international destinations as described in
+Section 34.
+4. Baggage in excess of sixty-two (62) inches but less than eighty (80)
+inches (sum of outside length plus outside height plus outside width) is
+subject to an oversize charge of One Hundred and Fifty Dollars ($150)
+per piece, with the exception of a standard hard-sided golf bag of up to
+eighty (80) inches which will not be subject to oversize fees. Baggage in
+excess of eighty (80) inches will not be accepted as checked baggage.
+5. Baggage weighing between fifty-one (51) pounds and ninety-nine (99)
+pounds is subject to an excess weight charge of One Hundred and Fifty
+Dollars ($150) per piece. Baggage weighing one hundred (100) pounds
+or more will not be accepted as checked baggage.
+6. An item of baggage that exceeds the included baggage allowance
+described in Section 12, is oversized, and/or overweight will be subject
+to a combined fee.
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-18
+JetBlue Airways
+7. For Blue Basic Fares, any carry-on item that is checked at the gate will
+be subject to a gate check fee in the amount of the applicable baggage
+fee under this Section and an additional amount of up to Thirty Dollars
+($30).
+8. Notwithstanding the foregoing restrictions, military Passengers may
+check one duffel bag, B-4 bag, or sea bag which exceeds the sixty-two
+(62) inches in dimensions in lieu of one (1) included bag. In addition,
+hanging garment bags with outside dimensions up to ninety (90) inches
+will be accepted as part of the included baggage allowance, if the bags
+are flexible.
+b. Passengers may check the following items of sporting equipment properly
+packed in an appropriate hard-sided container, with each listed category
+counting as one bag for purposes of the included baggage allowance explained
+in Section 12:
+1. one (1) golf bag containing not more than fourteen (14) golf clubs, three
+(3) golf balls and one (1) pair of golf shoes;
+2. fishing equipment containing not more than two (2) fishing rods, one
+(1) reel, one (1) landing net, one (1) pair of fishing boots and one (1)
+fishing tackle box;
+3. one (1) pair of snow skis or one snowboard packed in a suitable
+container, with one (1) pair of ski boots;
+4. one (1) pair of water skis, one (1) tow rope and one (1) life preserver
+belt or vest, packed in a suitable container;
+5. one (1) sporting gun case holding no more than two (2) rifles, two (2)
+shotguns, or four (4) pistols, each unloaded, subject to restrictions on
+firearms set forth in Section 14 and Section 34 for travel to and from
+international destinations;
+6. one (1) bowling ball bag, designed for this purpose, one (1) bowling ball,
+and one (1) pair of bowling shoes; or
+7. two (2) hockey or lacrosse sticks, taped together.
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-19
+JetBlue Airways
+Sporting equipment items checked in excess of the one (1) bag allowance
+will be subject to standard excess baggage charges. Refer to Section 34 for
+restrictions relating to travel to and from international destinations.
+c. The following items are excluded from the baggage weight and size limitations
+set forth above, except that items weighing one hundred (100) pounds or more,
+unless otherwise noted, will not be accepted as checked baggage. These
+items shall be acceptable for carriage upon a Passenger’s compliance with all
+special packing requirements and payment of applicable fees:
+1. single seat, non-motorized bicycles will be accepted as baggage if
+packaged in a hard-sided, padded bicycle case. Pedals and handlebars
+must be removed and stored so as to not create a risk of damage to
+other baggage;
+2. surfboards, with a single surfboard packed in each surfboard case and
+properly packed to prevent damage to the board and other baggage; or
+3. windsurfing and kitesurfing boards, when properly packed to prevent
+damage to the board, sail, boom, related equipment and to other
+baggage.
+4. Musical instruments, when packed in a hard-sided container, where
+the weight of the musical instrument (including the container) does
+not exceed one hundred and sixty-five (165) pounds and the sum of
+the greatest outside length, plus the greatest outside width, plus the
+greatest outside height of the container does not exceed one hundred
+and fifty (150) inches.
+d. Refer to Section 34 for additional terms and restrictions that may apply to travel
+to and from certain international destinations.
+e. If part of your itinerary involves travel on a Codeshare Partner, please see
+Section 35. If part of your itinerary involves travel on an interline partner,
+please see Section 36.
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-20
+JetBlue Airways
+14. Firearms
+a. Carrier will refuse to accept for transportation any firearms and ammunition
+other than sporting firearms that are not loaded and that are suitably encased.
+Rifles and shotguns must be packed in either a lockable crush-proof container
+specifically designed for the firearm, or in its own lockable hard sided case.
+Handguns must be packed inside a lockable hard sided gun case or in its own
+lockable hard sided case. Carrier will not accept for transportation any firearms
+in cases or luggage that cannot be locked.
+b. All firearms require a Firearms Unloaded Declaration Tag to be read and
+signed by the Passenger. The Passenger is solely responsible for clearing the
+weapon of any live charges.
+c. Passengers may check up to eleven (11) pounds of ammunition as checked
+baggage only. Ammunition must be housed separately from a locked firearm.
+The ammunition must be packaged in the manufacturer’s original container or
+other fiber, wood or metal box that provides for adequate cartridge separation
+and is specifically designed to carry ammunition. Under no circumstances may
+a Passenger carry ammunition on board an aircraft.
+d. Passengers under the age of eighteen (18) will not be allowed to check any
+type of firearm as checked baggage.
+e. When checking a weapon, Passengers must declare to a representative of
+Carrier that a weapon is being checked. If a security checkpoint is located prior
+to the check-in counter of Carrier, the Passenger must declare the existence
+of a weapon to security personnel.
+f. Firearms are not permitted to be carried or checked as baggage for travel
+to or from international destinations without prior government approval and
+supporting documents as governed by Section 34. If appropriate prior
+government approval and supporting documents are received, Sections
+14A through 14F shall apply to carriage of firearms and ammunition to all
+international destinations.
+g. If part of your itinerary involves travel on a Codeshare Partner, please see
+Section 35. If part of your itinerary involves travel on an interline partner,
+please see Section 36.
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-21
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JetBlue Airways
+15. Dangerous Goods
+Federal law prohibits hazardous materials from being included in either checked or
+carry-on baggage. Items such as explosives, compressed gases, oxidizers, corrosives,
+flammable liquids and solids, loaded firearms, radioactive materials and poisons are
+considered hazardous. Some common examples of prohibited items include paints,
+mace/tear gas, lighter fluid, oxygen bottles and fireworks. Other common items that may
+be carried, in limited quantities, within baggage include hairspray, perfume, and certain
+medicines that the Passenger must use during flight. Dry ice will be accepted within
+carry-on or checked baggage if the dry ice is contained in a package that (a) allows the
+release of carbon dioxide, (b) is plainly marked with the words “dry ice” or “carbon
+dioxide solid” together with the net weight of the dry ice and the name of the contents
+being cooled, and (c) the package contains less than five and a half (5.5) pounds of dry
+ice. Self-heating meals will be accepted within carry-on or checked baggage; however
+activation and use of self-heating meals will be prohibited onboard the aircraft.
+16. Wheelchairs and Wheelchair Batteries
+Last Revised: 2023-03-08
+Carrier will accept wheelchairs, whether manually operated or battery operated, as
+checked baggage on the same flight as the Passenger who uses the device, unless the
+Passenger requests stowage of his or her manual wheelchair within the cabin (subject to
+the specific aircraft configuration or other applicable limitations).
+In addition to manual wheelchairs, Carrier will accept for in-cabin stowage other mobility
+aids such as crutches, braces, canes, and walkers, provided approved stowage is
+available and complies with federal regulations. Other Assistive Devices, including
+prescription medicine, syringes, or auto-injectors to administer medicine and other
+medical equipment discussed in Section 17 may be stowed and used within the cabin.
+If a manual wheelchair, mobility device or other Assistive Device cannot be stowed
+in-cabin, Carrier will transport them in the baggage compartment.
+Carrier will accept additional wheelchair batteries and battery-powered wheelchairs
+with the battery attached if the battery is labeled by the manufacturer as non-spillable.
+Batteries lacking non-spillable manufacturer labeling and spillable batteries that cannot
+remain in an upright position must be placed in special shipping boxes. Due to the
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-22
+
+
+
+
+
+
+
+
+
+
+
+
+
+JetBlue Airways
+advance notice requirement that may apply to obtaining these boxes, Passengers should
+advise Carrier at least forty-eight (48) hours before scheduled departure of the need for
+an appropriate battery box. Carrier will accept lithium batteries for in-cabin stowage with
+terminals taped or enclosed in a case. For stowage in the baggage compartment, only
+lithium batteries whose terminals are completely enclosed in a case are permitted, all
+others must be removed from the device and stowed in the cabin. Damaged or leaking
+batteries will not be transported.
+Carrier will accept from Passengers written directions on disassembly and reassembly of
+wheelchairs, other mobility aids, and Assistive Devices. As described in Section 12C
+and Section 18, respectively, excess baggage charges and limits on liability for loss or
+damage to any items described in this paragraph do not apply where such charges or
+limits are prohibited by law or regulation.
+If part of your itinerary involves travel on a Codeshare Partner, please see Section 35. If
+part of your itinerary involves travel on an interline partner, please see Section 36.
+17. Medical Equipment and Supplies
+Carrier will allow a Qualified Individual with a Disability to use in the passenger cabin a
+personal ventilator, respirator, continuous positive airway pressure machine (CPAP),
+bilevel positive airway pressure machine (BiPap) or an FAA-approved portable oxygen
+concentrator (POC). These medical devices must meet FAA requirements, display a
+manufacturer's label that it meets such requirements, and can only be stowed and
+used consistent with FAA, TSA and PHMSA regulations. Passengers must bring an
+adequate supply of non-spillable batteries, plainly marked as such, to last for 150% of
+the expected travel time. Carrier may deny boarding if a Passenger does not comply
+with the foregoing requirements.
+18. Baggage - Limitation of Liability
+Carrier will accept as checked baggage such personal property as is necessary or
+appropriate for the wear, use, comfort, or convenience of the Passenger for the purpose
+of the trip, subject to the following conditions:
+a. International Transportation: Please see Section 23.
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-23
+JetBlue Airways
+b. Domestic Transportation: Carrier’s liability for loss of, damage to or delay in
+the delivery of checked or unchecked baggage or its contents is limited to
+proven damage or loss. Under no circumstances will Carrier’s liability exceed
+Three Thousand Eight Hundred Dollars ($3,800), unless Passenger is traveling
+with wheelchairs, mobility aids and/or Assistive Devices or Passenger has
+purchased excess coverage. Qualified Individuals with a Disability traveling
+with wheelchairs or Assistive Devices, or mobility aids will have no limit on
+liability for repair or replacement of such wheelchairs, Assistive Devices, or
+mobility aids. To obtain excess coverage, Passenger must declare excess
+valuation at the time of check-in and pay an additional charge of One Dollar
+($1.00) for each One Hundred Dollars ($100), or fraction thereof, of excess
+valuation. Maximum liability is not to exceed Five Thousand Dollars ($5,000),
+including the Three Thousand Eight Hundred Dollar ($3,800) standard liability
+per Passenger. Excess coverage is not available on items described in
+Sections 18F, 19 or 20. Passengers must make a reasonable effort to minimize
+the amount of damage or loss. Actual value for reimbursement of lost or
+damaged property shall be determined by the documented original purchase
+price less any applicable depreciation for prior usage or damage.
+c. Carrier will be liable for personal property only for the period in which it is in the
+custody of Carrier. Carrier will assume no liability or responsibility for property
+carried onboard an aircraft by a Passenger and retained in the custody of the
+Passenger, except as otherwise required by applicable law.
+d. Carrier’s liability for loss, delay or damage to baggage is limited, unless a
+higher value is declared in advance and additional charges are paid. When
+excess value is declared, baggage will be checked and excess valuation
+charges collected only to point of Stopover or to destination.
+e. Baggage checked at the Gate or on board the aircraft will be subject to the
+same restrictions and liability limits as baggage checked at the ticket counter.
+f. Carrier will not accept for carriage medicines, money, checks, securities,
+jewelry (including watches), wigs, cameras, video, audio and other electronic
+equipment (including computers, software or music devices), CDs, DVDs,
+automotive parts, boat parts, silverware, optical equipment (including contact
+lenses), dental and orthodontic devices or equipment, keys, negotiable papers,
+securities, business documents, samples, items intended for sale, paintings,
+antiques, artifacts, manuscripts, animal antlers, furs, irreplaceable books,
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-24
+
+
+
+
+
+
+
+JetBlue Airways
+writing instruments, heirlooms, collector’s items or publications and similar
+valuables contained in checked or unchecked baggage. Excess valuation
+may not be declared on any such items. Passengers are encouraged to carry
+such valuable items personally. In the case of domestic transportation, Carrier
+reserves the right to require the Passenger to sign a limited liability release
+before accepting any such items for transportation. In the case of domestic
+transportation, if any valuable items of the type described in this paragraph are
+lost, damaged or delayed, Passenger will not be entitled to any reimbursement
+or compensation from Carrier, whether or not a limited liability release has
+been signed by Passenger.
+g. Carrier shall not be liable for loss or damage to items including but not limited
+to baggage wheels, pockets, pull handles, handles, zippers, hanger hooks,
+external locks, pull straps or security straps resulting from fair wear and tear or
+the ordinary handling of baggage. Further, Carrier shall not be liable for loss,
+damage or delay caused by manufacturer’s defect, by overpacked baggage or
+as a result of the inherent defect or quality of the baggage.
+h. Under no circumstances shall Carrier be liable to any Passenger for any type
+of special, incidental or consequential damages related to the damage, loss or
+delay of checked baggage.
+i. If part of your itinerary involves travel on a Codeshare Partner, please see
+Section 35. If part of your itinerary involves travel on an interline partner,
+please see Section 36.
+19. Fragile and Perishable Items as Baggage
+Carrier, in its discretion, may refuse to accept any fragile or perishable goods.
+For domestic transportation, Carrier assumes no liability for fragile or perishable goods.
+Excess valuation may not be declared on such items. If Carrier does accept such
+goods for transportation, in the case of domestic transportation, it reserves the right to
+require the Passenger to sign a limited release with respect to such goods. In the case
+of domestic transportation, Carrier shall not be responsible for loss, damage or delay of
+such fragile items whether or not such a limited release has been signed by the
+Passenger.
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-25
+
+
+
+
+
+
+
+
+
+
+
+
+JetBlue Airways
+Fragile items include, without limitation, items such as bicycles, blueprints, cameras,
+ceramics, china, crystal, dolls, figurines, flash equipment, flowers, glass or glass
+containers, lenses, maps, mirrors, models, musical instruments or equipment, paintings,
+perfumes, makeup, liquids, bottles, plants, sculptures, strollers, trophies, vases and
+wines.
+Perishable items include, without limitation, items such as: fruits, vegetables, meats,
+fish, poultry, bakery products and other forms of food, flowers and floral displays and
+plants. Such items may also be subject to applicable agriculture rules of the destination
+jurisdiction. Dry ice shipments are limited by dangerous goods regulations and are
+discussed separately in Section 15.
+20. Improperly Packaged and Damaged Items; Late Items
+Carrier reserves the right to refuse to transport items that are improperly packaged or
+that are damaged at the time the item is checked, or that are presented to be checked as
+baggage less than forty (40) minutes before scheduled domestic flight departure and
+sixty (60) minutes before scheduled international flight departure. Refer to Section 34 for
+restrictions relating to travel to and from international destinations. If such items are
+accepted, Carrier is not liable for any loss or damage resulting from the inherent defect
+or quality of the item. As a condition of accepting such items, Carrier may require the
+Passenger to sign a limited liability release form. Carrier shall not be responsible for
+loss, damage or delay of such items whether or not such a limited release has been
+signed by the Passenger.
+21. Smoking and Vaping
+Smoking or vaping aboard the aircraft is prohibited in accordance with federal law.
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-26
+JetBlue Airways
+22. Notice of Claims
+a. For domestic transportation, initial notice of any claim for loss, damage, or
+delay in delivery of baggage must be given at any Passenger service counter
+or any office of Carrier within four (4) hours after arrival of the flight on which
+the loss, damage or delay is alleged to have occurred. Confirming written
+notice of any baggage related claim, and initial written notice of any other type
+of claim against Carrier, with appropriate details of the claim, must be given to
+Carrier not more than twenty-one (21) days after occurrence of the event giving
+rise to the claim. Failure to give notice within these time limits will not bar the
+claim if the claimant establishes to the satisfaction of Carrier that he/she was
+unable to give such notice. For domestic transportation, legal action on any
+claim described above must be brought within one (1) year of Carrier's written
+denial, in whole or in part, of the claim.
+b. For international transportation, please see Section 23.
+c. With respect to any claim for compensation of any nature, Passenger must
+submit their claim directly to Carrier and allow 28 days, or any shorter time as
+prescribed by local law, for Carrier to respond. Carrier will not accept or process
+any claims submitted by a third party on behalf of any Passenger unless this
+period has elapsed without a response to Passenger. Notwithstanding this
+limitation, Carrier will permit a Passenger to make a claim on behalf of other
+Passengers on the same reservation, Passengers lacking capacity to submit
+their own claims, and claims on behalf of minor Passengers. Carrier may
+require and evaluate proof that any party other than Passenger is authorized to
+submit a claim on their behalf. Passenger may consult with legal or other third
+party advisors before submitting a claim directly. Claims may be submitted
+online at www.jetblue.com/customer-assurance/our-promise.
+23. Advice to International Passengers on Carrier Liability
+a. Application of Montreal or Warsaw Convention: For the purposes of
+international carriage governed by the Montreal Convention or the Warsaw
+Convention, whichever may apply, the liability rules set out in the applicable
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-27
+JetBlue Airways
+Convention as implemented by this Section are fully incorporated by reference
+in this Contract of Carriage and shall supersede any other provisions of this
+contract which may be inconsistent with those rules.
+b. Death or Injury of Passengers:
+1. The Carrier shall be liable under Article 17 of the Montreal Convention
+or Warsaw Convention, whichever may apply, for recoverable
+compensatory damages sustained in the case of death or bodily injury
+of a Passenger, as provided in the following paragraphs:
+a. The Carrier shall not be able to exclude or limit its liability for
+damages not exceeding 128,821 Special Drawing Rights for
+each Passenger.
+b. The Carrier shall not be liable for damages to the extent that they
+exceed 128,821 Special Drawing Rights for each Passenger
+if the Carrier proves that: (i) such damage was not due to the
+negligence or other wrongful act or omission of the Carrier or its
+servants or agents; or (ii) such damage was solely due to the
+negligence or other wrongful act or omission of a third party.
+c. The Carrier reserves all other defenses and limitations available
+under the Montreal Convention or Warsaw Convention,
+whichever may apply, to such claims including, but not limited to,
+the exoneration defense of Article 20 of the Montreal Convention
+and Article 21 of the Warsaw Convention, except that the Carrier
+shall not invoke Articles 20 and 22(1) of the Warsaw Convention
+in a manner inconsistent with paragraphs (a) and (b) hereof.
+d. With respect to third parties, the Carrier reserves all rights of
+recourse against any other person, including, without limitation,
+rights of contribution and indemnity.
+e. The Carrier agrees that, subject to applicable law, recoverable
+compensatory damages for such claims may be determined by
+reference to the laws of the country of the domicile or country of
+permanent residence of the Passenger.
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-28
+JetBlue Airways
+2. In cases of bodily injury or death, the Carrier shall make an advance
+payment where the Carrier determines it is necessary to meet the
+immediate economic needs of, and hardship suffered by, a Passenger
+as provided in the following paragraphs:
+a. Unless a dispute arises over the identity of the person to
+whom an advance payment shall be made, the Carrier shall,
+without delay, make the advance payment to the Passenger
+in an amount or amounts determined by the Carrier in its sole
+discretion. In the event of death of a Passenger, the amount
+of the advance payment shall not be less than 16,000 Special
+Drawing Rights, which shall be paid to a representative of
+the Passenger’s next of kin eligible to receive such advance
+payment as determined by the Carrier in its sole discretion.
+b. The Carrier shall make the advance payment as an advance
+against the Carrier’s liability under the Montreal Convention or
+the Warsaw Convention, whichever may apply. An advance
+payment shall not constitute recognition of liability. An advance
+payment shall be offset against, or deducted from the payment
+of, any settlement or judgment with respect to any claim for
+compensation on behalf of the Passenger.
+c. The Carrier, in making an advance payment, does not waive
+any rights, defenses, or limitations available under the Montreal
+Convention or the Warsaw Convention, whichever may apply,
+to any claim, nor shall acceptance of an advance payment
+constitute a release of any claim, whatsoever, by any person.
+d. The Carrier, in making an advance payment, preserves its right
+to seek contribution or indemnity from any other person for
+such payment, which shall not be deemed to be a voluntary
+contribution or contractual payment on the part of the Carrier.
+e. The Carrier may recover an advance payment from any person
+where it is proven that the Carrier is not liable for any damage
+sustained by the Passenger, or where it is proven that the
+person was not entitled to receive the payment, or where and
+to the extent that it is proven that the person who received the
+advance payment caused, or contributed to, the damage.
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-29
+JetBlue Airways
+c. Delay of Passengers: The Carrier shall be liable for damage occasioned
+by delay in the carriage of Passengers by air, as provided in the following
+paragraphs:
+1. The Carrier shall not be liable if it proves that it and its servants and
+agents took all measures that could reasonably be required to avoid the
+damage, or that it was impossible for it or them to take such measures.
+2. Airport, Air Traffic Control, security, and other facilities or personnel,
+whether public or private, not under the control and direction of the
+Carrier are not servants or agents of the Carrier, and the Carrier is not
+liable to the extent the delay is caused by these kinds of facilities or
+personnel.
+3. Damages occasioned by delay are subject to the terms, limitations
+and defenses set forth in the Montreal Convention and the Warsaw
+Convention, whichever may apply. They include foreseeable
+compensatory damages sustained by a Passenger and do not include
+mental injury damages.
+4. The Carrier reserves all defenses and limitations available under the
+Montreal Convention or the Warsaw Convention, whichever may apply
+to claims for damage occasioned by delay, including, but not limited to,
+the exoneration defense of Article 20 of the Montreal Convention and
+Article 21 of the Warsaw Convention. Under the Montreal Convention,
+the liability of the Carrier for damage caused by delay is limited to 5,346
+Special Drawing Rights per Passenger. The limits of liability shall not
+apply in cases described in Article 22(5) of the Montreal Convention or
+Article 25 of the Warsaw Convention, whichever may apply.
+d. Destruction, Loss, or Delay of Baggage: The Carrier is liable for damages
+sustained in the case of destruction or loss of, damage to, or delay of checked
+and unchecked Baggage, as provided in the following paragraphs:
+1. Except as provided below, the liability of the Carrier is limited to 1,288
+Special Drawing Rights for each passenger in the case of destruction,
+loss, damage, or delay of Baggage, whether checked or unchecked,
+under the Montreal Convention or the Warsaw Convention, whichever
+may apply. Unless the Passenger proves otherwise:
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-30
+JetBlue Airways
+i. All Baggage checked by a Passenger shall be considered to be
+the property of that Passenger;
+ii. A particular piece of Baggage, checked or unchecked, shall not
+be considered to be the property of more than one Passenger;
+iii. Unchecked Baggage, including personal items, shall be
+considered to be the property of the Passenger in possession of
+the Baggage at the time of embarkation
+2. If a Passenger makes, at the time checked Baggage is handed to the
+Carrier, a special declaration of interest and has paid a supplementary
+sum, if applicable, the Carrier will be liable for destruction, loss,
+damage, or delay of such checked Baggage in an amount not
+exceeding the declared amount, unless the Carrier proves that the
+declared amount is greater than the Passenger’s actual interest in
+delivery at destination. The declared amount, and the Carrier’s liability,
+shall not exceed the total amount of declaration permissible under
+the Carrier’s regulations, inclusive of the limitation of paragraph D(1)
+hereof. In the case of transportation under the Warsaw Convention, no
+supplementary sum shall apply unless the declared amount exceeds
+19 Special Drawing Rights per kilogram of the total recorded weight of
+the checked Baggage at the time the Baggage is handed to the Carrier.
+Nevertheless, the Carrier may impose charges for pieces of Baggage in
+excess of any free allowance the Carrier may provide.
+3. In the case of unchecked Baggage, the Carrier is liable only to the extent
+the damage resulted from its fault, or that of its servants or agents.
+4. The Carrier is not liable for destruction, loss, damage, or delay of
+baggage not in the charge of the Carrier, including Baggage undergoing
+security inspections or measures not under the control and direction of
+the carrier.
+5. The Carrier reserves all defenses and limitations available under
+the Montreal Convention and the Warsaw Convention, whichever
+may apply, to such claims including, but not limited to, the defense of
+Article 20 of the Warsaw Convention and Article 19 of the Montreal
+Convention, and the exoneration defense of Article 21 of the Warsaw
+Convention and Article 20 of the Montreal Convention, except that the
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-31
+JetBlue Airways
+Carrier shall not invoke Article 22(2) and (3) of the Warsaw Convention
+in a manner inconsistent with paragraph D(1) hereof. The limits of
+liability shall not apply in cases described in Article 25 of the Warsaw
+Convention or Article 22(5) of the Montreal Convention, whichever
+may apply.
+e. Time Limitations on Claims and Actions: Under the Montreal Convention and
+the Warsaw Convention, whichever may apply, an action for damages must be
+brought within two years, and a complaint must be made to the Carrier no later
+than seven (7) calendar days in the case of damage to baggage, and twenty
+one (21) calendar days in the case of delay thereof.
+f. ADVICE TO INTERNATIONAL PASSENGERS ON CARRIER LIABILITY:
+1. Passengers on a journey involving an ultimate destination or a stop in a
+country other than the country of departure are advised that international
+treaties known as the Montreal Convention, or its predecessor, the
+Warsaw Convention, including its amendments, may apply to the
+entire journey, including any portion thereof within a country. For such
+passengers, the treaty, including special contracts of carriage embodied
+in applicable tariffs, governs and may limit the liability of the Carrier in
+respect of death or injury to passengers, and for destruction or loss of,
+or damage to, baggage, and for delay of passengers and baggage.
+2. Limits of Liability in connection with services provided in the European
+Union (EU): The applicable limits of liability for your journey on a flight
+ticketed by this carrier are:
+a. There are no financial limits for death or bodily injury and the
+air carrier may make an advance payment to meet immediate
+economic needs of the person entitled to claim compensation;
+b. In the case of destruction, loss of, or damage or delay to
+baggage, 1,288 Special Drawing Rights per passenger in
+most cases. You may benefit from a higher limit of liability for
+loss of, damage or delay to baggage by making at check-in a
+special declaration of the value of your baggage and paying any
+supplementary fee that may apply. Alternatively, if the value of
+your baggage exceeds the applicable limit of liability, you should
+fully insure it before you travel;
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-32
+
+
+JetBlue Airways
+c. In the case of delay to your journey, 5,346 Special Drawing
+Rights per passenger.
+If your journey involves carriage by other carriers please contact them for information
+on their limits of liability.
+24. Refusal to Transport
+Passengers will be refused transportation on Carrier for reasons including, but not
+limited to, the following:
+a. Passengers whose transportation on Carrier must be denied in order to comply
+with any government regulation, or to comply with any governmental request
+for emergency transportation in connection with the national defense.
+b. Passengers whose transportation on Carrier is reasonably deemed by Carrier
+to be inadvisable or inappropriate due to special circumstances or concerns
+beyond the control of Carrier, including, without limitation, a Force Majeure
+Event.
+c. Passengers who refuse to permit a search of his or her person or property for
+explosives or for concealed, deadly or dangerous weapons or other prohibited
+articles, or who refuse on request to produce positive identification.
+d. Passengers requiring medical oxygen for use on board the aircraft, incubators
+or hook-ups for a respirator to the aircraft electrical power supply, or persons
+who must travel on a stretcher. However, JetBlue will not deny boarding to
+a Qualified Individual with a Disability who travels with a Portable Oxygen
+Concentrator (POC) unless such individual must use the POC during the flight
+with a hook-up to the aircraft electrical power supply.
+e. A Qualified Individual with a Disability pursuant to 14 CFR Part 382 whose
+carriage may impair the safety of the flight or violate Federal Aviation
+Regulations. Carrier may require that a Qualified Individual with a Disability be
+accompanied by an assistant as a condition of being provided air transportation
+under the following circumstances:
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-33
+JetBlue Airways
+1. person who, because of a mental disability, is unable to comprehend
+or respond accordingly to safety instructions from Carrier personnel,
+including the safety briefing required by 14 CFR Parts 121.571(a)(3)
+and (a)(4); or the safety regulations of a foreign carrier’s government,
+as applicable;
+2. person with a mobility impairment so severe that the person is unable to
+physically assist in his or her own evacuation of the aircraft;
+3. person who has both severe hearing and severe vision impairments,
+if the person cannot establish some means of communication with
+Carrier personnel that is adequate to both permit transmission of the
+safety briefing required by 14 CFR Part 121.571(a)(3) or (a)(4) or the
+safety regulations of a foreign carrier’s government, as applicable, and
+to enable the Passenger to assist in his or her own evacuation of the
+aircraft in the event of an emergency;
+4. If Carrier determines that a person meeting the criteria of paragraph
+E(1), (2) or (3) of this Section must travel with an assistant, contrary to
+the individual's self-assessment that he or she is capable of traveling
+independently, Carrier will not charge for the transportation of the
+assistant while accompanying a Qualified Individual with a Disability
+requiring an assistant at Carrier’s discretion:
+i. If, because there is not a seat available on a flight for an assistant
+whom Carrier has determined to be necessary, a Qualified
+Individual with a Disability with a Confirmed Reservation is
+unable to travel on the flight, the Qualified Individual with a
+Disability will be eligible for denied boarding compensation
+under Section 27;
+ii. For purposes of determining whether a seat is available for an
+assistant, the assistant shall be deemed to have checked in at
+the same time as the Qualified Individual with a Disability; and
+iii. Carrier is not required to find or provide a safety assistant.
+f. Comfort and Safety: In the following categories where refusal or removal may
+be necessary for the comfort or safety of the Passenger(s) or other Passengers:
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-34
+JetBlue Airways
+1. Persons whose conduct is or has been known to be disorderly, abusive,
+offensive, threatening, intimidating violent, or whose clothing is lewd,
+obscene, or patently offensive;
+2. Persons who are barefoot and over five (5) years old;
+3. Persons who are unable to sit in the seat in the full upright position
+with the seat belt fastened;
+4. Persons who appear to be intoxicated or under the influence of drugs;
+5. Persons with a communicable disease or infection whose condition
+poses a direct threat to the health or safety of others. However, Carrier
+will permit a Passenger who meets the foregoing criteria to travel if
+he/she provides a medical certificate to Carrier dated within ten (10)
+days of the scheduled date of travel from the Passenger's physician
+stating that the Passenger is capable of completing the flight safely
+without requiring extraordinary medical assistance;
+6. Persons who refuse to comply with instructions given by Carrier station
+management, supervisory personnel or uniformed flight crew;
+7. Persons who have an offensive odor, except where such condition is
+the result of a qualified disability;
+8. Persons who wear or have on or about their persons concealed or
+unconcealed deadly or dangerous weapons; provided, however, that
+Carrier will carry Passengers who meet the qualifications and conditions
+established in 14 CFR Part 108.11;
+9. Manacled persons in the custody of law enforcement personnel;
+persons brought to the airport in manacles; persons who have resisted
+escorts; or escorted persons who express to Carrier personnel objection
+to the flight;
+10. Persons who have misrepresented a condition which becomes evident
+upon arrival at the airport, and the condition is unacceptable for
+passage;
+11. Pregnant Passengers expecting to deliver within seven (7) days, unless
+such Passenger provides a doctor’s certificate dated no more than
+seventy-two (72) hours prior to departure stating that the doctor has
+examined and found the Passenger to be physically fit for air travel
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-35
+JetBlue Airways
+to and from the destination requested on the date of the flight and
+that the estimated date of delivery is after the date of the last flight in
+the Passenger’s itinerary. In the case of codeshare travel, codeshare
+partner may have more restrictive terms. In the case of Interline
+Transportation, the interline partner may have more restrictive terms;
+12. Passengers between the age of three (3) and fourteen (14) days, unless
+attending physician approves travel;
+13. Passengers who are unwilling or unable to abide by Carrier’s
+no-smoking rules; and
+14. Carrier will not refuse to provide transportation to a Qualified Individual
+with a Disability solely because the person's disability results in
+appearance or involuntary behavior that may offend, annoy or
+inconvenience crewmembers or other Passengers. Carrier will not
+provide certain extensive inflight special services including, but not
+limited to, assistance in actual eating, assistance within the restroom
+or assistance at the Passenger's seat with elimination functions,
+or provision of medical services. In the case of codeshare travel,
+codeshare partner may have more restrictive terms. In the case of
+Interline Transportation, the interline partner may have more restrictive
+terms.
+15. Any Passenger who cannot be transported safely for any reason.
+g. The tickets of any Passenger refused passage or removed en route under the
+provisions of this Section 24 will be refunded in accordance with Section 26.
+Such a refund shall be the sole recourse of any Passenger refused passage
+or removed en route. UNDER NO CIRCUMSTANCES WILL CARRIER BE
+LIABLE TO ANY PASSENGER OR REFUSED PASSENGER FOR ANY TYPE
+OF INDIRECT, SPECIAL OR CONSEQUENTIAL DAMAGES.
+25. Failure to Operate as Scheduled
+a. Whenever Carrier cancels or otherwise fails to operate any scheduled flight,
+Carrier will, at the request of the Passenger, either (i) transport the Passenger
+on another of Carrier’s flights on which space is available in the same class
+of service at no additional charge, or (ii) provide Passenger with a full refund
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-36
+JetBlue Airways
+in accordance with Section 26. Except as may be provided in Section 37,
+Carrier shall have no other liability or responsibility to any Passenger as a
+result of a failure to operate any flight. UNDER NO CIRCUMSTANCES SHALL
+CARRIER BE LIABLE TO ANY PASSENGER FOR ANY TYPE OF SPECIAL,
+INCIDENTAL OR CONSEQUENTIAL DAMAGES.
+b. Carrier will endeavor to carry Passengers and their baggage with reasonable
+dispatch, but times shown in schedules or elsewhere are not guaranteed and
+form no part of this Contract of Carriage. Carrier may, without notice, substitute
+alternate carriers or aircraft and, if necessary, may alter or omit intermediate
+stops shown on the reservation. All schedules are subject to change without
+notice. Carrier is not responsible and assumes no liability for failure to make
+connections on its own flights or the flights of any other airline. UNDER NO
+CIRCUMSTANCES SHALL CARRIER BE LIABLE TO ANY PASSENGER FOR
+ANY TYPE OF SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES.
+c. Except as provided above, Carrier shall have no liability for damages for any
+delay, flight cancellation, or default in performing hereunder if such delay,
+cancellation or default is caused by conditions beyond its control due to force
+majeure. As used in this section, “force majeure” means actual, threatened
+or reported:
+1. Weather conditions or acts of God;
+2. Riots, civil unrest, protests, embargoes, pandemic declaration or public
+health emergency, war, hostilities, or unsettled international conditions;
+3. Strikes, work stoppages, slowdowns, lockout, or any other labor-related
+dispute;
+4. Wars, embargos, or other hostilities;
+5. Government regulation, demand, directive or requirement;
+6. Shortages of labor, fuel, or facilities; or
+7. Any other condition or cause beyond Carrier’s control or any fact not
+reasonably foreseen by Carrier.
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-37
+
+
+
+
+
+
+
+
+
+JetBlue Airways
+26. Relief for Failure to Transport / Failure to Operate
+If Carrier cancels a flight or fails to operate a flight as scheduled, the Passenger may
+be entitled to relief under the provisions of Section 37. If Carrier denies boarding to a
+Passenger with a valid reservation, the Passenger will be entitled, at his or her option,
+to either (i) transportation at no extra charge on another of Carrier’s flights to the same
+destination, subject to space availability, or (ii) a refund of the applicable fare paid by
+Passenger. When a portion of the trip has been made, the refund will be made in an
+amount equal to the applicable one-way fare (less any applicable discount) for the
+portion of the trip cancelled or not operated as scheduled by Carrier.
+27. Denied Boarding Compensation
+a. If a Passenger holding a Confirmed Reservation presents him or herself for
+carriage at the appropriate time and place, having complied fully with Carrier's
+requirements as to reservations and check-in, and if the flight for which the
+Passenger holds a Confirmed Reservation is oversold and, due to oversales,
+JetBlue is unable to accommodate the Passenger and departs without him
+or her, the Passenger shall be entitled to the denied boarding compensation
+described in Section 27B immediately below, unless (i) the Passenger responds
+to Carrier’s request for volunteers and who willingly accepts Carriers’ offer of
+compensation, in any amount; or (ii) one of the exceptions to eligibility for
+denied boarding compensation in Section 27D below applies. For the sake of
+clarity, a Passenger who responds to Carrier’s request for volunteers and who
+willingly accepts Carrier’s offer of compensation shall not be considered to
+be involuntarily denied boarding and shall not be entitled to denied boarding
+compensation.
+b. Passenger who is denied boarding involuntarily, subject to the exceptions in
+Section 27D below, shall be entitled to One Thousand Five Hundred and Fifty
+Dollars ($1,550).
+c. Acceptance of denied boarding compensation relieves Carrier from any further
+liability caused by its failure to honor the Passenger’s original Confirmed
+Reservation.
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-38
+JetBlue Airways
+d. Passengers denied boarding involuntarily are not entitled to denied boarding
+compensation if:
+1. The Passenger does not fully comply with this Contract of Carriage
+regarding ticketing, reconfirmation, check-in, acceptability for
+transportation;
+2. The flight originates in the United Kingdom or a European Community
+state;
+3. The flight for which the Passenger holds a Confirmed Reservation is
+unable to accommodate that Passenger because of substitution of
+equipment of lesser capacity when required by operational or safety
+reasons;
+4. The Passenger is offered accommodations or is seated in a section of
+the aircraft other than that specified on the ticket at no extra charge,
+except that a Passenger seated in a section for which a lower fare is
+charged shall be entitled to an appropriate refund;
+5. Carrier arranges alternate transportation, or other transportation used
+by the Passenger at no extra cost to the Passenger, that at the time
+such arrangements are made is planned to arrive at the airport of
+the Passenger’s next Stopover or, if none, at the airport of the final
+destination not later than one (1) hour after the planned arrival time of
+the Passenger’s original flight; or
+6. The Passenger voluntarily relinquishes his or her Confirmed
+Reservation in exchange for compensation offered by Carrier.
+e. In determining which Passengers holding Confirmed Reservations shall be
+denied boarding involuntarily, Carrier shall deny boarding to such Passengers
+in the order of when Passengers checked in, commencing with those
+Passengers who checked in last.
+f. Before denied boarding occurs, Carrier will give a written explanatory statement
+to Passengers who are denied boarding.
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-39
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JetBlue Airways
+28. Reservations on Other Carriers
+Carrier will only accept reservations made on, or tickets issued by, other carriers, in
+accordance with federal law when a carrier has ceased operations following bankruptcy.
+29. Right to Change Contract of Carriage
+Carrier reserves the right, to the extent not prohibited by applicable law, to change,
+delete, or add to any of the terms of this Contract of Carriage without prior notice.
+All changes must be in writing and must be available for public inspection at each of
+Carrier's ticket offices. To the extent there is a conflict between the Contract of Carriage
+and your itinerary, ServiceNow, or other publications, the Contract of Carriage governs.
+Previous versions of the Contract of Carriage may be obtained by contacting JetBlue at
+1-800-JETBLUE (deaf or hard of hearing customers TTY/TDD line available by dialing
+711) or by contacting us through https://www.jetblue.com/contact-us.
+30. Ground Transportation
+Ground transportation is exclusively the responsibility of Passenger.
+31. Check Acceptance
+Carrier will not accept checks as payment for purchase, except in the case of Group
+Reservations as defined in Section 5. For Group Reservations, personal checks made
+payable to Carrier for the exact amount of purchase must include imprinted name,
+mailing address and telephone number. A valid driver's license with picture (or valid
+passport) as personal identification is r equired. Carrier reserves the right to require that
+checks be approved by a third-party check approval system.
+A service charge of Fifteen Dollars ($15) will be assessed to a Passenger on all returned
+checks. This service charge is in addition to any applicable bank charges assessed
+against Carrier or the Passenger.
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-40
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JetBlue Airways
+32. Government Laws and Regulations
+All transportation is sold and all carriage is performed subject to compliance with all
+applicable government laws and regulations, including those of the Federal Aviation
+Administration and U.S. Department of Transportation, Transportation Security
+Administration, and all applicable Conventions, special contracts, treaties, and tariffs,
+many of which are not specified herein but are nevertheless binding on Carrier and
+all Passengers.
+Carrier shall not be liable for any damage arising out of its compliance with any laws,
+government regulations, orders, rules, requirements or security directives or as a result
+of Passenger’s failure to comply with such laws, government regulations, orders, rules,
+requirements or security directives or as a result of Passenger’s reliance on advice
+provided by JetBlue regarding such laws, regulations, orders, rules, requirements or
+security directives.
+Immigration and Customs Regulations: It is the Passenger's responsibility to obtain and
+have possession of all required travel documents. Carrier assumes no responsibility for
+compliance by Passengers with immigration and customs laws and regulations of each
+country from, through, or to which a flight is operated. Carrier shall not be responsible
+for any information or assistance given to a Passenger by any agent in connection with
+obtaining such necessary documents or complying with such laws and regulations,
+or any consequence to any Passenger resulting from his or her failure to obtain such
+documents and comply with such laws and regulations.
+33. U.S. Territory Travel
+For all travel to and from U.S. territories, the following rules apply:
+a. Satellite TV and other inflight connectivity services, where available, may be
+inoperative on the transoceanic portions of the flight. Carrier is not liable, in
+contract or otherwise, to the Passenger for any such unavailability of satellite
+TV or other inflight connectivity.
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-41
+
+JetBlue Airways
+b. Passengers remain responsible for any and all documentation requirements
+and proof of citizenship. Carrier shall not be responsible for a Passenger’s
+failure to present or provide documentation required under the applicable
+laws of the territories to or from which a Passenger travels or through which
+Passenger may transit.
+34. International Travel
+For international travel on a Carrier-operated flight the following rules apply:
+a. Baggage:
+1. For travel to and from Guyana, Haiti or Trinidad and Tobago, Carrier will
+not accept oversized (over sixty-two (62) inches in overall dimensions)
+baggage or baggage weighing over seventy (70) pounds. Excess or
+overweight baggage (between 51 and 70 pounds) may be subject to
+excess baggage charges as set forth in Section 13. Checked baggage
+in excess of two (2) pieces will not be accepted between November 16
+and January 15 or during any Carrier baggage embargo period.
+2. For travel to and from the Dominican Republic and Peru, Carrier will
+not accept oversized (over sixty-two (62) inches in overall dimensions)
+baggage or baggage weighing over seventy (70) pounds. Excess or
+overweight baggage (between 51 and 70 pounds) may be subject to
+excess baggage charges as set forth in Section 13.
+3. For travel to and from Ecuador, Carrier will not accept more than two (2)
+pieces of checked baggage and will not accept oversized (over sixty-two
+(62) inches in overall dimensions) baggage or baggage weighing over
+seventy (70) pounds. A first and second piece of checked baggage or
+overweight baggage (between 51 and 70 pounds) may be subject to
+excess baggage charges as set forth in Section 13.
+4. For travel to and from Cuba, Carrier will not accept more than five (5)
+pieces of checked baggage and will not accept oversized (over sixty-two
+(62) inches in overall dimensions) baggage or baggage weighing over
+seventy (70) pounds. A first, second, third, fourth and fifth piece of
+checked baggage or overweight baggage (between 51 and 70 pounds)
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-42
+JetBlue Airways
+may be subject to excess baggage charges as set forth in Section 13.
+Checked baggage in excess of three (3) pieces will not be accepted
+during any Carrier baggage embargo period.
+5. For travel to and from the United Kingdom, the following excess
+baggage fees apply in the prevailing local currency:
+a. For Blue Basic Fares, Blue Fares, and Blue Extra Fares, one (1)
+piece of baggage that meets the weight and size limitations set
+forth in Section 12 is subject to a charge of Sixty Five Dollars
+($65) or Fifty Five Pounds (£55).
+b. For all Fares except Mint, a second piece of checked baggage
+that meets the weight and size limitations set forth in Section 12
+is subject to a charge of One Hundred and Five Dollars ($105)
+or Eighty<M Five Pounds (£85).
+c. For all Fares, including Mint, baggage in excess of two pieces
+that meets the weight and size limitations set forth in Section 12
+is subject to a charge of Two Hundred Dollars ($200) or One
+Hundred and Fifty Pounds (£150) per piece.
+d. Baggage in excess of sixty-two (62) inches but less than eighty
+(80) inches (sum of outside length plus outside height plus
+outside width) is subject to an oversize charge of One Hundred
+and Fifty Dollars ($150) or One Hundred and Twenty Pounds
+(£120) per piece, with the exception of a standard hard-sided
+golf bag of up to eighty (80) inches which will not be subject to
+oversize fees. Baggage in excess of eighty (80) inches will not
+be accepted as checked baggage.
+e. Baggage weighing between fifty-one (51) pounds and
+ninety-nine (99) pounds is subject to an excess weight charge
+of One Hundred and Fifty Dollars ($150) or One Hundred
+and Twenty Pounds (£120) per piece. Baggage weighing one
+hundred (100) pounds or more will not be accepted as checked
+baggage.
+f. An item of baggage that exceeds the included baggage
+allowance described in Section 12, is oversized, and/or
+overweight will be subject to a combined fee.
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-43
+JetBlue Airways
+6. Except as noted above, for travel to and from all international
+destinations, Carrier will accept excess, overweight and/or oversized
+baggage on an aircraft weight (load factor) basis. If accepted by Carrier,
+excess, overweight and/or oversized baggage may be subject to excess
+baggage charges as set forth in Section 13.
+7. With respect to sporting equipment, for travel to and from the Dominican
+Republic, Haiti, Peru or Trinidad and Tobago, bicycles, hockey sticks,
+lacrosse sticks, skis, snowboards and water skis will not be accepted.
+For travel to and from Bermuda; Cuba; Santo Domingo, Dominican
+Republic; Santiago, Dominican Republic; Haiti, Peru or Trinidad and
+Tobago, surfboards, kitesurfing boards and windsurfing boards will not
+be accepted.
+8. No boxes will be permitted as checked baggage except for travel to and
+from Cuba, as set forth within this section. If such items are accepted,
+Carrier may require the Passenger to sign a limited liability release
+form. Carrier shall not be responsible for loss, damage or delay of
+such items whether or not such a limited release has been signed by
+the Passenger.
+9. For travel to and from Cuba, factory sealed boxes may be accepted
+subject to the excess baggage charges as set forth within this section
+and in Section 13. No boxes will be accepted during any Carrier
+baggage embargo period.
+10. Carrier reserves the right to refuse to transport items that are presented
+to be checked as baggage less than sixty (60) minutes before scheduled
+flight departure.
+b. Pets and Service Animals: Passengers are responsible for complying with any
+applicable laws and/or governmental regulations of the destination to and from
+which the animal is being transported, including furnishing valid health and
+rabies vaccination certificates, when required. Due to the strict requirements
+mandated by the local governments of Barbados and Trinidad and Tobago
+the transport of live animals and pets is not permitted by Carrier for travel
+to those countries. For travel to and from the United Kingdom, pets will not
+be permitted by Carrier, and Service Animals will be permitted by Carrier as
+required by applicable laws.
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-44
+JetBlue Airways
+c. Firearms: Firearms are not permitted to be carried or checked as baggage
+without prior government approval and supporting documentation.
+d. Satellite TV and inflight connectivity services: On all flights to and from
+international destinations, satellite TV and other inflight connectivity services,
+where available, may be inoperative on the transoceanic portions of the flight.
+Carrier is not liable, in contract or otherwise, to the Passenger for any such
+unavailability of such services.
+e. Transit Without Visa: Carrier will not permit transit without visa.
+f. Documentation: Passengers are responsible for any and all documentation
+requirements and proof of citizenship. Carrier shall not be responsible for
+a Passenger’s failure to present or provide documentation required under
+the applicable laws of the territories to or from which a Passenger travels
+or through which Passenger may transit. Subject to applicable law and
+regulations, Passenger agrees to pay the applicable fare in the event Carrier,
+on government order, is required to return Passenger to their point of origin or
+elsewhere due to Passenger's inadmissibility into or deportation from a country,
+whether of transit or of destination. The fare applicable will be the fare in effect
+when the ticket is issued, and any difference between this fare and any unused
+fare paid by Passenger will be collected from or refunded to Passenger as
+applicable. The fare collected for carriage to the point of refusal or deportation
+will not be refunded by the Carrier, unless such refund is compelled by local law.
+With respect to travel to Cuba, Passengers are responsible for determining
+their applicable license category and Carrier shall not be responsible for a
+Passenger’s failure to comply with such licensing requirements.
+g. Conflict With Local Law: Except where otherwise mandated by applicable
+international law or treaty, should the enforcement of any provision of this
+Contract of Carriage conflict with the domestic law or regulation of a non-U.S.
+state, the invalidation or non-enforcement of that provision to comply with such
+local law does not otherwise invalidate the enforceability of any contractual
+terms not implicated thereby.
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-45
+JetBlue Airways
+35. Codeshare Flights
+a. Operated by Codeshare Partner: Carrier has entered into codeshare
+arrangements with certain Codeshare Partners enabling Carrier to provide
+air transportation services to Passengers on flights operated by Codeshare
+Partners. Transportation provided by Carrier under a codeshare arrangement
+is designated by a flight number that includes Carrier’s two-letter airline
+designator code, “B6.” However, the flight is operated by a Codeshare Partner.
+Those Passengers purchasing tickets for a Carrier flight (any ticket for a flight
+with designator code “B6” in the flight number on Passenger’s itinerary), are
+subject to the Contract of Carriage with Carrier, regardless of the airline
+operating the flight. Carrier accepts responsibility for the entirety of that journey
+under Carrier’s designator code pursuant to this Contract of Carriage.
+Each Codeshare Partner promulgates rules with respect to the operation of
+its own flights, and some may differ from Carrier’s rules for flights operated by
+Carrier. For example, a Codeshare Partner may have rules governing check-in
+requirements, carriage of animals, baggage, baggage liability, carriage of
+musical instruments, smoking, unaccompanied minors and/or denied boarding
+compensation that differ from Carrier’s rules for flights Carrier operates.
+Additionally, when a Codeshare Partner operates a flight on which Carrier’s
+designator code “B6” appears on the Passenger’s itinerary, the Codeshare
+Partner’s contingency plan for lengthy tarmac delays applies. The conditions of
+carriage of Carrier’s Codeshare Partners are available at the following links and
+are incorporated herein by reference. Passengers traveling on a flight operated
+by a Codeshare Partner should review the applicable conditions of carriage to
+ensure familiarity and compliance with all rules and terms.
+Carrier does not allow unaccompanied minors on flights with intermediate
+stops or on connecting flights, therefore, if travel involves transfer to or from
+a Codeshare Partner, unaccompanied minors will not be allowed. However,
+an unaccompanied minor may be allowed to travel on a Codeshare Partner’s
+non-stop itinerary. The Codeshare Partner’s rules governing unaccompanied
+minors will apply and you may need to contact the Codeshare Partner directly.
+1. American Airlines:
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-46
+JetBlue Airways
+https://www.aa.com/i18n/customer-service/support/
+conditions-of-carriage.jsp
+2. Cape Air:
+https://www.capeair.com/flying_with_us/carriage_05.pdf
+3. Emirates:
+http://www.emirates.com/english/plan_book/essential_information/
+rules_and_notices/rules_notices.aspx
+4. Hawaiian Airlines:
+https://www.hawaiianairlines.com/legal/domestic-contract-of-carriage
+5. Icelandair:
+http://www.icelandair.us/information/about-icelandair/privacy-terms/
+6. JetSuite:
+https://www.jetsuitex.com/ContractofCarriage.pdf
+7. Seabourne:
+http://www.seaborneairlines.com/fly-with-us/contract-of-carriage/
+8. Silver Airways:
+http://www.silverairways.com/docs/site/legaldocs/contract-of-carriage
+9. South African Airways:
+http://www.flysaa.com/Journeys/conditions_of_Contract.action
+b. Operated by Carrier: Carrier also enters into certain codeshare relationships
+where another airline places its code on certain Carrier-operated flights. If you
+have purchased a ticket on a flight operated by Carrier but your ticket includes
+another airline’s designator code in the flight number, your condition of carriage
+is with that airline, not Carrier. For example, the following airlines may place
+their code on certain Carrier-operated flights, and the conditions of carriage
+applicable to transportation on such flights are available at the following links.
+1. Aer Lingus:
+http://www.aerlingus.com/i18n/en/htmlPopups/conds_of_carriage.html
+2. American Airlines:
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-47
+JetBlue Airways
+https://www.aa.com/i18n/customer-service/support/
+conditions-of-carriage.jsp
+3. Azul – Linhas Aereas Brasileiras:
+http://www.voeazul.com.br/en/flights-international/contract-of-carriage
+4. El Al:
+http://www.elal.co.il/elal/english/terms_conditions/
+termsandconditions070108.html
+5. Emirates:
+http://www.emirates.com/english/plan_book/essential_information/
+rules_and_notices/rules_notices.aspx
+6. Etihad:
+http://www.etihad.com/en/legal/conditions-of-carriage/
+7. Hawaiian Airlines:
+https://www.hawaiianairlines.com/legal/domestic-contract-of-carriage
+8. Icelandair:
+http://www.icelandair.us/information/about-icelandair/privacy-terms/
+9. Japan Airlines:
+http://www.jal.co.jp/en/carriage/index_c001.html
+10. Qatar:
+https://www.qatarairways.com/en-us/legal/conditions-of-carriage.html
+11. Royal Air Maroc:
+http://www.royalairmaroc.com/us-en/Travel-Info/
+General-terms-and-conditions
+12. Singapore Airlines:
+http://www.singaporeair.com/jsp/cms/en_UK/global_footer/
+conditions-carriage.jsp
+13. South African Airways:
+http://www.flysaa.com/Journeys/conditions_of_Contract.action
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-48
+
+
+
+
+
+
+
+
+
+
+
+
+JetBlue Airways
+14. TAP Portugal:
+https://www.flytap.com/en-pt/transport-conditions
+15. Turkish Airlines:
+https://www.turkishairlines.com/en-us/legal-notice/
+general-conditions-of-carriage/index.html
+36. Interline Transportation
+When Carrier undertakes to issue a ticket, check baggage, or make any other
+arrangements for transportation over the lines of any other airline on an interline basis
+(whether or not such transportation is part of a through service), Carrier will act only as
+agent for such other airline in these limited capacities, and will assume no responsibility
+for the acts or omissions of such other airline, including but not limited to, providing
+flight status information, delays and other acts or omissions that arise from their flight
+operations.
+Transportation on any interline partner is governed by that airline’s contract or conditions
+of carriage. CARRIER SHALL NOT BE LIABLE FOR ANY DEATH OR INJURY TO A
+PASSENGER OCCURRING ON A FLIGHT THAT IS NOT OPERATED BY CARRIER. In
+the case of transportation on a Carrier-operated flight as part of an interline itinerary,
+transportation is governed by Carrier’s Contract of Carriage, except in the following
+areas where the interline partner’s rules may apply:
+1. Baggage acceptance, policies and fees including, but not limited to, size,
+weight and quantity as well as acceptance of certain items, including musical
+instruments;
+2. Carriage of unaccompanied minors and/or young adults;
+3. Carriage of pets in the cabin of the aircraft;
+4. Policies for carriage of pregnant passengers; and
+5. Changes, cancellations and refunds.
+With respect to baggage in particular, as required by the U.S. Department of
+Transportation, baggage service charges for your entire itinerary are determined by
+the marketing carrier for the first segment of your itinerary. Your originating marketing
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-49
+JetBlue Airways
+carrier is defined as the airline whose flight number is assigned to the first segment of
+your itinerary. If this airline is not Carrier, different charges may apply. Baggage service
+charges are those in effect on the date of ticketing.
+In the case of transportation on a Cape Air flight, due to the size of Cape Air’s aircraft and
+operational limitations, certain terms and conditions differ from those of Carrier, including:
+1. Policies and procedures for carriage of Assistive Devices for Qualified
+Individuals with a Disability (e.g. wheelchairs); and
+2. Policies and procedures for Qualified Individuals with a Disability. For example,
+Passengers must be able to climb three (3) stairs to board a Cape Air-operated
+flight with or without an assistant.
+Carrier does not allow unaccompanied minors on flights with intermediate stops or on
+connecting flights, therefore, if travel involves transfer to or from an interline partner’s
+flight, unaccompanied minors will not be allowed. However, an unaccompanied minor
+may be allowed to travel on an interline partner’s non-stop itinerary. The interline
+partner’s rules governing unaccompanied minors will apply and you may need to contact
+the interline partner directly.
+For more information, please see the interline partner’s contract or conditions of carriage.
+1. Aer Lingus:
+http://www.aerlingus.com/i18n/en/htmlPopups/conds_of_carriage.html
+2. Aeroflot:
+http://www.aeroflot.com/cms/en/before_and_after_fly/pact
+3. Air China:
+http://www.airchina.com.cn/www/en/html/index/general_conditions_o/
+general_passenger/1006/
+4. Air India:
+http://www.airindia.in/Images/pdf/Conditions_Carriage.pdf
+5. Air Italy:
+https://www.airitaly.com/en-en/legalinfo/index.aspx
+6. Air Serbia:
+https://www.airserbia.com/en/conditions-of-carriage
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-50
+JetBlue Airways
+7. All Nippon Airways:
+http://www.ana.co.jp/wws/us/e/asw_common/siteinfo/conditions-of-carriage/
+8. Asiana Airlines:
+https://flyasiana.com/C/US/EN/contents/
+terms-of-transportation-and-notification
+9. Avianca:
+http://www.avianca.com/en-mx/contract-of-carriage.aspx
+10. Azul – Linhas Aereas Brasileiras:
+http://www.voeazul.com.br/en/flights-international/contract-of-carriage
+11. British Airways:
+http://www.britishairways.com/travel/genconcarr/public/en_us
+12. Brussels Airlines:
+http://www.brusselsairlines.com/en-be/misc/conditions.aspx
+13. Cape Air:
+https://www.capeair.com/flying_with_us/carriage_05.pdf
+14. Cathay Pacific:
+http://www.cathaypacific.com/content/dam/cx/legal-and-privacy/
+general-conditions-of-carriage-for-passengers-baggage-en.pdf
+15. China Airlines:
+https://www.china-airlines.com/nl/en/terms-and-conditions/
+transportation-clauses
+16. China Eastern:
+https://ca.ceair.com/newCMS/ca/en/content/en_Footer/AboutUS/201903/
+t20190328_4431.html
+17. China Southern:
+https://global.csair.com/US/GB/booking-policy/international-carriage-conditions
+18. Condor Air:
+https://www.condor.com/us/help-contact/gtbc.jsp
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-51
+JetBlue Airways
+19. Egyptair:
+http://www.egyptair.com/en/Pages/Conditions-of-Carriage.aspx
+20. El Al:
+http://www.elal.co.il/elal/english/terms_conditions/
+termsandconditions070108.html
+21. Emirates:
+http://www.emirates.com/english/plan_book/essential_information/
+rules_and_notices/rules_notices.aspx
+22. Etihad Airways:
+http://www.etihad.com/en/legal/conditions-of-carriage/
+23. EVA Air:
+http://www.evaair.com/en-us/conditions-of-carriage/
+24. FlyDubai:
+https://www.flydubai.com/en/information/policies/conditions-of-carriage
+25. Hainan Airlines:
+https://www.hainanairlines.com/HUPortal/dyn/portal/DisplayPage?
+COUNTRY_SITE=US=CBHZCBHZ=US=GCIC
+26. Hawaiian Airlines:
+https://www.hawaiianairlines.com/legal/domestic-contract-of-carriage
+27. Iberia:
+http://www.iberia.com/us/bills/conditions/
+28. Icelandair:
+http://www.icelandair.us/information/about-icelandair/privacy-terms/
+29. Interjet:
+https://www.interjet.com/en-us/legal-information/regulations-and-policies/
+contract-of-carriage
+30. Japan Airlines:
+http://www.jal.co.jp/en/carriage/index_c001.html
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-52
+JetBlue Airways
+31. JSX:
+https://www.jetsuitex.com/ContractofCarriage.pdf
+32. Korean Air:
+https://www.koreanair.com/global/en/footers/terms-of-carriage.html
+33. LATAM Airlines:
+https://www.latam.com/en_un/transparency/
+airport-transport-agreement-conditions/
+34. LIAT:
+http://www.liat.com/UserFiles/File/
+Conditions%20of%20Carriage%20FINAL.pdf
+35. LOT Polish Airlines:
+http://www.lot.com/us/en/web/newlot/conditions-of-carriage
+36. Lufthansa:
+https://www.lufthansa.com/xx/en/business-terms-and-conditions-1
+37. Porter Airlines:
+https://www.flyporter.com/travel/Conditions-Of-Carriage?culture=en-CA
+38. Qatar Airways:
+http://www.qatarairways.com/us/en/conditions-of-carriage.page
+39. Royal Air Maroc:
+http://www.royalairmaroc.com/us-en/Travel-Info/General-terms-and-conditions
+40. SATA:
+https://www.azoresairlines.pt/en/information/customer-commitment/
+general-conditions-of-carriage
+41. Saudi Arabian Airlines:
+https://www.saudia.com/help/useful-links/legal-and-terms-and-conditions/
+general-conditions-of-carriage
+42. Seaborne:
+http://www.seaborneairlines.com/fly-with-us/contract-of-carriage/
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-53
+JetBlue Airways
+43. Silver Airways:
+http://www.silverairways.com/docs/site/legaldocs/contract-of-carriage
+44. Singapore Airlines:
+http://www.singaporeair.com/jsp/cms/en_UK/global_footer/
+conditions-carriage.jsp
+45. South African Airways:
+http://www.flysaa.com/Journeys/conditions_of_Contract.action
+46. TAP Portugal:
+https://www.flytap.com/en-pt/transport-conditions
+47. Turkish Airlines:
+https://www.turkishairlines.com/en-pt/legal-notice/
+general-conditions-of-carriage/index.html
+48. Ukraine International Airlines:
+https://www.flyuia.com/us/en/information/rules-and-regulations/
+carriage-agreement
+37. Tarmac Contingency Plan, Cancellations, Delays, and
+Overbookings
+a. GENERAL
+1. JetBlue has coordinated relevant portions of its Tarmac Contingency
+Plan with airport authorities at all U.S. large, medium, small, and no hub
+airports JetBlue serves, including U.S. large, medium, small, and no
+hub diversion airports. JetBlue has sufficient resources to implement
+this Plan.
+2. All refunds of one-way or round trip travel under this Section 37, shall
+exclude taxes and fees. To the extent a Passenger is entitled to a
+refund but did not purchase travel through a Carrier booking channel
+(1-800-JETBLUE, jetblue.com or at the airport or a city ticket office),
+the Passenger will be responsible for contacting Carrier to obtain
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-54
+JetBlue Airways
+compensation under this Section 37. All refunds will be to the original
+form of payment. To the extent a Passenger booked travel using a
+TrueBlue Award, compensation under this Section 37 will be provided in
+the form of TrueBlue Points, except in the case of involuntary denied
+boarding.
+3. Passengers on JetBlue itineraries originating in the United Kingdom or
+in a European Community state are not eligible for the compensation
+or relief described in this Section 37, except to the extent that the
+provision of any component of such compensation or relief is otherwise
+independently compelled by applicable local law or regulation and/or
+claimed consistent therewith.
+b. INFORMATION
+JetBlue will notify Passengers of the following: known delays of thirty (30)
+minutes or more, cancellations, and diversions. Notification will be given
+in any of the following forms: via jetblue.com, via telephone (upon request),
+on flight information display systems, via airport announcement, via onboard
+announcement, via email or via text message.
+c. CANCELLATIONS
+A Passenger whose flight is cancelled by JetBlue will receive, at the
+Passenger’s option, a full refund or reaccommodation on the next available
+JetBlue flight in the same class of service at no additional charge or fare,
+except when a portion of the trip has been made. Any refund will be made in an
+amount equal to the applicable one-way fare for the portion of the trip cancelled
+or not operated as scheduled by JetBlue.
+d. GROUND DELAYS
+At all U.S. large, medium, small, and no hub airports JetBlue serves, including
+U.S. large, medium, small, and no hub diversion airports, JetBlue will provide
+Passengers experiencing a Ground Delay with food and drink (potable water)
+no later than two (2) hours after the aircraft leaves the Gate unless the
+Pilot-in-Command determines there is a safety or security-related reason for not
+doing so. JetBlue will provide Passengers with, access to operable restrooms
+and, as necessary, medical treatment. JetBlue will not permit the aircraft to
+remain on a tarmac for more than three (3) hours for domestic flights or for
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-55
+JetBlue Airways
+more than four (4) hours for international flights, unless the Pilot-in-Command
+determines there is a safety-related or security-related reason for remaining on
+the tarmac or Air Traffic Control advises the Pilot-in-Command that returning to
+the Gate or another disembarkation point elsewhere in order to deplane would
+significantly disrupt airport operations.
+For Passengers traveling on a Carrier flight operated by a Codeshare Partner,
+please see Section 35, as the operating carrier’s contingency plan (i.e. the
+Codeshare Partner’s contingency plan) for a Ground Delay will apply.
+e. CUSTOMER ASSURANCE POLICIES
+JetBlue’s various Customer Assurance policies, which may be revised or
+amended at any time without notice, form no part of this Contract of Carriage
+and are available at www.jetblue.com/customer-assurance/our-promise.
+f. OVERBOOKINGS
+Passengers, including those holding Zero Fare Tickets, who are involuntarily
+denied boarding as a result of an overbooking shall receive denied boarding
+compensation in accordance with Section 27. For the sake of clarity,
+a Passenger who responds to Carrier’s request for volunteers and who
+willingly accepts Carrier’s offer of compensation shall not be considered to
+be involuntarily denied boarding and shall not be entitled to denied boarding
+compensation under this Section 37 or Section 27.
+38. Passenger Service Plan
+a. Carrier sets forth its Passenger Service Plan below. Policies and procedures
+addressing the following areas are set forth in the documents hyperlinked. The
+hyperlinked documents are directional in nature, do not expressly form a term
+of this Contract of Carriage, and are subject to change from time-to-time.
+1. Carriers fare rules are set forth in Section 6 of this Contract of Carriage.
+Additional rules may be set forth in close proximity to a particular fare.
+Passengers calling 1-800-JETBLUE or visiting our Carrier ticket offices
+or ticket counters will be offered the lowest available fare, exclusive
+of Internet only fares or special fares that may be offered for limited
+duration through particular booking channels, when specific dates and
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-56
+JetBlue Airways
+times are provided. In the event the lowest available fare is not quoted,
+Carrier’s liability is limited to the difference between the fare quoted
+and the lowest available fare for which the Passenger was eligible at
+that time.
+2. Carrier will notify Passengers of known delays of thirty (30) minutes or
+more, cancellations and diversions.
+3. Subject to the terms of this Contract of Carriage including but not limited
+to Sections 20 (Improperly Packaged and Damaged Items; Late Items),
+25 (Failure to Operate as Scheduled), 26 (Relief for Failure to Transport
+/ Failure to Operate) and 32 (Government Laws and Regulations),
+and applicable law, Carrier will endeavor to deliver baggage on time,
+including making every reasonable effort to return mishandled bags
+within twenty-four (24) hours, reimbursing Passengers for reasonable
+expenses that occur because of any delay on domestic flights or as
+required on international flights and reimbursing Passengers for any
+fees associated with transportation of a lost bag.
+4. Carrier is an instant purchase airline. Carrier does not hold reservations
+without payment.
+5. Carrier’s rules regarding fare refunds are set forth in Section 4 of this
+Contract of Carriage. Subject to such rules, Carrier strives to provide
+credit card refunds promptly and cash or check refunds within twenty
+(20) days of receipt of all necessary information. This includes refunds
+of fees for optional services on flights from which the Passenger was
+bumped due to an oversales situation. Some fares are nonrefundable.
+6. Carrier will accommodate Passengers with disabilities and other
+special needs, including during Ground Delays consistent with its
+obligations under 14 CFR Part 382 or Regulation (EC) No. 1107/2006,
+as applicable.
+7. Carrier will meet Passengers’ essential needs during Ground Delays
+consistent with its obligations under 14 CFR Part 259.4.
+8. Carrier will treat “bumped” Passengers with fairness and consistency in
+the case of oversales consistent with its obligations under 14 CFR Part
+250 and Section 27 (Denied Boarding Compensation) of this Contract
+of Carriage.
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-57
+JetBlue Airways
+9. Carrier discloses a Passenger’s travel itinerary as follows:
+i. at the time a Passenger pays for a fare on-line; and
+ii. in a Passenger’s e-ticket receipt email.
+10. Carrier discloses the TrueBlue Frequent Flyer Rules as follows:
+i. via http://www.jetblue.com/tb/terms.asp; and
+ii. at the time a TrueBlue Member logs into the TrueBlue program
+on jetblue.com; and
+iii. at the time a TrueBlue Member signs up via jetblue.com to
+become a member of TrueBlue or, in the case of Passengers
+who sign up via the JetBlue co-branded credit card, at the time a
+Passenger activates his or her TrueBlue Account.
+11. Carrier discloses the aircraft configuration as follows:
+i. via http://help.jetblue.com/SRVS/CGI-BIN/webisapi.dll/,/?
+St=183,E=0000000000024436663,K=3792,Sxi=11,Case=
+obj(383379); and
+ii. by searching “aircraft configuration” under the “help tool” on
+jetblue.com
+12. If a Passenger’s travel is disrupted due to a Controllable Irregularity and
+the Passenger experiences a Departure Delay of six (6) of more hours,
+Carrier may, upon request from the Passenger, provide the following
+amenities: meal vouchers and/or a hotel voucher.
+13. Carrier will notify Passengers in a timely manner of changes to their
+travel itinerary.
+14. Carrier will ensure responsiveness to consumer problems as required
+under 14 CFR Part 259.7.
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-58
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JetBlue Airways
+39. Personal Information
+Carrier may use personal information collected from and about Passenger to perform
+the activities contemplated in this Contract of Carriage, including, but not limited
+to, Carriage, transfers to Codeshare Partners and other carriers, and transfers to
+government entities, as well as further described in Carrier's privacy policy available at
+https://www.jetblue.com/legal/privacy. Such personal information may be transmitted
+to the United States and other countries.
+40. Governing Law/Section Headings/Waiver
+United States federal law shall govern any matter relating to or arising under this Contract
+of Carriage. To the extent any such matter is not preempted by federal law, the laws
+of the State of New York shall apply, without regard to conflict of laws principles Each
+Passenger waives the right to a jury trial. The section headings used in this Contract of
+Carriage are intended for convenience only and in no way define, limit or describe the
+scope or substance of any of the provisions of this document. If Carrier fails to enforce
+any of the sections of this Contract of Carriage or fails to exercise any election, such
+failure will not be considered to be a waiver of those provisions, rights or elections or
+in any way affect the validity of the Contract of Carriage.
+Each Passenger agrees, on behalf of themself and anyone on whose behalf they are
+purchasing, that any lawsuit brought against Carrier or any of its affiliated entities,
+agents, directors, employees, and/or officers related to this Contract of Carriage, their
+ticket, and/or their use of or dealings with Carrier’s website will be brought only in an
+individual capacity and may not be brought, alleged or asserted as part of a class
+action proceeding.
+41. Controlling Language
+English is the controlling language of this Contract of Carriage. To the extent there is
+any conflict between the English translation and another language translation, English
+controls.
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-59
+JetBlue Airways
+[End of Document]
+2023-03-08 Revision: 89
+Uncontrolled copy when printed or downloaded.
+1-60

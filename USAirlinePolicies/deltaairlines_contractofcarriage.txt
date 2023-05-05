@@ -1,0 +1,2611 @@
+DELTA CANADIAN GENERAL RULES TARIFF
+[Last Modified: March 1, 2022]
+RULE 1: GENERAL PROVISIONS .............................................................................................................. 2
+RULE 3: SCHEDULES AND OPERATIONS ............................................................................................... 3
+RULE 5: DEFINITIONS…………………………………………………………………………………………… . 3
+RULE 10: PASSPORTS AND VISAS .......................................................................................................... 10
+RULE 20: CAPACITY LIMITATIONS ........................................................................................................... 11
+RULE 25: PERSONAL DATA....................................................................................................................... 11
+RULE 33: CARRIAGE OF PERSONS WITH DISABILITIES………………………………………………… . .10
+RULE 35: REFUSAL TO TRANSPORT………………………………………………………………………..... 13
+RULE 40: ELECTRONIC SURVEILLANCE................................................................................................. 15
+RULE 50: ACCEPTANCE OF CHILDREN................................................................................................... 15
+RULE 55: SPECIALLY TRAINED SERVICE DOGS………………………………………………………….... 16
+RULE 85: SMOKE FREE SERVICE ............................................................................................................ 17
+RULE 90: PASSENGER MEDICAL OXYGEN............................................................................................. 17
+RULE 95: CLAIMS ....................................................................................................................................... 18
+RULE 100: TICKETS...................................................................................................................................... 18
+RULE 105: TICKET VALIDITY....................................................................................................................... 20
+RULE 110: ISSUANCE OF TICKET STOCK................................................................................................. 21
+RULE 115: CONFIRMATION OF RESERVATIONS...................................................................................... 21
+RULE 135: CANCELLATION OF RESERVATIONS...................................................................................... 23
+RULE 141: VOLUNTARY STANDBY TRAVEL.............................................................................................. 25
+RULE 150: APPLICATION OF FARES.......................................................................................................... 26
+RULE 160: CURRENCY ................................................................................................................................ 27
+RULE 165: FARE CONSTRUCTION ............................................................................................................. 28
+RULE 170: ROUND-TRIP FARES ................................................................................................................. 29
+RULE 175: CIRCLE-TRIP FARES ................................................................................................................. 29
+RULE 180: STOPOVERS .............................................................................................................................. 30
+RULE 185: ROUTINGS.................................................................................................................................. 30
+RULE 187: MINIMUM FARES........................................................................................................................ 30
+RULE 190: BAGGAGE................................................................................................................................... 34
+RULE 191: LIABILITY OF CARRIERS .......................................................................................................... 48
+RULE 240: FLIGHT DELAYS/CANCELLATIONS ....................................................................................... 53
+RULE 245: DENIED BOARDING COMPENSATION..................................................................................... 54
+RULE 255: REROUTING ............................................................................................................................... 57
+RULE 260: INVOLUNTARY REFUNDS......................................................................................................... 59
+RULE 270: VOLUNTARY REFUNDS ............................................................................................................ 61
+RULE 390: PREPAID TICKET ADVICE CHARGES...................................................................................... 62
+RULE 392: RETURNED CHECK CHARGE................................................................................................... 63
+RULE 394: THE DELTA CONNECTION AND DOMESTIC CODESHARE SERVICE................................ 633
+ Delta Canadian General Rules Tariff Page 2 of 63
+RULE 1: GENERAL PROVISIONS
+A. Contract of Carriage
+When you buy a ticket for travel on Delta, you enter into a contract of carriage with us. The terms of your
+contract are set forth in:
+• your Ticket
+• these Conditions of Carriage
+• our published fare rules and regulations, which may govern the calculation of the fare and other
+charges that apply to your itinerary. If your ticket is priced by delta.com, a Delta agent, or a
+computer reservation system, these fare rules and regulations will be included in the calculation of
+the ticket price that we quote to you.
+B. Canadian General Rules Tariff
+This document is Delta's Canadian General Rules Tariff. It applies only to transborder travel between points
+in Canada and points within the United States of America. It states the terms upon which Delta offers to
+transport each passenger on U.S.-Canada transborder itineraries. By purchasing a ticket for travel on Delta,
+or by using a ticket purchased for you by someone else, you agree to be bound by each of these terms.
+C. Application to Delta Shuttle, and Delta Connection
+Unless otherwise provided, any reference to “Delta” in this document refers to Delta Air Lines, and also
+refers to the Delta Shuttle, and the Delta Connection carriers.
+D. Amendments to Conditions of Carriage
+1. Amendment by Delta
+Delta may amend these Conditions of Carriage at any time, except as provided by law. Your travel will be
+governed by the rules that were in effect on the date you purchased your ticket; provided, however, that
+Delta reserves the right to apply rules currently in effect on the date of your travel where reasonably
+necessary for operational reasons and where the change in rule does not have a material negative impact
+upon you.
+2. Authority of Delta Employees & Ticketing Agents
+No Delta employee or ticketing agent has the authority to modify any provision of the Conditions of Carriage
+unless authorized by a Delta corporate officer. Delta appointed agents and representatives are only
+authorized to sell tickets for air transportation pursuant to the approved fares, rules and regulations of Delta.
+This rule supersedes any conflicting provision in the contract of carriage.
+E. Interline Carriage
+Delta will be responsible for furnishing of transportation only over its own lines. When Delta undertakes to
+issue a ticket, check baggage, or make any other arrangements for transportation over the lines of any other
+carrier (whether or not such transportation is part of a through service), Delta will act only as agent for such
+other carrier and will assume no responsibility for the acts or omissions of such other carrier.
+F. Fares Applicable Only For Ticketed Itinerary
+Fares apply for travel only between the points for which they are published. Tickets may not be issued at
+fare(s) published to and/or from a more distant point(s) than the points being traveled, even when issuance
+of such tickets would produce a lower fare. When through or connecting passengers enplane at an
+intermediate point between the origin and destination shown on their tickets, Delta may require evidence,
+such as a boarding pass, of use of a preceding flight for the portion of the ticket from point of origin to
+intermediate point. Absent such evidence, Delta may require additional fare collection from the passenger
+for any difference between the fare paid for the ticket from origin to destination and the fare which would
+apply from the intermediate boarding point to the destination.
+ Delta Canadian General Rules Tariff Page 3 of 63
+G. Erroneous Fares
+Delta will exercise reasonable efforts to ensure that all fares it publishes are accurate and available
+for sale, if an erroneous fare is inadvertently published for sale and a ticket is issued at the
+erroneous fare before it has been corrected, Delta reserves the right to cancel the ticket purchase
+and refund all amounts paid by the purchaser or, at the purchaser’s option, to reissue the ticket for
+the correct fare. In this event, Delta will also reimburse any reasonable, actual, and verifiable outof-pocket expenses incurred by the purchaser in reliance upon the ticket purchase. The purchaser
+must provide receipts or other evidence of such actual costs incurred in support of any
+reimbursement request.
+H. Canada Air Passenger Protection Regulations
+The Canada Air Passenger Protection Regulations may provide additional protections to passengers traveling to
+or from Canada. If you are denied boarding, your flight is cancelled or delayed for at least two hours, or your
+baggage is lost or damaged, you may be entitled to certain standards of treatment and compensation under the
+Air Passenger Protection Regulations. For more information about your passenger rights please contact your air
+carrier (www.delta.com/appr (which is incorporated into this tariff by reference)) or visit the Canadian
+Transportation Agency’s website.
+Le Règlement sur la protection des passagers aériens du Canada peut fournir des protections supplémentaires
+aux passagers voyageant à destination ou en provenance du Canada. Si l’embarquement vous est refusé, ou si
+votre vol est annulé ou retardé d’au moins deux heures ou si vos bagages sont perdus ou endommagés, vous
+pourriez avoir droit au titre du Règlement sur la protection des passagers aériens, à certains avantages au titre
+des normes de traitement applicables et à une indemnité. Pour plus d'informations sur vos droits de passagers,
+veuillez contacter votre transporteur aérien (www.delta.com/appr (qui est incorporé dans ce tarif par référence))
+ou visitez le site Web de l'Office des transports du Canada.
+RULE 3: SCHEDULES AND OPERATIONS
+Delta will use its best efforts to carry the passenger and baggage with reasonable dispatch.
+Times shown in timetables or elsewhere are not guaranteed and form no part of this contract.
+Delta may, without notice, substitute alternate carriers or aircraft, and may alter or omit stopping
+places shown on the ticket in case of necessity. Schedules are subject to change without
+notice. Delta is not responsible or liable for making connections, or for failing to operate any
+flight according to schedule, or for changing the schedule for any flight.
+RULE 5: DEFINITIONS
+As used in this tariff or in tariffs making reference hereto, unless otherwise defined:
+Add-on - An amount published for use only in combination with other fares for the construction of
+through international fares.
+Administrative Service Charge (ASC) – A fee charged to cover costs involved in changing or
+refunding a passenger’s ticket.
+Air/Sea Inclusive Tour - A fully prepaid vacation cruise package offered for sale to the public which
+includes in the published price and tour literature, the air fare to/from the cruise and a cruise on a
+steamship line.
+Air Traffic Conference (ATC) - The division of the Air Transport Association responsible for
+coordinating interline operations and agreement between carriers/tour wholesalers/travel agents.
+ Delta Canadian General Rules Tariff Page 4 of 63
+Animals, in addition to the usual connotation, includes reptiles, birds, poultry and fish.
+Applicable Adult Fare means the fare which would be applicable to an adult for the transportation to
+be used except those special fares which would be applicable due to the adult’s status (such as
+clergy fares, military fares, senior citizen fares, etc.).
+Applicable Full Fare means the full adult fare for the class of service designated in the carrier's
+official general schedule for the aircraft, or compartment of the aircraft used by the passenger.
+Area 1 - Both the North and South American continents, and the islands adjacent thereto, Bermuda,
+Greenland, the West Indies and the Caribbean Sea and the Hawaiian Islands (including Midway and
+Palmyra).
+Area 2 - All of Europe (including that part of the USSR in Europe) and the islands adjacent thereto,
+Iceland, the Azores, all of Africa and the islands adjacent thereto, the Ascension Islands and
+that part of Asia lying west of, and including, Iran.
+Area 3 - All of Asia and the islands adjacent thereto, (except that portion included in area 2) all of
+the East Indies, Australia, New Zealand, and the islands adjacent thereto and the islands of the
+Pacific Ocean (except those included in area 1).
+Caribbean area means:
+Anguilla Dominican Republic Nevis
+Antigua Grenada St. Kitts
+Bahamas Guadeloupe St. Lucia
+Barbados Haiti St. Martin
+Bermuda Jamaica St. Vincent
+British Virgin Islands Leeward Islands Trinidad
+Cayman Islands Martinique Tobago
+Cuba Montserrat Turks and Caicos Islands
+Dominica Netherlands Antilles West Indies and Windward Islands
+
+Carrier means any airline shown as a participant in this tariff.
+Central America means Belize, Costa Rica, El Salvador, Guatemala, Honduras, Nicaragua, and
+Panama.
+Circle Trip means any trip in which the ultimate destination is the point of origin, but which includes
+a stop in at least one other point, or which is not made via the same routing/carrier in both
+directions.
+ Examples of Circle Trips:
+Example 1: Point 1 to Point 2 on airline A
+Point 2 to Point 1 on airline B
+Example 2: Point 1 to Point 2 to Point 3 on airline A
+Example 3: Point 1 to Point 2 on airline A (first class)
+Point 2 to Point 1 on airline A or any other airline (coach)
+ Coach means the class of service on flights listed in carrier's official general schedules as
+coach,day coach, or tourist.
+ C.O.B. means "carrying on business under firm name and style of."
+ Conjunction Ticket means 2 or more tickets concurrently issued to a passenger and which
+together constitute a single contract of a carriage.
+ Delta Canadian General Rules Tariff Page 5 of 63
+ CFR (United States) means Code of Federal Regulations.
+ Consequential Damages means reasonable out of pocket expenses and other provable damages
+ incurred by a passenger as the consequence of a loss, damage, or delay in the delivery of
+ personal property.
+Continental United States means the District of Columbia and all states of the United States other
+than Alaska and Hawaii.
+Co-Terminal - Two or more relatively adjacent airports which, for the purpose of these fares, will be
+considered the same point. Apply to: BWI/IAD/WAS, FLL/MIA, BUR/LAX/ONT/SNA, NYC/EWR, and
+OAK/SFO/SJC.
+Contractor - Any person who has entered into a contract with a carrier for the purchase of seats for
+resale to the general public.
+Days - Full calendar days, including Sun/legal holidays, provided that, for the purposes of
+notification, the balance of the days upon which notice is dispatched shall not be counted, and that,
+for purposes of determining duration of validity, the balance of the day upon which the ticket is
+issued or flight began shall not be counted.
+Dependent - Unless otherwise indicated, dependent means spouse and children of military
+personnel/U.S. embassy personnel stationed overseas wholly dependent upon such personnel for
+their livelihood.
+Dot Hazardous Materials Regulations means the hazardous materials regulations issued by the
+Materials Transportation Bureau of the Department of Transportation in Title 49 of the Code of
+Federal Regulations, Parts 171 through 177 (49 CFR 171-177).
+Economy means the class of service listed in carrier's official general schedule as economy flights.
+Europe: Means that area comprised of Albania; Algeria; Andorra; Armenia; Austria; Azores;
+Azerbaijan; Belarus; Belgium; Bosnia and Herzegovina; Bulgaria; Canary Islands; Croatia; Cyprus;
+Czech Republic; Denmark; Estonia; Finland; France; Germany; Georgia; Gibraltar; Greece;
+Hungary; Iceland; Ireland; Italy; Latvia; Liechtenstein; Lithuania; Luxembourg; Macedonia; Madeira;
+Malta: Moldova; Monaco; Morocco; Netherlands; Norway; Poland; Portugal; Romania; Russian
+Federation (west of the Urals); San Marino; Serbia and Montenegro; Slovakia; Slovenia; Spain;
+Sweden; Switzerland; Tunisia; Turkey (in Europe and Asia); Ukraine; United Kingdom.
+Extraterritorial Trip means any trip which includes transportation 1) via one or more carriers within
+the area consisting of the continental United States and Canada, and 2) via commercial air (not
+including charter services) or military air services to or from any point outside such area.
+ Fares Tariff – Local passenger fares and rules tariff no. EF-2, C.A.B. no. 409, NTA(A) no. 233,
+ issued by Airline Tariff Publishing Company, agent and reissues or supplements thereof.
+ Flight Coupon - A portion of the passenger's ticket that indicates particular cities between which
+ the coupon is good for carriage.
+Full Adult Fare means the one-way fares designated by fare class code Y (Coach) whether
+specifically published or derived by construction.
+Gateway - The passenger's first point of arrival or last departure in areas 1, 2, or 3.
+ Delta Canadian General Rules Tariff Page 6 of 63
+General Standby Passenger - Passenger who will be enplaned on a flight subject to the availability
+of space at departure time and only after all passengers having reservations for such flight and all
+passengers without reservations but paying fares other than adult standby fares have been
+enplaned on such flight. Not all flights will be available for standby. All specific standby rules are
+governed by tariff rule 141.
+Government Transport Request (GTR) - Form used by the U.S. for ticket payment and travel
+authorization for passengers traveling on official business for the federal government
+Group - Minimum number of passengers specified in conjunction with the fare as provided for in the
+applicable fare rules. Less than the minimum number of passengers may not travel at group fares,
+even upon payment of the minimum number of fares, unless specifically permitted in a given fare
+rule.
+Group Organizer - Any person engaged in organizing groups and/or responsible for the travel
+arrangements of the group under the terms and conditions of the applicable rule in this tariff, except
+that an air carrier shall not act as a group organizer.
+GTR - (See Government Transport Request)
+IATA - (See International Air Transport Association)
+Immediate Family - Spouse, domestic partner, children, step-children, grandchildren, parents, stepparents, grandparents, brothers, step-brothers, sisters, step-sisters, daughters-in-law, sons-in-law,
+fathers-in-law, mothers-in-law, aunts, uncles, nieces, nephews, brothers-in-law and sisters-in-law.
+Inclusive Tour - Officially published tour in which land arrangements are offered at a flat rate.
+ Land arrangements include hotels or other sleeping accommodations, airport transfers, and at
+ least one other tour feature such as car rental, sightseeing motor coach trips, or other tourist
+ services. Such official inclusive tours must contain an IT number (the code designated on an
+ inclusive tour folder) that indicates that the tour has been approved by the ATC/IATA.
+Inclusive Tour Fare - Round/circle/open-jaw trip fares offered in conjunction with the purchase of a
+minimum land package which must be officially designated as an inclusive tour by the ATC/IATA.
+Interchange Flight means a flight operated over the routes of two or more carriers without change
+of equipment.
+Interlining - Utilizing the services of more than one carrier in connection with a particular fare.
+International Air Transport Association (IATA) - The world trade association of airlines which operate
+international services.
+International Transportation means any transportation or other services, furnished by any carrier,
+which are included within the scope of the term "international transportation" as used in the
+Convention for the Unification of Certain Rules Relating to International Transportation by Air signed
+at Warsaw, October 12, 1929, or such convention as amended, whichever may be applicable to the
+transportation hereunder and to which the said Convention applies. For the purpose of determining
+the applicability of the term "international transportation":
+
+Agreed Stopping Place All stops between the original place of departure and the place of
+final destination scheduled by any carrier by air which participates in the transportation
+between such places, as shown in the schedules or time tables of such carriers. Each
+participating carrier reserves the right to alter the "agreed stopping places" in the case of
+ Delta Canadian General Rules Tariff Page 7 of 63
+necessity without thereby depriving the transportation of its international character;
+and
+Single Operation Transportation to be performed by several successive carriers by air,
+arrangements for which are made in advance. It shall be deemed to be "one undivided
+transportation" whether one or more tickets or other documents are issued to cover such
+transportation, and whether or not all such tickets or documents are issued prior to the
+commencement of such transportation but this provision shall not be deemed to contain an
+exclusive definition of transportation which is regarded by the parties as "a single
+operation".
+ Jet Aircraft means the following aircraft (and all series thereof):
+777 - Boeing 777
+76S - Boeing 767-300
+767 - Boeing 767-200
+757 - Boeing 757
+733 - Boeing 737-300
+73S - Boeing 737-200
+M80 - McDonnell Douglas MD-88
+D9S - McDonnell Douglas DC-9-32
+Maximum Outside Linear Dimensions means the sum of the greatest outside length plus the
+greatest outside width plus the greatest outside height.
+Micronesia - The area comprised of the Caroline Islands, Guam, Johnston Island, Mariana I
+slands, Marshall Islands, Paulau Islands, Ponape, Seipan, Trak and Yap.
+Military Agencies means departments of the Army, Navy and Air Force, the Marine Corps, the Coast
+Guard, the respective academies of the Army, Navy, Air Force and Coast Guard, and the National
+Guard. The Reserve Officer Training Corps is not included.
+ Military Passenger means military personnel of the U.S. military agencies who are on active duty
+ status or who have been discharged from active military service within seven days of the date of
+ travel.
+Military Recruit Passenger - A member of one of the U.S. military agencies traveling from
+recruiting/induction station to first training installation or from first training installation to first duty
+ assignment.
+Miscellaneous Charges Order means a document issued by a carrier or its agents requesting issue
+of an appropriate passenger ticket and baggage check or provision of services to the person named
+in such document.
+North America means that area comprised of the Caribbean area, Canada, Mexico, and the United
+States, excluding the Canal Zone.
+ Off-Peak Coach means the service of flights listed in the carrier's official general schedules as
+ off-peak coach.
+Open-Jaw Trip means any trip which is essentially a round-trip or circle-trip but the outward point
+of departure and the inward point of arrival or the outward point of arrival and inward point of
+departure are not the same.
+ Example of open-jaw trip:
+ Delta Canadian General Rules Tariff Page 8 of 63
+ LAX to ATL to PDX
+Outward Destination - The stopover point on the passenger's itinerary which is furthest from the
+ passenger's point of origin.
+Person with a Disability means any person who has a physical or mental impairment that, on a
+permanent or temporary basis, substantially limits one or more major life activities, has a record of
+such an impairment, or is regarded as having such an impairment. This term shall be further
+defined as required by applicable law, including 14 C.F.R. 382.3.
+Personal Attendant means the travel companion of a person with a disability that is attending to the
+personal needs of the passenger with a disability.
+ Portion - The space between two consecutive scheduled stops on any given flight. Also referred
+ to as a leg.
+ Pre-Enlistee - Person traveling between his/her home and an armed forces examining and
+ entrance station/recruiting main station at direction station/selective service local board.
+ Pre-Inductee - Person traveling between his/her home and an armed forces examining and
+ entrance station/recruiting main station at the direction of a recruiting station/selective service
+ local board.
+ Prepaid Ticket Advice means the notification between offices of a carrier or between carriers that
+ a person in one location has purchased and requested issuance of prepaid transportation as
+ described in the authority to another person in another location.
+ Propeller Aircraft means the following aircraft (and all series thereof):
+DH7: Dehavilland DHC7 Dash-7
+SF3: Saab/Fairchild 340
+SH6: Short Brothers 360
+EM2: Embraer EMB 120 Brasilia
+EMB: Embraer EMB 110 Bandeirante
+SWM: Fairchild Metro
+BE1: Beechcraft 1900
+Rebooking means change in date/time of reservation or other change not requiring ticket
+reissuance.
+Reissue means any change to a validated ticket requiring a replacement ticket be issued,
+including but not limited to the following: upgrade, downgrade, additional coupons, increase in
+fare.
+Revalidation means any change in reservations of flight(s) which can be made on the ticket with a
+revalidation sticker/stamp evidencing that it has been officially altered.
+Reroute means to issue a new ticket covering transportation to the same destination but via a
+ different routing than that designated on the ticket, or portion thereof, then held by the
+ passenger, or to honor the ticket, or portion thereof, then held by the passenger for transportation
+ to the same destination but via a different routing than that designated thereon.
+ Delta Canadian General Rules Tariff Page 9 of 63
+Round Trip means any trip which has the ultimate destination of the point of origin, and which is
+made via the same routing in both directions. Reservations for all segments of a trip for tickets
+issued at round-trip fares must be confirmed in the same (a single) passenger name record (PNR)
+ Example of round trips:
+ Example of local round trip:
+ Point 1 to Point 2 on airline A
+ Point 2 to Point 1 on airline A
+ Example of joint round trip:
+ Point 1 to Point 2 on airline A
+ Point 2 to Point 3 on airline B
+ Point 3 to Point 2 on airline B
+ Point 2 to Point 1 on airline A
+Routing means the carrier(s) and/or the cities and/or class of service and/or type of aircraft (jet or
+propeller) via which transportation is provided between two points, as specified in any tariff
+governed by this tariff.
+Safety Assistant means a person required by Delta to travel with a person with a disability, pursuant
+to Rule 33 C): to attend to the person with a disability’s in-flight medical needs; to assist the person
+with a disability’s communication with crewmembers; or to assist the person with a disability’s
+evacuation from the aircraft in the event of an emergency.
+Sector - The portion of travel between two fare break points as determined in the fare
+construction. Sectors are made up of one or more segments.
+Segment - That part of a journey from a passenger's boarding point to any deplaning point. Each
+flight coupon represents a segment of a trip.
+Self-reliant means that a person does not require services related to a disability beyond that
+normally provided by the carrier or beyond that which applicable law requires the carrier to provide.
+South America means Argentina, Bolivia, Brazil, Chile, Colombia, Ecuador, French Guiana,
+Guyana, Paraguay, Peru, Surinam, Uruguay, and Venezuela.
+Southwest Pacific - The area comprised of Australia, Cook Islands, Fiji Islands, French Polynesia,
+Gilbert and Ellice Islands, Loyalty Islands, New Caledonia, New Hebrides, New Zealand, Norfolk
+Islands, Papua, New Guinea, Samoa, Society Islands, Solomon Islands, Tonga, and Intermediate
+Islands.
+Stopover – A deliberate interruption of a journey by the passenger, agreed to in advance by the
+carrier, at a point between the place of departure and the place of destination.
+Tour Conductor - Person at least 18 years of age who is in charge of and guides a group for the
+duration of a tour.
+Transit Point - Any stop at an intermediate point on the route to be traveled (whether or not a
+change of planes is made) which does not fall within the definition of a stopover.
+United States or United States of America means the 50 federated states and the District of
+Columbia.
+U.S. Armed Forces/U.S. Military Agencies - Department of the Army, Navy, Air Force, Marine Corps,
+and Coast Guard of the United States of America, the respective academies of the Army, Navy, Air
+Force, and Coast Guard. Does not include the National Guard Bureau or the Reserve Officer
+ Delta Canadian General Rules Tariff Page 10 of 63
+Training Corps or members of the reserves not holding a valid duty Armed Forces of the United
+States green identification card.
+United States Department of Defense means the U.S. Departments of the Army, Navy, and Air
+Force and the U.S. Marine Corps.
+U.S. Military Personnel - Unless otherwise indicated, refers only to active duty military personnel,
+and means:
+(1) Military personnel of the United States military agencies holding a valid active duty
+Armed Forces of the United States green identification card, on active duty status and
+traveling on authorized furlough, leave, or pass.
+(2) Does not include personnel on temporary duty orders traveling to or from their
+temporary duty station.
+Validation means the authorized stamping or writing upon the passenger ticket evidencing that it
+has been officially issued by the carrier or its authorized agent.
+Voluntary Standby-Paid Upgrade - Passengers must be confirmed in the coach cabin on the
+same flight and date for which the upgrade request is made. The paid standby upgrade may not
+be offered on all flights. A non-refundable standby upgrade fee may be assessed and will be
+collected on each flight segment based on mileage and fare class. All specific standby rules are
+governed by tariff rule 141.
+Waitlist - List established by an airline of passengers who are either seeking space on a flight that
+is sold out, or traveling on a standby basis/standby fare that does not permit boarding a particular
+flight until all passengers with confirmed reservations have been boarded.
+Western Hemisphere means the United States of America, Canada, Greenland, Mexico, Central
+and South America, Bermuda, Bahamas and the islands of the Caribbean Sea.
+RULE 10: PASSPORTS AND VISAS
+A) Each passenger desiring transportation across any international boundary shall be
+responsible for obtaining all necessary travel documents and for complying with the laws of
+each country from, through, or to which he/she desires transportation and, unless
+applicable laws provide otherwise, shall indemnify each carrier for any loss, damage or
+expense suffered or incurred by such carrier by reason of such passenger’s failure to do so.
+No carrier shall be liable for any aid or information given by an agent or employee of such
+carrier to any passenger in connection with obtaining such documents or complying with such
+laws, whether given orally, in writing, or otherwise or for the consequences to any passenger
+resulting from his/her failure to obtain such documents or to comply with such laws.
+B) Subject to applicable laws and regulations, the passenger shall pay the applicable fare
+whenever the carrier, on government order, is required to return a passenger to his/her point of
+origin or elsewhere due to the passenger’s inadmissibility into or deportation from a country,
+whether of transit or of destination. The fare applicable will be the fare that would have been
+applicable had the original ticket designated the revised destination on the new ticket. Any
+difference
+between the fare so applicable and the fare paid by the passenger will be collected from or
+refunded to the passenger as the case may be. The carrier will apply to the payment of such
+fares, any funds paid by the passenger to the carrier for unused carriage or any funds of the
+passenger in possession of the carrier. The fare collected for carriage to the point of refusal
+or deportation will not be refunded by the carrier unless the law of such country requires that
+such fare be refunded.
+ Delta Canadian General Rules Tariff Page 11 of 63
+RULE 20: CAPACITY LIMITATIONS
+The carrier shall limit the number of passengers carried on any one flight at fares governed by
+rules or fares making reference hereto and such fares will not necessarily be available on all
+flights or in all markets. The number of seats which the carrier shall make available on a given
+flight will be determined by the carrier's best judgment as to the anticipated total passenger load
+on each flight.
+RULE 25: PERSONAL DATA
+The passenger recognizes that personal data has been given to carrier for the purposes of
+making a reservation for carriage, obtaining ancillary services, facilitating immigration and entry
+requirements, and making available such data to government agencies. For these purposes, the
+passenger authorizes carrier to retain such data and to transmit it to its own offices, other
+carriers, or the providers of such services, in whatever country they may be located.
+RULE 33: CARRIAGE OF PERSONS WITH DISABILITIES
+A) Acceptance for Carriage
+Delta will make every effort to accommodate a person with a disability and will not refuse to transport a
+person solely based on the person’s disability, except as permitted or required by law.
+B) Acceptance of Declaration of Self-Reliance
+ Unless Delta determines a Safety Assistant is essential for safety, pursuant to Rule 33 C), Delta will
+ accept the determination made by or on behalf of a person with a disability as to self-reliance. Once
+ advised that the person is “self-reliant”, Delta shall not refuse such passenger transportation on the
+ basis that the person with a disability is not accompanied by a Personal Attendant or based on the
+ assumption that the passenger may require extraordinary assistance from airline employees in
+ meeting the passenger’s needs.
+C) Accompanying Safety Assistant Required for Certain Passengers
+ Delta may require that a Safety Assistant accompany a person with a disability as a condition of
+ providing transportation if Delta determines that such an assistant is essential for safety, such as in,
+ but not limited to, the following circumstances:
+1) A passenger is unable to comprehend or respond appropriately to safety related instructions
+due to a mental disability;
+2) A passenger is unable to physically assist in the passenger’s own evacuation from the
+aircraft due to a severe mobility impairment; or
+3) A passenger is unable to establish a means of communication with Delta personnel sufficient
+to receive the safety briefing due to having both severe hearing and vision impairments.
+D) Medical Clearance
+ Delta will not require a medical clearance for a person with a disability as a condition of travel, except
+ as permitted by law. Delta may require a medical certificate when, in good faith and using its
+ reasonable discretion, Delta determines there is reasonable doubt that a passenger can complete
+ Delta Canadian General Rules Tariff Page 12 of 63
+ the flight safely without requiring extraordinary medical assistance.
+E) Seating Restrictions and Assignments
+ When a person identifies the nature of his or her disability, Delta will, to the extent possible,
+ accommodate the passenger with a seat assignment that suits the passenger’s needs, including
+ seating the passenger together with any Safety Attendant or Personal Attendant traveling with the
+ passenger. Passengers with a disability will not be prohibited from occupying seats in designated
+ emergency exit rows, except to the extent required by law.
+F) Acceptance of Aids
+ In addition to the regular baggage allowance, Delta will accept, without charge, as priority checked
+ baggage, mobility aids, including but not limited to:
+1) an electric wheelchair, a scooter or a manually operated rigid-frame wheelchair;
+2) a manually operated, folding wheelchair;
+3) a walker, a cane, crutches or braces;
+4) any device that assists the person to communicate; and
+5) any prosthesis or medical device.
+
+ Where space permits, Delta will, without charge, permit the passenger to store a manually operated,
+
+ folding wheelchair and other small mobility aids in the passenger cabin during the flight. The
+ assembling and disassembling of mobility aids will be provided by Delta, without charge.
+ Wheelchairs and mobility aids will be the last items to be stowed in the aircraft hold and the first
+ items to be removed.
+G) Manually Operated Wheelchair Access
+ To the extent permitted by space and facilities, Delta will permit a passenger using a manually
+ operated wheelchair to remain in the wheelchair:
+1) until the passenger reaches the boarding gate;
+2) while the passenger is moving between the terminal and the aircraft door; and
+3) while the passenger is moving between the terminal and the aircraft.
+H) Service Animals
+ Delta will accept for transportation, without charge, a service animal required to assist a Person
+with a Disability. Service Animals are defined as only dogs, regardless of breed, specifically trained to
+assist a Person with a Disability. To the extent possible, Delta will assign a seat to the person that
+provides sufficient space for the person and the service animal. Delta will permit the service animal to
+accompany the person onboard the aircraft and to remain on the floor at the person’s seat. The service
+animal will not be permitted to occupy a passenger seat. To the extent permitted or required by law,
+Delta reserves the right to deny transportation to any service animal when reasonably necessary, in
+Delta’s sole discretion, for the comfort or safety of passengers or crewmembers or for the prevention of
+damage to the property of Delta or its passengers or employees.
+I) Services to be Provided to Persons with Disabilities
+ Upon request, Delta will provide the following services to a person with a disability:
+1) assistance with registration at the check-in counter;
+2) assistance in proceeding to the boarding area;
+ Delta Canadian General Rules Tariff Page 13 of 63
+3) assistance in boarding and deplaning;
+4) assistance in stowing and retrieving carry-on baggage and retrieving checked baggage;
+5) assistance in moving to and from an aircraft lavatory;
+6) assistance in proceeding to the general public area or, in some cases, to a representative of
+another carrier;
+7) transfer between the person’s own mobility aid and a mobility aid provided by Delta;
+8) transfer between a mobility aid and the passenger’s seat;
+9) limited assistance with meals, such as opening packages, identifying items, and cutting large
+food portions;
+10) inquiring periodically during a flight about a passenger’s needs; and
+11) briefing individual passengers with disabilities and any attendant on emergency procedures
+and the layout of the cabin.
+J) Advance Notice for Special Services
+ To the extent permitted by law, Delta may require advance notice for certain special services desired
+ by a person with a disability. Services applicable under this rule include but are not limited to:
+1) transportation of an electric wheelchair on an aircraft of less than 60;
+2) provision of hazardous materials packaging for batteries or other assistive device that are
+required to have such packaging;
+3) accommodation for a group of 10 or more passengers with disabilities traveling as a group;
+4) provision of an onboard wheelchair on an aircraft of 60 seats or more;
+5) transportation of a Service animal in the cabin (unless the ticket is purchased less than 48 hours
+prior to departure);
+6) transportation of a Service Animal on a Segment scheduled to take 8 or more hours; or
+7) accommodation of a passenger with both severe vision and hearing impairments.
+ Such requests should be made by the passenger at the time of reservation and as far in advance as
+ possible. If a passenger requests a special service at least 48 hours prior to departure, Delta will, to
+ the extent possible, provide the service. If a passenger requests a service less than 48 hours prior to
+ departure, Delta will make a reasonable effort to provide the service.
+K) Boarding and Deplaning
+ Where a person with a disability requests assistance in boarding or seating or in stowing carry-on
+ baggage, Delta will allow the passenger to board the aircraft in advance of other passengers where
+ time permits.
+L) Communication and Confirmation of Information
+ Delta will insure that announcements to passengers concerning stops, delays, schedule changes,
+ connections, on-board services, and claiming baggage are communicated to any person with a
+ disability in a manner sufficient for the person to understand the communication.
+M) Inquire Periodically
+ When passengers in wheelchairs that are not independently mobile are waiting to board an aircraft,
+ Delta will inquire periodically about their needs and shall attend to those needs where the services
+ required are usually provided by Delta.
+RULE 35: REFUSAL TO TRANSPORT
+Delta may refuse to transport any passenger, and may remove any passenger from its aircraft
+at any time, for any of the following reasons:
+ Delta Canadian General Rules Tariff Page 14 of 63
+A) Government Request or Regulations
+Whenever such action is necessary to comply with any government regulations, directives, or
+instructions; or to comply with any governmental request for emergency transportation in
+connection with the national defense, or whenever such action is necessary or advisable by
+reason of weather or other conditions beyond its control (including but without limitation, acts of
+God, force majeure, strikes, civil commotions, embargoes, wars, hostilities, or disturbances)
+actual, threatened, or reported.
+B) Search of Passenger or Property
+When a passenger refuses to permit search of his person or property for explosives, weapons,
+dangerous materials, or other prohibited items.
+C) Proof of Identity
+When a passenger refuses on request to produce positive identification; provided, however, that
+Delta shall have no obligation to require positive identification of persons purchasing tickets
+and/or presenting tickets for the purpose of boarding aircraft.
+D) Travel Across International Boundaries
+When a passenger is traveling across any international boundary if:
+1) the travel documents of such passenger are not in order; or
+2) such transportation would be unlawful
+E) Failure to Comply with Delta’s Rules or Contract of Carriage
+When a passenger fails or refuses to comply with any of Delta’s rules or regulations or any term
+of the contract of carriage.
+F) Passenger’s Conduct or Condition
+Delta will not refuse to provide transportation to a passenger with a disability, as defined in 14
+C.F.R. § 382.5 and 382.31, based upon the passenger’s disability, except as as allowed or
+required by law. Delta will not refuse to provide transportation based upon race, color, national
+origin, religion, sex, or ancestry. Subject to those qualifications, Delta may refuse to transport
+any passenger, or may remove any passenger from its aircraft, when refusal to transport or
+removal of the passenger is reasonably necessary in Delta’s sole discretion for the passenger’s
+comfort or safety, for the comfort or safety of other passengers or Delta employees, or for the
+prevention of damage to the property of Delta or its passengers or employees. By way of
+example, and without limitation, Delta may refuse to transport or may remove passengers from
+its aircraft in any of the following situations:
+1) When the passenger’s conduct is disorderly, abusive or violent;
+2) When the passenger is barefoot;
+3) When the passenger appears to be intoxicated or under the influence of drugs;
+4) When the passenger attempts to interfere with any member of the flight crew in the pursuit of
+his or her duties, or fails to obey the instruction of any member of the flight crew;
+5) When the passenger has a contagious disease that may be transmissible to other passengers
+during the normal course of the flight;
+6) When the passenger has a malodorous condition;
+7) When the passenger is unable to sit in a seat with the seatbelt fastened;
+ Delta Canadian General Rules Tariff Page 15 of 63
+8) When the passenger’s behavior may be hazardous to himself/herself, the crew, or other
+passengers;
+9) When the passenger is seriously ill, and fails to provide a physician's written permission to fly.
+10) When the passenger’s conduct creates an unreasonable risk of offense or annoyance to
+other passengers;
+11) When the passenger’s conduct creates a risk of harm or damage to the carrier’s aircraft
+and/or property, or the property of other passengers.
+G) Recourse of Passenger
+All passengers are prohibited from engaging in any conduct that would authorize Delta to
+refuse transport under this Rule. The sole recourse of any passenger refused carriage or
+removed en route for any reason specified in this Rule shall be recovery of the refund value
+of the unused portion of his or her ticket as provided in Rule 260.
+RULE 40: ELECTRONIC SURVEILLANCE
+Passengers and their baggage are subject to inspection with an electronic detector with or
+without the passenger's consent or knowledge.
+RULE 50: ACCEPTANCE OF CHILDREN
+A) Accompanied Children
+1) General Rule
+Except as set forth in this rule, children under the age of 15 will not be accepted for
+transportation unless they are accompanied on the same flight in the same compartment by
+a parent, legal guardian, or other passenger at least 18 years of age. Delta may prompt at
+check in for documentation verifying the child’s age. A valid passport, birth certificate or
+other government issued identification are all acceptable.
+2) Accompanied Children Less Than 2 Years Old.
+One child less than 2 years old not occupying a seat may travel with an adult fare-paying
+passenger at least 18 years old or parent/legal guardian at no additional charge. Additional
+infants and infants occupying a seat must pay the applicable fare. A maximum of 2 infants is
+permitted for each adult. Delta recommends that any child occupying a seat be placed in an
+approved safety seat. Infants who will reach their second birthday during a journey will be
+required to occupy a seat, paying the lowest applicable fare for the entire journey.
+(3) Accompanied Children 2 Years and Older.
+The fare for children ages 2 years and older, will be the same as the fare for an adult
+passenger traveling in the same class of service.
+B) Unaccompanied Children Under the age of 15.
+Children under the age of 15 may travel unaccompanied on Delta only under the following
+conditions:
+(1) Children under the age of 5
+ Delta Canadian General Rules Tariff Page 16 of 63
+No child under the age of 5 will be accepted for unaccompanied travel.
+(2) Children aged 5 through 14
+Children ages 5 through 7 may travel unaccompanied on non-stop flights only and
+may not connect to other airlines. Children ages 8 through 14 may travel
+unaccompanied on Delta’s non-stop or connecting flights, but may not connect to
+other airlines with the exception of Delta Connection, KLM, and Air France.
+C) Unaccompanied Minor Service
+(1) When Unaccompanied Minor Service is Required
+Except as otherwise provided in this rule, Unaccompanied Minor Service is required for all
+passengers under the age of 15 that Delta accepts for transportation.
+(2) Unaccompanied Minor Service Defined
+Unaccompanied Minor Service means that Delta will provide supervision for the child from
+the time of boarding until the child is met at the stopover point or destination. Delta will
+assume no financial or guardianship responsibilities for unaccompanied children beyond
+those applicable to an adult passenger. Delta has the right, but is not obligated, to require
+identification of the responsible party meeting the child at a transfer point or final
+destination. An unaccompanied minor must be confirmed to destination and may not be
+confirmed on the last connecting flight of the evening (with the exception of markets where
+there is only one connection and it is the last flight of the day), nor may an unaccompanied
+minor travel on a flight expected to terminate short of, or bypass, the child’s destination.
+Delta may rebook the child on an alternate flight if there is a possibility that weather,
+irregular operations, or other conditions may cause a flight to be diverted. Delta requires
+that a parent or responsible adult accompany the child until boarding, and this adult must
+provide the name, telephone number, and address of the party meeting the child at the
+transfer point or final destination. Delta reserves the right to refuse to release an
+unaccompanied child to anyone other than the pre-designated party. Delta representatives
+cannot administer medicine to children flying alone. An unaccompanied minor may not
+travel on any domestic flight greater than 2 hours in length which departs between 9 PM
+and 5 AM (“red-eye flight”). This restriction does not apply for red-eye flights to/from Hawaii
+and Alaska, however, an unaccompanied minor on a red-eye flight from Hawaii or Alaska
+may not connect to a domestic red-eye flight or to the last flight of the day.
+D) Unaccompanied Children Ages 15-17
+Although not required, a parent or guardian may request Unaccompanied Minor Service for
+unaccompanied minors ages 15-17. The applicable unaccompanied minor service charge
+will apply.
+E) Unaccompanied Minor Service Charge
+In addition to the applicable fare, unaccompanied minors for whom Unaccompanied Minor
+Service is required or has been requested must pay an unaccompanied minor service
+charge in the amounts set forth below. Delta reserves the right to refuse to transport any
+unaccompanied minor for whom Unaccompanied Minor Services are required or requested
+but for whom the applicable unaccompanied minor service fee has not been paid. If 2 or
+more unaccompanied minors who are members of the same immediate family and ticketed
+together are traveling together, only one service charge will be assessed.
+ Delta Canadian General Rules Tariff Page 17 of 63
+The unaccompanied minor service charge will be USD150.00/CAD150.00 each way for
+non-stop travel and USD150.00/CAD150.00 each way for connecting travel.
+F) Proof of Permission to Travel
+Minors at least (12) years of age but under (18) years of age traveling unaccompanied by
+their parents or guardians, although paying the adult fare, will be required to satisfy the
+office or agency booking such passage of the fact that their parents or guardians are aware
+of their intent to travel and have given their permission for such travel and to leave their
+country of origin if the travel being undertaken so requires. If time permits prior to departure,
+a statement in writing to that effect will be required from parents or guardian and if the travel
+is international, the statement must also say that the minor(s) will be visiting and in the
+charge of responsible person(s) while in the country of destination. If reservation has been
+made so near departure time that written statement is not obtainable, then oral assurance
+will be required.
+RULE 55: SPECIALLY TRAINED SERVICE DOGS
+Delta accepts for transportation, without charge, dogs trained: (1) to lead individuals who are
+blind, when the dog accompanies a passenger with a visual related disability using a service
+dog to managing a disability; (2) to assist individuals who are Deaf or Hard of Hearing, when the
+dog accompanies a passenger who is Deaf or Hard of Hearing using a service dog to manage a
+disability; (3) to assist a person with physical or psychiatric related disabilities where the service
+dog assists the person in manage their disability, or (4) in explosive detection or search and
+rescue, only such dogs are accompanied by U.S. military and U.S. government handlers. In the
+cases of (1) and (2) above, Delta will also accept such dogs when accompanied by the dog’s
+trainer and is en-route to the domicile of the owner for completion of training. In all cases, the
+service dog will be permitted to accompany such passenger into the cabin but will not be
+permitted to occupy a seat.
+RULE 85: SMOKE FREE SERVICE
+ Delta prohibits smoking and the use of all smokeless tobacco products on all flights.
+RULE 90: PASSENGER MEDICAL OXYGEN
+A) Portable Oxygen Concentrators
+On flights operated by Delta or Delta Connection carriers, passengers may use Portable
+Oxygen Concentrators (POCs) that have been approved for use by Delta upon meeting the
+requirements listed below. The current list of approved POC devices is available on
+delta.com or may be obtained by calling Delta Reservations.
+1) Advance Notice Required
+Passengers must provide written notice of their plans to use a POC to Delta or its designee
+at least 48 hours prior to the scheduled departure time of the first flight in their itinerary.
+2) Medical Screening
+
+ Delta Canadian General Rules Tariff Page 18 of 63
+Delta requires that passengers who wish to use a POC on a Delta flight receive medical
+screening prior to their flight. This service is provided by Delta at no cost to the passenger. If
+the passenger makes any voluntary change to his/her itinerary after completion of the
+medical screening and the change results in a longer flight time than the original itinerary,
+re-screening will be required.
+3) Medical Certificate Required
+All passengers using a POC on a Delta flight must possess a written statement or a medical
+certificate indicating:
+a. A signature by a licensed physician certifying the need for in-flight
+ oxygen.
+b. The passenger is able to fly without physical risk to herself/himself or
+ to other passengers.
+c. The amount of oxygen required per hour and the maximum flow rate
+ in liters per minute required at 8000 ft. altitude.
+B) Seating Restrictions
+Passengers using POCs on a Delta flight must be seated in a row other than an emergency
+exit or bulkhead.
+
+RULE 95: CLAIMS
+Overcharges
+No claims for overcharge shall be valid and DL shall have no liability if claim is more than one
+(1) year after the date of issue of the ticket.
+RULE 100: TICKETS
+A) No person shall be entitled to transportation except upon presentation of a valid ticket. Such
+ticket shall entitle the passenger to transportation only between points of origin and destination
+and via the routing designated thereon.
+B) Flight coupons will be honored only in the order in which they are issued, and only if all unused
+flight coupons and passenger coupons are presented together.
+C) Compliance with Terms and Conditions of Sale
+Tickets are valid for travel only when used in accordance with all terms and conditions of
+sale. Terms and conditions of sale include but are not limited to:
+A) The passenger's itinerary, as stated on the ticket or in the passenger's reservation
+record;
+B) Any requirement that the passenger stay over a specified date or length of time
+(for example, Sat. night or weekend) at the destination specified on the ticket;
+ Delta Canadian General Rules Tariff Page 19 of 63
+C) Any special purpose or status (for example, age in the case of senior citizen or
+children's discount, military status in the case of a military fare, official government
+business in the case of a government fare, or attendance at a qualified event in the
+case of a meeting or convention fare) that entitles the passenger to a special reduced
+rate;
+D) Any other requirement associated with the passenger's fare level.
+2) Unless a ticket is reissued by Delta or its authorized agent upon payment of applicable
+charges, or an authorized representative of Delta waives applicable restrictions in writing, a
+ticket is invalid;
+A) If used for travel to a destination other than that specified on the ticket;
+B) If the passenger fails to comply with applicable stayover requirements;
+C) If the passenger does not meet the purpose or status requirement associated with the
+fare category on the ticket;
+D) If Delta determines that the ticket has been purchased or used in a manner designed to
+circumvent applicable fare rules.
+3) Delta specifically prohibits the practices commonly known as:
+A) Back to Back Ticketing - The issuance, purchase or usage of flight coupons from two or
+more tickets issued at round trip fares, or the combination of two or more round trip
+fares end to end on the same ticket for the purpose of circumventing minimum stay
+requirements.
+B) Throwaway Ticketing - The issuance, purchase, or usage of round trip fares for one way
+travel.
+C) Hidden City/Point Beyond Ticketing - The issuance, purchase, or usage of a fare from a
+point before the passenger's actual origin or to a point beyond the
+passenger's actual destination.
+4) Where a ticket is invalidated as the result of the passenger's non-compliance with
+any term or condition of sale, Delta has the right in its sole discretion to:
+A) Cancel any remaining portion of the passenger's itinerary;
+B) Confiscate unused flight coupons;
+C) Refuse to board the passenger or check the passenger's baggage; or
+D) Assess the passenger for the reasonable remaining value of the ticket, which shall be
+no less than the difference between the fare actually paid and the lowest fare applicable
+to the passenger's actual itinerary.
+D) A ticket which has not been validated, or which has been altered, mutilated or improperly
+issued, shall not be valid.
+E) Tickets are not transferable, but the carrier is not liable to the owner of a ticket for honoring or
+refunding such ticket when presented by another person.
+ Delta Canadian General Rules Tariff Page 20 of 63
+F) Tickets may be purchased on credit, installment, or time payment plans lawfully in effect.
+EXCEPTION: Notwithstanding the terms of any agreement or understanding, in the event of a
+strike or work stoppage which causes any cancellation or suspension of operations, Delta will
+not accept as payment UATP credit cards issued by such struck carrier.
+G) The purchaser of a Delta ticket and the passenger intending to use such ticket are responsible
+for ensuring that the ticket accurately states the passenger's name.
+Presentation of a ticket for transportation on Delta by someone other than the passenger named
+thereon renders the ticket void. Such ticket will be subject to confiscation and will be ineligible
+for any refund.
+H) An electronic ticket (E-Ticket/ET) is the record of agreement maintained and processed within
+the carrier’s electronic reservation system. A written receipt is provided to the purchaser of the
+electronic ticket which contains a reference for retrieving the record within the carrier’s
+reservation system and summary of the ticket information.
+I) The carrier may mandate the issuance of an electronic ticket (ET) regardless of market, carrier,
+form of payment, or customer type (including SkyMiles and participating carrier frequent flyer
+members).
+J) Delta, or its authorized agent, will assess a USD 50.00/CAD 50.00 nonrefundable service
+charge when a passenger voluntarily requests the conversion of an electronic ticket (ET) to
+paper.
+K) External Reissue Charge
+Except as set forth in this rule, Delta will collect a nonrefundable fee of USD $50.00/CAD 52.00
+for reissue by Delta of tickets originally issued in the United States or Canada by any ticketing
+source other than Delta. This fee applies to all changes to tickets issued at the request of the
+passenger. The charge does not apply to same day confirmed transactions, IROP or schedule
+change situations, SkyMiles upgrade reissues, tickets reissued on delta.com, or tickets issued
+at military or government fares.
+L) Basic Economy fares are not changeable or refundable but may be voluntarily cancelled by the
+passenger at any time prior to departure, subject to a cancellation charge of CAD 99.00. The
+cancellation charge will be deducted from the ticket value, and the remaining ticket value may
+be used by the customer to purchase a new ticket from delta in his or her name, subject to
+compliance with the fare rules, ticket expiration and other restrictions.
+RULE 105: TICKET VALIDITY
+A) Period of Validity –
+A ticket is valid for one year from the date of issue and all travel must be completed within
+the validity period. If exchanged, whether travel has commenced or not, the ticket must be
+reissued and all travel completed within one year from the original date of issue.
+Note – certain fares may have different periods of validity, in which case the specific rules
+associated with the fare will take precedence.
+ Delta Canadian General Rules Tariff Page 21 of 63
+B) Extension of Validity
+If the passenger is prevented from using the ticket, or a portion of the ticket, during the period of
+validity specified in paragraph a) above due to lack of space or flight cancellation, the ticket will
+remain valid until space can be provided on a schedule comparable to the schedule that the
+passenger has requested.
+RULE 110: ISSUANCE OF TICKET STOCK
+A) The carrier will issue to a person, a stock of tickets and validating stamp for the purpose of
+issuing tickets for transportation, subject to 1) reasonable credit requirements and 2) entering
+into a written agreement authorizing the issuance of tickets and providing for accounting,
+reservation and ticketing procedures and provisions protecting them and the carrier from loss or
+misuse of the tickets.
+B) The carrier will arrange for the issuance of a ticketing machine to a person for the purpose of
+issuing tickets for transportation, subject to 1) reasonable credit requirements and 2) entering
+into a written agreement authorizing the issuance of tickets and providing for accounting,
+reservation and ticketing procedures and provisions protecting them and the carrier from loss or
+misuse of the tickets. The carrier will make no charge for the ticket machine or related
+communication services. The ticketing machine and related communication services will be
+provided by an independent company, which is not an agent or servant of the carrier, and at the
+person's expense.
+ NOTE: For the purpose of the above paragraphs, "person" means an individual, firm, copartnership, corporation, company, association, joint-stock association, or body politic and
+includes any trustee, receiver, assignee, or similar representative thereof.
+RULE 115: CONFIRMATION OF RESERVATIONS
+A) Validity of Confirmed Reservations
+No reservation on Delta is valid until the availability and allocation of the reserved space is
+confirmed by Delta or its agent and entered in Delta’s electronic reservations system. Unless an
+earlier ticketing deadline is imposed by the applicable fare rule or other agreement between Delta
+and the passenger, Delta must receive payment and the reservation must be ticketed at least 30
+minutes prior to the scheduled flight departure time. Failure to comply with this ticketing deadline or
+an earlier ticketing deadline imposed by the applicable fare rule or other agreement with the
+passenger will result in cancellation of the reservation without notice.
+B) Earlier Ticketing Required at Some Airports
+1) Hartsfield-Jackson International Airport – Atlanta (ATL), Denver International Airport
+(DEN), Las Vegas International Airport (LAS), Orlando International Airport (MCO), John F.
+Kennedy International Airport (JFK), and Los Angeles International Airport (LAX)
+For passengers traveling from Hartsfield-Jackson International Airport – Atlanta (ATL), Denver
+International Airport (DEN), Las Vegas International Airport (LAS), Orlando International Airport
+(MCO), John F. Kennedy International Airport (JFK), and Los Angeles International Airport (LAX)
+passengers must purchase their ticket at least 45 minutes prior to the scheduled flight departure
+time of the flight to which such reservation applies or the baggage may be refused and the
+reservation cancelled.
+ Delta Canadian General Rules Tariff Page 22 of 63
+2) San Juan Luis Munoz Marin International Airport (SJU) or St. Thomas Cyril E. King Airport
+(STT)
+For passengers traveling from San Juan Luis Munoz Marin International Airport (SJU) or St. Thomas Cyril
+E. King Airport (STT), passengers must purchase their tickets at least 60 minutes prior to the scheduled
+departure time of the flight to which such reservation applies or the reservation may be cancelled.
+C) Overbooking of Flights
+Because passengers with confirmed reservations on a flight sometimes fail to show, Delta reserves
+the right to sell more tickets for travel on each flight than there are seats available on the aircraft. In
+some cases, this may result in an “oversold flight,” i.e., a flight in which Delta cannot accommodate
+one or more passengers with confirmed reservations. In that case, Delta may deny boarding to
+passengers with confirmed reservations on the flight. The rights of passengers with confirmed
+reservations who are denied boarding due to the oversale of a flight are governed by Rule 245.
+ Delta Canadian General Rules Tariff Page 23 of 63
+D) Missing Reservations
+Once a passenger obtains a ticket that reflects confirmed space for a specific flight and date from
+Delta or an authorized Delta agent, the reservation is confirmed even if the record is missing from
+Delta’s electronic reservations system, unless Delta’s records indicate that the reservation was
+cancelled after the ticket was issued.
+E) Fictitious Bookings
+Multiple bookings of a fictitious nature are prohibited by Delta. In the event Delta determines that an
+individual has confirmed such bookings to one or more destination(s) on or about the same date(s),
+the carrier reserves the right to cancel all confirmed space associated with the multiple reservations
+without notice to the passenger or the person making the booking.
+RULE 135: CANCELLATION OF RESERVATIONS
+A) Delta will cancel reservations of any passenger whenever such action is necessary to comply
+with any governmental regulation, or to comply with any governmental request for emergency
+transportation in connection with the national defense, or whenever such action is necessary or
+advisable by reason of weather or other conditions beyond its control.
+B) The Transportation Security Agency’s (TSA) Secure Flight Program requires that Delta collect
+the following additional information from passengers when making a reservation to fly within,
+into or out of the United States and reservations for point-to-point international flights operated
+by U.S.- based airlines:
+1) Full Name (required), as it appears on government-issued I.D. approved for use
+when traveling
+2) Date of Birth (required)
+3) Gender (required)
+4) Redress Number (optional)
+ Delta may cancel your reservation if the reservation does not include the required Secure Flight
+ Passenger Data (full name, date of birth and gender) at least 72 hours prior to your scheduled
+ departure. This cancellation policy applies to all Delta tickets, including tickets for our codeshare
+ partners’ flights.
+C) Failure To Occupy Space
+If the passenger fails to occupy space which has been reserved for him/her on a Delta flight and
+Delta fails to receive notice of the cancellation of such reservation prior to the departure of such
+flight, or if Delta cancels the reservation of any passenger in accordance with any provision of
+this rule, Delta will cancel all reservations held by such passenger on Delta flights for continuing
+or return space, provided Delta originally reserved that space.
+D) Airport Check-In Time Limits
+1) Reservations Subject to Cancellation for Failure to Meet Check-in and Boarding Deadlines
+Reservations and seat assignments are subject to cancellation if the passenger is not at the
+airport, has not completed the check-in process for his or her flight prior to the applicable
+ Delta Canadian General Rules Tariff Page 24 of 63
+check-in deadlines, and is not at the gate and ready for boarding prior to the applicable boarding
+deadlines. The check-in and boarding deadlines in effect on the date of travel will apply. Current
+check-in and boarding deadlines are posted at
+www.delta.com/traveling_checkin/itineraries_checkin/requirements/index.jsp. It is the
+passenger’s responsibility to arrive at the airport with sufficient time to complete all ticketing,
+baggage check, and security clearance procedures and to arrive at the gate ready to board by
+these deadlines. The deadlines posted on Delta.com refer to the number of minutes prior to the
+scheduled departure of the flight on which the reservation was made. Failure to comply with
+these deadlines will subject the entire itinerary to cancellation.
+2) Check-In Definition
+a) Check-In is defined as the use of any automated process such as Virtual Check-in,
+delta.com, Delta Direct, kiosks or face-to-face contact with a Delta representative which
+changes the passenger’s reserved seat status from “RS” to “CI or CV” on departing
+flight on which the passenger’s reservation was made.
+• Reserved Seat (RS) - A reserved seat is an advance seat assignment that can be
+made up to 331 days before the scheduled departure date of the confirmed flight.
+• Checked-In (CI or CV) - A status indicator in the airline computer system which
+denotes the passenger has checked-in for a flight using one of the airlines approved
+check-in processes.
+When a seat assignment is not available on the passenger’s confirmed flight, they must
+present themselves no earlier than six (6) hours prior to departure to a Delta
+representative for activation on the seat request list.
+b) Baggage Check-In
+Passengers who intend to check baggage may be subject to additional check-in
+requirements. For additional information, refer to Tariff Rule 190.
+c) Standby Status
+Passengers who intend to standby for flight must check-in at least 30 minutes prior to
+the scheduled departure time of the flight. Delta may not be able to accommodate the
+passenger’s request for standby if this provision is not met. For additional information
+on voluntary standby travel, please refer to Tariff Rule 141 - Voluntary Standby Travel.
+3) Passenger Responsibility
+Passengers must arrive at the airport sufficiently in advance of a flight departure time
+(generally, not less than 2 hours) to permit completion of government requirements, security
+procedures, and departure processing. Departures will not be delayed for passengers who
+are improperly documented, have not completed all security processing, or have not met the
+carrier’s check-in requirements. Delta is not liable to the passenger for loss or expense due
+to the passenger’s failure to comply with this provision.
+E) Delta is not liable when it cancels the reservation of any passenger in accordance with this rule,
+but:
+1) If such reservation was canceled pursuant to paragraph A) of this rule, Delta will take such
+action as is provided in Rule 240 (Flight Delays/Cancellations);
+2) If such reservation was canceled pursuant to other paragraphs of this rule, Delta will refund
+in accordance with Rule 270 (Voluntary Refunds).
+ Delta Canadian General Rules Tariff Page 25 of 63
+RULE 141: VOLUNTARY STANDBY TRAVEL
+Voluntary standby travel is prohibited unless allowed by the rules of the fare purchased. When
+standby is permitted, the following provisions apply:
+A) Coach Voluntary Standby Travel
+• Delta reserves the right to discontinue accepting and placing passengers on the airport
+standby list based on local and/or system operational requirements.
+• Delta reserves the right to limit the number of passengers on the airport standby list or change
+the rules of the coach voluntary standby program at any time without notice.
+• Eligibility for same day standby is subject to, but not limited to, operational considerations,
+selected flights, specified booking classes, credit card form of payment only and the applicable
+fare rule governing the passenger’s ticket.
+• Voluntary standby travel is subject to, but not limited to, the availability of seats at departure
+time and does not imply a guarantee of transportation on the requested flight(s) including the
+origin, downline, or connecting flights.
+• Delta reserves the right to charge a non-refundable same day standby fee when a passenger
+requests to standby for an alternate flight for which the passenger does not hold a confirmed
+reservation. The fee, if any, may be assessed based on each flight segment from the
+passenger’s origin to destination or next point of stop over. These fees will be charged if the
+passenger flies any portion of the flight segment, therefore, passengers that are removed at
+intermediate points on through flights and/or voluntarily or involuntarily deplaned at a destination
+other than the destination for which the fee was intended (diversion) will not be eligible for a
+partial or whole refund. Refer to delta.com for current standby fees.
+• Delta is not liable to pay compensation, including but not limited to, denied boarding
+compensation and amenities, for a failure to provide transportation and/or accommodate the
+customer’s voluntary request for standby travel.
+• Voluntary standby travel is limited to passengers with a confirmed reservation on the same day
+as reflected on the passenger’s ticket. No changes between origin, destination, or co-terminals.
+No changes to routing for fares that are flight specific or require specific routing.
+• Passengers may be placed on the airport standby list with a boarding priority of the airlines
+choosing.
+• Delta may choose to accommodate passengers from the airport standby list in a specified
+order including but not limited to: ticket value, frequent flyer status, check-in time.
+• Delta reserves the right to limit the number of passengers on the airport standby list, only
+accept the passenger’s standby request at an airport location and limit the minimum and
+maximum time frames that airport standby listing is allowed.
+B) Paid Standby Upgrade Program
+Delta may offer, on selected flights, the ability for a passenger to standby for a paid standby
+upgrade to a premium class of service. The charge will be assessed per segment from origin to
+destination based on fare class and mileage. The following rules will apply to the Paid Standby
+Upgrade Program:
+ Delta Canadian General Rules Tariff Page 26 of 63
+• Delta reserves the right to charge a non-refundable fee when a passenger requests to
+upgrade to a premium class of service. A fee will be assessed for each segment of travel.
+Refer to delta.com for current fees.
+• A flight segment is one takeoff and one landing from a passenger's boarding point to the
+first deplaning point. Each flight coupon represents a segment of a trip.
+• Paid Standby Upgrade Program is limited to passengers with a confirmed coach cabin
+reservation on the same flight and date reflected on the passenger’s ticket.
+• Only a Delta approved credit card may be used as form of payment for the Paid Standby
+Program. The passenger’s credit card will not be charged until the passenger is cleared
+from the standby list and given a boarding document for the specified flight. Other types of
+payment including but not limited to: cash, vouchers, certificates or promotions are not
+permitted.
+• The paid standby upgrade program may be offered on select domestic and international
+flights as determined by Delta and Delta reserves the right to change the rules of such
+program at any time without notice.
+• Delta is not liable to pay compensation, including but not limited to, denied boarding
+compensation and amenities, for failure to provide an upgrade and/or accommodate the
+customer’s voluntary request for a paid standby upgrade.
+• The Paid Standby Upgrade Program is subject to, but not limited to, the availability of seats
+at departure time and does not imply a guarantee of an upgrade on the requested flight(s)
+including the origin, downline, or connecting flights.
+• Passengers may be placed on the airport standby list with a boarding priority of the airlines
+choosing.
+• Delta may choose to accommodate passengers from the airport standby list in a specified
+order including but not limited to: ticket value, frequent flyer status, check-in time.
+• Paid Standby Upgrade fees are non-refundable. These fees will be charged if the
+passenger flies any portion of the flight segment, therefore, passengers that are removed at
+intermediate points on through flights and/or voluntarily or involuntarily deplaned at a
+destination other than the destination for which the fee was intended (diversion) will not be
+eligible for a partial or whole refund. If the passenger cannot be re-accommodated in the
+upgraded cabin, they may be seated in the coach cabin for the remainder of the flight
+segment.
+• Delta reserves the right to not offer and/or discontinue accepting and placing passengers on
+the airport standby list based on local and/or system operational requirements.
+RULE 150: APPLICATION OF FARES
+A) Where a local or joint fare is specifically published via the desired routing from point of origin to
+point of destination, such fare is applicable over such route, notwithstanding that it is higher or
+lower than the combination of intermediate fares via such routing.
+B) Fares apply only for transportation in the types of aircraft and their seating configuration as
+specified in aircraft type and seating configuration tariff no. ts-2, issued by Airline Tariff
+Publishing Company, for the classes of service and aircraft stated in connection with fares
+governed by this rule.
+C) Unless otherwise provided, flights designated by class(es) of service (for example "First Class,"
+"Coach," or by other classes), type of aircraft (jet or propeller) and flight departure or arrival
+time, as specified in connection with the application of fares, refer to flights bearing such
+designations and schedules, flight departure or arrival times, as set forth in the carrier's Official
+General Schedule.
+ Delta Canadian General Rules Tariff Page 27 of 63
+D) Fares and charges apply only to air transportation between the airport and/or heliports through
+which the cities named in connection with such fares and charges are served by the carrier or
+carriers by whom, or on whose behalf, such fares and charges are published. Ground
+transportation other than that specified below will be arranged by the passenger at his/her own
+expense.
+ EXCEPTION: Passengers making connection at LGA/EWR/JFK airports to/from international
+flights scheduled to depart no more than 6 hours after the scheduled arrival of the passenger's
+flight at LGA/EWR/JFK airports will be provided ground transportation between above
+mentioned airports under the following conditions:
+
+1) Such ground transportation will be provided without charge by independent contractors in
+the business of providing such ground transportation, upon request of the passenger.
+2) Where ticket coupons have been issued to cover the services of such contractors, and
+when such services have not been used, the coupons will have no refund value.
+3) Such independent contractors are not agents or servants of any carrier, and Delta does not
+assume responsibility for the ground transportation of any passenger and/or his/her
+baggage between the airports mentioned above.
+EXCEPTION: Ground transportation between various airports, under the conditions listed
+below, will be provided without charge by an independent contractor in the business of providing
+such transportation, upon request of the passenger. Where ticket coupons have been issued to
+cover this service, and when such service has not been used, the coupons will have no
+refund value. Such independent contractors are not agents or servants of any carrier, and Delta
+does not assume responsibility for the transportation of any passenger or his baggage between
+the airports shown.
+New York, N.Y./Newark, N.J.
+Between any 2 of the 3 New York City metropolitan airports (John F. Kennedy international
+airport, Laguardia airport, and Newark airport) for Delta passengers making connections with
+Bermuda, Nassau, and transatlantic flights which are scheduled to depart no more than 6 hr.
+after the scheduled arrival of the passenger's flight.
+RULE 160: CURRENCY
+Except as otherwise provided;
+A) All fares and charges governed by the tariff are stated as follows:
+1) In Canadian dollars for transportation between Canada and the U.S.A. when travel
+commences in Canada;
+2) In United States dollars for transportation between the U.S.A. and Canada when travel
+commences in the U.S.A.
+B) Payment for tickets, including prepaid ticket advices (PTA), shall be:
+1) In Canadian dollars at the Canadian dollar fare, or its equivalent in other currencies
+converted to Canadian dollars at the banker’s buying rate of exchange when travel
+commences in Canada.
+ Delta Canadian General Rules Tariff Page 28 of 63
+2) In U.S. dollars at the U.S. dollar fare, or its equivalent in other currencies converted to U.S.
+dollars at the banker’s buying rate of exchange when travel commences in the U.S.A.
+C) For the purpose of this rule, the banker’s buying rate of exchange means:
+1) In the U.S.A and Canada, the rate published each Tuesday in the ‘Wall Street Journal’
+under the heading ‘Foreign Exchange’. This rate will be applicable from Wednesday of each
+week up to and including the Tuesday of the following week. When a national holiday falls
+on Monday, foreign exchange rates do not appear in the Tuesday edition of the ‘Wall Street
+Journal’. In such exceptional cases, the previous week’s rates are used through Wednesday
+instead of Tuesday, and the Wednesday edition of the ‘Wall Street Journal’ will be used for
+the period Thursday through Tuesday of the following week.
+2) In other countries, the rate at which, for the purpose of the transfer of funds through banking
+channels (i.e. other than transactions in bank notes, travelers checks, and similar banking
+instruments), a bank will purchase a given amount of foreign currency in exchange for one
+unit (or units) of the country in which the exchange transaction takes place.
+RULE 165: FARE CONSTRUCTION
+A) When the fare between any 2 points is not specifically published via the desired routing, such
+fare shall be constructed by combining those fares, applicable via the desired routing from the
+passenger’s point of origin to point of destination, which produce the lowest fare for the class of
+service used provided that such fare will not exceed the lowest fare determined in accordance
+with paragraphs 1), 2), 3), 4) and 5) of this rule.
+1) Circle-Trip/Round-Trip Maximum
+If the fare constructed for such routing exceeds the fare for a circle trip or round trip
+constructed from the same point of origin which would include such routing, the circle trip or
+round trip fare would apply.
+2) Interrupted Travel
+If a fare constructed for a trip interrupted by travel other than via the participating carriers
+exceeds the applicable through fare for uninterrupted travel via the routing, the applicable
+through fare will apply.
+3) Maximum Fare- Travel via the same or different classes of service
+A combination of fares of the same or different classes of service (see NOTE below) shall
+not exceed the lowest of the following fares or combination of fares via the same carrier(s)
+between and via the same point:
+a) A combination of fares via the class of service used for a portion of the transportation
+and fares for a higher class of service for the remainder of the transportation; or
+b) A combination of fares via higher classes of service; or
+c) A through published fare via a higher class of service; or
+EXCEPTION: A through published fare via a higher class of service to or from a more
+distant point may not be used to construct a fare for an intermediate point(s) if there is a
+published fare for the same higher class of service to or from such intermediate point(s).
+d) In the event that 2 or more fare types/booking codes are used in an itinerary, the
+ Delta Canadian General Rules Tariff Page 29 of 63
+through fare to be used, if lower than the sum of applicable fares, is the highest fare
+type/booking code ranked above.
+ NOTE: For the purpose of paragraphs a), b) and c), fares are published in the following
+descending order of classes of service:
+1) First Class/Business - J, C, D, I, Z
+5) Coach – W, S, Y, B, M, H, Q, K, L, U, T, X, V, E
+B) Construction of fares for combination of jet and propeller transportation in the same class of
+service where no through one-factor fare is published from point of origin to point of destination
+via the route of movement for a journey in one class of service, partly on jet aircraft and partly
+on propeller aircraft, the applicable fare for such transportation shall be constructed as follows:
+Where a through one-factor fare for propeller aircraft is published from point or origin to point of
+destination via the route of movement for the class of service used, the applicable fare shall be
+such through one-factor fare, plus the difference between the fares for jet and propeller aircraft,
+for the class of service used, between the points where jet aircraft is used. For the purpose of
+applying paragraph (4) only, the classes of service are:
+(1) First class service
+(2) Coach service other than night coach
+(3) Night coach service
+RULE 170: ROUND-TRIP FARES
+ When a ticket is purchased before the transportation commences or is reissued pursuant to
+Rule 255 (Rerouting), the fare applicable to a round trip between two points over the lines of
+one or more carriers shall be:
+A) When specifically published via the desired routing, the applicable round-trip fare
+specifically published by or on behalf of such carrier(s); or
+B) When not specifically published via the desired routing, the sum of the one-way fares
+applicable to the respective one-way segments or the sum of the round-trip segment fares if
+these are published.
+RULE 175: CIRCLE-TRIP FARES
+A) Except as provided below, when a ticket therefore is purchased before the transportation
+commences or is reissued pursuant to Rule 255 (Rerouting), the fare applicable to a circle trip
+via participating carriers or partly via participating carriers and partly via other scheduled air
+carriers and National Air Taxi Conference members shall be for the portion of carriage via one
+or more participating carriers, the sum of 50% of the applicable round-trip fares for the
+respective sections, constructed from the point of origin via the route of travel that produces the
+lowest fare for the circle trip for class of service used.
+B) The provision of this rule will also apply when a portion of a circle trip involves passage other
+than by air between any of the following groups of cities:
+ Miami, FL and Ft. Lauderdale, FL
+ Delta Canadian General Rules Tariff Page 30 of 63
+ Baltimore, MD and Washington, DC
+ Ontario, CA and Los Angeles, CA
+ EXCEPTION: The provisions of this rule are not applicable when any portion of the circle trip is
+flown via charter services or military air services.
+RULE 180: STOPOVERS
+A) Stopovers will be permitted only upon payment of the combination of applicable fares, or
+stopover charges.
+B) A stopover, as used herein, will occur when a passenger arrives at an intermediate or junction
+transfer point on a flight on any carrier, and fails to depart from such intermediate or junction
+point within 4 hours after their arrival at such point.
+RULE 185: ROUTINGS
+A) Each fare applies only to transportation via the routings specified in connection with such fare.
+Any local routing in connection with a fare applicable to transportation over the lines of any one
+carrier between any 2 points shall be included in any routing in connection with any published
+joint fare which includes transportation over the lines of such carrier between such points,
+unless expressly excluded from the joint fare routing or routings.
+B) Where more than one local fare applies for the portion of passage via a carrier participating in a
+joint fare, the joint fare shall apply only via the routings specified in connection with the lowest
+local fare.
+ EXCEPTION: The provisions of paragraph B) will not apply to joint fares constructed in
+accordance with Rule 165. Travel will be permitted via the routing authorized in connection with
+the local fares used in constructing such joint fares.
+RULE 187: MINIMUM FARES
+Except as otherwise provided, when rules in this tariff or in tariffs governed by this tariff,
+provided for application of fares based on percentages of other fares, the minimum one-way
+fare applicable to the total local or interline transportation sold subject to this tariff shall be USD
+6.00 provided that in the event the passenger's transportation is via 2 or more carriers having
+different minimum fares, the highest minimum fare shall apply to such Interline carriers having
+different minimum fares.
+Wholly or One-Way
+Partially via USD CAD Trip Exception
+ DL 6.00 7.08 --- ---
+RULE 189: INTERLINE BAGGAGE ACCEPTANCE (effective for travel to/from Canada for tickets
+issued on/after 01APR15)
+Definitions
+"Airline Designator Code"
+ Delta Canadian General Rules Tariff Page 31 of 63
+an identification code comprised of two-characters which is used for commercial and traffic
+purposes such as reservations, schedules, timetables, ticketing, tariffs and airport display systems.
+Airline designators are assigned by IATA. When this code appears on a ticket, it reflects the carrier
+that is marketing the flight, which might be different from the carrier operating the flight.
+"Baggage Rules"
+the conditions associated with the acceptance of baggage, services incidental to the transportation
+of baggage, allowances and all related charges. For example, baggage rules may address the
+following topics:
+• The maximum weight and dimensions of passenger bags, if applicable, both checked and
+unchecked;
+• The number of checked and unchecked passenger bags that can be transported and the applicable
+charges;
+• Excess and oversized baggage charges;
+• Charges related to check-in, collection and delivery of checked baggage;
+• Acceptance and charges related to special items, e.g. surf boards, pets bicycles, etc;
+• Baggage provisions related to prohibited or unacceptable items, including embargoes;
+• Terms or conditions that would alter or impact the baggage allowances and charges applicable to
+passengers (e.g. frequent flyer status, early check-in, pre-purchasing baggage allowances with a
+particular credit card); and,
+• Other rules governing treatment of baggage at stopover points, including passengers subject to
+special baggage allowances or charges, etc.
+Carrier Definitions (Various)
+"Down Line Carrier"
+any carrier, other than the selecting carrier, who is identified as providing interline
+transportation to the passenger by virtue of the passenger’s ticket.
+"Marketing Carrier"
+the carrier that sells flights under its code.
+"Most Significant Carrier (MSC)"
+is determined by a methodology, established by IATA (Resolution 302), which establishes,
+for each portion of a passenger's itinerary where baggage is checked through to a new
+stopover point, which carrier will be performing the most significant part of the service. For
+travelers under the Resolution 302 system, the baggage rules of the MSC will apply. For
+complex itineraries involving multiple checked baggage points, there may be more than one
+MSC, resulting in the application of differing baggage rules through an itinerary.
+"Most Significant Carrier (MSC) – IATA Resolution 302 as conditioned by the CTA"
+in this instance, the MSC is determined by applying IATA Resolution 302 methodology as
+conditioned by the CTA. The CTA’s reservation has stipulated that only a single set of
+baggage rules may apply to any given interline itinerary. The aim of the Agency’s
+ Delta Canadian General Rules Tariff Page 32 of 63
+reservation is to allow the selecting carrier to use the MSC methodology to determine which
+carrier's baggage rules apply to an international interline itinerary to or from Canada, while
+reinforcing the role of tariffs in the determination of which carrier’s rules apply.
+"Operating Carrier"
+the carrier that operates the actual flight.
+"Participating Carrier(s)"
+includes both the selecting carrier and down line carriers who have been identified as
+providing interline transportation to the passenger by virtue of the passenger’s ticket.
+"Selected Carrier"
+the carrier whose baggage rules apply to the entire interline itinerary.
+"Selecting Carrier"
+the carrier whose designator code is identified on the first flight segment of the passenger’s
+ticket at the beginning of an interline itinerary issued on a single ticket whose origin or
+ultimate destination is in Canada.
+"Interline agreement"
+an agreement between two or more carriers to co-ordinate the transportation of passengers
+and their baggage from the flight of one air carrier to the flight of another air carrier (through
+to the next point of stopover).
+"Interline itinerary"
+all flights reflected on a single ticket involving multiple air carriers. Only travel on a single
+ticket is subject to the Agency’s approach provided the origin or the ultimate ticketed
+destination is a point in Canada.
+"Interline travel"
+travel involving multiple air carriers listed on a single ticket that is purchased via a single
+transaction.
+"Single ticket"
+a document that permits travel from origin to destination. It may include interline/code-share
+and intra-line segments. It may also include end-to-end combinations (i.e., stand alone fares
+that can be bought separately but combined together to form one price).
+"Summary page at the end of an online purchase"
+a page on a carrier’s Web site which summarizes the details of a ticket purchase transaction
+just after the passenger has agreed to purchase the ticket from the carrier and has provided
+a form of payment.
+"Ultimate ticketed destination"
+In situations where a passenger’s origin is a non-Canadian point and the itinerary includes
+at least one stop in Canada, as well as at least one stop outside of Canada. If the stop in
+Canada is the farthest checked point and the stop is more than 24 hours, the Agency would
+consider the ultimate ticketed destination to be Canada.
+(A) Applicability
+This rule is applicable to all interline itineraries issued on a single ticket whose origin or ultimate ticketed
+destination is in Canada.
+It establishes how the carrier will determine which carrier’s baggage rules apply to any passenger’s entire
+interline itinerary.
+ Delta Canadian General Rules Tariff Page 33 of 63
+(B) General
+For the purposes of interline baggage acceptance:
+i. the carrier whose designator code is identified on the first segment of the passenger’s interline ticket
+will be known as the selecting carrier.
+ii. any carrier who is identified as providing interline transportation to the passenger by virtue of the
+passenger’s ticket will be known as a participating carrier.
+(C) Baggage Rule Determination by Selecting Carrier
+I. Checked Baggage
+The selecting carrier will:
+a) Select and apply its own baggage rules as set out in its tariff to the entire interline itinerary.
+OR
+b) Select the Most Significant Carrier, as determined by IATA Resolution 302 and conditioned by the
+Canadian Transportation Agency, in order for that carrier’s baggage rules, as established in its tariff,
+to apply to the entire interline itinerary.
+The carrier identified by means of a) or b) will be known as the selected carrier.
+When Delta Air Lines is the selecting carrier, Delta Air Lines will select the Most Significant Carrier, as
+determined by IATA Resolution 302 and conditioned by the Canadian Transportation Agency, in order for
+that carrier’s baggage rule, as established in its tariff, to apply to the entire interline itinerary.
+II. Carry-On Baggage
+Each operating carrier’s carry-on baggage allowances will apply to each flight segment in an interline
+itinerary. Notwithstanding, the carry-on baggage charges that will apply to the entire interline itinerary will be
+those of the selected carrier.
+(D) Baggage Rule Application by Participating Carrier
+Where Delta Air Lines is not the selected carrier on an interline itinerary but is a participating carrier that is
+providing transportation to the passenger based on the ticket issued, Delta Air Lines will apply as its own the
+baggage rules, with the exception of rules as to the acceptance of pets as checked baggage, of the selected
+carrier throughout the interline itinerary. As to the acceptance of pets as checked baggage, Delta’s rules will
+apply.
+(E) Disclosure of Baggage Rules
+Summary Page at the end of an Online Purchase and E-Ticket Disclosure
+1. For baggage rules provisions related to a passenger’s 1st and 2nd checked bag and the passenger’s
+carry-on baggage (i.e., the passenger’s “standard” baggage allowance), when Delta Air Lines sells and
+issues a ticket for an interline itinerary, it will disclose to the passenger on any summary page at the end
+of an online purchase and on the passenger’s itinerary/receipt and e-ticket at the time of ticketing the
+baggage information relevant to the passenger itinerary as set out in paragraph 2. below. The disclosed
+information will reflect the baggage rules of the selected carrier.
+ Delta Canadian General Rules Tariff Page 34 of 63
+2. The carrier will disclose the following information:
+a) name of the carrier whose baggage rules apply;
+b) passenger’s free baggage allowance and/or applicable fees;
+c) size and weight limits of the bags, if applicable;
+d) terms or conditions that would alter or impact a passenger’s standard baggage allowances and
+charges (e.g. frequent flyer status, early check-in, pre-purchasing baggage allowances with a
+particular credit card);
+e) existence of any embargoes that may be applicable to the passenger’s itinerary; and,
+f) application of baggage allowances and charges (i.e., whether they are applied once per direction or
+if they are applicable at each stopover point).
+3. The carrier will provide this information in text format on the passenger’s e-ticket confirmation. Any fee
+information provided for carry-on bags and the first and second checked bag will be expressed as
+specific charges (i.e., not a range).
+Web site Disclosure
+The carrier will disclose on its Web site, in a convenient and prominent location, a complete and
+comprehensive summary of all of the carrier’s own baggage rules, including information concerning:
+a) The maximum weight and dimensions of passenger bags, if applicable, both checked and
+unchecked;
+b) The number of checked and unchecked passenger bags that can be transported and the
+applicable charges;
+c) Excess and oversized baggage charges;
+d) Charges related to check in, collection and delivery of checked baggage;
+e) Acceptance and charges related to special items, e.g. surf boards, pets, bicycles, etc.;
+f) Baggage provisions related to prohibited or unacceptable items, including embargoes;
+g) Terms or conditions that would alter or impact the baggage allowances and charges applicable
+to passengers (e.g. frequent flyer status, early check in, pre-purchasing baggage allowances
+with a particular credit card);and,
+Other rules governing treatment of baggage at stopover points, including passengers
+subject to special baggage allowances or charges, etc.
+RULE 190: BAGGAGE
+ Delta Canadian General Rules Tariff Page 35 of 63
+Ticketed passengers may check baggage for carriage in the cargo compartment of the aircraft
+and/or may carry baggage on board the aircraft, subject to the provisions of this rule.
+A. Baggage Allowance
+1. Checked Baggage and Carry-On Item
+ Customers who purchased a ticket for travel in First or Business Class may check two bags
+up to 70 lbs each, free of charge. Lower limits may apply on some flights due to operational
+or safety restrictions. All baggage must meet the size and weight limits set forth in this rule
+to qualify for the free baggage allowance. Delta may accept additional, larger, or heavier
+items as checked baggage when space is available, but will require the payment of an
+excess baggage fee, as set forth in this rule.
+2. One Personal Item
+In addition to the carry-on item included within the baggage allowance, passengers may
+carry one personal item on to the aircraft. This may include:
+• A purse
+• A briefcase
+• A laptop computer
+• A camera case
+• A diaper bag, or
+• An item of a similar or smaller size to those listed above
+3. Personal Assistance Devices and Medical Equipment/Supplies
+Subject to the availability of space on the aircraft, passengers may also check or carry on
+personal assistive devices such as wheelchairs or crutches, provided the passenger is
+dependent on them, and medical supplies or equipment, provided the item meets the
+applicable size and weight restrictions. Such items do not count towards the free baggage
+allowance.
+4. Additional Items Which Do Not Count Towards Free Baggage Allowance
+Subject to the availability of space on the aircraft, the following items may also be carried on
+board and do not count towards the baggage allowance:
+• Food item for immediate consumption
+• One box or bag of duty free items
+• Coat or jacket
+• Umbrella
+• One item of reading material
+• For transportation from points in Hawaii, one box or mesh bag of pineapples
+5. Children Traveling on Free or Reduced Fare Tickets
+Children traveling free of charge receive no free baggage allowance. Children paying 50
+percent or more of the normal adult fare receive the same free baggage allowance as a
+passenger paying the adult fare.
+B. General Rules for Acceptance of Baggage
+1. Subject to Inspection
+All baggage is subject to inspection. Delta will not transport baggage that the passenger
+refuses to submit for inspection.
+ Delta Canadian General Rules Tariff Page 36 of 63
+2. Suitable for Transport
+Delta may refuse to accept for transport as baggage any item that, in Delta’s sole judgment:
+• Creates a risk of harm or annoyance to other passengers;
+• Poses a risk to other baggage or cargo;
+• Delta is prohibited from carrying by any law, regulation or government directive;
+• Is in a condition which creates an unreasonable risk of damage to the baggage under
+normal handling conditions; or
+• Is otherwise unsuitable for transportation.
+3. Restricted Articles
+Delta will not accept as baggage any article which is listed in the DOT hazardous materials
+regulations (49 CFR 171-177), the International Civil Aviation Organization Technical
+Instruction for the Safe Transport of Dangerous Goods by Air, and/or the IATA Dangerous
+Goods Regulations. Notwithstanding the foregoing, on flights other than those operated by
+Delta Connection carriers, Delta will accept a maximum of 5.5 lbs. of dry ice in checked or
+carry-on baggage. The passenger must declare such dry ice at the initial point of check-in.
+C. Carry-On Baggage
+The following additional conditions apply to the acceptance of carry-on baggage:
+1. Subject to Space Availability
+Acceptance of carry-on baggage is subject to space availability on the aircraft at the time
+the passenger boards. If adequate space is not available, Delta may require that the
+baggage be checked. Delta will gate check the baggage free of charge assuming the item
+meets Delta’s general size limit for carry-on baggage allowance.
+2. Stowage During Flight
+All carry-on baggage must be retained in the passenger's custody and stored under a seat
+or in an overhead compartment approved for the carriage of such baggage.
+3. Size Limits for Carry-On Baggage
+Carry-on baggage may not exceed a maximum outside linear dimension of 45 inches.
+4. Responsibility for Carry-On Baggage
+Carry-on baggage which remains in the custody of the passenger is the sole responsibility
+of the passenger. Delta will not accept claims for lost, forgotten, or stolen carry-on baggage
+unless such baggage is tendered to Delta's in-flight personnel for storage during flight or
+otherwise delivered into the custody of Delta. Storage in overhead bins or under a seat
+shall not be construed as delivery into Delta’s custody.
+D. Cabin Seat Baggage
+As an alternative to checking baggage, passengers may request that items of baggage
+which do not qualify as carry-on luggage be transported as cabin seat baggage, subject to
+the provisions of this rule.
+1. Stowage of Cabin Seat Baggage
+Cabin seat baggage must be carried aboard the aircraft by the passenger and properly
+secured in a seat available for stowage of cabin seat baggage. On Delta-operated flights,
+seats available for cabin seat baggage stowage include any seat within a passenger
+compartment, provided that a physical bulkhead or divider is present at the front of the
+compartment. On flights operated by Delta Connection carriers, cabin seat baggage may
+ Delta Canadian General Rules Tariff Page 37 of 63
+be located only in the first row of seats behind the bulkhead row of seats or in a row forward
+of the most forward-seated passenger. Acceptance of cabin seat baggage is subject to
+space availability on the aircraft and is not available on all flights.
+2. Fee for Cabin Seat Baggage
+The fee for carriage of cabin seat baggage is the full applicable fare for that portion of the
+trip on which the extra seat is used. Cabin seat baggage will not be included in determining
+the free baggage allowance or excess baggage charges.
+3. Restrictions on Acceptance of Cabin Seat Baggage
+The following additional restrictions apply:
+• Baggage must not exceed 100 lbs/45 kg unless otherwise set forth in this rule.
+• The passenger and baggage must occupy the same compartment.
+• Baggage must not contain dangerous goods.
+• Baggage must be packaged or covered in a manner to avoid possible injury to passengers.
+• Baggage must be properly secured by a seat belt to eliminate the possibility of shifting
+during ground and flight operations.
+• The location of the baggage must not restrict access to or the use of any required
+emergency or regular exit, or the aisle in the cabin.
+• The location of the baggage must not obscure any passenger's view of the seat belt, no
+smoking or required exit signs.
+E. Checked Baggage
+The following additional conditions apply to the acceptance of checked baggage.
+1. Proper Identification
+Each piece of checked baggage must have a current identification tag or label on the
+outside containing the passenger’s name, address and telephone number.
+2. Routing of Checked Baggage
+Except as otherwise provided in this rule, baggage will be checked only to the passenger’s
+destination or next point of stopover. Baggage will be carried in the same aircraft as the
+passenger unless Delta determines in its sole discretion that such carriage is impracticable,
+in which case Delta will carry the baggage on the next preceding or subsequent flight on
+which space is available. Baggage may be reclaimed at an intermediate point only if:
+a) Connection Time Exceeding Four Hours
+Passengers making connections to the first available Delta flight departing from an
+intermediate point may reclaim their baggage at the intermediate point if the connection
+exceeds four hours.
+b) Transfer Between Airports
+For passengers connecting to flights scheduled to depart from an airport different from the
+one at which the passenger is scheduled to arrive, baggage will be checked to the airport
+from which the passenger will transfer to the connecting airport.
+3. Delivery of Checked Baggage
+At the time of check-in, Delta will issue a baggage check to the passenger identifying each
+item of baggage accepted for transport as checked baggage. Delta will deliver checked
+baggage to the bearer of the baggage check at the baggage claim area of the airport
+destination shown in the baggage check. It is the passenger’s responsibility to claim the
+checked baggage at the baggage claim area and to present the baggage check, if
+ Delta Canadian General Rules Tariff Page 38 of 63
+requested, when doing so. Delta assumes no obligation to verify the identity of the bearer
+at the destination airport.
+4. Time Limits for Baggage Check-In
+Except as set forth below, Delta may refuse to accept for checking any baggage that is not
+tendered to Delta at the airport curbside or ticket counter acceptance positions at least 60
+minutes before the scheduled departure of the passenger’s flight.
+5. Size and Weight Limits for Checked Baggage
+Except as otherwise provided in this rule, checked baggage may not exceed a maximum
+outside linear dimension of 62 inches or a maximum weight of 50 lbs. Delta may in its
+discretion accept larger or heavier baggage, but may require payment of an excess
+baggage fee, as set forth below.
+6. Excess Baggage Fees
+Delta may, in its sole discretion, accept for transport, baggage in excess of the maximum
+number, size and/or weight allowances described above. Such baggage will be accepted
+for transportation only upon the payment of the excess baggage fees specified in this rule.
+The excess baggage fees set forth below apply each way, and are cumulative, i.e., a single
+item of baggage may be subject to additional item, oversize, and overweight charges if
+applicable. In addition to these charges, baggage connecting to other airlines may be
+subject to the connecting airline's charges for additional, oversize, and/or overweight
+baggage.
+a) Additional Items of Baggage
+Each item of checked baggage in excess of the baggage allowance, if accepted, is subject
+to an excess baggage piece fee, as set forth in the table below. Subject to space
+availability, Delta may accept up to 10 total checked bags per passenger (including any free
+bag allowance) on fights operated by Delta Air Lines and up to a total of 4 total checked
+bags per passenger (including any free bag allowance) on flights operated by a Delta
+Connection carrier.
+Baggage
+Fees
+Economy Class First/Business Class
+1st Bag USD30/CAD30 No Fee
+ Delta Canadian General Rules Tariff Page 39 of 63
+2nd Bag USD50/CAD50 No Fee
+Extra Piece 3 USD150/CAD150
+4-10 USD200/CAD200
+3
+USD150/CAD150
+4-10
+USD200/CAD200
+b) Oversize Baggage
+Delta may accept baggage with a maximum outside linear dimensions exceeding 62 inches,
+but not exceeding 80 inches, as oversize baggage. Except as otherwise set forth in this
+rule, each item of such baggage, if accepted, is subject to the following oversize baggage
+fees:
+(1) for items exceeding 62 inches, but not exceeding 80 inches –
+USD200/CAD200
+c) Overweight Baggage
+Delta may accept baggage weighing more than 50 lbs. but not exceeding 100 lbs. as
+overweight baggage. Each item of such baggage, if accepted, is subject to an overweight
+baggage fee as set forth in the following table:
+Destination Baggage Weight Overweight Baggage Fee
+Between Canada
+and US
+Exceeding 50 lbs.,
+but not exceeding 70
+lbs.
+ USD100/CAD100
+Exceeding 70 lbs.,
+but not exceeding
+100 lbs.
+USD 200/CAD 200
+Except as otherwise set forth in this rule, baggage weighing more than 100 lbs. will not be
+accepted as checked baggage.
+d) Exception for Active Duty Military Personnel
+Active duty U.S. military personnel traveling on orders to or from duty stations and active
+U.S. military dependents traveling on relocation orders are allowed up to four checked bags
+on Delta Connection ® carriers, and up to five checked bags on Delta aircraft only, at no charge.
+Each bag may weigh up to 100 lbs. and measure up to 80 linear inches (203 cm). Allowances are
+subject to any applicable embargoes or regional weight restrictions.
+Additionally, military personnel traveling on personal business will be allowed two checked bags up
+to 50 lbs (23 kg) and 62 linear inches (158 cm) at no charge.
+e) Exception for Media
+Camera, film, video tape, lighting, and sound equipment will be accepted when tendered by
+representatives of network or local television broadcasting companies or commercial film-
+ Delta Canadian General Rules Tariff Page 40 of 63
+making companies, upon payment of USD50 / CAD50 per article with the maximum weight
+allowed of 100 lbs and size of up to 115 total linear inches.
+7. Additional Restrictions on Checked Baggage
+ a) Baggage Embargos
+1) Year Round Embargo
+A maximum of three checked pieces allowed; baggage fees may apply. Checked baggage weighing 51-
+70lbs will be subject to excess baggage charges. No baggage over 70 lbs or 62 linear inches will be
+accepted for travel to the following points at any time throughout the year.
+San Juan, Puerto Rico (SJU)
+A maximum of two checked pieces allowed; baggage fees may apply. Checked baggage weighing 51-70lbs
+will be subject to excess baggage charges. No baggage over 70 lbs or 62 linear inches will be accepted for
+travel to the following points at any time throughout the year.
+St. Thomas, STT
+St. Maarten, SXM
+
+F. Acceptance of Fragile, Perishable, or Precious Items
+1. Items Deemed to Be Fragile, Perishable, or Precious
+The classes of items listed below are deemed to be fragile, perishable, precious, or
+otherwise unsuitable as checked baggage and will not be accepted as baggage, except as
+set forth in subsection, F.2., below.
+a) Artistic Items
+Vases, figurines, ceramic articles, trophies, paintings, sculpture, antique furniture, and
+similar objects of art.
+b) Electronic and Mechanical Items
+Television sets, radios, amplifiers, speakers, tape recorders, video recorders, DVD players,
+digital music or video devices, electronic communications devices, calculators, computers,
+typewriters, dictation equipment, and similar electronic or mechanical items.
+c) Glass
+Terrariums, mirrors, crystal, china and glass containers for liquors, wines, beer, liqueurs,
+and perfumes, and similar items fabricated from glass or similar materials.
+d) Infant Items
+Fragile items for infant care, including without limitation strollers and car seats.
+e) Jewelry or Precious Metals
+Jewelry, silverware, precious metals, and similar highly valuable items.
+
+ f) Musical Instruments and Equipment
+Guitars, violins, trombones, drums, and other musical instruments or equipment.
+ g) Perishable Items
+Fresh or frozen foodstuffs such as fruits, vegetables, meats, fish, poultry, and bakery
+products; floral and nursery stock such as flower, fruit, and vegetable plants; cut flowers and
+foliage such as floral displays; and similar items of a perishable nature.
+ Delta Canadian General Rules Tariff Page 41 of 63
+ h) Photographic/Cinematographic Equipment
+Cameras, lenses, flash bulbs, projectors, video cameras, and other photographic or
+cinematographic equipment
+ i) Precision Items
+Microscopes, oscilloscopes, meters, counters, polygraphs, scales, and similar precision
+equipment.
+ j) Recreational and Sporting Goods
+Fragile recreational or sporting goods of any kind, including without limitation archery
+equipment, golf clubs, tennis rackets, skis, fishing rods, sculls, surfboards, scuba diving
+masks and pressure gauges, scopes, sporting trophies such as animal horns and antlers,
+skin diving gear, model airplanes, bicycles, backpacks, knapsacks, sleeping bags, and tents
+made of plastic, vinyl, or other easily tearable material with aluminum frames, outside
+pockets, or protruding straps and buckles.
+ k) Toys
+Dolls, dollhouses, model trains and airplanes, and similar toys of a fragile nature.
+ l) Valuable or Fragile Papers
+Cash, cash equivalents, securities, negotiable instruments, irreplaceable documents,
+advertising displays, models, sketches, blueprints, maps, and other valuable or fragile paper
+materials.
+ m) Other Fragile or Perishable Items
+Any item not otherwise listed above which, by its nature or packaging, is subject to damage
+or spoilage during its carriage as checked baggage, despite exercise by the carrier of
+ordinary care in its handling.
+2. Acceptance of Fragile, Perishable or Precious Items
+ a) Duty to Identify Fragile, Perishable, or Precious Items
+The passenger must identify all fragile, perishable, or precious items contained in any
+baggage tendered to Delta for carriage at the time of check-in.
+ b) Precious or Highly Valuable Items
+Precious or other highly valuable items, including without limitation cash, cash equivalents,
+securities, negotiable instruments, irreplaceable documents, jewelry, silverware, precious
+metals, works of art, computers, electronic equipment, photographic equipment, and any
+other items that cannot be easily replaced if lost or damaged may not be transported in
+checked baggage.
+ c) Acceptance of Properly Packaged Fragile Items
+Except as provided below, fragile items will be accepted as checked baggage only if, in
+Delta’s sole determination, the items are appropriately packaged in an original factorysealed carton, cardboard mailing tube, a container or case designed for shipping such
+items, or packed with protective internal material sufficient to protect the items from damage
+during ordinary handling, and are otherwise suitable for transport under these rules.
+ d) Acceptance of Other Fragile or Perishable Items
+Perishable items and fragile items not accepted by Delta pursuant to the preceding section
+may be accepted upon the condition that the passenger agree in advance and in writing to
+ Delta Canadian General Rules Tariff Page 42 of 63
+release the carrier of liability for loss or damage resulting from the unsuitability of such items
+as checked baggage and/or the inadequacy of their packaging, in a Limited Liability
+Release form to be provided by Delta.
+G. Acceptance of Animals
+1. Acceptance of Pets as Checked or Cabin Baggage
+Subject to the exceptions specified in this rule, Delta does not accept animals for transportation
+as checked baggage. The limited exceptions to this general prohibition are as follows: Delta will
+accept pets and animals for transportation as checked baggage for (1) members of the U.S.
+military and their family members who are traveling on active transfer orders, and (2)
+passengers traveling with emotional-support animals. As to animals that fall within those
+exceptions, Delta will accept cats, dogs, household birds, guinea pigs, rabbits, and hamsters as
+checked baggage. Delta does not accept snub-nosed or pug-nosed pets as checked baggage
+under any circumstances. Carriage of any other pets as checked baggage will be determined on
+a case-by-case basis at Delta’s sole discretion. Animals that do not fall within the
+aforementioned exceptions may be shipped as air cargo. Please contact Delta or visit delta.com
+for rules applicable to cargo shipments. This rule does not apply to the transportation of service
+animals pursuant to Rule 55.
+ a) Advance Arrangements Required
+Advance arrangements must be made with Delta to transport pets as checked or carry-on
+baggage. Animals are accepted on a first-come, first-served basis.
+ b) Compliance with Applicable Laws and Regulations
+The passenger is solely responsible for compliance with any applicable laws, customs,
+and/or other governmental regulations, requirements, or restrictions of the country, state, or
+territory to which the animal is being transported.
+ c) Financial Responsibility
+The passenger is responsible for all financial obligations involved in transporting the animal,
+including but not limited to the cost of obtaining vaccinations, health certificates, and
+quarantine charges.
+2. Special Conditions for Acceptance of Animals as Checked Baggage
+The following additional conditions apply to acceptance of animals as checked baggage.
+ a) Environmental Conditions
+Delta will not accept animals as checked baggage when, in Delta’s sole discretion,
+environmental conditions may pose a hazard to the safety or comfort of the animal. In
+particular, and without limitation of the foregoing, animals will not be accepted during the
+following periods or on the following flights:
+(1) Maximum temperature
+Warm-blooded live animals will not be accepted as checked baggage if the temperature is
+expected to be above 85F / 29C at any point during the animal’s journey.
+(2) Minimum temperature
+Delta will not accept warm blooded live animals as checked baggage when the temperature
+is expected to be below 10F / -12C. The minimum temperature does not apply to sled dogs
+or other animals that normally live outdoors and are naturally acclimated to cold
+temperatures.
+ Delta Canadian General Rules Tariff Page 43 of 63
+ b) Transfer to Another Carrier
+Animals will not be checked beyond a point of transfer to another carrier.
+ c) Approved Container Required
+ (1) Compliance with USDA Requirements
+Animals accepted as checked baggage must be confined in a shipping kennel approved
+by the U.S. Department of Agriculture (USDA). The passenger is responsible for insuring
+that the container meets all governmental requirements for the safe and humane
+transportation of the animal being transported. Without limitation of the foregoing,
+containers must be large enough to allow the animal to stand upright and turn around
+and must be leak proof. Delta may refuse to accept any animal as checked baggage if,
+in its sole discretion, the animal is not properly confined in an approved container.
+ (2) Size and Weight Limitations
+Size and weight limitations for containers that will be accepted as checked baggage also
+apply, and vary depending upon the aircraft and operating carrier. For current
+information on the size and weight limitations that apply to specific flights, contact Delta
+or visit delta.com.
+ (3) Number of Animals Per Container
+No more than one adult dog or cat may occupy a single container. Two puppies or
+kittens may occupy a single container provided they are less than 6 months of age and
+weigh less than 20 lbs. each. Two household birds will be permitted in the same
+container.
+ (4) Number of Containers Per Passenger
+Delta will accept no more than two containers per passenger as checked baggage on
+most flights. For flights operated by some Delta Connection carriers, only one container
+per passenger will be accepted.
+3. Special Conditions for Acceptance of Animals as Baggage In The Passenger
+Compartment
+In addition to the general baggage rules set forth above, the following special conditions
+apply to acceptance of personal pets as carry-on baggage in the passenger compartment.
+ a) Animals Accepted as Baggage in the Passenger Compartment
+Personal pets that may be accepted as baggage in the passenger compartment include
+dogs, cats, and household birds. Other pets or animals are not accepted. The pet must be
+small enough to fit comfortably in a kennel under the seat directly in front of the passenger,
+and must be at least eight weeks old. Pets will not be accepted as carry-on baggage on
+flights to/from Hawaii.
+ b) Size and Weight Limitations
+Maximum carry-on kennel dimensions apply and vary depending upon the aircraft and
+operating carrier. For current information on the size limitations that apply to specific flights,
+contact Delta or visit delta.com.
+ c) Container and Animal Storage
+The container must be stored under the seat directly in front of the passenger. The animal
+ Delta Canadian General Rules Tariff Page 44 of 63
+will not be carried in the first (bulkhead) row or adjacent to an emergency exit. The animal
+must remain in the container while in the boarding area or Delta airport lounge, during
+boarding or deplaning, and at all times while on board the aircraft.
+ d) Removal of Offensive or Disruptive Animals
+In the event the animal becomes offensive or causes a disturbance during transit, the
+animal may be removed, at the captain's discretion, at the first en route stop and placed in
+the cargo compartment for continuing transportation.
+ e) Maximum Number of Animals Accepted Per Passenger
+A passenger may not carry on more than one pet.
+ f) Maximum Number of Animals Accepted Per Flight
+Delta limits the number of pets that will be accepted for carriage in the passenger
+compartment on each flight as follows:
+• two pets in the First Class cabin, if applicable
+• two pets in the international business or international Delta One™cabin, if applicable
+• four pets in the main (Coach) cabin on Delta-operated flights
+• two pets in the main (Coach) cabin on flights operated by Delta Connection carriers
+Note: For aircraft with only one cabin the total allotment is four pets on flights operated
+by either Delta or the Delta Connection carriers
+ g) Unaccompanied Minors
+Animals may travel in the cabin with unaccompanied minors, but will not be accepted as
+checked baggage unless one of the exceptions specified in this rule applies. Pet in Cabin
+fees apply in addition to the UNMR service charge.
+ 4. Charges for Animals Accepted as Baggage
+ a) Animals Accepted As Checked Baggage
+The fee for carriage of animals accepted as checked baggage is USD200/CAD200
+one way. The animal and its container will not be included in determining the free baggage
+allowance.
+ b) Animals Accepted as Carry-On Baggage
+The fee for carriage of animals accepted in the passenger cabin is USD95/CAD95 one
+way. Acceptance of the animal for carriage in the passenger compartment will be in lieu of
+one piece of carry-on baggage.
+H. Acceptance of Other Special Items
+Special baggage rules apply to certain categories of items, as set forth below. Except as
+stated below, the general baggage rules, including fees for excess, overweight, and
+oversize baggage, and the restrictions on acceptance of fragile or perishable items, apply to
+the carriage of these special items.
+1. Antlers and Game Meat
+ a) Antlers
+Antlers may be accepted as checked baggage. Standard baggage allowance and fees
+based on travel region apply
+ Delta Canadian General Rules Tariff Page 45 of 63
+Antlers weighing over 50 lbs. will be charged the applicable excess weight fee
+If the outside linear dimensions (length + width + height) exceed 115 linear inches (292 cm),
+the item will not be accepted
+Items in excess of baggage allowance will be subject to additional or overweight baggage
+fees.
+Space must be available, and the following restrictions apply:
+Antlers must be free of residue, the skull must be wrapped and the tips protected.
+Antler/animal racks cannot exceed 100 lbs (45kgs) and linear dimension
+(length+width+height) cannot exceed 115 inches/292 cm
+Antlers will be accepted on Delta Connection flights only if space is available.
+In some cases, there may not be space available for antlers to travel on the same plane
+with you. These will be held at the local baggage service office or can be delivered for a fee.
+Contact Reservations for more information.
+ b) Game Meat
+On most flights, Delta will accept game meat for transportation subject to the rules for
+carriage of perishable items. Game meat is not permitted in checked baggage on flights
+from Jackson Hole, Wyoming (JAC).
+2. Bicycles
+Bicycles, non-motorized touring or single seat racing, are allowed as checked baggage on
+most flights, with the exception of certain Delta Connection® carriers.
+Standard baggage allowance and fees based on travel region apply
+Bicycles weighing over 50 lbs. will be charged the applicable excess weight fee
+If the outside linear dimensions (length + width + height) exceed 115 linear inches (292 cm)
+or exceedes 100 lbs, the item will not be accepted
+Items in excess of baggage allowance will be subject to additional or overweight baggage
+fees
+A limited liability release form must be signed by the passenger in the case that the bike is
+not properly packed.
+If the bicycle is packaged in a hard shell case specifically designed for transporting bicycles,
+then a limited release form is not required.
+If the bicycle is packaged in a soft sided travel bag or anything other than a hard shell case,
+a limited release form will need to be signed.
+Delta is not responsible for damage noted at the time of check in or damage due to over
+packing the bag. Bicycles must be packaged in a cardboard or canvas container with
+handlebars fixed sideways and pedals removed, or with handlebars and pedals encased in
+plastic, Styrofoam, or other similar material. Limits on the total number of bicycles that may
+be accepted apply for some Delta Connection flights. For those flights, advance
+reservations are required.
+3. Child restraint seat
+A DOT-approved child restraint seat will be accepted for transportation in the passenger
+compartment when an additional seat is reserved, a ticket is purchased, and the restraint
+seat can be properly secured by the seat belt. If no ticket for the infant is purchased, Delta
+may, at its discretion, accept the seat for transportation in the passenger compartment if
+space is available. If no space is available, the child seat restraint must be checked as
+baggage at the gate and will not count against the passenger’s checked baggage
+allowance. Child carrier devices without DOT approval labels may not be used to secure
+ Delta Canadian General Rules Tariff Page 46 of 63
+the child when the seat belt sign is illuminated.
+4. Fishing Equipment
+Fishing poles (if properly encased) may be accepted if the maximum outside linear
+dimensions exceed 62 inches but do not exceed 115 inches; however, standard excess size
+charges apply.
+5. Golfing Equipment
+One piece of golf equipment may be accepted as checked baggage. Standard checked
+baggage fees apply. Overweight baggage fees will apply to bags that exceed 50 lbs.
+Oversized baggage fees will be waived for golf bags that exceed 62 linear inches and are
+less than or equal to 115 linear inches. Bags exceeding 115 linear inches will not be
+accepted.
+One item of golfing equipment is defined as:
+1. one golf bag containing one set of golf clubs
+2. golf balls and tees; and
+3. 1 pair of golf shoes
+Golf clubs will be accepted as checked baggage under the following conditions:
+Golf bag is packaged within a hard-shell case
+Golf bag is packaged within a soft-sided golf club travel bag after a limited release
+has been signed
+Delta is not responsible for damage noted at the time of check-in or damage due to
+over-packing the bag.
+6. Musical Instrument
+Subject to the rules for carriage of fragile items and the other rules set forth above, Delta
+may accept musical instruments or equipment provided, including case, the outside linear
+dimensions do not exceed 150 inches and the weight, including case, does not exceed 165
+lbs. Standard overweight, oversize and piece baggage charges or cabin seat baggage
+charges apply. Passengers may check up to ten musical instruments in accordance with
+Delta’s checked baggage policy, or up to four musical instruments for flights operated by a
+Delta Connection carrier. Checked baggage embargoes may apply on certain routes or
+dates. Musical instruments exceeding 100lbs will be subject to the overweight fee applied to
+baggage weighing between 70 and 100lbs. Musical instruments exceeding 80 linear inches
+will be subject to the oversize fee applied to baggage measuring between 62 and 80 linear
+inches. In lieu of checking a musical instrument as checked baggage, passengers may
+alternatively purchase a seat at full fare in the cabin for the musical instrument, provided it
+does not exceed 165 lbs. and may be packaged or covered in a way to avoid injury to other
+passengers. In the event of an aircraft downgrade where we are unable to accommodate a
+purchased seat for the musical instrument, the passenger and their musical instrument will
+be re-accommodated on the next available flight.
+7. Scuba-Diving Equipment
+One dive bag containing scuba equipment other than an empty dive tank may be accepted
+as checked baggage. An empty dive tank will be accepted as checked baggage. Tanks
+exceeding 100 lbs or 115 linear inches are not allowed. Standard baggage allowance and
+fees based on travel region apply. Scuba equipment weighing over 50 lbs. will be charged
+the applicable excess weight fee. If the outside linear dimensions (length + width + height)
+exceed 115 linear inches (292 cm), the item will not be accepted. Items in excess of
+baggage allowance will be subject to additional or overweight baggage fees. Scuba tanks
+exceed 100 lbs. (46 kg) or 115 linear inches (length + width + height) (292 cm) are not
+ Delta Canadian General Rules Tariff Page 47 of 63
+allowed.
+8. Shooting Equipment (Sporting Firearms)
+Items of shooting equipment will be accepted as checked baggage only subject to the
+conditions and charges specified below.
+ a) Shooting Equipment Defined
+One item of shooting equipment is defined as:
+• one bow and quiver of arrows and maintenance kit enclosed in a case or container of
+sufficient strength to protect the bow and quiver from accidental damage
+• one gun case containing up to 4 rifles/shotguns/shooting material/tools
+• one gun case containing up to 5 rifles/one scope/tools
+ b) Conditions of Acceptance
+Firearms must be unloaded and packed in a locked, hard side case with a key or
+combination in possession of the passenger only. Small arms ammunition must be packed
+in the manufacturer's original package or securely packed in fiber, wood, or metal boxes, or
+other packaging specifically designed to carry small amounts of ammunition. Ammunition
+with explosive or incendiary projectiles, gun powder, propellant charges for muzzle loading
+firearms such as Pyrodex, and black powder will not be accepted. Ammunition exceeding 5
+kg. (11 lb.) gross weight per passenger will not be accepted and may not be combined into
+one or more packages. For transportation via Delta flights operated by SkyWest, the
+maximum amount of ammunition accepted is 10 lbs. Ammunition and gun powder will not
+be accepted as carry-on baggage.
+ c) Compliance with Applicable Law
+It is the passenger’s sole responsibility to comply with government laws, regulations, or
+restrictions dealing with the possession or prohibition of firearms or other dangerous items.
+Disclosure of checking a firearm or prohibited item must be made at the first point of contact
+with a Delta representative and prior to the security checkpoint.
+ d) Charges
+Each item of shooting equipment will be included in determining the free baggage
+allowance, and when in excess, each item is charged an excess baggage charge of
+USD150/CAD180 each way.
+ 9. Ski/Snowboard Equipment
+Items of skiing/snowboard equipment may be accepted as checked baggage. Standard
+baggage allowance and fees based on travel region apply. One item of skiing equipment is
+defined as one pair of skis/ski poles or one snowboard, and one boot bag. The combined
+weight of the ski/snowboard bag and the boot bag may not exceed 50lb or excess weight
+charges will apply. If the outside linear dimensions (length + width + height) exceed 115
+linear inches (292 cm), the item will not be accepted. Items in excess of baggage
+allowance will be subject to additional or overweight baggage fees.
+10. Surfboards/Boogie Boards/Skimboards
+Surfboards/boogie boards/skimboards must be checked in a case designed to protect
+them. If not presented in an appropriate protective case, the item will be accepted only if
+the passenger executes a Limited Liability Release for fragile items as set forth
+above. Standard baggage allowance and fees based on travel region apply. Boogie or
+ Delta Canadian General Rules Tariff Page 48 of 63
+skim boards weighing over 50 lbs. will be charged the applicable excess weight fee. If the
+outside linear dimensions (length + width + height) exceed 115 linear inches (292 cm), the
+item will not be accepted. Items in excess of baggage allowance will be subject to additional
+or overweight baggage fees. Surfboards weighing over 50 lbs. will be charged the
+applicable excess weight fee. If the outside linear dimensions (length + width + height)
+exceed 115 linear inches (292 cm), the item will not be accepted. Items in excess of
+baggage allowance will be subject to additional or overweight baggage fees. Surfboards
+are limited to two (2) boards per container. Between Honolulu and Maui, there is a $20
+USD/CAD fee. Delta Connection carrier surfboard acceptance and charges may vary.
+Surfboards over 72 inches in length are not allowed on Delta Connection carrier flights.
+ 11. Windsurfing Equipment
+Windsurfing equipment consisting of up to two (2) windsurfing boards with a wooden boom,
+and one mast and sail contained in one bag will be accepted on most Delta-operated flights,
+subject to the rules governing acceptance of fragile items set forth above. Standard
+baggage allowance and fees based on travel region apply. Windsurfing boards weighing
+over 50 lbs. will be charged the applicable excess weight fee. If the outside linear
+dimensions (length + width + height) exceed 115 linear inches (292 cm), the item will not be
+accepted. Items in excess of baggage allowance will be subject to additional or overweight
+baggage fees. Between Honolulu and Maui, there is a $20 USD/CAD fee. Boards are
+allowed up to two boards per bag. Windsurfing equipment will not be accepted for
+transportation on MD-80 aircraft or on aircraft operated by Delta Connection carriers.
+12. Javelin Equipment
+Javelins are allowed except for travel to/from/via Dublin (DUB) or Amsterdam (AMS).
+Length of the javelin cannot exceed 120 inches. Standard baggage allowance and fees
+based on travel region apply. Javelins weighing over 50 lbs. will be charged the applicable
+excess weight fee. If the outside linear dimensions (length + width + height) exceed 120
+linear inches (305 cm), the item will not be accepted. Items in excess of baggage allowance
+will be subject to additional or overweight baggage fees.
+I. Governing Rules for Codeshare Flights
+For codeshare services, each customer will be entitled to the free baggage allowance and
+charged the excess baggage charges (when applicable) of the Marketing Carrier,
+regardless of who the Operating Carrier is. If the need arises for operational or safety
+related reasons, the Operating Carrier may require that carry-on baggage be checked at the
+gate, but no additional excess baggage charges will apply.
+RULE 191: LIABILITY OF CARRIERS
+For the purpose of International Carriage governed by the Montreal Convention, the Liability rules set out in
+the Montreal Convention are fully incorporated herein and shall supersede and prevail over any provisions
+of this tariff which may be inconsistent with those rules. To the extent that they are not inconsistent with the
+foregoing, the following provisions shall apply:
+A) SUCCESSIVE CARRIERS- Carriage to be performed under one ticket or under a ticket and any
+ conjunction ticket issued in connection therewith by several successive carriers is regarded as a single
+ operation.
+ Delta Canadian General Rules Tariff Page 49 of 63
+B) LAWS AND PROVISIONS APPLICABLE
+1) The Carrier shall be liable under Article 17 of the Warsaw Convention or Montreal Convention,
+whichever may apply, for recoverable compensatory damages sustained in the case of death or bodily
+injury of a passenger, as provided in the following paragraphs:
+a) The Carrier shall not be able to exclude or limit its liability for damages not exceeding 128,821
+Special Drawing Rights for each passenger.
+b) The Carrier shall not be liable for damages to the extent that they exceed 128,821 Special
+Drawing Rights for each passenger if the Carrier proves that:
+1) such damage was not due to the negligence or other wrongful act or omission of the Carrier
+or its servants or agents; or
+2) such damage was solely due to the negligence or other wrongful act or omission of a third
+party.
+c) The Carrier reserves all other defenses and limitations available under the Warsaw Convention
+or the Montreal Convention, whichever may apply, to such claims including, but not limited to,
+the exoneration defense of Article 21 of the Warsaw Convention and Article 20 of the Montreal
+Convention except that the Carrier shall not invoke Articles 20 and 22(1) of the Warsaw
+Convention in a manner inconsistent with paragraphs (1) and (2) hereof.
+d) With respect to third parties, the Carrier reserves all rights of recourse against any other person,
+including without limitation, rights of contribution and indemnity.
+e) The Carrier agrees that, subject to applicable law, recoverable compensatory damages for such
+claims may be determined by reference to the laws of the country of the domicile or country of
+permanent residence of the passenger.
+2) In cases of personal injury or death, the Carrier shall make an advance payment where the Carrier
+determines it is necessary to meet the immediate economic needs of, and hardship suffered by, a
+passenger as provided in the following paragraphs:
+a) Unless a dispute arises over the identity of the person to whom an advance payment shall be
+made, the Carrier shall, without delay, make the advance payment to the passenger in an
+amount or amounts determined by the Carrier in its sole discretion. In the event of death of a
+passenger, the amount of the advance payment shall not be less than 16,000 Special Drawing
+Rights, which shall be paid to a representative of the passenger’s next of kin eligible to receive
+such advance payment as determined by the Carrier in its sole discretion.
+b) The Carrier shall make the advance payment as an advance against the Carrier’s liability under
+the Warsaw Convention, or the Montreal Convention, whichever may apply. An advance
+payment shall not constitute recognition of liability. An advance payment shall be offset against,
+or deducted from the payment of, any settlement or judgment with respect to any claim for
+compensation on behalf of the passenger.
+c) The Carrier, in making an advance payment, does not waive any rights, defenses, or limitations
+available under the Warsaw Convention, or the Montreal Convention, whichever may apply, to
+any claim on behalf of the passenger, nor shall acceptance of an advance payment constitute a
+release of any claim, whatsoever, by any person.
+d) The Carrier, in making an advance payment, preserves its right to seek contribution or
+indemnity from any other person for such payment, which shall not be deemed to be voluntary
+contribution or contractual payment on the part of the Carrier.
+e) The Carrier may recover an advance payment from any person where it is proven that the
+Carrier is not liable for any damage sustained by the passenger, or where it is proven that the
+person was not entitled to receive the payment, or where and to the extent that it is proven that
+the person who received the advance payment caused, or contributed to, the damage.
+3) The Carrier shall be liable for damage occasioned by delay in the carriage of passengers by air, as
+ provided in the following paragraphs:
+a) The Carrier shall not be liable if it proves that it and its servants and agents took all measures
+that could reasonably be required to avoid the damage, or that it was impossible for it or them to
+take such measures.
+ Delta Canadian General Rules Tariff Page 50 of 63
+b) Airport, air traffic control, security, and other facilities or personnel, whether public or private, not
+under the control and direction of the Carrier are not servants or agents of the Carrier, and the
+Carrier is not liable to the extent the delay is caused by these kinds of facilities or personnel.
+c) Damages occasioned by delay are subject to the terms, limitations and defenses set forth in the
+Warsaw Convention and the Montreal Convention, whichever may apply. They include
+foreseeable compensatory damages sustained by a passenger and do not include mental injury
+damages.
+d) The Carrier reserves all defenses and limitations available under the Warsaw Convention or the
+Montreal Convention, whichever may apply, to claims for damage occasioned by delay,
+including, but not limited to, the exoneration defense of Article 21 of the Warsaw Convention
+and Article 20 of the Montreal Convention. Under the Montreal Convention, the liability of the
+Carrier for damage caused by delay is limited to 5,346 Special Drawing Rights per passenger.
+The limits of liability shall not apply in cases described in Article 25 of the Warsaw Convention
+or Article 22(5) of the Montreal Convention, whichever may apply.
+4) The Carrier is liable for damages sustained in the case of destruction or loss of, damage to, or delay
+ of checked and unchecked baggage, as provided in the following paragraphs:
+a) Except as provided below, the liability of the Carrier is limited to 1,288 Special Drawing Rights
+for each passenger in the case of destruction, loss, damage, or delay of baggage, whether
+checked or unchecked, under the Warsaw Convention or the Montreal Convention, whichever
+may apply. Unless the passenger proves otherwise:
+1) all baggage checked by a passenger shall be considered to be the property of that
+passenger;
+2) a particular piece of baggage, checked or unchecked, shall not be considered to be
+the property of more than one passenger; and
+3) unchecked baggage, including personal items, shall be considered to be the
+property of the passenger in possession of the baggage at the time of embarkation.
+b) Normal carrier limit of liability will be waived for substantiated claims involving loss, damage, or
+delay in delivery to mobility aids such as wheelchairs, walkers, crutches, scooters and other
+mobility aid, when such items have been accepted into the care of the carrier as checked
+baggage or otherwise. The liability of carrier for substantiated claims involving the loss of,
+damage to, or delay in delivery of mobility aids, when such items have been accepted as
+checked baggage or otherwise, is based on the cost of the repair or replacement value of the
+mobility aid. For damaged or delayed wheelchairs, walkers, crutches, scooters and other
+mobility aids if a damaged aid can be repaired, carrier will arrange, at its expense, for the
+prompt and adequate repair of the aid and for its return to the passenger as soon as
+reasonably possible. Carrier will use reasonable efforts to obtain a temporary without undue
+delay while the passenger's mobility aid is being repaired or returned.
+c) In the case of unchecked baggage, the Carrier is liable only to the extent the damage resulted
+from its fault, or that of its servants or agents.
+d) The Carrier is not liable for destruction, loss, damage, or delay of baggage not in the charge of
+the Carrier, including baggage undergoing security inspections or measures not under the
+control and direction of the Carrier.
+e) The Carrier reserves all defenses and limitations available under the Warsaw Convention and
+the Montreal Convention, whichever may apply to such claims including, but not limited to, the
+defense of Article 20 of the Warsaw Convention and Article 19 of the Montreal Convention, and
+the exoneration defense of Article 21 of the Warsaw Convention and Article 20 of the Montreal
+Convention, except that the Carrier shall not invoke Article 22(2) and (3) of the Warsaw
+Convention in a manner inconsistent with paragraph 4(a) hereof. The limits of liability shall not
+apply in cases described in Article 25 of the Warsaw Convention or Article 22(5) of the
+Montreal Convention, whichever may apply.
+5) Under the Warsaw Convention and the Montreal Convention, whichever may apply, an action for
+damages must be brought within two years, and a complaint must be made to the carrier within
+ Delta Canadian General Rules Tariff Page 51 of 63
+seven calendar days in the case of damage to baggage, and 21 calendar days in the case of delay
+thereof.
+C) LIMITATION OF LIABILITY- Except as the applicable Convention or other law may otherwise require:
+1) Carrier is not liable for any death, injury, delay, loss, or other damage of whatsoever nature
+(hereinafter in this tariff collectively referred to as "damage") to passengers or unchecked baggage
+arising out of or in connection with carriage or other services performed by carrier incidental thereto,
+unless such damage is caused by the negligence of carrier. Assistance rendered to the passenger
+by carrier's employees in loading, unloading, or transshipping baggage shall be considered as
+gratuitous service to the passenger. Carrier is not liable for damage to such unchecked baggage
+incurred during, or as a result of such service, irrespective of the negligence of carrier's employees.
+2) Carrier is not liable for any damage directly and solely arising out of its compliance with any laws,
+government regulations, orders, or requirements or from failure of passenger to comply with same,
+or out of any cause beyond carrier's control.
+3) Carrier is not to be liable for damage to a passenger's baggage caused by property contained in the
+passenger's baggage. Any passenger whose property caused damage to another passenger's
+baggage or to the property of carrier shall indemnify carrier for all losses and expenses incurred by
+carrier as a result thereof.
+4) Delta assumes no liability for preexisting damage, including minor cuts, scratches, and broken
+zippers as a result of over packing, or for wear and tear resulting from ordinary handling of baggage.
+5) When carrier has exercised the ordinary standard of care, it shall not be liable for spoilage resulting
+from delay in delivery of any perishables described in Rule 190 (BAGGAGE REGULATIONS), nor
+for damage to, or damage caused by, fragile articles described in Rule 190 which are unsuitably
+packed and which are included in a passenger's checked baggage without carrier's knowledge.
+Carrier shall not be liable for the damage, or delay in delivery of a passenger's checked baggage
+and property accepted pursuant to the execution of a release as set forth in Rule 190, to the extent
+that such release relieves carrier of liability.
+6) Carrier may refuse to accept any articles that do not constitute baggage as such term is defined
+herein, but if delivered to and received by carrier, such articles shall be deemed to be within the
+baggage valuation and limit of liability, and shall be subject to the published rates and charges of
+carrier.
+7)
+a) Liability of carrier for damages shall be limited to occurrences on its own line, except in the case
+of checked baggage as to which the passenger also has a right of action against the first or last
+carrier.
+b) A carrier issuing a ticket or checking baggage for carriage over the lines of another carrier does
+so only as agent.
+c) Carrier shall not be liable for death or injury of a passenger not occurring on its own line.
+8) Carrier shall not be liable in any event for any consequential or special damage arising from
+carriage subject to this tariff, whether or not carrier had knowledge that such damages might be
+incurred.
+9) Any exclusion or limitation of liability of carrier under this tariff or the ticket shall apply to agents,
+servants, or representatives of the carrier acting within the scope of their employment and also to
+any person whose aircraft is used by the carrier and its agents, servants or representatives acting
+within the scope of their employment.
+10) The owner of a pet shall be responsible for compliance with all governmental regulations and
+restrictions, including furnishing valid health and rabies vaccination certificates when required.
+Carrier will not be liable for loss or expense due to the passenger’s failure to comply with this
+provision, and carrier will not be responsible if any pet is refused passage into or through any
+country, state, or territory.
+D) TIME LIMITATIONS ON CLAIMS AND ACTIONS
+ Delta Canadian General Rules Tariff Page 52 of 63
+1) No action shall lie in the case of damage to baggage unless the person entitled to delivery
+complains to the carrier forthwith after the discovery of the damage, and, at the latest, within seven
+days from the date of receipt; and in the case of delay, or loss, complaint must be made at the latest
+within 21 days from the date on which the baggage has been placed at his disposal (in the case of
+delay), or should have been placed at his disposal (in the case of loss). Every complaint must be
+made in writing and dispatched within the time aforesaid. Where carriage is not "international
+carriage" as defined in the applicable Convention, failure to give notice shall not be a bar to suit
+where claimant proves that
+a) it was not reasonably possible for him to give such notice, or
+b) that notice was not given due to fraud on the part of carrier, or
+c) the management of carrier had knowledge of damage to passenger's baggage.
+2) Any right to damages against carrier shall be extinguished unless an action is brought within two
+years reckoned from the date of arrival at the destination, or from the date on which the aircraft
+ought to have arrived, or from the date on which the carriage stopped.
+E) OVERRIDING LAW- Insofar as any provision contained or referred to in the ticket or in this tariff may be
+contrary to a law, government regulation, order or requirement which severally cannot be waived by
+agreement of the parties, such provisions shall remain applicable and be considered as part of the
+contract of carriage to the extent only that such provision is not contrary thereto. The invalidity of any
+provision shall not affect any other part.
+F) MODIFICATION AND WAIVER- No agent, servant, or representative of carrier has authority to alter,
+modify, or waive any provisions of the contract of carriage or this tariff.
+G) GRATUITOUS TRANSPORTATION
+1) Gratuitous transportation by carrier of persons as hereinafter described shall be governed by all the
+ provisions of this rule, except subparagraph (2) below and by all other applicable rules of this tariff.
+a) Transportation of persons injured in aircraft accidents on the lines of carrier and physicians and
+nurses attending such persons.
+b)Transportation of persons, the object of which is that of providing relief in general epidemics,
+pestilence or other calamitous visitation.
+c)Transportation of persons, which is required by and authorized pursuant to Part 223 of the
+Economic Regulations of the Department of Transportation of the United States of America.
+d) Transportation of persons which is subject to the Convention.
+e) Transportation of officers, employees and servants of carrier traveling in the course of their
+employment and in the furtherance of carrier's business.
+2) Except in respect of gratuitous transportation of persons described in paragraph (G) (1) above,
+carrier in furnishing gratuitous transportation shall not be liable (the provisions of Rule 55(B) and (C)
+to the contrary notwithstanding) under any circumstances whether of its own negligence or that of its
+officers, agents, representatives or employees, or otherwise, and the person using such free
+transportation on behalf of himself, his heirs, legal representative, defendants and other parties in
+interest, and their representatives, assignees, releases and agrees to indemnify carrier, its officers,
+agents, representatives and employees from all liability (including cost and expenses), for any and
+all delay, and for failure to complete passage, and from any and all loss or damage to the property
+of such person.
+3) Except in respect of gratuitous transportation of persons described in paragraph (G)(1) above,
+carrier in furnishing gratuitous transportation shall not be liable under any circumstances whether of
+its own negligence or that of its officers, agents, representatives or employees, or otherwise, and
+the person using such free transportation, on behalf of himself, his heirs, legal representatives,
+defendants and other parties in interest, and their representatives, assignees, releases and agrees
+to indemnify Carrier, its officers, agents, representatives and employees from all liability (including
+cost and expenses) for any and all death or injury, to such person (See NOTE below).
+NOTE: Rules stating any limitation on, or conditions relating to, the liability of carriers for personal
+injury or death are not permitted to be included in tariffs filed pursuant to the laws of the
+ Delta Canadian General Rules Tariff Page 53 of 63
+United States, except to the extent provided in Rule 55 (B)(1). Insofar as this rule states any
+such limitation or condition it is included herein; except to the extent provided in Rule 55
+(B)(1), as part of the tariff filed with governments other than the United States and not as part
+of this tariff filed with the Department of Transportation of the United States.
+RULE 240: FLIGHT DELAYS/CANCELLATIONS
+A. Flight Schedules are Not Guaranteed
+Delta will exercise reasonable efforts to carry passengers and their baggage according to
+Delta’s published schedules and the schedule reflected on the passenger’s ticket, but
+published schedules, flight times, aircraft type, seat assignments, and similar details
+reflected in the ticket or Delta’s published schedules are not guaranteed and form no part of
+this contract. Delta may substitute alternate carriers or aircraft, delay or cancel flights,
+change seat assignments, and alter or omit stopping places shown on the ticket at any time.
+Schedules are subject to change without notice. Except as stated in this rule and as
+provided in Rule 191, Delta will have no liability for making connections, failing to operate
+any flight according to schedule, changing the schedule for any flight, changing seat
+assignments or aircraft types, or revising the routings by which Delta carries the passenger
+from the ticketed origin to destination.
+B. Delta’s Liability in the Event of Schedule Changes, Delays and Flight Cancellations
+In the event of flight cancellation, diversion, delays of greater than 120 minutes, or delays
+that will cause a passenger to miss connections, Delta will (at passenger’s request) cancel
+the remaining ticket and refund the unused portion of the ticket and unused ancillary fees in
+the original form of payment in accordance with Rule 260 of these conditions of carriage. If
+the passenger does not request a refund and cancellation of the ticket, Delta will transport
+the passenger to the destination on Delta’s next flight on which seats are available in the
+class of service originally purchased. At Delta’s sole discretion and if acceptable to the
+passenger, Delta may arrange for the passenger to travel on another carrier or via ground
+transportation. If acceptable to the passenger, Delta will provide transportation in a lower
+class of service, in which case the passenger may be entitled to a partial refund. If space on
+the next available flight is available only in a higher class of service than purchased, Delta
+will transport the passenger on the flight, although Delta reserves the right to upgrade other
+passengers on the flight according to its upgrade priority policy to make space in the class
+of service originally purchased.
+C. Delta’s Liability For Additional Amenities in the Event of Schedule Changes, Delays
+ and Flight Cancellations
+Except as provided above, Delta shall have no liability if the flight cancellation, diversion or
+delay was due to force majeure. As used in this rule, “force majeure” means actual,
+threatened or reported:
+(1) Weather conditions or acts of God
+(2) Riots, civil unrest, embargoes, war, hostilities, or unsettled international conditions
+(3) Strikes, work stoppages, slowdowns, lockout, or any other labor-related dispute
+(4) Government regulation, demand, directive or requirement
+(5) Shortages of labor, fuel, or facilities
+(6) Any other condition beyond Delta’s control or any fact not reasonably foreseen by Delta
+However, when for reasons other than force majeure, a passenger’s travel is interrupted for
+greater than 4 hours after the scheduled departure time as a result of flight cancellation or
+ Delta Canadian General Rules Tariff Page 54 of 63
+delay on the date of travel Delta will provide the passenger with the following additional
+amenities during the delay:
+(a) Hotels
+If overnight accommodations are available at Delta contracted facilities, Delta will provide
+the passenger with a voucher for one night‘s lodging when the delay is during the period of
+10:00 pm to 6:00 am. Delta will provide free public ground transportation to the hotel if the
+hotel does not offer such service. If accommodations are not available, Delta will provide the
+passenger with a voucher that may be applied to future travel on Delta equal in value to the
+contracted hotel rate, up to $100 CAD.
+(b) Ground Transportation
+In lieu of lodging or other amenities, if a passenger’s flight is diverted to an alternative
+airport, Delta will furnish ground transportation to the destination airport if the destination on
+the ticket and the diverted airport destination are within the following city groups:
+San Francisco, CA (SFO)/ Oakland, CA (OAK)/ San Jose, CA (SJC)
+Los Angeles, CA (LAX)/ Long Beach, CA (LGB)/ Ontario, CA (ONT)/ Santa Ana, CA (SNA)
+Denver, CO (DEN)/ Colorado Springs (COS)
+O’Hare – Chicago, IL (ORD)/ Midway – Chicago, IL (MDW)
+Dallas-Ft. Worth, TX (DFW)/ Dallas, TX Love Field (DAL)
+Bush Intercontinental – Houston, TX (IAH)/ Hobby – Houston, TX (HOU)
+ Fort Lauderdale, FL (FLL)/ Miami, FL (MIA)/ West Palm Beach, FL (PBI)
+Baltimore, MD (BWI)/ National – Washington, DC (DCA)/ Dulles – Washington, DC (IAD)
+Newark, NJ (EWR)/ LaGuardia – New York, NY (LGA)/ John F. Kennedy – New York, NY
+(JFK)
+Orlando, FL (MCO)/ Tampa, FL (TPA)/ Daytona Beach, FL (DAB)/ Melbourne, FL (MLB)
+(c) Additional Amenities
+Delta will provide such additional amenities as are necessary to maintain the safety and/or
+welfare of customers with special needs such as unaccompanied children and customers
+with disabilities. Such amenities will be furnished consistent with special needs and/or
+circumstances.
+ D. Extended Tarmac Delays – Codeshare Services
+In the event of extended tarmac delays on flights operated by a Delta codeshare partner,
+the contingency plan for lengthy tarmac delays of the operating carrier will apply.
+RULE 245: DENIED BOARDING COMPENSATION
+A) Overbooking of Flights
+Because passengers with confirmed reservations on a flight sometimes fail to show, Delta
+reserves the right to sell more tickets for travel on each flight than there are seats available on
+the aircraft. In some cases, this may result in a flight in which Delta cannot accommodate one or
+more passengers with confirmed reservations (an “oversold flight”). Delta may deny boarding to
+passengers with confirmed reservations on an oversold flight as set forth in this rule. The rights
+of passengers who are denied boarding shall be governed by this rule.
+B) Request For Volunteers
+Before denying boarding to any passenger holding a confirmed reservation on an oversold
+flight, Delta will ask other passengers on the flight to voluntarily give up their seat in exchange
+ Delta Canadian General Rules Tariff Page 55 of 63
+for compensation in an amount and form to be determined by Delta in its sole discretion. If a
+sufficient number of volunteers agree to give up their seats in response to Delta’s offer, then no
+passenger with a confirmed reservation will be involuntarily denied boarding due to the oversale
+of the flight. If there are more volunteers than required, selection of the volunteer(s) to receive
+compensation shall be subject to Delta’s sole discretion.
+C) Involuntary Denied Boarding
+If an insufficient number of passengers volunteer to give up their seats in response to Delta’s
+offer, Delta may involuntarily deny boarding to one or more passengers on the oversold flight
+according to the following boarding priority rules:
+1) Passengers Holding Tickets for Travel in Premium Cabin, SkyMiles members identified
+with a Diamond Medallion (“DM”), Platinum Medallion (“PM”), or Gold Medallion (“GM”)
+elite-status designation, and passengers holding tickets purchased under a DL
+corporate travel agreement.
+Passengers holding tickets for confirmed space in the First or Business class cabin,
+SkyMiles members identified with a DM, PM, or GM elite-status designation, and
+passengers holding tickets purchased under a DL corporate travel agreement will be
+accommodated before other passengers holding tickets and/or boarding passes for
+confirmed space in the coach cabin.
+2) Passengers With Boarding Passes
+Subject to the terms set forth in Rule 245(c )(1) and (4), passengers holding boarding
+passes who check in and present themselves at the departure gate in compliance with
+Rule 135(c) will be accommodated before passengers traveling in the same cabin who
+have not been issued boarding passes or who fail to comply with applicable check-in
+requirements. Subject to the availability of seats on the aircraft, boarding passes may
+be obtained by passengers who hold tickets for confirmed reserved space in the
+following manner:
+a) for passengers traveling on electronic tickets, through the Online Check-in feature
+on Delta.com within 24 hours of scheduled departure
+b) for passengers traveling on electronic tickets, through a Delta airport kiosk within
+four hours of scheduled departure
+c) from a Delta airport ticket counter and/or the check-in desk located in the departure
+area.
+3) Passengers Without Boarding Passes
+Passengers, who are not governed by Rule 245(c)(1) or (4), with confirmed reservations
+who have not been issued a boarding pass and present themselves at the departure
+gate in compliance with rule 135(c) will be accommodated according to the following
+priority rules:
+a) Passengers who have been rebooked to the present flight as a result of an irregular
+operation (e.g., delay, cancellation) of a previously booked flight.
+b) SkyMiles members identified with a Silver Medallion (“FO”) elite-status designation.
+c) Passengers with a SkyTeam Elite or Elite Plus status.
+ Delta Canadian General Rules Tariff Page 56 of 63
+d) Passengers without any elite-status designation.
+ Within each of the foregoing groups, passengers are prioritized first by class of service
+ and then by time of check-in.
+4) Special Needs Passengers
+Because of the special needs of passengers with disabilities, unaccompanied children,
+and aged or infirm passengers, and active members of the U.S. Armed Forces on travel
+orders, Delta reserves the right to accommodate such passengers without regard to the
+boarding priorities established by this provision.
+D) Transportation For Passengers Denied Boarding
+Delta will provide transportation to passengers who volunteer to relinquish their seats or who
+are denied boarding involuntarily due to the oversale of a flight as follows:
+1) Next Available Flight
+Delta will transport the passenger on its next flight on which space is available to the
+passenger’s next stopover, or if none, to the passenger’s destination, at no additional cost
+to the passenger.
+2) Transportation on Other Airlines
+At Delta’s sole discretion, Delta may instead arrange for transportation on any other carrier
+or combination of carriers to the passenger’s next stopover, or if none, to the passenger’s
+destination, at no additional cost to the passenger.
+3) Overnight Stay Required
+If the transportation provided to a passenger pursuant to this section requires that the
+passenger stay overnight before continuing his/her travel, Delta will provide hotel
+accommodations to the passenger at no additional cost. If hotel accommodations are
+unavailable, Delta will compensate the passenger with a credit voucher valid for future
+purchases from Delta in an amount commensurate in value with the local average
+contracted hotel rate up to $100 CAD, to be determined by Delta.
+E) Compensation For Involuntary Denied Boarding
+When a passenger with a confirmed reservation is involuntarily denied boarding on an oversold
+flight pursuant to this rule, Delta’s sole liability to the passenger shall be to provide alternative
+transportation as provided in paragraph D, above, and to pay denied boarding compensation, if
+applicable, pursuant to the terms and conditions of this rule.
+1) Conditions For Payment of Involuntary Denied Boarding Compensation
+The passenger shall not be entitled to any compensation for involuntary denied boarding if:
+a) Passenger’s Failure to Comply with Contract of Carriage
+The passenger has not complied fully with Delta’s contract of carriage or tariff
+provisions regarding ticketing, reconfirmation, check-in, or acceptability for
+transportation
+b) Substitution of Equipment
+ Delta Canadian General Rules Tariff Page 57 of 63
+The flight for which the passenger holds confirmed space is unable to accommodate
+that passenger because of substitution of equipment of lesser capacity when required
+by operational or safety reasons; or, on an aircraft with a designed passenger capacity
+of 60 or fewer seats, the flight for which the passenger holds confirmed reserved space
+is unable to accommodate that passenger due to weight/balance restrictions when
+required by operational or safety reasons.
+c) Carriage in Alternative Cabin
+Delta offers to accommodate the passenger in a section of the aircraft other than that
+specified on his/her ticket at no extra charge; provided however that if a passenger is
+seated in a section for which a lower fare applies, the passenger will be entitled to a
+refund of the difference in fare.
+d) Alternative Transportation
+Delta arranges comparable air transportation, or other transportation used by the
+passenger, at no extra cost to the passenger, that at the time such arrangements are
+made is scheduled to arrive at the passenger’s next stopover, or, if none, final
+destination within one hour after the planned arrival time of the passenger’s original
+flight or flights.
+F) Amount of Involuntary Denied Boarding Compensation
+If all conditions for compensation are met, then Delta shall pay compensation to passengers
+involuntarily denied boarding in an amount to be calculated as follows:
+1) When Delta arranges Qualifying Alternative Transportation
+If Delta arranges Qualifying Alternative Transportation, then Delta will pay denied boarding
+compensation in an amount equal to 200% of the fare (including any surcharges and air
+transportation taxes) to the passenger’s next stopover, or if none, to his/her final destination,
+but no more than USD 675.00. Qualifying Alternative Transportation means comparable air
+transportation, or other transportation used by the passenger, at no extra cost to the
+passenger, that at the time such arrangements are made is scheduled to arrive at the
+passenger’s next stopover, or, if none, final destination within two hours after the planned
+arrival time of the passenger’s original flight or flights.
+2) Where Delta cannot arrange Qualifying Alternative Transportation
+If Delta cannot arrange Qualifying Alternative Transportation, then Delta will pay denied
+boarding compensation in an amount equal to 400% of the fare (including any surcharges
+and air transportation taxes) to the passenger’s next stopover, or if none, to his/her final
+destination, but no more than USD 1350.00.
+G) Time of Payment for Involuntary Denied Boarding Compensation
+If all conditions for compensation are met, Delta will pay any involuntary denied boarding due
+under this Rule on the day and at the place where the denial of boarding occurred, in cash or
+immediately negotiable check; provided, however, that if the alternative transportation arranged
+for the passenger’s convenience departs before the payment can be made to the passenger,
+then payment will be made by mail or other means within 24 hours after the denied boarding
+occurs.
+RULE 255: REROUTING
+I. General Provisions
+ Delta Canadian General Rules Tariff Page 58 of 63
+A. Fare Applicable To Rerouting Or Change In Destination
+1. Unless otherwise specified in the fare rule, a passenger may change the routing,
+destination, carrier(s), class of service, or dates of travel specified on an unused ticket or
+flight coupon(s) in accordance with paragraph 2) below, provided that, after transportation
+has commenced, a one-way ticket will not be converted into a round-trip, circle-trip or openjaw trip ticket.
+2. Except as otherwise provided in Rule 240 (flight delays/cancellations), when a rerouting or
+change in ultimate destination is made at passenger's request prior to arrival at the ultimate
+destination named on the original ticket, the fares and charges applicable shall be the
+applicable fare and charges for the entire revised itinerary in effect on the date that the
+rerouting or change in ultimate destination is entered on the passenger's new ticket.
+3. See Rule 105 (ticket validity) in this tariff for validity of voluntarily exchanged/reissued
+tickets.
+B. Fare Applicable To Upgrading Class Of Service While In Flight
+When a passenger moves from one class of service to another while in flight, an additional
+collection will be made in an amount equal to the difference between:
+1. The one-way fare from passenger's point of origin on such flight to the last scheduled stop
+prior to the passenger's change in class of service, applicable to the class of service used,
+plus the one-way fare from such stop to the passenger's destination on such flight,
+applicable to transportation in the class of service to which the passenger is moving, and
+2. The fare paid for transportation from the passenger's origin to destination on such flight.
+NOTE: When the amount described in 1. above is less than the amount described in 2.
+above, no additional collection will be made. The acceptance of such passenger in the class
+of service to which he/she is moving for travel beyond the next scheduled stopping point in
+the flight will be subject to the availability of space. Discounts will not apply.
+C. Notwithstanding the provisions of this rule, Delta will not accept for any purposes under this rule,
+passenger tickets or related transportation documents issued by any carrier which is in
+substantial default of its interline obligations or which voluntarily or involuntarily has become the
+subject of bankruptcy proceeding ("The Defaulting Carrier").
+EXCEPTION: Notwithstanding the provisions of this paragraph, tickets issued by the defaulting
+carrier or its sales agent will be reissued/rerouted only between the points named on the original
+ticket that are served by Delta, provided that such tickets were issued by such defaulting carrier
+or sales agent in either's capacity as an agent for Delta and specified transportation via Delta.
+When tickets are accepted, no adjustments in fare will be made that would require Delta to
+refund money to the passenger.
+II. Ticket reissue procedures
+-Unless otherwise specified in a fare rule, the following procedures will apply to DL ticket
+ reissues.
+ For nonrefundable fares:
+- If the price of the new ticket is lower than the ticket being reissued, the difference in
+the ticket price will be provided to the passenger in the form of a non-refundable Delta
+travel voucher at the time of reissue.
+ Delta Canadian General Rules Tariff Page 59 of 63
+- If the price of the new ticket is equal to or higher than the ticket being reissued, any
+difference in fare will be collected at the time of reissue.
+ For refundable fares:
+- If the price of the new ticket is lower than the ticket being reissued, any difference
+ In fare will be refunded to the original form of payment at the time of reissue.
+- If the price of the new ticket is higher than the ticket being reissued, the
+ difference in fare will be collected at the time of reissue.
+-Flights must be rebooked and the ticket reissued at the time of the change.
+A. Unused tickets
+1. When making changes to an unused ticket, Delta will cancel the itinerary and start over,
+issuing a new ticket using current fares subject to all applicable fare rules. The value of
+the original ticket, may be applied toward the purchase of the new ticket.
+B. Partially Used Tickets
+1. When making changes to partially used tickets, Delta will apply one of the following
+procedures resulting in the lowest fare:
+a. Reprice the itinerary, attempting to keep fares of the fully flown fare
+components, and replacing the unflown fare components using current fares. No
+changes are permitted to the fare break points of the fully flown fare components.
+Delta will validate all fare rules at the time of reissue. The new ticket may be a lower
+or equal or higher value than the previous ticket.
+ -OR-
+ b. Issue a new ticket using current fares and validating all fare rules at the time of
+reissue. If the original fare is nonrefundable, the Carrier will apply the remaining
+value for the unflown Segments of the partially used ticket, toward the purchase of a
+new ticket. For refundable fares, Delta will apply the remaining value from the
+partially used ticket, if any, toward the purchase of a new ticket.
+
+III. Same Day Confirm Reissue Procedures
+- Unless otherwise specified in the fare rules, a passenger holding a non-refundable ticket
+may change to another flight to the same destination operated by Delta or a Delta
+Connection carrier on the same day subject to the policies set forth at
+https://www.delta.com/content/www/en_US/traveling-with-us/ticket-changesrefunds/samedaytravel-changes.html and incorporated herein.
+RULE 260: INVOLUNTARY REFUNDS
+A) The amount the carrier will refund upon surrender of the unused portion of the passenger's
+tickets pursuant to rules 35 (refusal to transport), 50 (acceptance of children), or 240 (flight
+delays/cancellations) will be:
+1) If no portion of the ticket has been used, the refund will be an amount equal to the fare paid.
+2) If a portion of the ticket has been used and termination (interruption) occurs:
+a) At A Fare Breakpoint - The refund will be an amount equal to the fare paid for the
+unused transportation from the point of termination (interruption) to the destination or
+next stopover point named on the ticket, or to a point at which transportation is to be
+resumed.
+ Delta Canadian General Rules Tariff Page 60 of 63
+b) Within A Fare Component - The refund will be an amount equal to the carrier’s
+published one way fare for the same class of service, or 50% of the published
+comparable round trip fare, from the point of termination/interruption to the destination,
+or next stopover point named on the ticket, or to the point at which transportation is to
+be resumed. If the carrier does not publish comparable fares between such points, the
+refund will be an amount equal to any carrier’s direct one way unrestricted fare, less the
+same rate of discount that was applied in computing the original fare.
+Exception: Delta will make no refund when the destination designated on the
+passenger’s ticket is a point in column (A) and the flight on which the passenger is
+being transported terminates at the corresponding point in Column (B)
+ Column A Column B
+ BALTIMORE, MD WASHINGTON, DC (DCA)
+ BALTIMORE, MD WASHINGTON, DC (IAD)
+ BURBANK, CA LOS ANGELES, CA
+ BURBANK, CA ONTARIO, CA
+ BURBANK, CA SANTA ANA, CA
+ CHICAGO, IL (MDW) CHICAGO, IL (ORD)
+ CHICAGO, IL (ORD) CHICAGO IL (MDW)
+ FT. LAUDERDALE, FL MIAMI, FL (MIA)
+ HOUSTON, TX (HOU) HOUSTON, TX (IAH)
+ HOUSTON, TX (IAH) HOUSTON, TX (HOU)
+ LOS ANGELES, CA BURBANK, CA
+ LOS ANGELES, CA ONTARIO, CA
+ LOS ANGELES, CA SANTA ANA, CA
+ MIAMI, FL FT. LAUDERDALE, FL
+ NEW YORK, NY (JFK/LGA) NEWARK, NJ (EWR)
+ NEW YORK, NY (JFK) NEW YORK, NY (LGA)
+ NEW YORK, NY (LGA) NEW YORK, NY (JFK)
+ NEWARK, NJ (EWR) NEW YORK, NY (JFK/LGA)
+ OAKLAND, CA SAN FRANCISCO, CA
+ OAKLAND, CA SAN JOSE, CA
+ ONTARIO, CA BURBANK, CA
+ ONTARIO, CA LOS ANGELES, CA
+ ONTARIO, CA SANTA ANA, CA
+ SAN FRANCISCO, CA OAKLAND, CA
+ SAN FRANCISCO, CA SAN JOSE, CA
+ SAN JOSE, CA OAKLAND, CA
+ SAN JOSE, CA SAN FRANCISCO, CA
+ SANTA ANA, CA BURBANK, CA
+ SANTA ANA, CA LOS ANGELES, CA
+ SANTA ANA, CA ONTARIO, CA
+ WASHINGTON, DC (IAD) BALTIMORE, MD
+ WASHINGTON, DC (IAD) WASHINGTON, DC (DCA)
+ WASHINGTON, DC (DCA) BALTIMORE, MD
+ WASHINGTON, DC (DCA) WASHINGTON, DC (IAD)
+B) Notwithstanding the provisions of this rule, Delta will not accept for any purposes under this rule,
+passenger tickets or related transportation documents issued by any carrier which is in
+substantial default of its interline obligations or which voluntarily or involuntarily has become the
+subject of bankruptcy proceedings.
+
+ Delta Canadian General Rules Tariff Page 61 of 63
+RULE 270: VOLUNTARY REFUNDS
+A. Fully Refundable Tickets
+If your ticket was purchased at a fare that is fully refundable in whole or part, Delta will issue a refund of the
+refundable portion of your ticket at your request. You must surrender any unused portion of the ticket at the
+time of the refund request. The amount of the refund will be calculated as follows:
+1. If no portion of the ticket has been used, Delta will refund the total fare and all taxes, fees or
+charges paid.
+2. If a portion of the ticket has been used, Delta will refund the difference between the fare and
+charges applicable to the ticket as issued and the fare and charges applicable to the transportation covered
+by the used portion of the ticket.
+B. Nonrefundable Tickets
+1. General Rule
+Delta will not refund any portion of a fare that is nonrefundable.
+2. Refund of Taxes, Fees or Charges
+Delta will refund taxes, fees or charges collected upon nonrefundable tickets for international transportation
+only where required by law or where such taxes were collected in error and the passenger submits evidence
+of exemption from the tax, fee or charge to Delta in connection with a timely refund request. No request for
+a refund of taxes, fees or charges will be processed unless a request for the refund is received by Delta on
+the written or electronic forms provided by Delta within the time limits specified by this rule.
+3. Application of Unused Ticket toward Future Purchases
+Delta may permit a portion of the fare paid for an unused nonrefundable ticket to be applied toward the
+purchase of future travel on Delta, as set forth in the applicable fare rule and in the ticket reissue procedures
+in Rule 255 Section II of this tariff.
+.
+4. Upgrade/Downgrade of Nonrefundable Tickets
+Delta may permit passengers purchasing certain nonrefundable fares to upgrade or downgrade those tickets
+after purchase, as set forth in the applicable fare rule.
+5. Deceased Passengers
+Notwithstanding the general rule, in the event of death of the passenger prior to the date of travel, tickets
+issued at nonrefundable fares will be refunded to the deceased passengers’ estate.
+6. Administrative Service Charge
+Delta may charge an administrative service charge for processing any permitted changes to nonrefundable
+tickets. If so, this fee will be deducted from any refunded amount or collected at the time the change is
+processed.
+C. Time Limit for Request Refunds
+No refund will be issued on any ticket unless Delta receives a request for the refund and any unused
+coupons are surrendered to Delta within one year of the original issue date of the ticket.
+D. Form of Refund
+Delta will issue refunds on eligible tickets as follows:
+ Delta Canadian General Rules Tariff Page 62 of 63
+1. Tickets paid for by credit card will be refunded to the credit card account used to purchase the
+ticket, typically within seven business days of Delta's initial receipt of refund request.
+2. Tickets paid for by cash or check will be refunded by check issued to the person named as a
+passenger on the ticket, typically within 20 business days of Delta's receipt of initial refund request.
+3. Prepaid ticket advice and/or miscellaneous charge orders will be refunded to the purchaser of
+the prepaid ticket advice and/or miscellaneous charge order.
+4. Tickets charged under a universal air travel plan will be refunded to the subscriber against
+whose account the ticket was charged.
+5. Tickets issued against governmental transportation requests shall be issued as required by
+applicable government regulation
+E. Lost or Stolen Tickets
+Delta will issue refunds on lost, fully refundable paper tickets only if a claim for refund is received by Delta
+no later than one month after the expiration date of the ticket. A service charge of USD100/CAD100 per
+ticket for handling a request for refund of a lost ticket/exchange order will apply, and Delta will require that
+you agree, in such forms as may be prescribed by Delta, to indemnify Delta for any loss or damage which
+Delta may sustain by reason of the use of the lost ticket. The amount of the refund shall be calculated as
+follows:
+1. If no portion of the ticket has been used, Delta will refund the fare and charges paid, less any
+applicable service charges.
+2. If you used a portion of the lost ticket, Delta will provide a refund as follows:
+a. If you purchased a new ticket covering the same transportation as that covered by
+the unused portion of the lost ticket, Delta will refund the fare and charges paid for the new ticket.
+b. If you did not purchase a new ticket, Delta will refund the difference, if any, between
+the fares and charges paid, and the full fare for the transportation used.
+F. Refund of Interline Tickets
+Notwithstanding the provisions of this rule Delta will not accept for any purposes under this rule, passenger
+tickets or related transportation documents issued by any carrier which is in substantial default of its interline
+obligations or which voluntarily or involuntarily has become the subject of bankruptcy proceedings.
+RULE 390: PREPAID TICKET ADVICE CHARGES
+Delta will impose a service charge of USD 100.00/CAD 146.00 for each prepaid ticket advice
+issued by Delta. This service charge is not subject to any discount and cannot be refunded.
+EXCEPTION 1: The prepaid ticket advice (PTA) service charge will not apply when prepayment
+is made by the U.S. federal government and the form of payment is:
+1) U.S. Government Transportation Request (GTR).
+2) Diner’s Club cards starting with “3889”.
+3) Members/Employees of the U.S. Senate/House of Representatives may use
+ GTR/Cash/Check/Money Order/Credit Card or official travel authorization – GPC form no.
+ Delta Canadian General Rules Tariff Page 63 of 63
+ 81-76229-IPP.
+RULE 392: RETURNED CHECK CHARGE
+Delta will collect USD 15.00/CAD 20.00 for each returned check. This charge is non-refundable
+and is not subject to any discount.
+RULE 394: THE DELTA CONNECTION AND DOMESTIC CODESHARE SERVICE
+A portion of travel for some itineraries marketed by Delta may be provided on the Delta
+Connection carriers: Compass Airlines, Endeavor Air, ExpressJet, GoJet Airlines, Republic
+Airlines, and SkyWest; codeshare partners Alaska Airlines, American Eagle, Hawaiian Airlines,
+Horizon Air Industries and Horizon/Alaska Airlines. If any carrier other than Delta is operating a
+flight, we will identify that carrier in our schedules and in written or oral communications with you
+during the booking process. Except where specifically noted, all terms of transportation
+applicable to Delta specified in these conditions of carriage apply to flights operated by the Delta
+Connection carriers, and to codeshare flights when marketed by Delta. 

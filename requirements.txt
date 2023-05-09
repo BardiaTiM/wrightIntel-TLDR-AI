@@ -4,3 +4,4 @@ gradio
 os
 sentence_transformers
 numpy
+python-dotenv==1.0.0

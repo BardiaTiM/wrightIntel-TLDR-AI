@@ -8,6 +8,9 @@ from langchain import OpenAI
 from llama_index import Document
 from llama_index import GPTSimpleVectorIndex, LLMPredictor, ServiceContext
 from sentence_transformers import SentenceTransformer
+from flask import Flask, request, jsonify
+
+app = Flask(__name__)
 
 # Load env ariables from .env file
 load_dotenv()
@@ -79,7 +82,6 @@ def chatbot(airline_name, input_text):
         return "I'm sorry, I cannot answer questions unrelated to my knowledge base."
 
 
-
 iface = gr.Interface(fn=chatbot,
                      inputs=[gr.inputs.Textbox(lines=1, label="Enter the airline name"),
                              gr.inputs.Textbox(lines=7, label="Enter your text")],
@@ -87,3 +89,16 @@ iface = gr.Interface(fn=chatbot,
                      title="TLDR")
 
 iface.launch(share=True)
+
+
+@app.route('/chat', methods=['POST'])
+def chat():
+    data = request.get_json()
+    airline_name = data.get('airline_name')
+    input_text = data.get('input_text')
+    response = chatbot(airline_name, input_text)
+    return jsonify({'response': response})
+
+
+if __name__ == '__main__':
+    app.run(port=5000, debug=True)

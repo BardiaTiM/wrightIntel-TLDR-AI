@@ -202,9 +202,11 @@ app.get('/members', (req, res) => {
     <h2>Hello, ${req.session.username}</h2>
     <img src="${imageURL}" alt="random image">
     <button onclick="window.location.href='/logout'">Logout</button>
+    <script src="/members.js"></script>
     `;
     res.send(html);
 });
+
 
 /** Logout page. */
 app.get('/logout', (req,res) => {

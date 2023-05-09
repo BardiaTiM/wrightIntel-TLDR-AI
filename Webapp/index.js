@@ -128,6 +128,64 @@ app.post('/submitUser', async (req,res) => {
     res.redirect("/members");
 });
 
+/** Login page. */
+app.get('/login', (req, res) => {
+    var html = `
+        <h1>Login</h1>
+        <p>Enter username and password</p>
+        <form action='/submitLogin' method='post'>
+        <input name='email' type='text' placeholder='email'><br/>
+        <input name='password' type='password' placeholder='password'><br/>
+        <button>Submit</button>
+        </form>`;
+    res.send(html);
+});
+
+/** Login validation. */
+app.post('/submitLogin', async (req,res) => {
+    var email = req.body.email;
+    var password = req.body.password;
+
+    // Create a joi object to check both email and password
+    const schema = joi.object({
+        email: joi.string().email().required(),
+        password: joi.string().max(20).required()
+    });
+    const validationResult = schema.validate({email, password});
+	if (validationResult.error != null) {
+        console.log(validationResult.error);
+        res.send(`<h1 style='color:darkred;'>WARNING: NOSQL INJECTION ATTACK DETECTED!</h1>
+            <button onclick='window.location.href=\"/\"'>Home page</button>`);
+	   return;
+	}
+    // Find user details in database from email
+	const result = await userCollection.find({email: email}).project({username: 1, password: 1, _id: 1}).toArray();
+    
+	console.log(result);
+    // User not found
+	if (result.length != 1) {
+		console.log("user not found");
+		res.redirect("/login");
+		return;
+	}
+    // Check password
+	if (await bcrypt.compare(password, result[0].password)) {
+		console.log("correct password");
+		req.session.authenticated = true;
+		req.session.username = result[0].username;
+		req.session.cookie.maxAge = expireTime;
+
+		res.redirect('/members');
+		return;
+    // Incorrect password
+	} else {
+        console.log("incorrect password");
+        html = `<h1>Login error</h1><p>Incorrect password</p><a href='/login'>Try again</a>`;
+        res.send(html);
+        return;
+	}
+});
+
 // Start server
 app.listen(port, () => {
     console.log("Node application listening on port " + port);

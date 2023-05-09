@@ -1,13 +1,18 @@
 # Import necessary modules
 from llama_index import SimpleDirectoryReader, GPTSimpleVectorIndex, LLMPredictor, ServiceContext
 from langchain import OpenAI
+from dotenv import load_dotenv
 import gradio as gr
 import os
 from sentence_transformers import SentenceTransformer
 import numpy as np
 
+# Load env ariables from .env file
+load_dotenv()
+api_key = os.getenv("API_SECRET_KEY")
+
 # Set OpenAI API key as environment variable
-os.environ["OPENAI_API_KEY"] = ''
+os.environ["OPENAI_API_KEY"] = api_key
 
 # Initialize t\he sentences transformer model
 model = SentenceTransformer('paraphrase-distilroberta-base-v1')

@@ -1,6 +1,7 @@
-llama_index
-langchain
+llama-index==0.5.27
+langchain==0.0.142
 gradio
 os
 sentence_transformers
 numpy
+python-dotenv==1.0.0

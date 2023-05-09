@@ -9,6 +9,7 @@ const joi = require('joi');
 
 const port = 4056;
 var saltRounds = 12;
+const images = ['marmot1.gif', 'marmot2.gif', 'marmot3.gif']
 const expireTime = 60 * 60 * 1000;
 const app = express();
 

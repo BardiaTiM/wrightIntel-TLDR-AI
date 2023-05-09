@@ -217,9 +217,20 @@ app.get('/members', (req, res) => {
     <img src="${imageURL}" alt="random image">
     <button onclick="window.location.href='/profile'">Profile</button>
     <button onclick="window.location.href='/logout'">Logout</button>
+    <h2>Chat with TLDR</h2>
+    <form id='chatbotForm'>
+        <input type='text' id='airlineInput' placeholder='Enter airline name...'>
+        <input type='text' id='userInput' placeholder='Ask a question...'>
+        <input type='submit' value='Ask'>
+    </form>
+    <div id='chatbotOutput'></div>
+
+    <script src="/members.js"></script>
     `;
     res.send(html);
 });
+
+
 
 /** Logout page. */
 app.get('/logout', (req,res) => {

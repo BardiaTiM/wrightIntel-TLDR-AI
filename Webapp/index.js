@@ -5,6 +5,7 @@ const session = require('express-session');
 const mongoDB = require('connect-mongo');
 const bcrypt = require('bcrypt');
 const joi = require('joi');
+const nodemailer = require('nodemailer');
 /** End of required modules. */
 
 const port = 4056;
@@ -20,6 +21,8 @@ const mongodb_password = process.env.MONGODB_PASSWORD;
 const mongodb_database = process.env.MONGODB_DATABASE;
 const mongodb_secretSession = process.env.MONGODB_SESSION_SECRET;
 const nodeSecretSession = process.env.NODE_SESSION_SECRET;
+const email_user = process.env.EMAIL_USER;
+const email_password = process.env.EMAIL_PASSWORD;
 /** End of secret info. */
 
 /** Database connection. */
@@ -213,6 +216,124 @@ app.get('/logout', (req,res) => {
     `;
     res.send(html);
 });
+
+// Forgot password page
+app.get('/forgot-password', (req, res) => {
+    res.send(`
+      <h1>Forgot Password</h1>
+      <form method="post" action="/forgot-password">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <button type="submit">Submit</button>
+      </form>
+    `);
+  });
+
+  
+  /* ALL BELOW IMPORTANT FOR PASSWORD REST */
+
+
+  // Handle forgot password form submission
+  app.post('/forgot-password', async (req, res) => {
+
+    // create reusable transporter object using the default SMTP transport
+    const transporter = nodemailer.createTransport({
+        host: 'smtp.gmail.com',
+        port: 465,
+        secure: true, // use SSL
+        auth: {
+            user: email_user,
+            pass: email_password
+
+
+        }
+    });
+    
+    const { email } = req.body;
+  
+    // Generate a unique token for the user
+    const token = await bcrypt.hash(email + Date.now(), saltRounds);
+  
+    // Store the token in the database along with the user's email and a timestamp
+    await userCollection.updateOne(
+      { email },
+      { $set: { passwordResetToken: token, passwordResetExpires: Date.now() + 3600000 } }
+    );
+  
+    // Send an email to the user with a link to the password reset page
+    const resetUrl = `http://localhost:4056/reset-password?token=${token}`;
+    const mailOptions = {
+      from: email_user,
+      to: email,
+      subject: 'Reset your password',
+      html: `Click <a href="${resetUrl}">here</a> to reset your password.`
+    };
+    transporter.sendMail(mailOptions, (err, info) => {
+      if (err) {
+        console.error(err);
+        res.status(500).send('Failed to send email');
+      } else {
+        res.status(200).send('Email sent');
+      }
+    });
+  });
+
+  // Handle password reset form submission
+app.post('/reset-password', async (req, res) => {
+    const { token, password } = req.body;
+  
+    // Find the user with the given token and ensure that the token hasn't expired
+    const user = await userCollection.findOne({
+      passwordResetToken: token,
+      passwordResetExpires: { $gt: Date.now() }
+    });
+  
+    if (!user) {
+      return res.status(400).send('Invalid or expired token');
+    }
+  
+    // Update the user's password
+    const hashedPassword = await bcrypt.hash(password, saltRounds);
+    await userCollection.updateOne(
+      { email: user.email },
+      { $set: { password: hashedPassword } }
+    );
+  
+    // Remove the password reset token and expiration time from the user's record
+    await userCollection.updateOne(
+      { email: user.email },
+      { $unset: { passwordResetToken: 1, passwordResetExpires: 1 } }
+    );
+  
+    res.status(200).send('Password reset successfully');
+  });
+  
+  // Password reset page
+  app.get('/reset-password', async (req, res) => {
+    const { token } = req.query;
+  
+    // Find the user with the given token and ensure that the token hasn't expired
+    const user = await userCollection.findOne({
+      passwordResetToken: token,
+      passwordResetExpires: { $gt: Date.now() }
+    });
+  
+    if (!user) {
+      return res.status(400).send('Invalid or expired token');
+    }
+  
+    res.send(`
+      <h1>Reset Password</h1>
+      <form method="post" action="/reset-password">
+        <input type="hidden" name="token" value="${token}">
+        <label for="password">New password:</label>
+        <input type="password" id="password" name="password">
+        <button type="submit">Submit</button>
+      </form>
+    `);
+  });
+
+    /* ALL ABOVE IMPORTANT FOR PASSWORD REST */
 
 app.use(express.static(__dirname + '/public'));
 

@@ -9,9 +9,10 @@ from llama_index import Document
 from llama_index import GPTSimpleVectorIndex, LLMPredictor, ServiceContext
 from sentence_transformers import SentenceTransformer
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 
 app = Flask(__name__)
-
+CORS(app) 
 # Load env ariables from .env file
 load_dotenv()
 api_key = os.getenv("API_SECRET_KEY")
@@ -27,10 +28,12 @@ def cosine_similarity(a, b):
 
 
 def get_airline_file(airline_name, directory_path):
-    for file in os.listdir(directory_path):
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), directory_path)
+    for file in os.listdir(path):
         if airline_name.lower() in file.lower():
-            return os.path.join(directory_path, file)
+            return os.path.join(path, file)
     return None
+
 
 
 def is_related(airline_name, question, min_similarity=0.2):
@@ -61,7 +64,7 @@ def construct_index(airline_name, directory_path):
     service_context = ServiceContext.from_defaults(llm_predictor=llm_predictor)
     doc = Document(text=doc_text)
     index = GPTSimpleVectorIndex.from_documents([doc], service_context=service_context)
-    directory_path = "AirLineJson"
+    directory_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "AirLineJson")
     filename = f"{airline_name}_index.json"
     file_path = os.path.join(directory_path, filename)
     index.save_to_disk(file_path)
@@ -71,7 +74,7 @@ def construct_index(airline_name, directory_path):
 def chatbot(airline_name, input_text):
     if is_related(airline_name, input_text):
         index = construct_index(airline_name, "Knowledge")
-        directory_path = "AirLineJson"
+        directory_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "AirLineJson")
         filename = f"{airline_name}_index.json"
         file_path = os.path.join(directory_path, filename)
         index.save_to_disk(file_path)
@@ -81,14 +84,12 @@ def chatbot(airline_name, input_text):
     else:
         return "I'm sorry, I cannot answer questions unrelated to my knowledge base."
 
-
 iface = gr.Interface(fn=chatbot,
                      inputs=[gr.inputs.Textbox(lines=1, label="Enter the airline name"),
                              gr.inputs.Textbox(lines=7, label="Enter your text")],
                      outputs="text",
                      title="TLDR")
 
-iface.launch(share=True)
 
 
 @app.route('/chat', methods=['POST'])
@@ -101,4 +102,4 @@ def chat():
 
 
 if __name__ == '__main__':
-    app.run(port=5000, debug=True)
+    app.run(port=5001, debug=True)

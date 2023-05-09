@@ -186,6 +186,41 @@ app.post('/submitLogin', async (req,res) => {
 	}
 });
 
+/** Members page. */
+app.get('/members', (req, res) => {
+    if (!req.session.authenticated) {
+        res.redirect('/login');
+    }
+    var image = images[Math.floor(Math.random() * images.length)];
+    var imageURL = image;
+    var html = `
+    <h1>Members only</h1>
+    <h2>Hello, ${req.session.username}</h2>
+    <img src="${imageURL}" alt="random image">
+    <button onclick="window.location.href='/logout'">Logout</button>
+    `;
+    res.send(html);
+});
+
+/** Logout page. */
+app.get('/logout', (req,res) => {
+	req.session.destroy();
+    var html = `
+    <h1>Logout</h1>
+    <p>You are logged out.</p>
+    <button onclick="window.location.href='/'">Home page</button>
+    `;
+    res.send(html);
+});
+
+app.use(express.static(__dirname + '/public'));
+
+// 404 page
+app.get("*", (req,res) => {
+	res.status(404);
+	res.send("Page not found - 404");
+})
+
 // Start server
 app.listen(port, () => {
     console.log("Node application listening on port " + port);

@@ -58,7 +58,10 @@ def construct_index(airline_name, directory_path):
     service_context = ServiceContext.from_defaults(llm_predictor=llm_predictor)
     doc = Document(text=doc_text)
     index = GPTSimpleVectorIndex.from_documents([doc], service_context=service_context)
-    index.save_to_disk(f"{airline_name}_index.json")
+    directory_path = "AirLineJson"
+    filename = f"{airline_name}_index.json"
+    file_path = os.path.join(directory_path, filename)
+    index.save_to_disk(file_path)
     return index
 
 
@@ -74,6 +77,7 @@ def chatbot(airline_name, input_text):
         return response.response
     else:
         return "I'm sorry, I cannot answer questions unrelated to my knowledge base."
+
 
 
 iface = gr.Interface(fn=chatbot,

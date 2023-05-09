@@ -75,6 +75,7 @@ app.get('/signup', (req, res) => {
         <form action='/submitUser' method='post'>
         <input name='username' type='text' placeholder='username'><br/>
         <input name='email' type='text' placeholder='email'><br/>
+        <input name='phoneNumber' type='text' placeholder='604-111-2415'><br/>
         <input name='password' type='password' placeholder='password'><br/>
         <button>Submit</button>
         </form>`;
@@ -86,6 +87,7 @@ app.get('/signup', (req, res) => {
 app.post('/submitUser', async (req,res) => {
     var username = req.body.username;
     var email = req.body.email;
+    var number = req.body.phoneNumber;
     var password = req.body.password;
     var html;
     // Check for missing fields
@@ -104,16 +106,22 @@ app.post('/submitUser', async (req,res) => {
         res.send(html);
         return;
     }
+    if (!number) {
+        html = `<h1>Sign up error</h1><p>Missing phone number</p><a href='/signup'>Try again</a>`;
+        res.send(html);
+        return;
+    }
     
     // Check for noSQL injection attacks
 	const schema = joi.object(
 		{
 			username: joi.string().alphanum().max(20).required(),
-            email: joi.string().email().required(),
+      email: joi.string().email().required(),
+      number: joi.string().max(20).required(),
 			password: joi.string().max(20).required()
 		});
 	// Validate user input
-	const validationResult = schema.validate({username, email, password});
+	const validationResult = schema.validate({username, email, number, password});
 	if (validationResult.error != null) {
         console.log(validationResult.error);
         res.send(`<h1 style='color:darkred;'>WARNING: NOSQL INJECTION ATTACK DETECTED!</h1>
@@ -123,13 +131,17 @@ app.post('/submitUser', async (req,res) => {
     // Bcrypt password
     var hashedPassword = await bcrypt.hash(password, saltRounds);
 	// Insert user into database
-	await userCollection.insertOne({username: username, email: email, password: hashedPassword});
+await userCollection.insertOne({username: username, email: email, password: hashedPassword, phoneNumber: number});
+
 	console.log("Inserted user");
-    // Go to members page
-    req.session.authenticated = true;
-    req.session.username = username;
-    req.session.cookie.maxAge = expireTime;
-    res.redirect("/members");
+
+  // Go to members page
+  req.session.authenticated = true;
+  req.session.username = username;
+  req.session.email = email;
+  req.session.phoneNumber = number;
+  req.session.cookie.maxAge = expireTime;
+  res.redirect("/members");
 });
 
 /** Login page. */
@@ -163,7 +175,7 @@ app.post('/submitLogin', async (req,res) => {
 	   return;
 	}
     // Find user details in database from email
-	const result = await userCollection.find({email: email}).project({username: 1, password: 1, _id: 1}).toArray();
+	const result = await userCollection.find({email: email}).project({username: 1, password: 1, phoneNumber: 1, _id: 1}).toArray();
     
 	console.log(result);
     // User not found
@@ -175,11 +187,13 @@ app.post('/submitLogin', async (req,res) => {
     // Check password
 	if (await bcrypt.compare(password, result[0].password)) {
 		console.log("correct password");
-		req.session.authenticated = true;
-		req.session.username = result[0].username;
-		req.session.cookie.maxAge = expireTime;
-
-		res.redirect('/members');
+    // Go to members page
+    req.session.authenticated = true;
+    req.session.username = result[0].username;
+    req.session.email = email;
+    req.session.phoneNumber = result[0].phoneNumber;
+    req.session.cookie.maxAge = expireTime;
+    res.redirect("/members");
 		return;
     // Incorrect password
 	} else {
@@ -201,6 +215,7 @@ app.get('/members', (req, res) => {
     <h1>Members only</h1>
     <h2>Hello, ${req.session.username}</h2>
     <img src="${imageURL}" alt="random image">
+    <button onclick="window.location.href='/profile'">Profile</button>
     <button onclick="window.location.href='/logout'">Logout</button>
     `;
     res.send(html);
@@ -208,16 +223,32 @@ app.get('/members', (req, res) => {
 
 /** Logout page. */
 app.get('/logout', (req,res) => {
-	req.session.destroy();
-    var html = `
-    <h1>Logout</h1>
-    <p>You are logged out.</p>
-    <button onclick="window.location.href='/'">Home page</button>
-    `;
-    res.send(html);
+  req.session.destroy((err) => {
+    if (err) {
+      console.log(err);
+     } else {
+      res.redirect('/');
+    }
+  });
 });
 
-// Forgot password page
+/** Personal profile page. */
+app.get('/profile', (req, res) => {
+  if (!req.session.authenticated) {
+      res.redirect('/login');
+  }
+  var html = `
+  <h1>Personal Profile</h1>
+  <p>Username: ${req.session.username}</p>
+  <p>Email: ${req.session.email}</p>
+  <p>Phone Number: ${req.session.phoneNumber}</p>
+  <button onclick="window.location.href='/members'">Logout</button>
+  `;
+  res.send(html);
+});
+
+
+/** Forgot password page. */
 app.get('/forgot-password', (req, res) => {
     res.send(`
       <h1>Forgot Password</h1>

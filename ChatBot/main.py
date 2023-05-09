@@ -1,11 +1,13 @@
 # Import necessary modules
-from llama_index import SimpleDirectoryReader, GPTSimpleVectorIndex, LLMPredictor, ServiceContext
-from langchain import OpenAI
-from dotenv import load_dotenv
-import gradio as gr
 import os
-from sentence_transformers import SentenceTransformer
+
+import gradio as gr
 import numpy as np
+from dotenv import load_dotenv
+from langchain import OpenAI
+from llama_index import Document
+from llama_index import GPTSimpleVectorIndex, LLMPredictor, ServiceContext
+from sentence_transformers import SentenceTransformer
 
 # Load env ariables from .env file
 load_dotenv()
@@ -14,80 +16,74 @@ api_key = os.getenv("API_SECRET_KEY")
 # Set OpenAI API key as environment variable
 os.environ["OPENAI_API_KEY"] = api_key
 
-# Initialize t\he sentences transformer model
 model = SentenceTransformer('paraphrase-distilroberta-base-v1')
 
 
-# Define a function to calculate cosine similarity
 def cosine_similarity(a, b):
     return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
 
 
-# Define a function to check whether the input question is related to the content in the PDF
-"""
-
-This code defines a function called is_related that takes a question as input and checks if the question is related to 
-any text documents in the "Knowledge" directory. The function uses a pre-trained language model to encode the question 
-and each document as vectors, and then computes the cosine similarity between the question vector and each document 
-vector. The highest similarity score is returned, and if it is greater than the min_similarity threshold 
-(which defaults to 0.2), the function returns True, indicating that the question is related to at least one of 
-the documents. If the highest similarity score is lower than the threshold, the function returns False.
-"""
+def get_airline_file(airline_name, directory_path):
+    for file in os.listdir(directory_path):
+        if airline_name.lower() in file.lower():
+            return os.path.join(directory_path, file)
+    return None
 
 
-def is_related(question, min_similarity=0.2):
-    # Load the text documents from the specified directory
-    docs = SimpleDirectoryReader("Knowledge").load_data()
+def is_related(airline_name, question, min_similarity=0.2):
+    file_path = get_airline_file(airline_name, "Knowledge")
+    if file_path is None:
+        return False
+
+    with open(file_path, "r", encoding='utf-8') as f:
+        doc_text = f.read()
+
     question_embedding = model.encode([question])[0]
-    similarities = []
+    doc_embedding = model.encode([doc_text])[0]
+    similarity = cosine_similarity(question_embedding, doc_embedding)
 
-    for doc in docs:
-        doc_embedding = model.encode([doc.text])[0]  # Change this line
-        similarity = cosine_similarity(question_embedding, doc_embedding)
-        similarities.append(similarity)
-
-    max_similarity = max(similarities)
-    return max_similarity > min_similarity
+    return similarity > min_similarity
 
 
-# Define a function to construct and save the GPT-based index
-def construct_index(directory_path):
-    num_outputs = 512  # Number of text tokens in GPT model output
-    # Create a language model predictor using OpenAI's GPT model
+def construct_index(airline_name, directory_path):
+    file_path = get_airline_file(airline_name, directory_path)
+    if file_path is None:
+        return None
+
+    with open(file_path, "r", encoding='utf-8') as f:
+        doc_text = f.read()
+
+    num_outputs = 200
     llm_predictor = LLMPredictor(llm=OpenAI(temperature=0.7, model_name="text-davinci-003", max_tokens=num_outputs))
-    # Create a service context object for the GPT-based index
     service_context = ServiceContext.from_defaults(llm_predictor=llm_predictor)
-    # Load the text documents from the specified directory
-    docs = SimpleDirectoryReader(directory_path).load_data()
-    # Create a GPT-based vector index from the text documents
-    index = GPTSimpleVectorIndex.from_documents(docs, service_context=service_context)
-    # Save the index to disk
-    index.save_to_disk('index.json')
-    # Return the index object
+    doc = Document(text=doc_text)
+    index = GPTSimpleVectorIndex.from_documents([doc], service_context=service_context)
+    directory_path = "AirLineJson"
+    filename = f"{airline_name}_index.json"
+    file_path = os.path.join(directory_path, filename)
+    index.save_to_disk(file_path)
     return index
 
 
-# Modify the chatbot function to check if the input question is related
-def chatbot(input_text):
-    # Check if the input question is related to the content in the PDF
-    if is_related(input_text):
-        # Load the GPT-based index from disk
-        index = GPTSimpleVectorIndex.load_from_disk('index.json')
-        # Use the index to generate a response to the input text
+def chatbot(airline_name, input_text):
+    if is_related(airline_name, input_text):
+        index = construct_index(airline_name, "Knowledge")
+        directory_path = "AirLineJson"
+        filename = f"{airline_name}_index.json"
+        file_path = os.path.join(directory_path, filename)
+        index.save_to_disk(file_path)
+        index = GPTSimpleVectorIndex.load_from_disk(file_path)
         response = index.query(input_text, response_mode="compact")
-        # Return the response text
         return response.response
     else:
         return "I'm sorry, I cannot answer questions unrelated to my knowledge base."
 
 
-# Create a Gradio interface for the chatbot function
-iface = gr.Interface(fn=chatbot,
-                     inputs=gr.inputs.Textbox(lines=7, label="Enter your text"),
-                     outputs="text",
-                     title="Custom-trained AI Chatbot")
 
-# Construct the GPT-based index from the text documents in the "Knowledge" directory
-index = construct_index("Knowledge")
-# Launch the Gradio interface and allow sharing
+iface = gr.Interface(fn=chatbot,
+                     inputs=[gr.inputs.Textbox(lines=1, label="Enter the airline name"),
+                             gr.inputs.Textbox(lines=7, label="Enter your text")],
+                     outputs="text",
+                     title="TLDR")
+
 iface.launch(share=True)

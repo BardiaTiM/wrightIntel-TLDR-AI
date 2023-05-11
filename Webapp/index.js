@@ -222,14 +222,7 @@ app.get('/profile', (req, res) => {
 
 /** Forgot password page. */
 app.get('/forgot-password', (req, res) => {
-    res.send(`
-      <h1>Forgot Password</h1>
-      <form method="post" action="/forgot-password">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email">
-        <button type="submit">Submit</button>
-      </form>
-    `);
+  res.render('forgot-password');
   });
 
   
@@ -241,16 +234,17 @@ app.get('/forgot-password', (req, res) => {
 
     // create reusable transporter object using the default SMTP transport
     const transporter = nodemailer.createTransport({
-        host: 'smtp.gmail.com',
-        port: 465,
-        secure: true, // use SSL
-        auth: {
-            user: email_user,
-            pass: email_password
-
-
-        }
-    });
+      host: 'smtp.gmail.com',
+      port: 465,
+      secure: true, // use SSL
+      auth: {
+          user: email_user,
+          pass: email_password
+      },
+      tls: {
+          rejectUnauthorized: false
+      }
+  });
     
     const { email } = req.body;
   
@@ -324,16 +318,16 @@ app.post('/reset-password', async (req, res) => {
     if (!user) {
       return res.status(400).send('Invalid or expired token');
     }
-  
-    res.send(`
-      <h1>Reset Password</h1>
-      <form method="post" action="/reset-password">
-        <input type="hidden" name="token" value="${token}">
-        <label for="password">New password:</label>
-        <input type="password" id="password" name="password">
-        <button type="submit">Submit</button>
-      </form>
-    `);
+    res.render('reset-password', { token });
+    // res.send(`
+    //   <h1>Reset Password</h1>
+    //   <form method="post" action="/reset-password">
+    //     <input type="hidden" name="token" value="${token}">
+    //     <label for="password">New password:</label>
+    //     <input type="password" id="password" name="password">
+    //     <button type="submit">Submit</button>
+    //   </form>
+    // `);
   });
 
     /* ALL ABOVE IMPORTANT FOR PASSWORD REST */

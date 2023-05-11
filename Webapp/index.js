@@ -80,17 +80,7 @@ app.get('/', (req, res) => {
 
 /** Sign up page. */
 app.get('/signup', (req, res) => {
-    var html = `
-        <h1>Sign up</h1>
-        <p>Create user</p>
-        <form action='/submitUser' method='post'>
-        <input name='username' type='text' placeholder='username'><br/>
-        <input name='email' type='text' placeholder='email'><br/>
-        <input name='phoneNumber' type='text' placeholder='604-111-2415'><br/>
-        <input name='password' type='password' placeholder='password'><br/>
-        <button>Submit</button>
-        </form>`;
-    res.send(html);
+  res.render('signup');
 });
 
 
@@ -98,7 +88,7 @@ app.get('/signup', (req, res) => {
 app.post('/signupValidation', async (req,res) => {
     var username = req.body.username;
     var email = req.body.email;
-    var number = req.body.phoneNumber;
+    var phoneNum = req.body.phoneNumber;
     var password = req.body.password;
     var html;
     // Check for missing fields
@@ -117,7 +107,7 @@ app.post('/signupValidation', async (req,res) => {
         res.send(html);
         return;
     }
-    if (!number) {
+    if (!phoneNum) {
         html = `<h1>Sign up error</h1><p>Missing phone number</p><a href='/signup'>Try again</a>`;
         res.send(html);
         return;
@@ -128,21 +118,20 @@ app.post('/signupValidation', async (req,res) => {
 		{
 			username: joi.string().alphanum().max(20).required(),
       email: joi.string().email().required(),
-      number: joi.string().max(20).required(),
+      phoneNum: joi.string().max(12).required(),
 			password: joi.string().max(20).required()
 		});
 	// Validate user input
-	const validationResult = schema.validate({username, email, number, password});
+	const validationResult = schema.validate({username, email, phoneNum, password});
 	if (validationResult.error != null) {
         console.log(validationResult.error);
-        res.send(`<h1 style='color:darkred;'>WARNING: NOSQL INJECTION ATTACK DETECTED!</h1>
-            <button onclick='window.location.href=\"/\"'>Home page</button>`);
+        res.status(400).json({ error: 'Potential NoSQL Injection detected.'});
 	   return;
 	}
     // Bcrypt password
     var hashedPassword = await bcrypt.hash(password, saltRounds);
 	// Insert user into database
-await userCollection.insertOne({username: username, email: email, password: hashedPassword, phoneNumber: number});
+await userCollection.insertOne({username: username, email: email, password: hashedPassword, phoneNumber: phoneNum});
 
 	console.log("Inserted user");
 
@@ -150,26 +139,18 @@ await userCollection.insertOne({username: username, email: email, password: hash
   req.session.authenticated = true;
   req.session.username = username;
   req.session.email = email;
-  req.session.phoneNumber = number;
+  req.session.phoneNumber = phoneNum;
   req.session.cookie.maxAge = expireTime;
   res.redirect("/members");
 });
 
 /** Login page. */
 app.get('/login', (req, res) => {
-    var html = `
-        <h1>Login</h1>
-        <p>Enter username and password</p>
-        <form action='/submitLogin' method='post'>
-        <input name='email' type='text' placeholder='email'><br/>
-        <input name='password' type='password' placeholder='password'><br/>
-        <button>Submit</button>
-        </form>`;
-    res.send(html);
+  res.render('login');
 });
 
 /** Login validation. */
-app.post('/submitLogin', async (req,res) => {
+app.post('/loginValidation', async (req,res) => {
     var email = req.body.email;
     var password = req.body.password;
 
@@ -181,8 +162,7 @@ app.post('/submitLogin', async (req,res) => {
     const validationResult = schema.validate({email, password});
 	if (validationResult.error != null) {
         console.log(validationResult.error);
-        res.send(`<h1 style='color:darkred;'>WARNING: NOSQL INJECTION ATTACK DETECTED!</h1>
-            <button onclick='window.location.href=\"/\"'>Home page</button>`);
+        res.status(400).json({ error: 'Potential NoSQL Injection detected.'});
 	   return;
 	}
     // Find user details in database from email

@@ -219,14 +219,7 @@ app.get('/profile', (req, res) => {
   if (!req.session.authenticated) {
       res.redirect('/login');
   }
-  var html = `
-  <h1>Personal Profile</h1>
-  <p>Username: ${req.session.username}</p>
-  <p>Email: ${req.session.email}</p>
-  <p>Phone Number: ${req.session.phoneNumber}</p>
-  <button onclick="window.location.href='/members'">Logout</button>
-  `;
-  res.send(html);
+  res.render('profile', {req: req, res: res, username: req.session.username, email: req.session.email, phoneNumber: req.session.phoneNumber});
 });
 
 

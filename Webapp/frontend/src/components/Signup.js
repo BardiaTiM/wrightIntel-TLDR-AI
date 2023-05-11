@@ -15,7 +15,7 @@ function Signup() {
       const response = await axiosInstance.post('/signup/submitUser', { username, email, password });
       const newUserCreated = response.data.success;
       if (newUserCreated) {
-        navigate('/');
+        navigate('/members');
       }
     } catch (error) {
       if (error.response) {

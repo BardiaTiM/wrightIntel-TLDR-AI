@@ -8,11 +8,14 @@ const joi = require('joi');
 const nodemailer = require('nodemailer');
 /** End of required modules. */
 
+/** Important Info. */
 const port = 4056;
 var saltRounds = 12;
 const images = ['marmot1.gif', 'marmot2.gif', 'marmot3.gif']
 const expireTime = 60 * 60 * 1000;
 const app = express();
+app.set('view engine', 'ejs');
+/** End of Important Info. */
 
 /** Secret Info. */
 const mongodb_host = process.env.MONGODB_HOST;
@@ -48,22 +51,30 @@ app.use(session({
 }
 ))
 
+/** Session Validation Functions. */
+function isValidSession(req) {
+  if (req.session.authenticated) {
+      return true;
+  }
+  return false;
+}
+
+function sessionValidation(req,res,next) {
+  if (isValidSession(req)) {
+      next();
+  }
+  else {
+      res.redirect('/login');
+  }
+}
+/** End of session validation functions. */
+
 /** Landing page. */
 app.get('/', (req, res) => {
-    var html;
     if (!req.session.authenticated) {
-        html = `
-        <h1>Welcome</h1>
-        <button onclick="window.location.href='/login'">Login</button><br/>
-        <button onclick="window.location.href='/signup'">Sign up</button>`;
-    res.send(html);
+      res.render('home', {req: req});
     } else {
-        html = `
-        <h1>Welcome</h1>
-        <p>Hello, ${req.session.username}!</p>
-        <button onclick="window.location.href='/members'">Go to Members Area</button><br/>
-        <button onclick="window.location.href='/logout'">Logout</button>`;
-    res.send(html);
+      res.redirect('/members')
     }
 })
 
@@ -84,7 +95,7 @@ app.get('/signup', (req, res) => {
 
 
 /** Sign up validation. */
-app.post('/submitUser', async (req,res) => {
+app.post('/signupValidation', async (req,res) => {
     var username = req.body.username;
     var email = req.body.email;
     var number = req.body.phoneNumber;

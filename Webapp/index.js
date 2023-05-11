@@ -74,7 +74,7 @@ app.get('/', (req, res) => {
     if (!req.session.authenticated) {
       res.render('home', {req: req});
     } else {
-      res.redirect('/members')
+      res.redirect('/chatbot')
     }
 })
 
@@ -319,15 +319,6 @@ app.post('/reset-password', async (req, res) => {
       return res.status(400).send('Invalid or expired token');
     }
     res.render('reset-password', { token });
-    // res.send(`
-    //   <h1>Reset Password</h1>
-    //   <form method="post" action="/reset-password">
-    //     <input type="hidden" name="token" value="${token}">
-    //     <label for="password">New password:</label>
-    //     <input type="password" id="password" name="password">
-    //     <button type="submit">Submit</button>
-    //   </form>
-    // `);
   });
 
     /* ALL ABOVE IMPORTANT FOR PASSWORD REST */
@@ -336,8 +327,7 @@ app.use(express.static(__dirname + '/public'));
 
 // 404 page
 app.get("*", (req,res) => {
-	res.status(404);
-	res.send("Page not found - 404");
+	res.render('404', {res: res});
 })
 
 // Start server

@@ -65,7 +65,7 @@ const forgotPasswordRoute = require('./routes/forgotPassword');
 const resetPasswordRoute = require('./routes/resetPassword');
 
 app.use('/', indexRoute);
-app.use('/signup', signupRoute);
+app.use('/signup', signupRoute(userCollection, saltRounds));
 app.use('/login', loginRoute(userCollection, expireTime));
 app.use('/members', membersRoute);
 app.use('/logout', logoutRoute);

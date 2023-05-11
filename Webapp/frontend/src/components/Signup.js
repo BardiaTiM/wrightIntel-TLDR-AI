@@ -1,18 +1,21 @@
 import React, { useState } from 'react';
-import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
+import axiosInstance from '../services/axiosInstance';
 
 function Signup() {
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
+  const navigate = useNavigate();
 
   const handleSubmit = async event => {
     event.preventDefault();
     try {
-      const response = await axios.post('/submitSignup', { username, email, password });
-      if (response.data.success) {
-        window.location.href = '/login';
+      const response = await axiosInstance.post('/signup/submitUser', { username, email, password });
+      const newUserCreated = response.data.success;
+      if (newUserCreated) {
+        navigate('/');
       }
     } catch (error) {
       if (error.response) {

@@ -10,7 +10,7 @@ router.get('/authenticate', (req, res) => {
   } else {
     var image = images[Math.floor(Math.random() * images.length)];
     var imageURL = image;
-    res.status(200).json({ message: `Hello, ${req.session.username}!`, image: `${imageURL}}`, authenticated: true});
+    res.status(200).json({ message: `Hello, ${req.session.username}!`, username: req.session.username, image: `${imageURL}}`, authenticated: true});
   }
 });
 

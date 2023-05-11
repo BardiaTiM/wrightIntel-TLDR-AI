@@ -1,0 +1,33 @@
+<%- include("templates/header") %>
+
+    <% if (!req.session.authenticated) { %>
+        <% res.redirect('/login'); %>
+    <% } %>
+
+    <h2>Hello, <%= username %></h2>
+    <div class="container mt-5">
+        <div class="row">
+          <div class="col-sm">
+            <img src="<%= pic1 %>">
+          </div>
+          <div class="col-sm">
+            <img src="<%= pic2 %>">
+          </div>
+          <div class="col-sm">
+            <img src="<%= pic3 %>">
+          </div>
+        </div>
+        <div class="row">
+            <h2>Chat with TLDR</h2>
+            <form id='chatbotForm'>
+                <input type='text' id='airlineInput' placeholder='Enter airline name...'>
+                <input type='text' id='userInput' placeholder='Ask a question...'>
+                <input type='submit' value='Ask'>
+            </form>
+            <div id='chatbotOutput'></div>
+            <script src="/chatbot.js"></script>
+        </div>
+    </div>
+    <button class="btn btn-primary rounded-pill px-3" type="button" onclick="window.location.href='/logout'">Logout</button>
+
+<%- include("templates/footer") %>  

@@ -141,7 +141,7 @@ await userCollection.insertOne({username: username, email: email, password: hash
   req.session.email = email;
   req.session.phoneNumber = phoneNum;
   req.session.cookie.maxAge = expireTime;
-  res.redirect("/members");
+  res.redirect("/chatbot");
 });
 
 /** Login page. */
@@ -184,7 +184,7 @@ app.post('/loginValidation', async (req,res) => {
     req.session.email = email;
     req.session.phoneNumber = result[0].phoneNumber;
     req.session.cookie.maxAge = expireTime;
-    res.redirect("/members");
+    res.redirect("/chatbot");
 		return;
     // Incorrect password
 	} else {
@@ -195,33 +195,13 @@ app.post('/loginValidation', async (req,res) => {
 	}
 });
 
-/** Members page. */
-app.get('/members', (req, res) => {
-    if (!req.session.authenticated) {
-        res.redirect('/login');
-    }
-    var image = images[Math.floor(Math.random() * images.length)];
-    var imageURL = image;
-    var html = `
-    <h1>Members only</h1>
-    <h2>Hello, ${req.session.username}</h2>
-    <img src="${imageURL}" alt="random image">
-    <button onclick="window.location.href='/profile'">Profile</button>
-    <button onclick="window.location.href='/logout'">Logout</button>
-    <h2>Chat with TLDR</h2>
-    <form id='chatbotForm'>
-        <input type='text' id='airlineInput' placeholder='Enter airline name...'>
-        <input type='text' id='userInput' placeholder='Ask a question...'>
-        <input type='submit' value='Ask'>
-    </form>
-    <div id='chatbotOutput'></div>
-
-    <script src="/members.js"></script>
-    `;
-    res.send(html);
+/** Chatbot page. */
+app.get('/chatbot', (req, res) => {
+    const marmot1 = "/marmot1.gif";
+    const marmot2 = "/marmot2.gif";
+    const marmot3 = "/marmot3.gif";
+    res.render('chatbot', {req: req, res: res, username: req.session.username, pic1: marmot1, pic2: marmot2, pic3: marmot3});
 });
-
-
 
 /** Logout page. */
 app.get('/logout', (req,res) => {

@@ -25,6 +25,9 @@ document.getElementById('chatbotForm').addEventListener('submit', function(event
   var airlineInput = document.getElementById('airlineInput').value;
   var userInput = document.getElementById('userInput').value;
 
+  // Show loading animation while waiting for response
+  document.getElementById('chatbotOutput').innerHTML = '<div class="loading-animation"></div>';
+
   fetch('http://localhost:5001/chat', {  // replace with your chatbot API's URL
       method: 'POST',
       headers: {
@@ -37,10 +40,8 @@ document.getElementById('chatbotForm').addEventListener('submit', function(event
   })
   .then(response => response.json())
   .then(data => {
-      // assuming the chatbot's response is in a field called 'response' in the returned JSON
+      // Assuming the chatbot's response is in a field called 'response' in the returned JSON
       document.getElementById('chatbotOutput').innerText = data.response;
   })
   .catch(error => console.log('Error:', error));
 });
-
-

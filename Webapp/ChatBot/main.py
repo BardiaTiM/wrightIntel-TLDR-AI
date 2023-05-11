@@ -13,6 +13,7 @@ from flask_cors import CORS
 
 app = Flask(__name__)
 CORS(app) 
+
 # Load env ariables from .env file
 load_dotenv()
 api_key = os.getenv("API_SECRET_KEY")
@@ -33,7 +34,6 @@ def get_airline_file(airline_name, directory_path):
         if airline_name.lower() in file.lower():
             return os.path.join(path, file)
     return None
-
 
 
 def is_related(airline_name, question, min_similarity=0.2):
@@ -60,7 +60,7 @@ def construct_index(airline_name, directory_path):
         doc_text = f.read()
 
     num_outputs = 200
-    llm_predictor = LLMPredictor(llm=OpenAI(temperature=0.7, model_name="text-davinci-003", max_tokens=num_outputs))
+    llm_predictor = LLMPredictor(llm=OpenAI(temperature=0.7, model_name="text-ada-001", max_tokens=num_outputs))
     service_context = ServiceContext.from_defaults(llm_predictor=llm_predictor)
     doc = Document(text=doc_text)
     index = GPTSimpleVectorIndex.from_documents([doc], service_context=service_context)
@@ -71,14 +71,19 @@ def construct_index(airline_name, directory_path):
     return index
 
 
+def load_or_construct_index(airline_name):
+    directory_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "AirLineJson")
+    filename = f"{airline_name}_index.json"
+    file_path = os.path.join(directory_path, filename)
+    if os.path.exists(file_path):
+        index = GPTSimpleVectorIndex.load_from_disk(file_path)
+    else:
+        index = construct_index(airline_name, "Knowledge")
+    return index
+
 def chatbot(airline_name, input_text):
     if is_related(airline_name, input_text):
-        index = construct_index(airline_name, "Knowledge")
-        directory_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "AirLineJson")
-        filename = f"{airline_name}_index.json"
-        file_path = os.path.join(directory_path, filename)
-        index.save_to_disk(file_path)
-        index = GPTSimpleVectorIndex.load_from_disk(file_path)
+        index = load_or_construct_index(airline_name)
         response = index.query(input_text, response_mode="compact")
         return response.response
     else:
@@ -90,8 +95,6 @@ iface = gr.Interface(fn=chatbot,
                      outputs="text",
                      title="TLDR")
 
-
-
 @app.route('/chat', methods=['POST'])
 def chat():
     data = request.get_json()
@@ -100,6 +103,6 @@ def chat():
     response = chatbot(airline_name, input_text)
     return jsonify({'response': response})
 
-
 if __name__ == '__main__':
     app.run(port=5001, debug=True)
+

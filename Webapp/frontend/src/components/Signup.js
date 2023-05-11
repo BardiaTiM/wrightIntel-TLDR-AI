@@ -5,6 +5,7 @@ import axiosInstance from '../services/axiosInstance';
 function Signup() {
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
+  const [phoneNumber, setPhoneNumber] = useState('');
   const [password, setPassword] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
   const navigate = useNavigate();
@@ -12,10 +13,10 @@ function Signup() {
   const handleSubmit = async event => {
     event.preventDefault();
     try {
-      const response = await axiosInstance.post('/signup/submitUser', { username, email, password });
+      const response = await axiosInstance.post('/signup/submitUser', { username, email, phoneNumber, password });
       const newUserCreated = response.data.success;
       if (newUserCreated) {
-        navigate('/');
+        navigate('/members');
       }
     } catch (error) {
       if (error.response) {
@@ -44,6 +45,16 @@ function Signup() {
           name="email"
           value={email}
           onChange={e => setEmail(e.target.value)}
+        />
+        <br />
+        <label htmlFor="phoneNumber">Phone Number:</label>
+        <input
+          type="text"
+          id="phoneNumber"
+          name="phoneNumber"
+          placeholder="123-456-7890"
+          value={phoneNumber}
+          onChange={e => setPhoneNumber(e.target.value)}
         />
         <br />
         <label htmlFor="password">Password:</label>

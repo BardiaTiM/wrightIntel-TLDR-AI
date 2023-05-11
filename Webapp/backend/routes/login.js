@@ -2,7 +2,6 @@ const express = require('express');
 const router = express.Router();
 const joi = require('joi');
 const bcrypt = require('bcrypt');
-const expireTime = 60 * 60 * 1000;
 
 
 router.get('/login', (req, res) => {

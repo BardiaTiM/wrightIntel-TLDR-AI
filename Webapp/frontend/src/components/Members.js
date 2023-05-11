@@ -6,9 +6,7 @@ function Members() {
   const [authenticated, setAuthenticated] = useState(false);
   const [username, setUsername] = useState('');
   const [imageURL, setImageURL] = useState('');
-  const images = ['image1.jpg', 'image2.jpg', 'image3.jpg'];
   const navigate = useNavigate();
-
   useEffect(() => {
     const checkAuth = async () => {
       try {
@@ -29,22 +27,47 @@ function Members() {
   }, [navigate]);
 
   useEffect(() => {
-    // generate random image URL and set to imageURL state
+    const images = ['image1.jpg', 'image2.jpg', 'image3.jpg'];
     const randomImage = images[Math.floor(Math.random() * images.length)];
     setImageURL(randomImage);
   }, []);
+  
 
   const handleProfileClick = () => {
     navigate('/profile');
   };
 
   const handleLogoutClick = () => {
-    window.location.href = '/logout';
+    // send to Logout.js
+    navigate('/logout');
+    
   };
+  
+  
 
   const handleChatSubmit = (event) => {
     event.preventDefault();
-    // Handle chat form submission
+  };
+
+  const handleChatbotClick = async () => {
+    const airlineInput = document.getElementById('airlineInput').value;
+    const userInput = document.getElementById('userInput').value;
+    
+    fetch('http://localhost:5001/chat', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        airline_name: airlineInput,
+        input_text: userInput
+      })
+    })
+    .then(response => response.json())
+    .then(data => {
+      document.getElementById('chatbotOutput').innerText = data.response;
+    })
+    .catch(error => console.log('Error:', error));
   };
 
   return (
@@ -53,14 +76,14 @@ function Members() {
         <div>
           <h1>Members only</h1>
           <h2>Hello, {username}</h2>
-          <img src={imageURL} alt="random image" />
+          <img src={imageURL} alt="" />
           <button onClick={handleProfileClick}>Profile</button>
           <button onClick={handleLogoutClick}>Logout</button>
           <h2>Chat with TLDR</h2>
           <form id='chatbotForm' onSubmit={handleChatSubmit}>
             <input type='text' id='airlineInput' placeholder='Enter airline name...' />
             <input type='text' id='userInput' placeholder='Ask a question...' />
-            <input type='submit' value='Ask' />
+            <input type='button' value='Ask' onClick={handleChatbotClick} />
           </form>
           <div id='chatbotOutput'></div>
         </div>

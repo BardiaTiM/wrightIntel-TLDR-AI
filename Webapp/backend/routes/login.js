@@ -2,11 +2,15 @@ const express = require('express');
 const router = express.Router();
 const joi = require('joi');
 const bcrypt = require('bcrypt');
+const expireTime = 60 * 60 * 1000;
+
 
 router.get('/login', (req, res) => {
   res.status(200).send('Login route');
 });
 
+
+module.exports = function(userCollection, expireTime) {
 router.post('/submitLogin', async (req, res) => {
   var email = req.body.email;
   var password = req.body.password;
@@ -49,4 +53,5 @@ router.post('/submitLogin', async (req, res) => {
   }
 });
 
-module.exports = router;
+return router;
+}

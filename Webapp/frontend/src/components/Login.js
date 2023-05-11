@@ -1,18 +1,19 @@
 import React, { useState } from 'react';
-import { Navigate } from 'react-router-dom';
-import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
+import axiosInstance from '../services/axiosInstance';
 
 function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
+  const navigate = useNavigate();
 
   const handleSubmit = async event => {
     event.preventDefault();
     try {
-      const response = await axios.post('/submitLogin', { email, password });
+      const response = await axiosInstance.post('/login/submitLogin', { email, password }, { withCredentials: true});
       if (response.data.authenticated) {
-        Navigate('/members');
+        navigate('/members')
       }
     } catch (error) {
       if (error.response) {
@@ -43,7 +44,7 @@ function Login() {
           onChange={e => setPassword(e.target.value)}
         />
         <br />
-        <button onClick={() => (window.location.href = '/members')}>Submit</button>
+        <button type="submit">Log In</button>
       </form>
       {errorMessage && <p>{errorMessage}</p>}
     </div>

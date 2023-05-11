@@ -6,7 +6,6 @@ const mongoDB = require('connect-mongo');
 const bcrypt = require('bcrypt');
 const joi = require('joi');
 const nodemailer = require('nodemailer');
-const router = express.Router();
 
 //Modules for React
 const cors = require('cors');
@@ -20,7 +19,6 @@ const images = ['marmot1.gif', 'marmot2.gif', 'marmot3.gif']
 const expireTime = 60 * 60 * 1000;
 const app = express();
 app.use(cors()); //Added for React
-app.use(router);
 
 /** Secret Info. */
 const mongodb_host = process.env.MONGODB_HOST;
@@ -68,7 +66,7 @@ const resetPasswordRoute = require('./routes/resetPassword');
 
 app.use('/', indexRoute);
 app.use('/signup', signupRoute);
-app.use('/login', loginRoute);
+app.use('/login', loginRoute(userCollection, expireTime));
 app.use('/members', membersRoute);
 app.use('/logout', logoutRoute);
 app.use('/forgot-password', forgotPasswordRoute);

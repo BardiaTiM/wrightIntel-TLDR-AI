@@ -216,9 +216,6 @@ app.get('/logout', (req,res) => {
 
 /** Personal profile page. */
 app.get('/profile', (req, res) => {
-  if (!req.session.authenticated) {
-      res.redirect('/login');
-  }
   res.render('profile', {req: req, res: res, username: req.session.username, email: req.session.email, phoneNumber: req.session.phoneNumber});
 });
 

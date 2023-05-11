@@ -11,6 +11,7 @@ function Members() {
     const checkAuth = async () => {
       try {
         const response = await axiosInstance.get('/members/authenticate', { withCredentials: true });
+        console.log(response);
         if (response.data.authenticated) {
           setAuthenticated(true);
           setUsername(response.data.username);
@@ -27,6 +28,7 @@ function Members() {
   }, [navigate]);
 
   useEffect(() => {
+    
     const images = ['image1.jpg', 'image2.jpg', 'image3.jpg'];
     const randomImage = images[Math.floor(Math.random() * images.length)];
     setImageURL(randomImage);

@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-router.get('/logout', (req,res) => {
+router.post('/', (req,res) => {
 	req.session.destroy();
     res.status(200).send('Logged out successfully');
 });

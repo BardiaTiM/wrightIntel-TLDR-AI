@@ -8,12 +8,11 @@ router.get('/signup', (req, res) => {
 
 });
 
-module.exports = function(userCollection, saltRounds) {
+module.exports = function(userCollection, saltRounds, expireTime) {
   router.post('/submitUser', async (req, res) => {
     var username = req.body.username;
     var email = req.body.email;
     var password = req.body.password;
-    var html;
     // Check for missing fields
     if (!username) {
         res.status(400).json({ error: 'Please enter a username' });
@@ -48,9 +47,6 @@ module.exports = function(userCollection, saltRounds) {
   if (validationResult.error != null) {
       console.log(validationResult.error);
       res.status(400).json({ error: 'Potential NoSQL Injection detected.' });
-      
-        //res.send(`<h1 style='color:darkred;'>WARNING: NOSQL INJECTION ATTACK DETECTED!</h1>
-            //<button onclick='window.location.href=\"/\"'>Home page</button>`);
     return;
   }
     // Bcrypt password
@@ -58,12 +54,11 @@ module.exports = function(userCollection, saltRounds) {
   // Insert user into database
   await userCollection.insertOne({username: username, email: email, password: hashedPassword});
   console.log("Inserted user");
-  res.status(200).json({ success: true });
-    // Go to members page
-    //req.session.authenticated = true;
-    //req.session.username = username;
-    //req.session.cookie.maxAge = expireTime;
-    //res.redirect("/");
+  // Go to members page
+  req.session.authenticated = true;
+  req.session.username = username;
+  req.session.cookie.maxAge = expireTime;
+  res.status(200).json({ success: true, authenticated: true });
   });
 return router;
 }

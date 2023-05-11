@@ -1,0 +1,43 @@
+<%- include("templates/header") %>
+
+  <% if (!req.session.authenticated) { %>
+    <% res.redirect('/login'); %>
+  <% } %>
+
+  <h1>Personal Profile</h1>
+  <div class="col-lg-8">
+      <div class="card mb-4">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-sm-3">
+              <p class="mb-0">Full Name</p>
+            </div>
+            <div class="col-sm-9">
+              <p class="text-muted mb-0"><%= req.session.username %></p>
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-sm-3">
+              <p class="mb-0">Email</p>
+            </div>
+            <div class="col-sm-9">
+              <p class="text-muted mb-0"><%= req.session.email %></p>
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-sm-3">
+              <p class="mb-0">Phone</p>
+            </div>
+            <div class="col-sm-9">
+              <p class="text-muted mb-0"><%= req.session.phoneNumber %></p>
+            </div>
+          </div>
+          <hr>
+        </div>
+      </div>
+      <button class="btn btn-primary rounded-pill px-3" type="button" onclick="window.location.href='/chatbot'">Chatbot</button>
+
+
+<%- include("templates/footer") %> 

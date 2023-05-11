@@ -8,11 +8,14 @@ const joi = require('joi');
 const nodemailer = require('nodemailer');
 /** End of required modules. */
 
+/** Important Info. */
 const port = 4056;
 var saltRounds = 12;
 const images = ['marmot1.gif', 'marmot2.gif', 'marmot3.gif']
 const expireTime = 60 * 60 * 1000;
 const app = express();
+app.set('view engine', 'ejs');
+/** End of Important Info. */
 
 /** Secret Info. */
 const mongodb_host = process.env.MONGODB_HOST;
@@ -48,46 +51,44 @@ app.use(session({
 }
 ))
 
+/** Session Validation Functions. */
+function isValidSession(req) {
+  if (req.session.authenticated) {
+      return true;
+  }
+  return false;
+}
+
+function sessionValidation(req,res,next) {
+  if (isValidSession(req)) {
+      next();
+  }
+  else {
+      res.redirect('/login');
+  }
+}
+/** End of session validation functions. */
+
 /** Landing page. */
 app.get('/', (req, res) => {
-    var html;
     if (!req.session.authenticated) {
-        html = `
-        <h1>Welcome</h1>
-        <button onclick="window.location.href='/login'">Login</button><br/>
-        <button onclick="window.location.href='/signup'">Sign up</button>`;
-    res.send(html);
+      res.render('home', {req: req});
     } else {
-        html = `
-        <h1>Welcome</h1>
-        <p>Hello, ${req.session.username}!</p>
-        <button onclick="window.location.href='/members'">Go to Members Area</button><br/>
-        <button onclick="window.location.href='/logout'">Logout</button>`;
-    res.send(html);
+      res.redirect('/chatbot')
     }
 })
 
 /** Sign up page. */
 app.get('/signup', (req, res) => {
-    var html = `
-        <h1>Sign up</h1>
-        <p>Create user</p>
-        <form action='/submitUser' method='post'>
-        <input name='username' type='text' placeholder='username'><br/>
-        <input name='email' type='text' placeholder='email'><br/>
-        <input name='phoneNumber' type='text' placeholder='604-111-2415'><br/>
-        <input name='password' type='password' placeholder='password'><br/>
-        <button>Submit</button>
-        </form>`;
-    res.send(html);
+  res.render('signup');
 });
 
 
 /** Sign up validation. */
-app.post('/submitUser', async (req,res) => {
+app.post('/signupValidation', async (req,res) => {
     var username = req.body.username;
     var email = req.body.email;
-    var number = req.body.phoneNumber;
+    var phoneNum = req.body.phoneNumber;
     var password = req.body.password;
     var html;
     // Check for missing fields
@@ -106,7 +107,7 @@ app.post('/submitUser', async (req,res) => {
         res.send(html);
         return;
     }
-    if (!number) {
+    if (!phoneNum) {
         html = `<h1>Sign up error</h1><p>Missing phone number</p><a href='/signup'>Try again</a>`;
         res.send(html);
         return;
@@ -117,21 +118,20 @@ app.post('/submitUser', async (req,res) => {
 		{
 			username: joi.string().alphanum().max(20).required(),
       email: joi.string().email().required(),
-      number: joi.string().max(20).required(),
+      phoneNum: joi.string().max(12).required(),
 			password: joi.string().max(20).required()
 		});
 	// Validate user input
-	const validationResult = schema.validate({username, email, number, password});
+	const validationResult = schema.validate({username, email, phoneNum, password});
 	if (validationResult.error != null) {
         console.log(validationResult.error);
-        res.send(`<h1 style='color:darkred;'>WARNING: NOSQL INJECTION ATTACK DETECTED!</h1>
-            <button onclick='window.location.href=\"/\"'>Home page</button>`);
+        res.status(400).json({ error: 'Potential NoSQL Injection detected.'});
 	   return;
 	}
     // Bcrypt password
     var hashedPassword = await bcrypt.hash(password, saltRounds);
 	// Insert user into database
-await userCollection.insertOne({username: username, email: email, password: hashedPassword, phoneNumber: number});
+await userCollection.insertOne({username: username, email: email, password: hashedPassword, phoneNumber: phoneNum});
 
 	console.log("Inserted user");
 
@@ -139,26 +139,18 @@ await userCollection.insertOne({username: username, email: email, password: hash
   req.session.authenticated = true;
   req.session.username = username;
   req.session.email = email;
-  req.session.phoneNumber = number;
+  req.session.phoneNumber = phoneNum;
   req.session.cookie.maxAge = expireTime;
-  res.redirect("/members");
+  res.redirect("/chatbot");
 });
 
 /** Login page. */
 app.get('/login', (req, res) => {
-    var html = `
-        <h1>Login</h1>
-        <p>Enter username and password</p>
-        <form action='/submitLogin' method='post'>
-        <input name='email' type='text' placeholder='email'><br/>
-        <input name='password' type='password' placeholder='password'><br/>
-        <button>Submit</button>
-        </form>`;
-    res.send(html);
+  res.render('login');
 });
 
 /** Login validation. */
-app.post('/submitLogin', async (req,res) => {
+app.post('/loginValidation', async (req,res) => {
     var email = req.body.email;
     var password = req.body.password;
 
@@ -170,8 +162,7 @@ app.post('/submitLogin', async (req,res) => {
     const validationResult = schema.validate({email, password});
 	if (validationResult.error != null) {
         console.log(validationResult.error);
-        res.send(`<h1 style='color:darkred;'>WARNING: NOSQL INJECTION ATTACK DETECTED!</h1>
-            <button onclick='window.location.href=\"/\"'>Home page</button>`);
+        res.status(400).json({ error: 'Potential NoSQL Injection detected.'});
 	   return;
 	}
     // Find user details in database from email
@@ -193,7 +184,7 @@ app.post('/submitLogin', async (req,res) => {
     req.session.email = email;
     req.session.phoneNumber = result[0].phoneNumber;
     req.session.cookie.maxAge = expireTime;
-    res.redirect("/members");
+    res.redirect("/chatbot");
 		return;
     // Incorrect password
 	} else {
@@ -204,33 +195,13 @@ app.post('/submitLogin', async (req,res) => {
 	}
 });
 
-/** Members page. */
-app.get('/members', (req, res) => {
-    if (!req.session.authenticated) {
-        res.redirect('/login');
-    }
-    var image = images[Math.floor(Math.random() * images.length)];
-    var imageURL = image;
-    var html = `
-    <h1>Members only</h1>
-    <h2>Hello, ${req.session.username}</h2>
-    <img src="${imageURL}" alt="random image">
-    <button onclick="window.location.href='/profile'">Profile</button>
-    <button onclick="window.location.href='/logout'">Logout</button>
-    <h2>Chat with TLDR</h2>
-    <form id='chatbotForm'>
-        <input type='text' id='airlineInput' placeholder='Enter airline name...'>
-        <input type='text' id='userInput' placeholder='Ask a question...'>
-        <input type='submit' value='Ask'>
-    </form>
-    <div id='chatbotOutput'></div>
-
-    <script src="/members.js"></script>
-    `;
-    res.send(html);
+/** Chatbot page. */
+app.get('/chatbot', (req, res) => {
+    const marmot1 = "/marmot1.gif";
+    const marmot2 = "/marmot2.gif";
+    const marmot3 = "/marmot3.gif";
+    res.render('chatbot', {req: req, res: res, username: req.session.username, pic1: marmot1, pic2: marmot2, pic3: marmot3});
 });
-
-
 
 /** Logout page. */
 app.get('/logout', (req,res) => {
@@ -245,30 +216,13 @@ app.get('/logout', (req,res) => {
 
 /** Personal profile page. */
 app.get('/profile', (req, res) => {
-  if (!req.session.authenticated) {
-      res.redirect('/login');
-  }
-  var html = `
-  <h1>Personal Profile</h1>
-  <p>Username: ${req.session.username}</p>
-  <p>Email: ${req.session.email}</p>
-  <p>Phone Number: ${req.session.phoneNumber}</p>
-  <button onclick="window.location.href='/members'">Logout</button>
-  `;
-  res.send(html);
+  res.render('profile', {req: req, res: res, username: req.session.username, email: req.session.email, phoneNumber: req.session.phoneNumber});
 });
 
 
 /** Forgot password page. */
 app.get('/forgot-password', (req, res) => {
-    res.send(`
-      <h1>Forgot Password</h1>
-      <form method="post" action="/forgot-password">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email">
-        <button type="submit">Submit</button>
-      </form>
-    `);
+  res.render('forgot-password');
   });
 
   
@@ -280,16 +234,17 @@ app.get('/forgot-password', (req, res) => {
 
     // create reusable transporter object using the default SMTP transport
     const transporter = nodemailer.createTransport({
-        host: 'smtp.gmail.com',
-        port: 465,
-        secure: true, // use SSL
-        auth: {
-            user: email_user,
-            pass: email_password
-
-
-        }
-    });
+      host: 'smtp.gmail.com',
+      port: 465,
+      secure: true, // use SSL
+      auth: {
+          user: email_user,
+          pass: email_password
+      },
+      tls: {
+          rejectUnauthorized: false
+      }
+  });
     
     const { email } = req.body;
   
@@ -363,16 +318,7 @@ app.post('/reset-password', async (req, res) => {
     if (!user) {
       return res.status(400).send('Invalid or expired token');
     }
-  
-    res.send(`
-      <h1>Reset Password</h1>
-      <form method="post" action="/reset-password">
-        <input type="hidden" name="token" value="${token}">
-        <label for="password">New password:</label>
-        <input type="password" id="password" name="password">
-        <button type="submit">Submit</button>
-      </form>
-    `);
+    res.render('reset-password', { token });
   });
 
     /* ALL ABOVE IMPORTANT FOR PASSWORD REST */
@@ -381,8 +327,7 @@ app.use(express.static(__dirname + '/public'));
 
 // 404 page
 app.get("*", (req,res) => {
-	res.status(404);
-	res.send("Page not found - 404");
+	res.render('404', {res: res});
 })
 
 // Start server

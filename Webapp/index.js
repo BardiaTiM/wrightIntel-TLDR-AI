@@ -200,7 +200,7 @@ app.get('/chatbot', (req, res) => {
     const marmot1 = "/marmot1.gif";
     const marmot2 = "/marmot2.gif";
     const marmot3 = "/marmot3.gif";
-    res.render('chatbot', {req: req, res: res, username: req.session.username, pic1: marmot1, pic2: marmot2, pic3: marmot3});
+    res.render('chatbot', {req: req, res: res, username: req.session.username, pic1: marmot1, pic2: marmot2, pic3: marmot3 });
 });
 
 /** Logout page. */

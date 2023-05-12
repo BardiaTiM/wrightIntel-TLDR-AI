@@ -1,6 +1,0 @@
-llama_index
-langchain
-gradio
-os
-sentence_transformers
-numpy

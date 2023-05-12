@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.5.2/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="image-container">
+        <img id="plane" src="/plane.png">
+        <img id="sun" src="/sun.png" class="base-image">
+        <img id="mountain" src="/mountain.png" class="overlay-image">
+        <div id="title-and-buttons">
+            <div id="title">TLDR</div>
+            <div id="buttons">
+                <button id="login">Login</button><br/>
+                <button id="signup">Sign Up</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('login').addEventListener('click', function() {
+        document.getElementById('plane').classList.add('plane-animation');
+        document.getElementById('sun').classList.add('sun-animation');
+        document.getElementById('mountain').classList.add('mountain-animation');
+        document.getElementById('title-and-buttons').classList.add('title-and-buttons-animation');
+        });
+    </script>
+</body>
+</html>

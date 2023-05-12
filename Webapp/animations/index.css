@@ -1,0 +1,122 @@
+body {
+  background: orange;
+
+}
+
+@media only screen and (max-width: 786px) {
+
+body {
+  background-image: linear-gradient(to left, rgb(254, 171, 18), rgb(223, 196, 88));
+}
+
+
+#plane {
+  object-fit: cover;
+  position: absolute;
+  top: 130px;
+  left: 70px;
+  z-index: 1;
+}
+
+.plane-animation {
+  animation: planeAnimation 1.5s forwards;
+}
+
+.mountain-animation {
+  animation: mountainAnimation 5s forwards;
+}
+
+.sun-animation {
+  animation: sunAnimation 5s forwards;
+}
+
+.title-animation {
+  animation: title-animation 5s forwards;
+}
+
+.image-container {
+  position: relative;
+  width: 500px; /* Adjust the width as per your image size */
+  height: 300px; /* Adjust the height as per your image size */
+}
+
+.overlay-image {
+  position: absolute;
+  bottom: 0px; /* Adjust the top position as per your desired placement */
+  left: 0px; /* Adjust the left position as per your desired placement */
+  width: 100%;
+  height: 70%;
+}
+
+.base-image {
+  position: absolute;
+  top: 75px;
+  left: 65px;
+}
+
+#buttons {
+  margin: 0 auto;
+  position: absolute;
+  z-index: 1;
+}
+
+#title {
+  margin: 0 auto;
+  color: white;
+  font-size: 50px;
+  z-index: 1;
+}
+
+#title-and-buttons {
+  position:absolute;
+  bottom: 350px;
+  left: 200px;
+  z-index: 1;
+}
+
+
+@keyframes planeAnimation {
+  0% {
+      transform: scale(1);
+      opacity: 1;
+  }
+  
+  100% {
+      transform: translateX(100%) scale(1);
+      opacity: 0;
+  }
+}
+
+
+@keyframes mountainAnimation {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(50px);
+  }
+}
+
+
+@keyframes sunAnimation {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(50px);
+  }
+}
+
+@keyframes title-animation {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(250px);
+  }
+}
+
+}

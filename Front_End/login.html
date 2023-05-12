@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TLDR</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sub-container">
+            <div id="title">SIGN IN</div>
+            <form class="submit-container" action="loggingin" method="post">
+                <input id="username" type="text" name="username" placeholder="Enter username" required>
+                <input id="password" type="password" name="password" placeholder="Enter password" required>
+                <div><a href="forgotpassword.html" id="forgot-password">Forgot password</a></div>
+                <button id="submit">SIGN IN</button>
+                <div id="create-account"><a href="signup.html">Don't have an account</a></div>
+                <div class="line-container">
+                    <div class="line"></div>
+                    <div class="continue-with">OR CONTINUE WITH</div>
+                    <div class="line"></div>
+                </div>
+                <img class="auto-signup" src="google.png" alt="google" width="auto" height="50px">
+                <img class="auto-signup" src="github.png" alt="github" width="auto" height="50px">
+                <img class="auto-signup" src="apple.png" alt="apple" width="auto" height="50px">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

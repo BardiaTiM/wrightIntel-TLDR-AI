@@ -1,27 +1,39 @@
 <%- include("templates/header") %>
 <main class="form-signin">
-    <form action='/signupValidation' method='post'>
-      <img class="mb-4" src="/marmot1.gif" alt="" width="72" height="57">
-      <h1 class="h3 mb-3 fw-normal">Sign up</h1>
+    <form action='/signupValidation' method='post' class="row g-3">
+      <div class="col-12 text-center">
+        <img class="mb-4" src="/marmot1.gif" alt="" width="72" height="57">
+        <h1 class="h4 mb-3 fw-normal">Sign up</h1>
+      </div>
         
-      <div class="form-floating mb-3">
-        <input type="text" name="username" class="form-control" id="floatingUsername" placeholder="Username">
-        <label for="floatingUsername">Username</label>
+      <div class="col-12">
+        <div class="form-floating">
+          <input type="text" name="username" class="form-control form-control-sm" id="floatingUsername" placeholder="Username">
+          <label for="floatingUsername">Username</label>
+        </div>
       </div>
-      <div class="form-floating mb-3">
-        <input type="email" name="email" class="form-control" id="floatingEmail" placeholder="name@example.com">
-        <label for="floatingEmail">Email address</label>
+      <div class="col-12">
+        <div class="form-floating">
+          <input type="email" name="email" class="form-control form-control-sm" id="floatingEmail" placeholder="name@example.com">
+          <label for="floatingEmail">Email address</label>
+        </div>
       </div>
-      <div class="form-floating mb-3">
-        <input type="text" name="phoneNumber" class="form-control" id="floatingUsername" placeholder="123-456-7890">
-        <label for="floatingUsername">Phone Number</label>
+      <div class="col-12">
+        <div class="form-floating">
+          <input type="text" name="phoneNumber" class="form-control form-control-sm" id="floatingUsername" placeholder="123-456-7890">
+          <label for="floatingUsername">Phone Number</label>
+        </div>
       </div>
-      <div class="form-floating mb-3">
-        <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Password">
-        <label for="floatingPassword">Password</label>
+      <div class="col-12">
+        <div class="form-floating">
+          <input type="password" name="password" class="form-control form-control-sm" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">Password</label>
+        </div>
       </div>
   
-      <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+      <div class="col-12">
+        <button class="btn btn-primary btn-sm w-100" type="submit">Sign in</button>
+      </div>
     </form>
-  </main>
-<%- include("templates/footer") %> 
+</main>
+<%- include("templates/footer") %>

@@ -43,4 +43,3 @@ document.getElementById('chatbotForm').addEventListener('submit', function(event
   .catch(error => console.log('Error:', error));
 });
 
-

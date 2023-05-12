@@ -1,34 +1,36 @@
 <%- include("templates/header") %>
 
-    <% if (!req.session.authenticated) { %>
-        <% res.redirect('/login'); %>
-    <% } %>
+<% if (!req.session.authenticated) { %>
+    <% res.redirect('/login'); %>
+<% } %>
 
-    <h2>Hello, <%= username %></h2>
-    <div class="container mt-5">
-        <div class="row">
-          <div class="col-sm">
-            <img src="<%= pic1 %>">
-          </div>
-          <div class="col-sm">
-            <img src="<%= pic2 %>">
-          </div>
-          <div class="col-sm">
-            <img src="<%= pic3 %>">
-          </div>
-        </div>
-        <div class="row">
+<h2>Hello, <%= username %></h2>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
             <h2>Chat with TLDR</h2>
-            <form id='chatbotForm'>
-                <input type='text' id='airlineInput' placeholder='Enter airline name...'>
-                <input type='text' id='userInput' placeholder='Ask a question...'>
-                <input type='submit' value='Ask'>
+            <form id="chatbotForm" class="mb-3">
+                <div class="input-group">
+                    <input type="text" id="airlineInput" class="form-control" placeholder="Enter airline name...">
+                    <input type="text" id="userInput" class="form-control" placeholder="Ask a question...">
+                    <button type="submit" class="btn btn-primary">Ask</button>
+                </div>
             </form>
-            <div id='chatbotOutput'></div>
+            <div id="chatbotOutput" class="typing-output"></div>
             <script src="/chatbot.js"></script>
         </div>
     </div>
-    <button class="btn btn-primary rounded-pill px-3" type="button" onclick="window.location.href='/profile'">Profile</button>
-    <button class="btn btn-primary rounded-pill px-3" type="button" onclick="window.location.href='/logout'">Logout</button>
+</div>
 
-<%- include("templates/footer") %>  
+<div class="container mt-3 d-flex justify-content-center">
+    <div class="row">
+        <div class="col-6 text-center">
+            <button class="btn btn-primary rounded-pill w-500" type="button" onclick="window.location.href='/profile'">Profile</button>
+        </div>
+        <div class="col-6 text-center">
+            <button class="btn btn-primary rounded-pill w-500" type="button" onclick="window.location.href='/logout'">Logout</button>
+        </div>
+    </div>
+</div>
+
+<%- include("templates/footer") %>

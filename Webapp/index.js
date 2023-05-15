@@ -111,6 +111,13 @@ app.post('/signupValidation', async (req,res) => {
         res.send(html);
         return;
     }
+
+    //Check for duplicate emails
+    const existingUser = await userCollection.findOne({email: email});
+    if (existingUser) {
+      res.status(400).json({ error: 'An account with this email already exists'});
+      return;
+    }
     
     // Check for noSQL injection attacks
 	const schema = joi.object(

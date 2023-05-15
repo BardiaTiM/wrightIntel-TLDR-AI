@@ -322,6 +322,12 @@ app.post('/reset-password', async (req, res) => {
 
     /* ALL ABOVE IMPORTANT FOR PASSWORD REST */
 
+
+/** Favourites page. */
+app.get('/favourites' , (req, res) => {
+  res.render('favourites', {req: req, res: res, username: req.session.username});
+});
+
 app.use(express.static(__dirname + '/public'));
 
 // 404 page

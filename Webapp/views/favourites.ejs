@@ -1,0 +1,11 @@
+<%- include("templates/header") %>
+
+<% if (!req.session.authenticated) { %>
+    <% res.redirect('/login'); %>
+<% } %>
+
+<h2>Hello, <%= username %></h2>
+<div class="container mt-5">
+    <h1>Favourites</h1>
+</div>
+<%- include("templates/footer") %>

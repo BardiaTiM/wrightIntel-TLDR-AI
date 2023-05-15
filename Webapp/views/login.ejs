@@ -18,8 +18,8 @@
   <div class="container">
     <div class="sub-container">
       <div id="title">SIGN IN</div>
-      <form class="submit-container" action="loggingin" method="post">
-        <input id="username" type="text" name="username" placeholder="Enter username" required>
+      <form class="submit-container" action="/loginValidation" method="post">
+        <input id="email" type="email" name="email" placeholder="Enter email" required>
         <input id="password" type="password" name="password" placeholder="Enter password" required>
         <div><a href="forgot-password" id="forgot-password">Forgot password</a></div>
         <button id="submit">SIGN IN</button>
@@ -36,4 +36,4 @@
     </div>
   </div>
 </body>
-<%- include("templates/footer") %>
+</html>

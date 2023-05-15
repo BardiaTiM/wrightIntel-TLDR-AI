@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const starCheckbox = document.getElementById('star');
     const airlineInput = document.getElementById('airlineInput');
     const userInput = document.getElementById('userInput');
-    const tldrResponse = document.getElementById('chatbotOutput');
 
     starCheckbox.addEventListener('change', async () => {
     const isChecked = starCheckbox.checked;
@@ -11,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const promptData = {
         airline: airlineInput.value,
         question: userInput.value,
-        response: tldrResponse.value
+        response: document.getElementById('chatbotOutput').innerText
         };
 
         // Perform an HTTP request to the server-side route

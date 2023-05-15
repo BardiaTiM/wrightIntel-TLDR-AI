@@ -1,5 +1,5 @@
 window.onload = function () {
-  fetch('https://139c-2001-569-7f48-b900-c82b-ab3e-1868-54e4.ngrok-free.app/chat', {
+  fetch('https://localhost:5001/chat', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
@@ -25,7 +25,7 @@ document.getElementById('chatbotForm').addEventListener('submit', function(event
   var airlineInput = document.getElementById('airlineInput').value;
   var userInput = document.getElementById('userInput').value;
 
-  fetch('https://139c-2001-569-7f48-b900-c82b-ab3e-1868-54e4.ngrok-free.app/chat', {  // replace with your chatbot API's URL
+  fetch('https://localhost:5001/chat', {  // replace with your chatbot API's URL
       method: 'POST',
       headers: {
           'Content-Type': 'application/json'

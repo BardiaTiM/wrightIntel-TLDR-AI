@@ -6,6 +6,7 @@ const mongoDB = require('connect-mongo');
 const bcrypt = require('bcrypt');
 const joi = require('joi');
 const nodemailer = require('nodemailer');
+const path = require('path');
 /** End of required modules. */
 
 /** Important Info. */
@@ -16,6 +17,7 @@ const expireTime = 60 * 60 * 1000;
 const app = express();
 app.set('view engine', 'ejs');
 /** End of Important Info. */
+app.use(express.static(path.join(__dirname + '/public')));
 
 /** Secret Info. */
 const mongodb_host = process.env.MONGODB_HOST;
@@ -72,7 +74,7 @@ function sessionValidation(req,res,next) {
 /** Landing page. */
 app.get('/', (req, res) => {
     if (!req.session.authenticated) {
-      res.render('home', {req: req});
+      res.render('index', {req: req});
     } else {
       res.redirect('/chatbot')
     }
@@ -323,7 +325,6 @@ app.post('/reset-password', async (req, res) => {
 
     /* ALL ABOVE IMPORTANT FOR PASSWORD REST */
 
-app.use(express.static(__dirname + '/public'));
 
 // 404 page
 app.get("*", (req,res) => {

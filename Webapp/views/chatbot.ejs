@@ -4,21 +4,51 @@
     <% res.redirect('/login'); %>
 <% } %>
 
+<style>
+    .chat {
+        max-width: 800px;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .chat-bubble {
+        border-radius: 20px;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .chat-bubble-left {
+        background-color: #e5e5ea;
+        align-self: flex-start;
+    }
+
+    .chat-bubble-right {
+        background-color: #007bff;
+        color: white;
+        align-self: flex-end;
+    }
+</style>
+
 <h2>Hello, <%= username %></h2>
 <div class="container mt-5">
     <div class="row">
         <div class="col-md-8 offset-md-2">
             <h2>Chat with TLDR</h2>
+            <div id="chatbotOutput" class="typing-output chat d-flex flex-column"></div>
             <form id="chatbotForm" class="mb-3">
                 <div class="input-group">
-                    <input type="text" id="airlineInput" class="form-control" placeholder="Enter airline name...">
+                    <select id="airlineInput" class="form-control">
+                        <option selected>Enter airline name...</option>
+                        <option value="westjet">WestJet</option>
+                        <option value="allegiant">Allegiant</option>
+                        <!-- Add more options as needed -->
+                    </select>
                     <input type="text" id="userInput" class="form-control" placeholder="Ask a question...">
                     <button type="submit" class="btn btn-primary">Ask</button>
                 </div>
             </form>
-            <div id="chatbotOutput" class="typing-output"></div>
             <script src="/chatbot.js"></script>
-        </div>
+        </div>                                                                     
     </div>
 </div>
 

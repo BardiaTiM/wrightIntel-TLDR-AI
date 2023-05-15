@@ -1,34 +1,111 @@
 <%- include("templates/header") %>
 
-    <% if (!req.session.authenticated) { %>
-        <% res.redirect('/login'); %>
-    <% } %>
+<% if (!req.session.authenticated) { %>
+    <% res.redirect('/login'); %>
+<% } %>
 
-    <h2>Hello, <%= username %></h2>
-    <div class="container mt-5">
-        <div class="row">
-          <div class="col-sm">
-            <img src="<%= pic1 %>">
-          </div>
-          <div class="col-sm">
-            <img src="<%= pic2 %>">
-          </div>
-          <div class="col-sm">
-            <img src="<%= pic3 %>">
-          </div>
-        </div>
-        <div class="row">
-            <h2>Chat with TLDR</h2>
-            <form id='chatbotForm'>
-                <input type='text' id='airlineInput' placeholder='Enter airline name...'>
-                <input type='text' id='userInput' placeholder='Ask a question...'>
-                <input type='submit' value='Ask'>
+<style>
+    body {
+    background: linear-gradient(-45deg, #1682e7, #fafc8b, #a7dcf5, #f5d3a4);
+    background-size: 400% 500%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+    .chat {
+        max-width: 800px;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .chat-bubble {
+        border-radius: 20px;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .chat-bubble-left {
+        background-color: #e5e5ea;
+        align-self: flex-start;
+    }
+
+    .chat-bubble-right {
+        background-color: #007bff;
+        color: white;
+        align-self: flex-end;
+    }
+
+    img.loading {
+        width: 50px;
+        height: 50px;
+        transform: rotate(45deg);
+        position: relative;
+        top: -40px;
+        left: 40px;
+        animation: loadingAnimation 2s linear infinite;
+    }
+
+    @keyframes loadingAnimation {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 100%;
+    }
+    }
+
+</style>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="text-center">
+                <h2>Hello, <%= username %></h2>
+                <h2>Chat with TLDR</h2>
+            </div>
+            <div id="chatbotOutput" class="typing-output chat d-flex flex-column"></div>
+            <div id="loading" style="display: none;">
+                <img src="loading.gif" alt="Loading..." class="loading">
+            </div>
+            <form id="chatbotForm" class="mb-3">
+                <div class="input-group">
+                    <select id="airlineInput" class="form-control">
+                        <option selected>Enter airline name...</option>
+                        <option value="westjet">WestJet</option>
+                        <option value="allegiant">Allegiant</option>
+                        <!-- Add more options as needed -->
+                    </select>
+                    <input type="text" id="userInput" class="form-control" placeholder="Ask a question...">
+                    <button type="submit" class="btn btn-primary">Ask</button>
+                </div>
             </form>
-            <div id='chatbotOutput'></div>
             <script src="/chatbot.js"></script>
         </div>
     </div>
-    <button class="btn btn-primary rounded-pill px-3" type="button" onclick="window.location.href='/profile'">Profile</button>
-    <button class="btn btn-primary rounded-pill px-3" type="button" onclick="window.location.href='/logout'">Logout</button>
+</div>
 
-<%- include("templates/footer") %>  
+<div class="container mt-3 d-flex justify-content-center">
+    <div class="row">
+        <div class="col-6 text-center">
+            <button class="btn btn-primary rounded-pill w-500" type="button" onclick="window.location.href='/profile'">Profile</button>
+        </div>
+        <div class="col-6 text-center">
+            <button class="btn btn-primary rounded-pill w-500" type="button" onclick="window.location.href='/logout'">Logout</button>
+        </div>
+    </div>
+</div>
+
+<%- include("templates/footer") %>

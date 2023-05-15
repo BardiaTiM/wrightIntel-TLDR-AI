@@ -1,13 +1,30 @@
 function insertMessage(text, fromUser) {
   const messageElement = document.createElement('div');
   messageElement.className = `chat-bubble chat-bubble-${fromUser ? 'right' : 'left'}`;
-  messageElement.innerText = text;
 
   const chatbotOutput = document.getElementById('chatbotOutput');
   chatbotOutput.appendChild(messageElement);
 
   // Scroll to bottom
   chatbotOutput.scrollTop = chatbotOutput.scrollHeight;
+
+  animateText(text, messageElement);
+}
+
+function animateText(text, messageElement) {
+  const words = text.split(' ');
+  let currentIndex = 0;
+
+  const timer = setInterval(() => {
+    if (currentIndex >= words.length) {
+      clearInterval(timer);
+      return;
+    }
+
+    const currentText = messageElement.innerText;
+    messageElement.innerText = currentText + ' ' + words[currentIndex];
+    currentIndex++;
+  }, 100); // Adjust the delay (in milliseconds) between each word display
 }
 
 
@@ -24,7 +41,7 @@ document.getElementById('chatbotForm').addEventListener('submit', function(event
 
   var airlineInput = document.getElementById('airlineInput').value;
   var userInput = document.getElementById('userInput').value;
-
+  
   // Insert user's question
   insertMessage(userInput, true);
 

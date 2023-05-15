@@ -5,6 +5,26 @@
 <% } %>
 
 <style>
+    body {
+    background: linear-gradient(-45deg, #1682e7, #fafc8b, #a7dcf5, #f5d3a4);
+    background-size: 400% 500%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
     .chat {
         max-width: 800px;
         margin: auto;
@@ -35,21 +55,31 @@
         position: relative;
         top: -40px;
         left: 40px;
+        animation: loadingAnimation 2s linear infinite;
     }
 
-    
+    @keyframes loadingAnimation {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 100%;
+    }
+    }
 
 </style>
 
-<h2>Hello, <%= username %></h2>
 <div class="container mt-5">
     <div class="row">
         <div class="col-md-8 offset-md-2">
-            <h2>Chat with TLDR</h2>
+            <div class="text-center">
+                <h2>Hello, <%= username %></h2>
+                <h2>Chat with TLDR</h2>
+            </div>
             <div id="chatbotOutput" class="typing-output chat d-flex flex-column"></div>
             <div id="loading" style="display: none;">
                 <img src="loading.gif" alt="Loading..." class="loading">
-            </div>            
+            </div>
             <form id="chatbotForm" class="mb-3">
                 <div class="input-group">
                     <select id="airlineInput" class="form-control">
@@ -63,7 +93,7 @@
                 </div>
             </form>
             <script src="/chatbot.js"></script>
-        </div>                                                                     
+        </div>
     </div>
 </div>
 
@@ -77,6 +107,5 @@
         </div>
     </div>
 </div>
-
 
 <%- include("templates/footer") %>

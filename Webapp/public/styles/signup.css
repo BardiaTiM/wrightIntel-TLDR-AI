@@ -26,6 +26,7 @@ body {
 .container {
     padding: 13px;
     padding-top: 20px;
+    background-color: 1682e7;
     border-radius: 10px;
     margin: 0 auto;
     margin-top: 180px;

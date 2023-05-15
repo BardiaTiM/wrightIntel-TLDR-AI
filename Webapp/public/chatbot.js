@@ -10,6 +10,15 @@ function insertMessage(text, fromUser) {
   chatbotOutput.scrollTop = chatbotOutput.scrollHeight;
 }
 
+
+function showLoading() {
+  document.getElementById('loading').style.display = 'block';
+}
+
+function hideLoading() {
+  document.getElementById('loading').style.display = 'none';
+}
+
 document.getElementById('chatbotForm').addEventListener('submit', function(event) {
   event.preventDefault();  // prevent the form from being submitted normally
 
@@ -19,7 +28,10 @@ document.getElementById('chatbotForm').addEventListener('submit', function(event
   // Insert user's question
   insertMessage(userInput, true);
 
-  fetch('https://3733-2001-569-7f48-b900-3081-f480-91ee-c130.ngrok-free.app/chat', {  // replace with your chatbot API's URL
+  // Show loading animation
+  showLoading();
+
+  fetch('https://3733-2001-569-7f48-b900-3081-f480-91ee-c130.ngrok-free.app/chat', {
       method: 'POST',
       headers: {
           'Content-Type': 'application/json'
@@ -31,8 +43,16 @@ document.getElementById('chatbotForm').addEventListener('submit', function(event
   })
   .then(response => response.json())
   .then(data => {
+      // Hide loading animation
+      hideLoading();
+
       // assuming the chatbot's response is in a field called 'response' in the returned JSON
       insertMessage(data.response, false);
   })
-  .catch(error => console.log('Error:', error));
+  .catch(error => {
+      // Hide loading animation
+      hideLoading();
+
+      console.log('Error:', error);
+  });
 });

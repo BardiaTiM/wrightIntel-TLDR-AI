@@ -1,22 +1,39 @@
-window.onload = function () {
-  fetch('https://139c-2001-569-7f48-b900-c82b-ab3e-1868-54e4.ngrok-free.app/chat', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify({
-      airline_name: 'Some Airline',
-      input_text: 'Some question...'
-    })
-  })
-  .then(response => {
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
+function insertMessage(text, fromUser) {
+  const messageElement = document.createElement('div');
+  messageElement.className = `chat-bubble chat-bubble-${fromUser ? 'right' : 'left'}`;
+
+  const chatbotOutput = document.getElementById('chatbotOutput');
+  chatbotOutput.appendChild(messageElement);
+
+  // Scroll to bottom
+  chatbotOutput.scrollTop = chatbotOutput.scrollHeight;
+
+  animateText(text, messageElement);
+}
+
+function animateText(text, messageElement) {
+  const words = text.split(' ');
+  let currentIndex = 0;
+
+  const timer = setInterval(() => {
+    if (currentIndex >= words.length) {
+      clearInterval(timer);
+      return;
     }
-    return response.json();
-  })
-  .then(data => console.log(data.response))
-  .catch(error => console.log('There was a problem with the fetch operation: ' + error.message));
+
+    const currentText = messageElement.innerText;
+    messageElement.innerText = currentText + ' ' + words[currentIndex];
+    currentIndex++;
+  }, 100); // Adjust the delay (in milliseconds) between each word display
+}
+
+
+function showLoading() {
+  document.getElementById('loading').style.display = 'block';
+}
+
+function hideLoading() {
+  document.getElementById('loading').style.display = 'none';
 }
 
 document.getElementById('chatbotForm').addEventListener('submit', function(event) {
@@ -24,8 +41,14 @@ document.getElementById('chatbotForm').addEventListener('submit', function(event
 
   var airlineInput = document.getElementById('airlineInput').value;
   var userInput = document.getElementById('userInput').value;
+  
+  // Insert user's question
+  insertMessage(userInput, true);
 
-  fetch('https://139c-2001-569-7f48-b900-c82b-ab3e-1868-54e4.ngrok-free.app/chat', {  // replace with your chatbot API's URL
+  // Show loading animation
+  showLoading();
+
+  fetch('https://3733-2001-569-7f48-b900-3081-f480-91ee-c130.ngrok-free.app/chat', {
       method: 'POST',
       headers: {
           'Content-Type': 'application/json'
@@ -37,9 +60,16 @@ document.getElementById('chatbotForm').addEventListener('submit', function(event
   })
   .then(response => response.json())
   .then(data => {
-      // assuming the chatbot's response is in a field called 'response' in the returned JSON
-      document.getElementById('chatbotOutput').innerText = data.response;
-  })
-  .catch(error => console.log('Error:', error));
-});
+      // Hide loading animation
+      hideLoading();
 
+      // assuming the chatbot's response is in a field called 'response' in the returned JSON
+      insertMessage(data.response, false);
+  })
+  .catch(error => {
+      // Hide loading animation
+      hideLoading();
+
+      console.log('Error:', error);
+  });
+});

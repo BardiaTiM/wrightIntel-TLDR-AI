@@ -1,0 +1,160 @@
+body {
+    background: linear-gradient(-45deg, #041C32, #04293A, #064663, #ECB365);
+    background-size: 400% 500%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#title {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.container {
+    padding: 13px;
+    padding-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    margin-top: 180px;
+    max-width: 500px;
+    background: rgb(254, 195, 45);
+    box-shadow: 3px 5px rgb(194, 126, 1);
+}
+
+.sub-container {
+    text-align: center;
+}
+
+#forgot-password {
+    text-align: center;
+}
+
+#submit {
+    cursor: pointer;
+    background: rgb(245, 159, 0);
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+#submit:hover {
+    background: rgb(255, 140, 0);
+    transform: scale(1.02);
+    transition: all 0.5s ease;
+}
+
+#submit:active {
+    transform: translate(0px, 10px);
+    -webkit-transform: translate(0px, 10px);
+    box-shadow: 0px 1px 0px 0px;
+}
+
+#create-account {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.line-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: black;
+    margin: 10px;
+}
+
+.auto-signup {
+    cursor: pointer;
+    background: rgb(245, 159, 0);
+    border-radius: 20px;
+    box-shadow: 3px 5px rgb(194, 126, 1);
+    margin: 20px;
+}
+
+.auto-signup:hover {
+    background: rgb(255, 140, 0);
+    transform: scale(1.02);
+    transition: all 0.5s ease;
+}
+
+.auto-signup:active {
+    transform: translate(0px, 10px);
+    -webkit-transform: translate(0px, 10px);
+    box-shadow: 0px 1px 0px 0px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover {
+    background: rgb(255, 140, 0);
+    transform: scale(1.02);
+    transition: all 0.5s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+@media (max-width: 600px) {
+    .container {
+        margin-top: 180px;
+        width: 90%;
+        padding: 10px;
+    }
+
+    #submit {
+        width: 40%;
+    }
+
+    #forgot-password {
+        text-align: center;
+    }
+
+    .line {
+        flex-grow: 1;
+        height: 1px;
+        background-color: black;
+        margin: 5px;
+    }
+
+    .auto-signup {
+        margin: 10px;
+    }
+}

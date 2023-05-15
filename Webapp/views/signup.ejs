@@ -18,10 +18,10 @@
   <div class="container">
     <div class="sub-container">
       <div id="title">SIGN UP</div>
-      <form class="submit-container" action="loggingin" method="post">
-        <div id="name">
-          <input id="first-name" type="text" name="first-name" placeholder="First name" required>
-          <input id="last-name" type="text" name="last-name" placeholder="Last name" required>
+      <form class="submit-container" action="/signupValidation" method="post">
+        <div id="form-container">
+          <input id="name" type="text" name="name" placeholder="Name (no spaces)" required>
+          <input id="phoneNumber" type="text" name="phoneNumber" placeholder="111-222-3333" required>
         </div>
         <input id="username" type="text" name="username" placeholder="New username" required>
         <input id="email" type="email" name="email" placeholder="Enter email" required>
@@ -31,4 +31,5 @@
     </div>
   </div>
 </body>
-<%- include("templates/footer") %>
+
+</html>

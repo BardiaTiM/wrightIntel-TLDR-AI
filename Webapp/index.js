@@ -14,6 +14,7 @@ var saltRounds = 12;
 const expireTime = 60 * 60 * 1000;
 const app = express();
 app.set('view engine', 'ejs');
+app.use(express.json());
 /** End of Important Info. */
 
 /** Secret Info. */
@@ -61,8 +62,7 @@ function isValidSession(req) {
 function sessionValidation(req,res,next) {
   if (isValidSession(req)) {
       next();
-  }
-  else {
+  } else {
       res.redirect('/login');
   }
 }
@@ -322,6 +322,40 @@ app.post('/reset-password', async (req, res) => {
 
     /* ALL ABOVE IMPORTANT FOR PASSWORD REST */
 
+
+/** Save user prompts. */
+app.post('/save-Prompt', async (req, res) => {
+  console.log("prompt received");
+  // Get the user email from the session
+  const userEmail = req.session.email;
+  const userName = req.session.username;
+  console.log("user email: ", userEmail);
+
+  // Find the user document based on the email
+  const result = await userCollection.find({ email: userEmail });
+  console.log('User found:', result);
+
+  // Get the prompts collection for the user
+  const promptsCollection = database.db(mongodb_database).collection(`prompts_${userName}`);
+  console.log("prompts collection: ", promptsCollection);
+
+  // Extract prompt data from the request body
+  const promptData = req.body.prompt;
+  console.log("prompt data: ", req.body.prompt);
+
+  // Insert the prompt document into the prompts collection
+  promptsCollection.insertOne(promptData, (err, result) => {
+    if (err) {
+      console.error('Error saving prompt:', err);
+      return res.status(500).send('Error saving prompt');
+    }
+
+    console.log('Prompt saved successfully');
+
+    // Return a success response
+    res.sendStatus(200);
+  });
+});
 
 /** Favourites page. */
 app.get('/favourites' , (req, res) => {

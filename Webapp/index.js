@@ -366,7 +366,37 @@ app.post('/save-Prompt', async (req, res) => {
 
 /** Favourites page. */
 app.get('/favourites' , (req, res) => {
-  res.render('favourites', {req: req, res: res, username: req.session.username});
+  // Get the user name from the session
+  const userName = req.session.username;
+  // Render the favourites page
+  res.render('favourites', { req: req, res: res, username: userName });
+});
+
+/** Get user prompts. */
+app.get('/get-Prompts', async (req, res) => {
+  try {
+    // Get the user name from the session
+    const userName = req.session.username;
+
+    // Get the prompts collection for the user
+    const promptsCollection = database.db(mongodb_database).collection(`prompts_${userName}`);
+
+    // Find all prompts for the user
+    const prompts = await promptsCollection.find({}).toArray();
+
+    // Create a JSON object to store the prompts
+    const data = prompts.map(prompt => ({
+      airline: prompt.airline,
+      question: prompt.question,
+      response: prompt.response
+    }));
+
+    // Send the prompts JSON object
+    res.send(data);
+  } catch (err) {
+    console.error('Error retrieving prompts:', err);
+    res.status(500).send('Error retrieving prompts');
+  }
 });
 
 app.use(express.static(__dirname + '/public'));

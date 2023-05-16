@@ -386,6 +386,7 @@ app.get('/get-Prompts', async (req, res) => {
 
     // Create a JSON object to store the prompts
     const data = prompts.map(prompt => ({
+      id: prompt._id,
       airline: prompt.airline,
       question: prompt.question,
       response: prompt.response
@@ -404,21 +405,23 @@ app.post('/delete-Prompt', async (req, res) => {
   try {
     // Get the user name from the session
     const userName = req.session.username;
+    console.log("username: ", userName);
 
     // Get the prompts collection for the user
     const promptsCollection = database.db(mongodb_database).collection(`prompts_${userName}`);
+    console.log("prompts collection: ", promptsCollection);
 
     // Extract the prompt data from the request body
     const promptData = req.body.prompt;
-
+    console.log("prompt data: ", req.body.prompt);
     // Delete the prompt document from the prompts collection
-    await promptsCollection.deleteOne(promptData);
-
+    const result = await promptsCollection.deleteMany({ _id: promptData._id, airline: promptData.airline, question: promptData.question, response: promptData.response });
+    console.log("result: ", result);
     // Return a success response
-    res.sendStatus(200);
+    res.json({ message: 'Prompt deleted successfully' });
   } catch (err) {
     console.error('Error deleting prompt:', err);
-    res.status(500).send('Error deleting prompt');
+    res.status(500).json({ error: 'Error deleting prompt' });
   }
 });
 

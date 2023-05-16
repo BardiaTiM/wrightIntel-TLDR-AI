@@ -2,10 +2,35 @@
 function toggleStarColor(event) {
   var star = event.target;
   star.style.color = star.style.color === 'black' ? 'yellow' : 'black';
-  console.log(star.dataset.id);
+  
+  // Get the prompt details associated with the star
+  var _id = star.dataset.promptId;
+  console.log(_id);
+  var airline = star.dataset.airline;
+  var question = star.dataset.question;
+  var response = star.dataset.response;
+  
+  // Send a fetch request to the server to delete the prompt
+  fetch('/delete-Prompt', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({ prompt: { _id, airline, question, response } })
+  })
+    .then(response => response.json())
+    .then(data => {
+      // Handle the response from the server
+      console.log(data);
+    })
+    .catch(error => {
+      // Handle any errors that occurred during the request
+      console.error('Error:', error);
+    });
 }
 
-document.addEventListener('DOMContentLoaded', function() {
+
+document.addEventListener('DOMContentLoaded', function () {
   // Function to add a new accordion item
   function addAccordionItem(prompts) {
     prompts.forEach((prompt, index) => {
@@ -25,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
           <div class="accordion-body">
             <div class="star-container">
               <input type="checkbox" id="star-${index}" class="star-checkbox">
-              <<label for="star-${index}" class="star" style="color: yellow;" onclick="toggleStarColor(event)" data-prompt-id="${prompt.id}" data-airline="${prompt.airline}" data-question="${prompt.question}" data-response="${prompt.response}">&#9734;</label>
+              <label for="star-${index}" class="star" style="color: yellow;" onclick="toggleStarColor(event)" data-prompt-id="${prompt.id}" data-airline="${prompt.airline}" data-question="${prompt.question}" data-response="${prompt.response}">&#9734;</label>
             </div>
             <p>${prompt.response}</p>
           </div>
@@ -52,7 +77,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Event listener for the "Remove Accordion Item" button
   var removeAccordionItemButton = document.getElementById('removeAccordionItem');
-  removeAccordionItemButton.addEventListener('click', function() {
+  removeAccordionItemButton.addEventListener('click', function () {
     removeAccordionItem();
   });
 
@@ -63,8 +88,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // Add the initial accordion items with the fetched prompts
       console.log(data);
       addAccordionItem(data);
-    })
-    .catch(error => {
+    }).catch(error => {
       // Handle any errors that occurred during the request
       console.error('Error:', error);
     });

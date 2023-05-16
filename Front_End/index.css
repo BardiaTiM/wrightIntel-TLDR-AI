@@ -22,6 +22,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    z-index: 1;
 }
 
 .members {
@@ -126,3 +127,40 @@ input:checked+.slider:before {
 .slider.round:before {
     border-radius: 50%;
 }
+
+
+
+
+/*Animations*/
+
+
+
+canvas {
+    display: block;
+    position: relative;
+    z-index:2;
+    background-color: transparent;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+
+  .globe-container {
+    position: absolute;
+    z-index: -1;
+  }
+  #earth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh; 
+  }
+  

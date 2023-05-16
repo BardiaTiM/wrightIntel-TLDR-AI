@@ -399,6 +399,29 @@ app.get('/get-Prompts', async (req, res) => {
   }
 });
 
+/** Delete user prompt. */
+app.post('/delete-Prompt', async (req, res) => {
+  try {
+    // Get the user name from the session
+    const userName = req.session.username;
+
+    // Get the prompts collection for the user
+    const promptsCollection = database.db(mongodb_database).collection(`prompts_${userName}`);
+
+    // Extract the prompt data from the request body
+    const promptData = req.body.prompt;
+
+    // Delete the prompt document from the prompts collection
+    await promptsCollection.deleteOne(promptData);
+
+    // Return a success response
+    res.sendStatus(200);
+  } catch (err) {
+    console.error('Error deleting prompt:', err);
+    res.status(500).send('Error deleting prompt');
+  }
+});
+
 app.use(express.static(__dirname + '/public'));
 
 // 404 page

@@ -34,22 +34,25 @@
         <div class="main-container">
           <img src="logo.png" alt="Logo Placeholder" id="logo">
           <div class="profile">
-            <div class="card-header">
-              <div class="image-display"></div>
-              <h1 id="username"><%= username %></h1>
-              <input type="button" id="edit-button" value="edit">
-            </div>
-            <input type="file" id="upload-image">
-            <div class="upload-button">
-              <label for="upload-image">
-                <img src="upload.png" alt="upload image" id="upload-logo" width="25px" height="25px">
-                Choose Your Photo
-              </label>
-            </div>
-            <div class="info">
-              <h3 id="email"><%= email %></h3>
-              <h3 id="phoneNum"><%= phoneNumber %></h3>
-            </div>
+            <form class="submit-container" action="/profile-update" method="post">
+              <div class="card-header">
+                <div class="image-display"></div>
+                <h1 id="username"><%= username %></h1>
+                <button type="button" id="edit-button">edit</button>
+              </div>
+              <input type="file" id="upload-image">
+              <div class="upload-button">
+                <label for="upload-image">
+                  <img src="upload.png" alt="upload image" id="upload-logo" width="25px" height="25px">
+                  Choose Your Photo
+                </label>
+              </div>
+              <div class="info">
+                <h3 id="email"><%= email %></h3>
+                <h3 id="phoneNum"><%= phoneNumber %></h3>
+              </div>
+              <div class="save"></div>
+            </form>
           </div>
         </div>
         <script src="/JS/profile.js"></script>

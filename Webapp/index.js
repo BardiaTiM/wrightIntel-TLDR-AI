@@ -333,6 +333,42 @@ app.get('/reset-password', async (req, res) => {
 /* ALL ABOVE IMPORTANT FOR PASSWORD REST */
 
 
+app.post('/profile-update', async (req, res) => {
+
+  let username = req.body.usernameInput;
+  let email = req.body.emailInput;
+  let phoneNum = req.body.phoneNumInput;
+
+  // Check for noSQL injection attacks
+  const schema = joi.object(
+    {
+      username: joi.string().alphanum().max(20).required(),
+      email: joi.string().email().required(),
+      phoneNum: joi.string().max(12).required(),
+    });
+
+  // Validate user input
+  const validationResult = schema.validate({username, email, phoneNum});
+
+  if (validationResult.error != null) {
+    console.log(validationResult.error);
+    res.status(400).json({ error: 'Potential NoSQL Injection detected.' });
+    return;
+  }
+
+  await userCollection.updateOne({ username: originalUsername }, { $set: { username: username, email: email, phoneNumber: phoneNum }});
+  console.log("Updated user");
+  req.session.username = username;
+  req.session.email = email;
+  req.session.phoneNumber = phoneNum;
+
+  const result = await userCollection.find({ email: email }).project({ username: 1, _id: 1 }).toArray();
+
+  console.log(result);
+  res.redirect("/profile");
+});
+
+
 // 404 page
 app.get("*", (req, res) => {
   res.render('404', { res: res });

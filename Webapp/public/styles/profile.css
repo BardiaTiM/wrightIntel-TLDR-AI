@@ -106,15 +106,75 @@ label:active {
     padding-bottom: 20px;
 }
 
-.info {
-    margin: 0 auto;
-}
-
 #email,
 #phoneNum {
     margin-top: 40px;
     text-align: center;
 }
+
+.info {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#usernameInput {
+    margin: 0 auto;
+}
+
+#emailInput,
+#phoneNumInput {
+    margin-top: 40px;
+}
+
+.save {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#save-button {
+    background: #a7dcf5;
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#submit:hover {
+    background: #fafc8b;
+    transform: scale(1.02);
+    transition: all 0.5s ease;
+}
+
+#submit:active {
+    transform: translate(0px, 10px);
+    -webkit-transform: translate(0px, 10px);
+    box-shadow: 0px 1px 0px 0px;
+}
+
+
+input {
+    width: 40%;
+    padding: 10px;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+
+input:hover {
+    background: #a7dcf5;
+    transform: scale(1.02);
+    transition: all 0.5s ease;
+}
+
+input:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
 
 @media screen and (max-width: 600px) {
 

@@ -1,3 +1,10 @@
+// Function to toggle the color of the star when clicked
+function toggleStarColor(event) {
+  var star = event.target;
+  star.style.color = star.style.color === 'black' ? 'yellow' : 'black';
+  console.log(star.dataset.id);
+}
+
 document.addEventListener('DOMContentLoaded', function() {
   // Function to add a new accordion item
   function addAccordionItem(prompts) {
@@ -16,10 +23,10 @@ document.addEventListener('DOMContentLoaded', function() {
         </h2>
         <div id="${accordionItemID}" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-          <div class="star-container">
-        <input type="checkbox" id="star" class="star-checkbox">
-        <label for="star" class="star" style="color: yellow;">&#9734;</label>
-    </div>
+            <div class="star-container">
+              <input type="checkbox" id="star-${index}" class="star-checkbox">
+              <<label for="star-${index}" class="star" style="color: yellow;" onclick="toggleStarColor(event)" data-prompt-id="${prompt.id}" data-airline="${prompt.airline}" data-question="${prompt.question}" data-response="${prompt.response}">&#9734;</label>
+            </div>
             <p>${prompt.response}</p>
           </div>
         </div>

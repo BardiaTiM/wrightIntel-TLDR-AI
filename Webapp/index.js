@@ -6,6 +6,7 @@ const mongoDB = require('connect-mongo');
 const bcrypt = require('bcrypt');
 const joi = require('joi');
 const nodemailer = require('nodemailer');
+const { ObjectId } = require('mongodb');
 /** End of required modules. */
 
 /** Important Info. */
@@ -414,9 +415,11 @@ app.post('/delete-Prompt', async (req, res) => {
     // Extract the prompt data from the request body
     const promptData = req.body.prompt;
     console.log("prompt data: ", req.body.prompt);
+
     // Delete the prompt document from the prompts collection
-    const result = await promptsCollection.deleteMany({ _id: promptData._id, airline: promptData.airline, question: promptData.question, response: promptData.response });
+    const result = await promptsCollection.deleteOne({ _id: new ObjectId(promptData._id) });
     console.log("result: ", result);
+
     // Return a success response
     res.json({ message: 'Prompt deleted successfully' });
   } catch (err) {

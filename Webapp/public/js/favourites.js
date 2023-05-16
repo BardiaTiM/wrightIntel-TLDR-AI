@@ -1,15 +1,15 @@
-// Function to toggle the color of the star when clicked
+// Function to toggle the color of the star and hide the accordion div when clicked
 function toggleStarColor(event) {
   var star = event.target;
   star.style.color = star.style.color === 'black' ? 'yellow' : 'black';
-  
+
   // Get the prompt details associated with the star
   var _id = star.dataset.promptId;
   console.log(_id);
   var airline = star.dataset.airline;
   var question = star.dataset.question;
   var response = star.dataset.response;
-  
+
   // Send a fetch request to the server to delete the prompt
   fetch('/delete-Prompt', {
     method: 'POST',
@@ -22,13 +22,16 @@ function toggleStarColor(event) {
     .then(data => {
       // Handle the response from the server
       console.log(data);
+
+      // Hide the accordion item associated with the clicked star
+      var accordionItem = star.closest('.accordion-item');
+      accordionItem.style.display = 'none';
     })
     .catch(error => {
       // Handle any errors that occurred during the request
       console.error('Error:', error);
     });
 }
-
 
 document.addEventListener('DOMContentLoaded', function () {
   // Function to add a new accordion item
@@ -62,24 +65,6 @@ document.addEventListener('DOMContentLoaded', function () {
       accordionContainer.appendChild(newAccordionItem);
     });
   }
-
-  // Function to remove the last accordion item
-  function removeAccordionItem() {
-    // Get the accordion container
-    var accordionContainer = document.querySelector('.accordion');
-
-    // Check if there are any accordion items
-    if (accordionContainer.childElementCount > 0) {
-      // Remove the last accordion item
-      accordionContainer.removeChild(accordionContainer.lastElementChild);
-    }
-  }
-
-  // Event listener for the "Remove Accordion Item" button
-  var removeAccordionItemButton = document.getElementById('removeAccordionItem');
-  removeAccordionItemButton.addEventListener('click', function () {
-    removeAccordionItem();
-  });
 
   // Fetch the prompts data and add the initial accordion items
   fetch('/get-Prompts')

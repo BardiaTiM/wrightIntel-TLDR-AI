@@ -1,3 +1,4 @@
+/* client side */
 const display = document.querySelector(".image-display");
 const input = document.querySelector("#upload-image");
 
@@ -9,54 +10,35 @@ input.addEventListener("change", () => {
   });
 });
 
-const editButton = function (id) {
-  for (let i = 0; i < id.length; i++) {
-    document.getElementById(id[i]).style.display = "none";
-  }
+const toggleElements = (ids, displayValue) => {
+  ids.forEach((id) => {
+    const element = document.getElementById(id);
+    element.style.display = displayValue;
+  });
 };
 
-const cancelEditButton = function (id) {
-  for (let i = 0; i < id.length; i++) {
-    document.getElementById(id[i]).style.display = "block";
-  }
-};
-
-const createInput = function (id, value, name, id2, value2, name2, id3, value3, name3) {
-  
+const createInput = (id, value, name, parentClass) => {
   let input = document.createElement("input");
   input.setAttribute("type", "text");
   input.setAttribute("id", id);
   input.setAttribute("value", value);
   input.setAttribute("name", name);
-  document.getElementsByClassName("card-header")[0].appendChild(input);
-
-  let input2 = document.createElement("input");
-  input2.setAttribute("type", "email");
-  input2.setAttribute("id", id2);
-  input2.setAttribute("value", value2);
-  input2.setAttribute("name", name2);
-  document.getElementsByClassName("info")[0].appendChild(input2);
-
-  let input3 = document.createElement("input");
-  input3.setAttribute("type", "text");
-  input3.setAttribute("id", id3);
-  input3.setAttribute("value", value3);
-  input3.setAttribute("name", name3);
-  document.getElementsByClassName("info")[0].appendChild(input3);
+  document.querySelector(parentClass).appendChild(input);
 };
 
-const removeInput = function (id) {
-  for (let i = 0; i < id.length; i++) {
-    document.getElementById(id[i]).remove();
-  }
+const removeElements = (ids) => {
+  ids.forEach((id) => {
+    const element = document.getElementById(id);
+    element.remove();
+  });
 };
 
-const createSaveButton = function (id, value) {
+const createSaveButton = (id, value, parentClass) => {
   let button = document.createElement("button");
-  button.setAttribute("type", "button");
+  button.setAttribute("type", "submit");
   button.setAttribute("id", id);
   button.innerHTML = value;
-  document.getElementsByClassName("save")[0].appendChild(button);
+  document.querySelector(parentClass).appendChild(button);
 };
 
 let editButtonClicked = true;
@@ -64,18 +46,22 @@ let username = document.getElementById("username").innerHTML;
 let email = document.getElementById("email").innerHTML;
 let phoneNum = document.getElementById("phoneNum").innerHTML;
 
-document.getElementById("edit-button").addEventListener("click", function () {
+document.getElementById("edit-button").addEventListener("click", (event) => {
+  event.preventDefault();
   if (editButtonClicked) {
     editButtonClicked = false;
-    editButton(["username", "email", "phoneNum"]);
 
-    createInput("usernameInput", username, "usernameInput", "emailInput", email, "emailInput", "phoneNumInput", phoneNum, "phoneNumInput");
+    toggleElements(["username", "email", "phoneNum"], "none");
+    createInput("usernameInput", username, "usernameInput", ".card-header");
+    createInput("emailInput", email, "emailInput", ".info");
+    createInput("phoneNumInput", phoneNum, "phoneNumInput", ".info");
+    createSaveButton("save-button", "Save", ".submit-container");
 
-    createSaveButton("save-button", "Save");
-    document.getElementById("save-button").addEventListener("click", function () {
+    document.getElementById("save-button").addEventListener("click", () => {
+      console.log("save button clicked");
       editButtonClicked = true;
-      cancelEditButton(["username", "email", "phoneNum"]);
-      removeInput(["usernameInput", "emailInput", "phoneNumInput", "save-button"]);
+      toggleElements(["username", "email", "phoneNum"], "block");
+      removeElements(["usernameInput", "emailInput", "phoneNumInput", "save-button"]);
     });
   }
 });

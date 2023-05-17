@@ -128,13 +128,9 @@ label:active {
     margin-top: 40px;
 }
 
-.save {
-    display: flex;
+#save-button {
     justify-content: center;
     align-items: center;
-}
-
-#save-button {
     background: #a7dcf5;
     border-radius: 50px;
     width: 200px;

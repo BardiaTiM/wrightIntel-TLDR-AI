@@ -214,6 +214,7 @@ app.get('/chatbot', (req, res) => {
 
 /** Logout page. */
 app.get('/logout', (req, res) => {
+  // console.log("Logging out");
   req.session.destroy((err) => {
     if (err) {
       console.log(err);
@@ -333,8 +334,7 @@ app.get('/reset-password', async (req, res) => {
 /* ALL ABOVE IMPORTANT FOR PASSWORD REST */
 
 
-app.post('/profile-update', async (req, res) => {
-
+app.post('/profileUpdate', async (req, res) => {
   let username = req.body.usernameInput;
   let email = req.body.emailInput;
   let phoneNum = req.body.phoneNumInput;

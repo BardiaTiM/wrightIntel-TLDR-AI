@@ -25,7 +25,7 @@ class AirlineChatBot:
             with open(file_path, "r", encoding='utf-8') as f:
                 doc_text = f.read()
 
-            num_outputs = 200  # Adjusted this value
+            num_outputs = 250  # Adjusted this value
             llm_predictor = LLMPredictor(llm=OpenAI(temperature=0.7, model_name="text-davinci-003", max_tokens=num_outputs))  # Adjusted the model name
             service_context = ServiceContext.from_defaults(llm_predictor=llm_predictor)
             doc = Document(text=doc_text)

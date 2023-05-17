@@ -6,7 +6,7 @@ const mongoDB = require('connect-mongo');
 const bcrypt = require('bcrypt');
 const joi = require('joi');
 const nodemailer = require('nodemailer');
-const path = require('path');
+const { ObjectId } = require('mongodb');
 /** End of required modules. */
 
 /** Important Info. */
@@ -15,6 +15,7 @@ var saltRounds = 12;
 const expireTime = 60 * 60 * 1000;
 const app = express();
 app.set('view engine', 'ejs');
+app.use(express.json());
 /** End of Important Info. */
 app.use(express.static(path.join(__dirname + '/public')));
 
@@ -62,10 +63,9 @@ function isValidSession(req) {
 
 function sessionValidation(req, res, next) {
   if (isValidSession(req)) {
-    next();
-  }
-  else {
-    res.redirect('/login');
+      next();
+  } else {
+      res.redirect('/login');
   }
 }
 /** End of session validation functions. */
@@ -117,6 +117,13 @@ app.post('/signupValidation', async (req, res) => {
   if (!name) {
     html = `<h1>Sign up error</h1><p>Missing name</p><a href='/signup'>Try again</a>`;
     res.send(html);
+    return;
+  }
+
+  //Check for duplicate emails
+  const existingUser = await userCollection.findOne({email: email});
+  if (existingUser) {
+    res.status(400).json({ error: 'An account with this email already exists'});
     return;
   }
 
@@ -332,6 +339,105 @@ app.get('/reset-password', async (req, res) => {
 
 /* ALL ABOVE IMPORTANT FOR PASSWORD REST */
 
+
+/** Save user prompts. */
+app.post('/save-Prompt', async (req, res) => {
+  console.log("prompt received");
+  // Get the user email from the session
+  const userEmail = req.session.email;
+  const userName = req.session.username;
+  console.log("user email: ", userEmail);
+
+  // Find the user document based on the email
+  const result = await userCollection.find({ email: userEmail });
+  console.log('User found:', result);
+
+  // Get the prompts collection for the user
+  const promptsCollection = database.db(mongodb_database).collection(`prompts_${userName}`);
+  console.log("prompts collection: ", promptsCollection);
+
+  // Extract prompt data from the request body
+  const promptData = req.body.prompt;
+  console.log("prompt data: ", req.body.prompt);
+
+  // Insert the prompt document into the prompts collection
+  promptsCollection.insertOne(promptData, (err, result) => {
+    if (err) {
+      console.error('Error saving prompt:', err);
+      return res.status(500).send('Error saving prompt');
+    }
+
+    console.log('Prompt saved successfully');
+
+    // Return a success response
+    res.sendStatus(200);
+  });
+});
+
+/** Favourites page. */
+app.get('/favourites' , (req, res) => {
+  // Get the user name from the session
+  const userName = req.session.username;
+  // Render the favourites page
+  res.render('favourites', { req: req, res: res, username: userName });
+});
+
+/** Get user prompts. */
+app.get('/get-Prompts', async (req, res) => {
+  try {
+    // Get the user name from the session
+    const userName = req.session.username;
+
+    // Get the prompts collection for the user
+    const promptsCollection = database.db(mongodb_database).collection(`prompts_${userName}`);
+
+    // Find all prompts for the user
+    const prompts = await promptsCollection.find({}).toArray();
+
+    // Create a JSON object to store the prompts
+    const data = prompts.map(prompt => ({
+      id: prompt._id,
+      airline: prompt.airline,
+      question: prompt.question,
+      response: prompt.response
+    }));
+
+    // Send the prompts JSON object
+    res.send(data);
+  } catch (err) {
+    console.error('Error retrieving prompts:', err);
+    res.status(500).send('Error retrieving prompts');
+  }
+});
+
+/** Delete user prompt. */
+app.post('/delete-Prompt', async (req, res) => {
+  try {
+    // Get the user name from the session
+    const userName = req.session.username;
+    console.log("username: ", userName);
+
+    // Get the prompts collection for the user
+    const promptsCollection = database.db(mongodb_database).collection(`prompts_${userName}`);
+    console.log("prompts collection: ", promptsCollection);
+
+    // Extract the prompt data from the request body
+    const promptData = req.body.prompt;
+    console.log("prompt data: ", req.body.prompt);
+
+    // Delete the prompt document from the prompts collection
+    const result = await promptsCollection.deleteOne({ _id: new ObjectId(promptData._id) });
+    console.log("result: ", result);
+
+    // Return a success response
+    res.json({ message: 'Prompt deleted successfully' });
+  } catch (err) {
+    console.error('Error deleting prompt:', err);
+    res.status(500).json({ error: 'Error deleting prompt' });
+  }
+});
+
+app.use(express.static(__dirname + '/public'));
 
 // 404 page
 app.get("*", (req, res) => {

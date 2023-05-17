@@ -90,6 +90,7 @@
                         <option selected>Enter airline name...</option>
                         <option value="westjet">WestJet</option>
                         <option value="allegiant">Allegiant</option>
+                        <option value="spiritairline">Spirit Airline</option>
                         <!-- Add more options as needed -->
                     </select>
                     <input type="text" id="userInput" class="form-control" placeholder="Ask a question...">
@@ -104,6 +105,13 @@
 </div>
 
 <div class="container mt-3 d-flex justify-content-center">
+    <button id="button1" type="button" class="btn btn-primary">Flight Overbooking</button>
+    <button id="button2" type="button" class="btn btn-primary">Flight Cancellation</button>
+    <button id="button3" type="button" class="btn btn-primary">Signficant Flight Delay</button>
+    <button id="button4" type="button" class="btn btn-primary">Lost or damaged baggage</button>
+</div>
+
+<div class="container mt-3 d-flex justify-content-center">
     <div class="row">
         <div class="col-6 text-center">
             <button class="btn btn-primary rounded-pill w-500" type="button" onclick="window.location.href='/profile'">Profile</button>
@@ -113,5 +121,7 @@
         </div>
     </div>
 </div>
+
+<script src="/chatbot.js"></script>
 
 <%- include("templates/footer") %>

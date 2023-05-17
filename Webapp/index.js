@@ -7,6 +7,7 @@ const bcrypt = require('bcrypt');
 const joi = require('joi');
 const nodemailer = require('nodemailer');
 const { ObjectId } = require('mongodb');
+const path = require('path');
 /** End of required modules. */
 
 /** Important Info. */

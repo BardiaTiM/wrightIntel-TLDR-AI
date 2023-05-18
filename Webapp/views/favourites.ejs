@@ -1,0 +1,15 @@
+<%- include("templates/header") %>
+
+<% if (!req.session.authenticated) { %>
+    <% res.redirect('/login'); %>
+<% } %>
+
+<div class="container mt-5">
+    <h1>Favourites</h1>
+    <div class="accordion" id="accordionExample" style="overflow-y: auto; max-height: 400px;">
+      <!-- Accordion items will be dynamically added/removed here -->
+    </div>
+</div>
+<script src="/JS/favourites.js"></script>
+
+<%- include("templates/footer") %>

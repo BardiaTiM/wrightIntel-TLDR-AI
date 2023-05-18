@@ -1,4 +1,4 @@
-const host = 'http://localhost:5001/chat';
+const host = 'https://c931-2001-569-7f48-b900-75c2-b872-5eb8-303b.ngrok-free.app/chat';
 let messageIndex = 0;
 
 function insertMessage(text, fromUser) {
@@ -7,6 +7,9 @@ function insertMessage(text, fromUser) {
   messageElement.id = `message-${messageIndex}-${fromUser ? 'right' : 'left'}`;
   messageElement.dataset.index = messageIndex;
   messageElement.dataset.airline = document.getElementById('airlineInput').value;
+
+  const wrapperElement = document.createElement('div');
+  wrapperElement.className = 'message-wrapper';
 
   if (isValidUrl(text)) {
     const linkElement = document.createElement('a');
@@ -27,11 +30,14 @@ function insertMessage(text, fromUser) {
   if (!fromUser) {
     starContainer.className = 'star-container';
 
+    // Set starContainer to initially be transparent
+    starContainer.style.opacity = '0';
+
     const starCheckbox = document.createElement('input');
     starCheckbox.type = 'checkbox';
     starCheckbox.id = `star-${messageIndex}`;
     starCheckbox.className = 'star-checkbox';
-    starCheckbox.checked = false; // Set checked status initially to false
+    starCheckbox.checked = false;
 
     const starLabel = document.createElement('label');
     starLabel.htmlFor = `star-${messageIndex}`;
@@ -40,11 +46,23 @@ function insertMessage(text, fromUser) {
 
     starContainer.appendChild(starCheckbox);
     starContainer.appendChild(starLabel);
+
+    // Add event listeners to wrapperElement
+    wrapperElement.addEventListener('mouseover', function() {
+      starContainer.style.opacity = '1'; // When mouse is over, star appears
+    });
+
+    wrapperElement.addEventListener('mouseout', function() {
+      if (!starCheckbox.checked) { // Only make the star transparent if it's not checked
+        starContainer.style.opacity = '0'; // When mouse leaves, star becomes transparent
+      }
+    });
   }
 
-  chatbotOutput.appendChild(starContainer);
-  chatbotOutput.appendChild(messageElement);
+  wrapperElement.appendChild(messageElement);
+  wrapperElement.appendChild(starContainer);
 
+  chatbotOutput.appendChild(wrapperElement);
   chatbotOutput.scrollTop = chatbotOutput.scrollHeight;
 
   starContainer.style.display = 'flex';
@@ -52,6 +70,8 @@ function insertMessage(text, fromUser) {
   starContainer.style.padding = '0';
   starContainer.style.margin = '0';
 }
+
+
 
 
 function isValidUrl(string) {

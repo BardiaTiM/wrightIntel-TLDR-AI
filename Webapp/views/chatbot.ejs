@@ -7,6 +7,9 @@
         background: linear-gradient(-45deg, #1682e7, #fafc8b, #a7dcf5, #f5d3a4);
         background-size: 400% 500%;
         animation: gradient 15s ease infinite;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
     }
 
     @keyframes gradient {
@@ -51,9 +54,14 @@
         height: 50px;
         transform: rotate(45deg);
         position: relative;
-        top: -30px;
+        top: -10px;
         left: 40px;
         animation: loadingAnimation 2s linear infinite;
+    }
+
+        .loading {
+    width: 50px;
+    height: 50px;
     }
 
     @keyframes loadingAnimation {
@@ -61,20 +69,18 @@
             left: 0;
         }
         100% {
-            left: 100%;
+            left: 90%;
         }
     }
 
-    body {
-        display: flex;
-        flex-direction: column;
-        height: 100vh;
+    #chatbotOutput {
+    margin-bottom: 10px; /* adjust this to the size of the gap you want */
     }
 
     .chat-container {
         flex-grow: 1;
         overflow-y: auto;
-        max-height: calc(100vh - 350px); /* Adjust this value to fit your layout */
+        max-height: calc(100vh - 430px); /* Adjusted for the 20px margin */
     }
 
     .form-and-buttons-container {
@@ -121,6 +127,15 @@
         color: white;
         border-color: #001f3f;
     }
+
+    .logo {
+        max-width: 30%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -30px;
+    }
     
 </style>
 
@@ -138,10 +153,8 @@
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-8 offset-md-2">
+                <img src="logo.png" alt="Logo" class="logo">
                 <div id="chatbotOutput" class="typing-output chat d-flex flex-column chat-container"></div>
-                <div id="loading" style="display: none;">
-                    <img src="loading.gif" alt="Loading..." class="loading">
-                </div>
                 <div class="form-and-buttons-container">
                     <form id="chatbotForm" class="mb-3 d-flex">
                         <input type="text" id="userInput" class="form-control question-input" placeholder="Ask a question...">

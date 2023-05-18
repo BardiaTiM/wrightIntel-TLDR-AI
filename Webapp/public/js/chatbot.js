@@ -72,12 +72,26 @@ function animateText(text, messageElement) {
 
 
 function showLoading() {
-  document.getElementById('loading').style.display = 'block';
+    var chatbotOutput = document.getElementById('chatbotOutput');
+
+    var loadingDiv = document.createElement('div');
+    loadingDiv.id = 'loading';
+    loadingDiv.className = 'loading-container';
+    loadingDiv.innerHTML = '<img src="loading.gif" alt="Loading..." class="loading">';
+
+    chatbotOutput.appendChild(loadingDiv);
+
+    // Scroll to bottom
+    chatbotOutput.scrollTop = chatbotOutput.scrollHeight;
 }
 
 function hideLoading() {
-  document.getElementById('loading').style.display = 'none';
+    var loadingDiv = document.getElementById('loading');
+    if (loadingDiv) {
+        loadingDiv.parentNode.removeChild(loadingDiv);
+    }
 }
+
 
 document.getElementById('chatbotForm').addEventListener('submit', function(event) {
   event.preventDefault();  // prevent the form from being submitted normally

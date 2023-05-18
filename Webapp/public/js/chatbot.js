@@ -4,6 +4,7 @@ function insertMessage(text, fromUser) {
   messageElement.className = `chat-bubble chat-bubble-${fromUser ? 'right' : 'left'} message-${messageIndex}`;
   messageElement.id = `message-${messageIndex}-${fromUser ? 'right' : 'left'}`;
   messageElement.dataset.index = messageIndex;
+  messageElement.dataset.airline = document.getElementById('airlineInput').value;
 
   const chatbotOutput = document.getElementById('chatbotOutput');
 
@@ -68,23 +69,39 @@ function hideLoading() {
 }
 
 // Add an event listener to the parent element of the star checkboxes
-document.addEventListener('change', (event) => {
+document.addEventListener('change', async (event) => {
   const starCheckbox = event.target;
   if (starCheckbox.classList.contains('star-checkbox')) {
     const starContainer = starCheckbox.closest('.star-container');
     const messageIndex = starContainer.dataset.index;
     const isChecked = starCheckbox.checked;
     if (isChecked) {
-      const response = document.getElementById(`message-${messageIndex}-left`).innerText;
-      const question = document.getElementById(`message-${messageIndex}-right`).innerText;
-      console.log('question: ', question);
-      console.log(`Star clicked for message index: ${messageIndex}`);
-      console.log(response);
       const promptData = {
-        airline: airlineInput.value,
-        question: userInput.value,
-        response: document.getElementById('chatbotOutput').innerText
+        airline: document.getElementById(`message-${messageIndex}-left`).dataset.airline,
+        question: document.getElementById(`message-${messageIndex}-right`).innerText,
+        response: document.getElementById(`message-${messageIndex}-left`).innerText
         };
+      console.log('Saving prompt:', promptData);
+      try {
+    const response = await fetch('/save-Prompt', {
+        method: 'POST',
+        headers: {
+        'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ prompt: promptData })
+    });
+
+    // Handle the response from the server-side route
+    if (response.ok) {
+        // Prompt saved successfully
+        console.log('Prompt saved successfully');
+    } else {
+        // Error occurred while saving the prompt
+        console.error('Error saving prompt:', response.status);
+    }
+    } catch (error) {
+    console.error('Error saving prompt:', error);
+    }
     }
   }
 });

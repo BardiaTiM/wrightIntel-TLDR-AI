@@ -147,8 +147,7 @@ app.post('/signupValidation', async (req, res) => {
   // Bcrypt password
   var hashedPassword = await bcrypt.hash(password, saltRounds);
   // Insert user into database
-  await userCollection.insertOne({ name: name, username: username, email: email, password: hashedPassword, phoneNumber: phoneNum });
-
+  await userCollection.insertOne({ name: name, username: username, email: email, password: hashedPassword, phoneNumber: phoneNum, image: '' });
   console.log("Inserted user");
 
   // Go to members page
@@ -158,6 +157,7 @@ app.post('/signupValidation', async (req, res) => {
   req.session.email = email;
   req.session.phoneNumber = phoneNum;
   req.session.cookie.maxAge = expireTime;
+  req.session.image = '';
   res.redirect("/chatbot");
 });
 
@@ -183,7 +183,7 @@ app.post('/loginValidation', async (req, res) => {
     return;
   }
   // Find user details in database from email
-  const result = await userCollection.find({ email: email }).project({ username: 1, password: 1, phoneNumber: 1, _id: 1 }).toArray();
+  const result = await userCollection.find({ email: email }).project({ username: 1, password: 1, phoneNumber: 1, image: 1, _id: 1 }).toArray();
 
   console.log(result);
   // User not found
@@ -201,6 +201,7 @@ app.post('/loginValidation', async (req, res) => {
     req.session.email = email;
     req.session.phoneNumber = result[0].phoneNumber;
     req.session.cookie.maxAge = expireTime;
+    req.session.image = result[0].image;
     res.redirect("/chatbot");
     return;
     // Incorrect password
@@ -222,6 +223,7 @@ app.get('/chatbot', (req, res) => {
 
 /** Logout page. */
 app.get('/logout', (req, res) => {
+  // console.log("Logging out");
   req.session.destroy((err) => {
     if (err) {
       console.log(err);
@@ -233,7 +235,8 @@ app.get('/logout', (req, res) => {
 
 /** Personal profile page. */
 app.get('/profile', (req, res) => {
-  res.render('profile', { req: req, res: res, username: req.session.username, email: req.session.email, phoneNumber: req.session.phoneNumber });
+
+  res.render('profile', {username: req.session.username, email: req.session.email, phoneNumber: req.session.phoneNumber, image: req.session.image});
 });
 
 
@@ -341,6 +344,50 @@ app.get('/reset-password', async (req, res) => {
 /* ALL ABOVE IMPORTANT FOR PASSWORD REST */
 
 
+app.post('/profileUpdate', async (req, res) => {
+  const information = req.body;
+
+  console.log(information);
+
+  const username = information.username;
+  const email = information.email;
+  const phoneNum = information.phoneNum;
+  const image = information.image;
+  
+  console.log(username, email, phoneNum, image);
+  // Check for NoSQL injection attacks
+  const schema = joi.object({
+    username: joi.string().alphanum().max(20).required(),
+    email: joi.string().email().required(),
+    phoneNum: joi.string().max(12).required()
+  });
+
+  // Validate user input
+  const validationResult = schema.validate({ username, email, phoneNum });
+
+  if (validationResult.error != null) {
+    console.log(validationResult.error);
+    res.status(400).json({ error: 'Potential NoSQL Injection detected.' });
+    return;
+  }
+
+  let originalEmail = req.session.email;
+  await userCollection.updateOne({ email: originalEmail }, { $set: { username: username, email: email, phoneNumber: phoneNum, image: image } });
+  // console.log("Updated user");
+  req.session.username = username;
+  req.session.email = email;
+  req.session.phoneNumber = phoneNum;
+  req.session.image = image;
+
+  const result = await userCollection.find({ email: email }).project({ username: 1, email : 1, phoneNumber : 1, image : 1, _id: 1 }).toArray();
+
+  console.log(result);
+
+  // Delay the redirect for 1 second (1000 milliseconds)
+  res.redirect("/profile");
+
+});
+
 /** Save user prompts. */
 app.post('/save-Prompt', async (req, res) => {
   console.log("prompt received");
@@ -437,8 +484,6 @@ app.post('/delete-Prompt', async (req, res) => {
     res.status(500).json({ error: 'Error deleting prompt' });
   }
 });
-
-app.use(express.static(__dirname + '/public'));
 
 // 404 page
 app.get("*", (req, res) => {

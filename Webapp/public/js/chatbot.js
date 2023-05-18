@@ -1,9 +1,12 @@
-const host = 'https://c931-2001-569-7f48-b900-75c2-b872-5eb8-303b.ngrok-free.app/chat';
-
+const host = 'http://localhost:5001/chat';
+let messageIndex = 0;
 
 function insertMessage(text, fromUser) {
   const messageElement = document.createElement('div');
-  messageElement.className = `chat-bubble chat-bubble-${fromUser ? 'right' : 'left'}`;
+  messageElement.className = `chat-bubble chat-bubble-${fromUser ? 'right' : 'left'} message-${messageIndex}`;
+  messageElement.id = `message-${messageIndex}-${fromUser ? 'right' : 'left'}`;
+  messageElement.dataset.index = messageIndex;
+  messageElement.dataset.airline = document.getElementById('airlineInput').value;
 
   if (isValidUrl(text)) {
     const linkElement = document.createElement('a');
@@ -17,11 +20,39 @@ function insertMessage(text, fromUser) {
   }
 
   const chatbotOutput = document.getElementById('chatbotOutput');
+
+  const starContainer = document.createElement('div');
+  starContainer.dataset.index = messageIndex;
+
+  if (!fromUser) {
+    starContainer.className = 'star-container';
+
+    const starCheckbox = document.createElement('input');
+    starCheckbox.type = 'checkbox';
+    starCheckbox.id = `star-${messageIndex}`;
+    starCheckbox.className = 'star-checkbox';
+    starCheckbox.checked = false; // Set checked status initially to false
+
+    const starLabel = document.createElement('label');
+    starLabel.htmlFor = `star-${messageIndex}`;
+    starLabel.className = 'star';
+    starLabel.innerHTML = '&#9733;';
+
+    starContainer.appendChild(starCheckbox);
+    starContainer.appendChild(starLabel);
+  }
+
+  chatbotOutput.appendChild(starContainer);
   chatbotOutput.appendChild(messageElement);
 
-  // Scroll to bottom
   chatbotOutput.scrollTop = chatbotOutput.scrollHeight;
+
+  starContainer.style.display = 'flex';
+  starContainer.style.justifyContent = 'flex-end';
+  starContainer.style.padding = '0';
+  starContainer.style.margin = '0';
 }
+
 
 function isValidUrl(string) {
   try {
@@ -30,6 +61,7 @@ function isValidUrl(string) {
     return false;  
   }
   return true;
+
 }
 
 
@@ -92,6 +124,77 @@ function hideLoading() {
     }
 }
 
+// Add an event listener to the parent element of the star checkboxes
+document.addEventListener('change', async (event) => {
+  const starCheckbox = event.target;
+  if (starCheckbox.classList.contains('star-checkbox')) {
+    const starContainer = starCheckbox.closest('.star-container');
+    const messageIndex = starContainer.dataset.index;
+    const isChecked = starCheckbox.checked;
+    console.log(`Star checkbox ${messageIndex} changed to ${isChecked}`);
+    if (isChecked) {
+      // Change colour to yellow
+      starContainer.querySelector('.star').style.color = 'yellow';
+      // Save prompt data
+      const promptData = {
+        airline: document.getElementById(`message-${messageIndex}-left`).dataset.airline,
+        question: document.getElementById(`message-${messageIndex}-right`).innerText,
+        response: document.getElementById(`message-${messageIndex}-left`).innerText
+        };
+      console.log('Saving prompt:', promptData);
+      try {
+        // Send a POST request to the server-side route
+        const response = await fetch('/save-Prompt', {
+        method: 'POST',
+        headers: {
+        'Content-Type': 'application/json'
+        },
+        // Convert the JS object into a JSON string
+        body: JSON.stringify({ prompt: promptData })
+    });
+
+    // Handle the response from the server-side route
+    if (response.ok) {
+        // Prompt saved successfully
+        console.log('Prompt saved successfully');
+    } else {
+        // Error occurred while saving the prompt
+        console.error('Error saving prompt:', response.status);
+    }
+    } catch (error) {
+    console.error('Error saving prompt:', error);
+    }
+    } else {
+      // Chnage colour to gray
+      starContainer.querySelector('.star').style.color = 'gray';
+      // Delete prompt data
+      const airline = document.getElementById(`message-${messageIndex}-left`).dataset.airline;
+      const question = document.getElementById(`message-${messageIndex}-right`).innerText;
+      const response = document.getElementById(`message-${messageIndex}-left`).innerText;
+    console.log('Deleting prompt:', airline, question, response);
+    // Send a fetch request to the server to delete the prompt
+    fetch('/delete-Prompt', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({ prompt: { airline, question, response } })
+    })
+    .then(response => response.json())
+    .then(data => {
+      // Handle the response from the server
+      console.log(data);
+      // Hide the accordion item associated with the clicked star
+      var accordionItem = star.closest('.accordion-item');
+      accordionItem.style.display = 'none';
+    })
+    .catch(error => {
+      // Handle any errors that occurred during the request
+      console.error('Error:', error);
+    });
+  }
+}
+});
 
 document.getElementById('chatbotForm').addEventListener('submit', function(event) {
   event.preventDefault();  // prevent the form from being submitted normally
@@ -104,6 +207,8 @@ document.getElementById('chatbotForm').addEventListener('submit', function(event
 
   // Show loading animation
   showLoading();
+  
+
 
   fetch(host, {
       method: 'POST',
@@ -122,6 +227,7 @@ document.getElementById('chatbotForm').addEventListener('submit', function(event
 
       // assuming the chatbot's response is in a field called 'response' in the returned JSON
       insertMessage(data.response, false);
+      messageIndex++;
   })
   .catch(error => {
       // Hide loading animation

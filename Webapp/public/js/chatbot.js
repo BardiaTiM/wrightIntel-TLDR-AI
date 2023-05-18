@@ -1,5 +1,5 @@
 let messageIndex = 0;
-const host = 'https://4df7-2001-569-7f48-b900-c0a7-8686-5fb1-b345.ngrok-free.app/chat';
+const host = 'http://localhost:5001/chat';
 
 function insertMessage(text, fromUser) {
   const messageElement = document.createElement('div');
@@ -46,14 +46,12 @@ function insertMessage(text, fromUser) {
   chatbotOutput.appendChild(messageElement);
 
   chatbotOutput.scrollTop = chatbotOutput.scrollHeight;
-}
-
-  animateText(text, messageElement);
 
   starContainer.style.display = 'flex';
   starContainer.style.justifyContent = 'flex-end';
   starContainer.style.padding = '0';
   starContainer.style.margin = '0';
+}
 
 
 function isValidUrl(string) {

@@ -23,6 +23,28 @@
         }
     }
 
+    .star-container {
+    display: inline-block;
+    }
+
+    .star-checkbox {
+    display: none;
+    }
+
+    .star {
+    font-size: 40px;
+    color: gray;
+    cursor: pointer;
+    }
+
+    .star:hover {
+    color: gold;
+    }
+
+    .star-checkbox:checked + .star {
+    color: gold;
+    }
+
     .chat {
         max-width: 800px;
         margin: auto;

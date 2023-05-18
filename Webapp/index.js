@@ -15,6 +15,7 @@ var saltRounds = 12;
 const expireTime = 60 * 60 * 1000;
 const app = express();
 app.set('view engine', 'ejs');
+app.use(express.json());
 /** End of Important Info. */
 app.use(express.static(path.join(__dirname + '/public')));
 
@@ -139,8 +140,7 @@ app.post('/signupValidation', async (req, res) => {
   // Bcrypt password
   var hashedPassword = await bcrypt.hash(password, saltRounds);
   // Insert user into database
-  await userCollection.insertOne({ name: name, username: username, email: email, password: hashedPassword, phoneNumber: phoneNum });
-
+  await userCollection.insertOne({ name: name, username: username, email: email, password: hashedPassword, phoneNumber: phoneNum, image: '' });
   console.log("Inserted user");
 
   // Go to members page
@@ -150,6 +150,7 @@ app.post('/signupValidation', async (req, res) => {
   req.session.email = email;
   req.session.phoneNumber = phoneNum;
   req.session.cookie.maxAge = expireTime;
+  req.session.image = '';
   res.redirect("/chatbot");
 });
 
@@ -175,7 +176,7 @@ app.post('/loginValidation', async (req, res) => {
     return;
   }
   // Find user details in database from email
-  const result = await userCollection.find({ email: email }).project({ username: 1, password: 1, phoneNumber: 1, _id: 1 }).toArray();
+  const result = await userCollection.find({ email: email }).project({ username: 1, password: 1, phoneNumber: 1, image: 1, _id: 1 }).toArray();
 
   console.log(result);
   // User not found
@@ -193,6 +194,7 @@ app.post('/loginValidation', async (req, res) => {
     req.session.email = email;
     req.session.phoneNumber = result[0].phoneNumber;
     req.session.cookie.maxAge = expireTime;
+    req.session.image = result[0].image;
     res.redirect("/chatbot");
     return;
     // Incorrect password
@@ -226,7 +228,8 @@ app.get('/logout', (req, res) => {
 
 /** Personal profile page. */
 app.get('/profile', (req, res) => {
-  res.render('profile', {username: req.session.username, email: req.session.email, phoneNumber: req.session.phoneNumber });
+
+  res.render('profile', {username: req.session.username, email: req.session.email, phoneNumber: req.session.phoneNumber, image: req.session.image});
 });
 
 
@@ -335,19 +338,16 @@ app.get('/reset-password', async (req, res) => {
 
 
 app.post('/profileUpdate', async (req, res) => {
-  let information = req.body.info;
-  console.log(information);
-  // let username = information.username;
-  // let email = information.email;
-  // let phoneNum = information.phoneNum;
-  // let image = information.image;
+  const information = req.body;
 
-  let username = req.body.usernameInput;
-  let email = req.body.emailInput;
-  let phoneNum = req.body.phoneNumInput;
-  let image = req.selectedImageName;
-console.log(username, email, phoneNum, image);
-  // console.log(username, email, phoneNum, image);
+  console.log(information);
+
+  const username = information.username;
+  const email = information.email;
+  const phoneNum = information.phoneNum;
+  const image = information.image;
+  
+  console.log(username, email, phoneNum, image);
   // Check for NoSQL injection attacks
   const schema = joi.object({
     username: joi.string().alphanum().max(20).required(),
@@ -365,13 +365,14 @@ console.log(username, email, phoneNum, image);
   }
 
   let originalEmail = req.session.email;
-  await userCollection.updateOne({ email: originalEmail }, { $set: { username: username, email: email, phoneNumber: phoneNum } });
-  console.log("Updated user");
+  await userCollection.updateOne({ email: originalEmail }, { $set: { username: username, email: email, phoneNumber: phoneNum, image: image } });
+  // console.log("Updated user");
   req.session.username = username;
   req.session.email = email;
   req.session.phoneNumber = phoneNum;
+  req.session.image = image;
 
-  const result = await userCollection.find({ email: email }).project({ username: 1, _id: 1 }).toArray();
+  const result = await userCollection.find({ email: email }).project({ username: 1, email : 1, phoneNumber : 1, image : 1, _id: 1 }).toArray();
 
   console.log(result);
 

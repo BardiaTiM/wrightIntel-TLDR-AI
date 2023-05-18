@@ -32,7 +32,9 @@
     <img src="logo.png" alt="Logo Placeholder" id="logo">
     <div class="profile">
       <div class="card-header">
-        <div class="image-display"></div>
+        <div class="image-display">
+          <img src="/profile_images/<%= image %>" id="profile_image" alt="Avatar" class="avatar" width="200px" height="200px">
+        </div>
         <h1 id="username"><%= username %></h1>
         <button type="button" id="edit-button" data-bs-toggle="modal" data-bs-target="#exampleModal">edit</button>
       </div>

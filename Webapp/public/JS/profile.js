@@ -88,46 +88,41 @@ document.getElementById("edit-button").addEventListener("click", async (event) =
       });
     });
     
-    document.getElementById("save-button").addEventListener("click", async () => {
-
-      editButtonClicked = true;
-      const usernameInput = document.getElementById('usernameInput');
-      const emailInput = document.getElementById('emailInput');
-      const phoneNumInput = document.getElementById('phoneNumInput');
-
-      console.log(selectedImageName);
-
-      const newUserData = {
-        username: usernameInput.value,
-        email: emailInput.value,
-        phoneNum: phoneNumInput.value,
+    document.getElementById("save-button").addEventListener("click", async (event) => {
+      event.preventDefault();
+    
+      // Get the updated values
+      const updatedUsername = document.getElementById("usernameInput").value;
+      const updatedEmail = document.getElementById("emailInput").value;
+      const updatedPhoneNum = document.getElementById("phoneNumInput").value;
+    
+      // Create the JSON object
+      const data = {
+        username: updatedUsername,
+        email: updatedEmail,
+        phoneNum: updatedPhoneNum,
         image: selectedImageName
       };
-
-      // Perform an HTTP request to the server-side route
       try {
-        console.log('Saving new userdata:', newUserData);
-        const response = await fetch('/profileUpdate', {
-          method: 'POST',
+        const response = await fetch("/profileUpdate", {
+          method: "POST",
           headers: {
-            'Content-Type': 'application/json'
+            "Content-Type": "application/json"
           },
-          body: JSON.stringify({ info : newUserData })
+          body: JSON.stringify(data)
         });
-        console.log('Response from server:', response);
-        // Handle the response from the server-side route
+    
         if (response.ok) {
-          // Prompt saved successfully
-          console.log('Prompt saved successfully');
+          // Request successful, handle the response here
+          console.log("Profile update successful");
         } else {
-          // Error occurred while saving the prompt
-          console.error('Error saving prompt:', response.status);
+          // Request failed, handle the error here
+          console.log("Profile update failed");
         }
       } catch (error) {
-        console.error('Error saving prompt:', error);
+        // Error occurred, handle the error here
+        console.log("An error occurred:", error);
       }
-
-      removeElements(["usernameInput", "emailInput", "phoneNumInput"]);
     });
   }
 });

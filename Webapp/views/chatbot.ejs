@@ -27,25 +27,27 @@
     }
 
     .star-container {
-    display: inline-block;
+        display: inline-block;
+        z-index: 2;
+        right: 0; 
     }
 
     .star-checkbox {
-    display: none;
+        display: none;
     }
 
     .star {
-    font-size: 40px;
-    color: gray;
-    cursor: pointer;
+        font-size: 40px;
+        color: gray;
+        cursor: pointer;
     }
 
     .star:hover {
-    color: gold;
+        color: gold;
     }
 
     .star-checkbox:checked + .star {
-    color: gold;
+        color: gold;
     }
 
     .chat {
@@ -63,12 +65,15 @@
     .chat-bubble-left {
         background-color: #e5e5ea;
         align-self: flex-start;
+        position: relative;
     }
 
     .chat-bubble-right {
         background-color: #007bff;
         color: white;
         align-self: flex-end;
+        position: relative; /* Added position relative */
+        z-index: 1; /* Added z-index to bring the bubble above the star */
     }
 
     img.loading {
@@ -85,6 +90,13 @@
     width: 50px;
     height: 50px;
     }
+
+    .message-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end; /* Change this to 'flex-start' if you want the star on the left side */
+    }
+
 
     @keyframes loadingAnimation {
         0% {
@@ -103,6 +115,7 @@
         flex-grow: 1;
         overflow-y: auto;
         max-height: calc(100vh - 430px); /* Adjusted for the 20px margin */
+        position: relative; /* Added position relative */
     }
 
     .form-and-buttons-container {

@@ -1,22 +1,3 @@
-/* client side */
-const display = document.querySelector(".image-display");
-const input = document.querySelector("#upload-image");
-
-input.addEventListener("change", () => {
-  let reader = new FileReader();
-  reader.readAsDataURL(input.files[0]);
-  reader.addEventListener("load", () => {
-    display.innerHTML = `<img src=${reader.result} alt='' id="profile-image"/>`;
-  });
-});
-
-const toggleElements = (ids, displayValue) => {
-  ids.forEach((id) => {
-    const element = document.getElementById(id);
-    element.style.display = displayValue;
-  });
-};
-
 const createInput = (id, value, name, parentClass) => {
   let input = document.createElement("input");
   input.setAttribute("type", "text");
@@ -26,6 +7,7 @@ const createInput = (id, value, name, parentClass) => {
   document.querySelector(parentClass).appendChild(input);
 };
 
+
 const removeElements = (ids) => {
   ids.forEach((id) => {
     const element = document.getElementById(id);
@@ -33,12 +15,33 @@ const removeElements = (ids) => {
   });
 };
 
-const createSaveButton = (id, value, parentClass) => {
-  let button = document.createElement("button");
-  button.setAttribute("type", "submit");
-  button.setAttribute("id", id);
-  button.innerHTML = value;
-  document.querySelector(parentClass).appendChild(button);
+const listImages = (images) => {
+  images.forEach((image) => {
+    let img = document.createElement("img");
+    img.setAttribute("src", image);
+    img.setAttribute("class", "profile-image");
+    img.setAttribute("height", "200");
+    img.setAttribute("width", "200");
+    document.querySelector(".profile-image-container").appendChild(img);
+  });
+};
+
+const createSaveButton = () => {
+  let saveButton = document.createElement("button");
+  saveButton.setAttribute("id", "save-button");
+  saveButton.setAttribute("type", "submit");
+  saveButton.setAttribute("class", "btn btn-primary");
+  saveButton.innerHTML = "save";
+  document.querySelector(".modal-footer").appendChild(saveButton);
+};
+
+const profileImageTitle = () => {
+  const html = `
+  <div class="profile-image-container">
+    <h5 id="profileImageTitle">Pick your profile image</h5>
+  </div>
+`;
+  document.querySelector(".modal-body").insertAdjacentHTML("beforeend", html);
 };
 
 let editButtonClicked = true;
@@ -46,22 +49,85 @@ let username = document.getElementById("username").innerHTML;
 let email = document.getElementById("email").innerHTML;
 let phoneNum = document.getElementById("phoneNum").innerHTML;
 
-document.getElementById("edit-button").addEventListener("click", (event) => {
+document.getElementById("edit-button").addEventListener("click", async (event) => {
   event.preventDefault();
   if (editButtonClicked) {
+
     editButtonClicked = false;
 
-    toggleElements(["username", "email", "phoneNum"], "none");
-    createInput("usernameInput", username, "usernameInput", ".card-header");
-    createInput("emailInput", email, "emailInput", ".info");
-    createInput("phoneNumInput", phoneNum, "phoneNumInput", ".info");
-    createSaveButton("save-button", "Save", ".submit-container");
+    createInput("usernameInput", username, "usernameInput", ".modal-body");
+    createInput("emailInput", email, "emailInput", ".modal-body");
+    createInput("phoneNumInput", phoneNum, "phoneNumInput", ".modal-body");
+    profileImageTitle();
+    listImages(["/profile_images/cat.png", "/profile_images/front-plane.png", "/profile_images/minions.png"
+      , "/profile_images/pilot-black.png", "/profile_images/pilot-blue.png", "/profile_images/pilot-pink.png"
+      , "/profile_images/side-plane.png", "/profile_images/lebron.png"]);
+    createSaveButton();
 
-    document.getElementById("save-button").addEventListener("click", () => {
-      console.log("save button clicked");
+    let selectedImage = null; // Track the currently selected image
+    var selectedImageName = ""; // Store the name of the selected image
+    
+    const profileImages = document.getElementsByClassName("profile-image");
+    Array.from(profileImages).forEach((image) => {
+      image.addEventListener("click", (event) => {
+        const clickedImage = event.target;
+    
+        // Remove border from previously selected image (if any)
+        if (selectedImage) {
+          selectedImage.style.border = "none";
+        }
+    
+        // Add border to the newly selected image
+        clickedImage.style.border = "2px solid black"; // Modify the border style as desired
+    
+        selectedImage = clickedImage; // Update the selected image
+    
+        // Extract the filename from the full path
+        const imagePath = clickedImage.getAttribute("src");
+        selectedImageName = imagePath.substring(imagePath.lastIndexOf("/") + 1);
+      });
+    });
+    
+    document.getElementById("save-button").addEventListener("click", async () => {
+
       editButtonClicked = true;
-      toggleElements(["username", "email", "phoneNum"], "block");
-      removeElements(["usernameInput", "emailInput", "phoneNumInput", "save-button"]);
+      const usernameInput = document.getElementById('usernameInput');
+      const emailInput = document.getElementById('emailInput');
+      const phoneNumInput = document.getElementById('phoneNumInput');
+
+      console.log(selectedImageName);
+
+      const newUserData = {
+        username: usernameInput.value,
+        email: emailInput.value,
+        phoneNum: phoneNumInput.value,
+        image: selectedImageName
+      };
+
+      // Perform an HTTP request to the server-side route
+      try {
+        console.log('Saving new userdata:', newUserData);
+        const response = await fetch('/profileUpdate', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ info : newUserData })
+        });
+        console.log('Response from server:', response);
+        // Handle the response from the server-side route
+        if (response.ok) {
+          // Prompt saved successfully
+          console.log('Prompt saved successfully');
+        } else {
+          // Error occurred while saving the prompt
+          console.error('Error saving prompt:', response.status);
+        }
+      } catch (error) {
+        console.error('Error saving prompt:', error);
+      }
+
+      removeElements(["usernameInput", "emailInput", "phoneNumInput"]);
     });
   }
 });

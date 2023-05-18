@@ -226,7 +226,7 @@ app.get('/logout', (req, res) => {
 
 /** Personal profile page. */
 app.get('/profile', (req, res) => {
-  res.render('profile', { req: req, res: res, username: req.session.username, email: req.session.email, phoneNumber: req.session.phoneNumber });
+  res.render('profile', {username: req.session.username, email: req.session.email, phoneNumber: req.session.phoneNumber });
 });
 
 
@@ -335,20 +335,28 @@ app.get('/reset-password', async (req, res) => {
 
 
 app.post('/profileUpdate', async (req, res) => {
+  let information = req.body.info;
+  console.log(information);
+  // let username = information.username;
+  // let email = information.email;
+  // let phoneNum = information.phoneNum;
+  // let image = information.image;
+
   let username = req.body.usernameInput;
   let email = req.body.emailInput;
   let phoneNum = req.body.phoneNumInput;
-
-  // Check for noSQL injection attacks
-  const schema = joi.object(
-    {
-      username: joi.string().alphanum().max(20).required(),
-      email: joi.string().email().required(),
-      phoneNum: joi.string().max(12).required(),
-    });
+  let image = req.selectedImageName;
+console.log(username, email, phoneNum, image);
+  // console.log(username, email, phoneNum, image);
+  // Check for NoSQL injection attacks
+  const schema = joi.object({
+    username: joi.string().alphanum().max(20).required(),
+    email: joi.string().email().required(),
+    phoneNum: joi.string().max(12).required()
+  });
 
   // Validate user input
-  const validationResult = schema.validate({username, email, phoneNum});
+  const validationResult = schema.validate({ username, email, phoneNum });
 
   if (validationResult.error != null) {
     console.log(validationResult.error);
@@ -356,7 +364,8 @@ app.post('/profileUpdate', async (req, res) => {
     return;
   }
 
-  await userCollection.updateOne({ username: originalUsername }, { $set: { username: username, email: email, phoneNumber: phoneNum }});
+  let originalEmail = req.session.email;
+  await userCollection.updateOne({ email: originalEmail }, { $set: { username: username, email: email, phoneNumber: phoneNum } });
   console.log("Updated user");
   req.session.username = username;
   req.session.email = email;
@@ -365,9 +374,11 @@ app.post('/profileUpdate', async (req, res) => {
   const result = await userCollection.find({ email: email }).project({ username: 1, _id: 1 }).toArray();
 
   console.log(result);
-  res.redirect("/profile");
-});
 
+  // Delay the redirect for 1 second (1000 milliseconds)
+  res.redirect("/profile");
+
+});
 
 // 404 page
 app.get("*", (req, res) => {

@@ -1,14 +1,45 @@
+let messageIndex = 0;
 function insertMessage(text, fromUser) {
   const messageElement = document.createElement('div');
-  messageElement.className = `chat-bubble chat-bubble-${fromUser ? 'right' : 'left'}`;
+  messageElement.className = `chat-bubble chat-bubble-${fromUser ? 'right' : 'left'} message-${messageIndex}`;
+  messageElement.id = `message-${messageIndex}-${fromUser ? 'right' : 'left'}`;
+  messageElement.dataset.index = messageIndex;
 
   const chatbotOutput = document.getElementById('chatbotOutput');
+
+  const starContainer = document.createElement('div');
+  starContainer.dataset.index = messageIndex;
+
+  if (!fromUser) {
+    starContainer.className = 'star-container';
+
+    const starCheckbox = document.createElement('input');
+    starCheckbox.type = 'checkbox';
+    starCheckbox.id = `star-${messageIndex}`;
+    starCheckbox.className = 'star-checkbox';
+    starCheckbox.checked = false; // Set checked status initially to false
+
+    const starLabel = document.createElement('label');
+    starLabel.htmlFor = `star-${messageIndex}`;
+    starLabel.className = 'star';
+    starLabel.innerHTML = '&#9733;';
+
+    starContainer.appendChild(starCheckbox);
+    starContainer.appendChild(starLabel);
+  }
+
+  chatbotOutput.appendChild(starContainer);
   chatbotOutput.appendChild(messageElement);
 
-  // Scroll to bottom
   chatbotOutput.scrollTop = chatbotOutput.scrollHeight;
 
   animateText(text, messageElement);
+
+  starContainer.style.display = 'flex';
+  starContainer.style.justifyContent = 'flex-end';
+  starContainer.style.padding = '0';
+  starContainer.style.margin = '0';
+
 }
 
 function animateText(text, messageElement) {
@@ -36,6 +67,28 @@ function hideLoading() {
   document.getElementById('loading').style.display = 'none';
 }
 
+// Add an event listener to the parent element of the star checkboxes
+document.addEventListener('change', (event) => {
+  const starCheckbox = event.target;
+  if (starCheckbox.classList.contains('star-checkbox')) {
+    const starContainer = starCheckbox.closest('.star-container');
+    const messageIndex = starContainer.dataset.index;
+    const isChecked = starCheckbox.checked;
+    if (isChecked) {
+      const response = document.getElementById(`message-${messageIndex}-left`).innerText;
+      const question = document.getElementById(`message-${messageIndex}-right`).innerText;
+      console.log('question: ', question);
+      console.log(`Star clicked for message index: ${messageIndex}`);
+      console.log(response);
+      const promptData = {
+        airline: airlineInput.value,
+        question: userInput.value,
+        response: document.getElementById('chatbotOutput').innerText
+        };
+    }
+  }
+});
+
 document.getElementById('chatbotForm').addEventListener('submit', function(event) {
   event.preventDefault();  // prevent the form from being submitted normally
 
@@ -47,8 +100,9 @@ document.getElementById('chatbotForm').addEventListener('submit', function(event
 
   // Show loading animation
   showLoading();
+  
 
-  fetch('https://3733-2001-569-7f48-b900-3081-f480-91ee-c130.ngrok-free.app/chat', {
+  fetch('http://localhost:5001/chat', {
       method: 'POST',
       headers: {
           'Content-Type': 'application/json'
@@ -65,6 +119,7 @@ document.getElementById('chatbotForm').addEventListener('submit', function(event
 
       // assuming the chatbot's response is in a field called 'response' in the returned JSON
       insertMessage(data.response, false);
+      messageIndex++;
   })
   .catch(error => {
       // Hide loading animation

@@ -427,7 +427,7 @@ app.post('/delete-Prompt', async (req, res) => {
     console.log("prompt data: ", req.body.prompt);
 
     // Delete the prompt document from the prompts collection
-    const result = await promptsCollection.deleteOne({ _id: new ObjectId(promptData._id) });
+    const result = await promptsCollection.deleteOne({ airline: promptData.airline, question: promptData.question, response: promptData.response });
     console.log("result: ", result);
 
     // Return a success response

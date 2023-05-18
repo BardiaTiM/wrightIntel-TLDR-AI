@@ -24,4 +24,19 @@ document.addEventListener('DOMContentLoaded', function () {
   animatedElements.forEach((element) => observer.observe(element));
 });
 
+
 AOS.init();
+
+
+
+/* AIRLINE IMAGES SLIDER ANIMATION */
+function scrollDiv() {
+  var scrollingDiv = document.getElementById('airlines');
+  scrollingDiv.scrollLeft -= 1;
+
+  if (scrollingDiv.scrollLeft <= 0) {
+    scrollingDiv.scrollLeft = scrollingDiv.scrollWidth - scrollingDiv.clientWidth;
+  }
+}
+
+setInterval(scrollDiv, 20); 

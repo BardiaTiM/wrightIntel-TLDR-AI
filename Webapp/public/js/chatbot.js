@@ -1,4 +1,4 @@
-const host = 'https://4df7-2001-569-7f48-b900-c0a7-8686-5fb1-b345.ngrok-free.app/chat';
+const host = 'https://c931-2001-569-7f48-b900-75c2-b872-5eb8-303b.ngrok-free.app/chat';
 
 
 function insertMessage(text, fromUser) {

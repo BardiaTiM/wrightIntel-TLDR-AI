@@ -99,6 +99,7 @@
 
     .airline-input {
         width: 100%;
+        text-align: center;
     }
 
     .question-input {
@@ -111,10 +112,15 @@
 
     .buttons-container {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Change 200px to desired minimum width of buttons */
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
         gap: 10px;
     }
     
+    .buttons-container .btn-primary {
+        background-color: #001f3f;
+        color: white;
+        border-color: #001f3f;
+    }
     
 </style>
 

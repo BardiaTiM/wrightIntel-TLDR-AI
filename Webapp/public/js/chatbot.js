@@ -1,4 +1,4 @@
-const host = 'https://c931-2001-569-7f48-b900-75c2-b872-5eb8-303b.ngrok-free.app/chat';
+const host = 'https://283e-2001-569-7f48-b900-75f8-db24-f8d-8623.ngrok-free.app/chat';
 let messageIndex = 0;
 
 function insertMessage(text, fromUser) {
@@ -345,5 +345,32 @@ function fetchChatbotResponse(userInput) {
 
       console.log('Error:', error);
   });
+}
+
+
+
+//THESE FUNCTIONS ARE FOR THE BACKGROUND
+
+var darkModeToggle = document.querySelector('#darkModeToggle');
+var logoImage = document.querySelector('#logoImage');
+
+darkModeToggle.addEventListener('change', function () {
+  if (this.checked) {
+    // Dark mode is enabled
+    logoImage.src = 'logo-white.png';
+  } else {
+    // Dark mode is disabled
+    logoImage.src = 'logo-black.png';
+  }
+});
+
+// Get the initial dark mode preference from localStorage
+var darkModeEnabled = localStorage.getItem('darkModeEnabled');
+
+// If dark mode preference exists, update the logo image accordingly
+if (darkModeEnabled) {
+  logoImage.src = 'logo-white.png';
+} else {
+  logoImage.src = 'logo-black.png';
 }
 

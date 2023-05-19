@@ -371,13 +371,19 @@ app.post('/profileUpdate', async (req, res) => {
     return;
   }
 
+  let originalImage = req.session.image;
   let originalEmail = req.session.email;
-  await userCollection.updateOne({ email: originalEmail }, { $set: { username: username, email: email, phoneNumber: phoneNum, image: image } });
+  if (!image || image == '') {
+    await userCollection.updateOne({ email: originalEmail }, { $set: { username: username, email: email, phoneNumber: phoneNum} });
+    req.session.image = originalImage;
+  } else {
+    await userCollection.updateOne({ email: originalEmail }, { $set: { username: username, email: email, phoneNumber: phoneNum, image: image } });
+    req.session.image = image;
+  }
   // console.log("Updated user");
   req.session.username = username;
   req.session.email = email;
   req.session.phoneNumber = phoneNum;
-  req.session.image = image;
 
   const result = await userCollection.find({ email: email }).project({ username: 1, email : 1, phoneNumber : 1, image : 1, _id: 1 }).toArray();
 

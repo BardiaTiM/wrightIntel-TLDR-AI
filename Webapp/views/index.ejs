@@ -15,29 +15,20 @@
 </head>
 
 <body>
-    <div class="container">
+    <header>
         <label class="switch">
-            <input type="checkbox">
+            <input type="checkbox" id="darkModeToggle">
             <span class="slider round"></span>
         </label>
+    </header>
+    <div class="container">
         <div id="TLDR">TLDR</div>
         <div class="members">
             <button onclick="location.href='login'" class="members-button" id="signup">GET STARTED</button>
         </div>
     </div>
-    <script>
-        const toggle = document.querySelector(".switch input");
-        const body = document.body;
+    <script src="/JS/background.js"></script>
 
-        toggle.addEventListener("change", function () {
-            if (toggle.checked) {
-                body.classList.add("dark-mode");
-            } else {
-                body.classList.remove("dark-mode");
-            }
-        });
-
-    </script>
 </body>
 
 </html>

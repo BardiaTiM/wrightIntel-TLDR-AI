@@ -4,6 +4,13 @@
     <% res.redirect('/login'); %>
 <% } %>
 
+<header>
+  <label class="switch">
+      <input type="checkbox" id="darkModeToggle">
+      <span class="slider round"></span>
+  </label>
+</header>
+
 <div class="container mt-5">
     <h1>Favourites</h1>
     <div class="accordion" id="accordionExample" style="overflow-y: auto; max-height: 400px;">
@@ -11,5 +18,7 @@
     </div>
 </div>
 <script src="/JS/favourites.js"></script>
+<script src="/JS/background.js"></script>
+
 
 <%- include("templates/footer") %>

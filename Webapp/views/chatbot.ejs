@@ -3,28 +3,27 @@
 <% } %>
 
 <style>
-    body {
-        background: linear-gradient(-45deg, #1682e7, #fafc8b, #a7dcf5, #f5d3a4);
-        background-size: 400% 500%;
-        animation: gradient 15s ease infinite;
-        display: flex;
-        flex-direction: column;
-        height: 100vh;
+body {
+    background: linear-gradient(-45deg, #90e0ef, #00b4d8, #caf0f8, #00b4d8);
+    background-size: 400% 500%;
+    animation: gradient 10s ease infinite;
+}
+
+.dark-mode {
+    background: linear-gradient(-45deg, #003566, #001d3d, #003566, #003566);
+    background-size: 400% 500%;
+    animation: gradient 10s ease infinite;
+}
+
+
+@keyframes gradient {
+    0%, 100% {
+        background-position: 0% 50%;
     }
-
-    @keyframes gradient {
-        0% {
-            background-position: 0% 50%;
-        }
-
-        50% {
-            background-position: 100% 50%;
-        }
-
-        100% {
-            background-position: 0% 50%;
-        }
+    50% {
+        background-position: 100% 50%;
     }
+}
 
     .star-container {
         display: inline-block;
@@ -218,6 +217,147 @@
     .content-wrapper {
         height: 1000px; /* Adjust the height value to your desired height */
     }
+    .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-left: auto;
+    margin-top: 10px;}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.checkbox {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #a7dcf5;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+input:checked+.slider {
+    background-color: #041C32;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #a7dcf5;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-left: auto;
+    margin-top: 10px;}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.checkbox {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #a7dcf5;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+input:checked+.slider {
+    background-color: #041C32;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #a7dcf5;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
 
 
     @media only screen and (max-width: 390px) {
@@ -233,7 +373,6 @@
     }
     
 </style>
-
     <div class="header-container">
         <select id="airlineInput" class="form-control airline-input">
             <!-- Your options go here -->
@@ -242,6 +381,10 @@
             <option value="allegiant">Allegiant</option>
             <option value="spiritairline">Spirit Airline</option>
         </select>
+        <label class="switch" style="float: right;">
+            <input type="checkbox" id="darkModeToggle">
+            <span class="slider round"></span>
+        </label>
     </div>
 
     <div class="container mt-5">
@@ -266,5 +409,5 @@
     </div>
 
 <script src="/JS/chatbot.js"></script>
-
+<script src="/JS/background.js"></script>
 <%- include("templates/footer") %>

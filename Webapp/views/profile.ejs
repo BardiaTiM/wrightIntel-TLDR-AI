@@ -28,8 +28,14 @@
 </head>
 
 <body>
+  <header>
+    <label class="switch" style="float: right;">
+        <input type="checkbox" id="darkModeToggle">
+        <span class="slider round"></span>
+    </label>
+  </header>
   <div class="main-container">
-    <img src="logo.png" alt="Logo Placeholder" id="logo">
+    <img src="logo-white.png" alt="Logo Placeholder" id="logo">
     <div class="profile">
       <div class="card-header">
         <div class="image-display">
@@ -67,6 +73,7 @@
     </div>
   </div>
   <script src="/JS/profile.js"></script>
+  <script src="/JS/background.js"></script>
 
 
 <%- include("templates/footer") %>

@@ -29,9 +29,11 @@
           background-color: #212121;
         }
         .nav-link {
-          color: #b3b3b3;
-          font-size: 0.875em;
-        }
+    color: #b3b3b3;
+    font-size: 0.75em; /* Reduce the font size to make the buttons smaller */
+    padding: 0.5em 1em; /* Adjust the padding to make the buttons more compact */
+    line-height: 1.2; /* Set the line-height to ensure proper spacing */
+  }
         .nav-link.active {
           color: #1DB954;
         }
@@ -50,16 +52,13 @@
     </style>
 </head>
 <body>
-  <div class="content-wrapper">
-    <!-- Your page content goes here -->
-  </div>
   
   <footer class="d-flex justify-content-around py-2">
     <ul class="nav nav-pills flex-row">
       <li class="nav-item text-center"><a href="/" class="nav-link" aria-current="page"><i class="fas fa-home"></i><br>Home</a></li>
       <li class="nav-item text-center"><a href="/profile" class="nav-link"><i class="fas fa-user"></i><br>Profile</a></li>
       <li class="nav-item text-center"><a href="/chatbot" class="nav-link"><i class="fas fa-comments"></i><br>TLDR</a></li>
-      <li class="nav-item text-center"><a href="/favourites" class="nav-link"><i class="fas fa-heart"></i><br>Favorites</a></li>
+      <li class="nav-item text-center"><a href="/favourites" class="nav-link"><i class="fas fa-heart"></i><br>Favourites</a></li>
       <li class="nav-item text-center"><a href="/logout" class="nav-link"><i class="fas fa-sign-out-alt"></i><br>Logout</a></li>
     </ul>
   </footer>

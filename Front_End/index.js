@@ -30,16 +30,12 @@ import anime from 'https://cdn.skypack.dev/animejs@3.2.1';
 
 const scene = new Scene();
 const globeSize = 5;
-//let sunBackground = document.querySelector(".container");
-//let moonBackground = document.querySelector(".moon-background");
-
 const ringsScene = new Scene();
-
 const camera = new PerspectiveCamera(45, innerWidth / innerHeight, 0.1, 1000);
 camera.position.set(0, 15, 50);
-
 const ringsCamera = new PerspectiveCamera(45, innerWidth / innerHeight, 0.1, 1000);
 ringsCamera.position.set(0, 0, 50);
+
 
 const renderer = new WebGLRenderer({ alpha: true });
 renderer.setSize(innerWidth, innerHeight);
@@ -166,6 +162,7 @@ let mousePos = new Vector2(0,0);
   ring3.moonOpacity = 0.03;
   //ringsScene.add(ring3);
 
+  
   // https://sketchfab.com/3d-models/cartoon-plane-f312ec9f87794bdd83630a3bc694d8ea#download
   // "Cartoon Plane" (https://skfb.ly/UOLT) by antonmoek is licensed under Creative Commons Attribution 
   // (http://creativecommons.org/licenses/by/4.0/).
@@ -257,30 +254,19 @@ let mousePos = new Vector2(0,0);
 
     planesData.forEach(planeData => {
       let plane = planeData.group;
-    
+      
       plane.position.set(0,0,0);
       plane.rotation.set(0,0,0);
       plane.updateMatrixWorld();
-      /**
-       * idea: first rotate like that:
-       * 
-       *          y-axis
-       *  airplane  ^
-       *      \     |     /
-       *       \    |    /
-       *        \   |   /
-       *         \  |  /
-       *     angle ^
-       * 
-       * then at the end apply a rotation on a random axis
-       */           
-      planeData.rot += delta * 0.25;
+      
+      planeData.rot += delta * 1;  // half of original value
       plane.rotateOnAxis(planeData.randomAxis, planeData.randomAxisRot); // random axis
       plane.rotateOnAxis(new Vector3(0, 1, 0), planeData.rot);    // y-axis rotation
       plane.rotateOnAxis(new Vector3(0, 0, 1), planeData.rad);    // this decides the radius
       plane.translateY(planeData.yOff);
       plane.rotateOnAxis(new Vector3(1,0,0), +Math.PI * 0.5);
-    });
+  });
+  
 
     renderer.autoClear = false;
     renderer.render(ringsScene, ringsCamera);
@@ -337,15 +323,51 @@ function makePlane(planeMesh, trailTexture, envMap, scene) {
 
   return {
     group,
-    yOff: 10.5 + Math.random() * 1.0,
+    yOff: 5.25 + Math.random() * 0.5,  // half of original value
     rot: Math.PI * 2,  // just to set a random starting point
-    rad: Math.random() * Math.PI * 0.45 + Math.PI * 0.05,
+    rad: Math.random() * Math.PI * 0.225 + Math.PI * 0.1,  // half of original value
     randomAxis: new Vector3(nr(), nr(), nr()).normalize(),
     randomAxisRot: Math.random() * Math.PI * 2,
-  };
+};
+
+}
+
+let inactiveMouseTimer;
+let modelLoader = new GLTFLoader();
+let isMouseInactive = false;
+
+function switchModels() {
+  if (isMouseInactive) {
+    modelLoader.loadAsync('assets/marmots_low_poly.glb').then(model => {
+      scene.remove(scene.getObjectByName('plane'));
+      let marmotModel = model.scene.children[0];
+      marmotModel.name = 'marmot';
+      scene.add(marmotModel);
+    });
+  } else {
+    modelLoader.loadAsync('assets/plane/scene.glb').then(model => {
+      scene.remove(scene.getObjectByName('marmot'));
+      let planeModel = model.scene.children[0];
+      planeModel.name = 'plane';
+      scene.add(planeModel);
+    });
+  }
 }
 
 window.addEventListener("mousemove", (e) => {
+/*  clearTimeout(inactiveMouseTimer);
+
+  if (isMouseInactive) {
+    isMouseInactive = false;
+    switchModels();
+  }
+
+  inactiveMouseTimer = setTimeout(() => {
+    isMouseInactive = true;
+    switchModels();
+  }, 10000); // 30 seconds
+  */
+
   let x = e.clientX - innerWidth * 0.5; 
   let y = e.clientY - innerHeight * 0.5;
 

@@ -1,36 +1,350 @@
-<%- include("templates/header") %>
+<% if (!req.session.authenticated) { %> <% res.redirect('/login'); %> <% } %>
 
-<% if (!req.session.authenticated) { %>
-    <% res.redirect('/login'); %>
-<% } %>
+<style>
+  body {
+    background: linear-gradient(-45deg, #90e0ef, #00b4d8, #caf0f8, #00b4d8);
+    background-size: 400% 500%;
+    animation: gradient 10s ease infinite;
+  }
 
-<h2>Hello, <%= username %></h2>
+  .dark-mode {
+    background: linear-gradient(-45deg, #003566, #001d3d, #003566, #003566);
+    background-size: 400% 500%;
+    animation: gradient 10s ease infinite;
+  }
+
+  @keyframes gradient {
+    0%,
+    100% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+  }
+
+  .star-container {
+    display: inline-block;
+    z-index: 2;
+    right: 0;
+  }
+
+  .star-checkbox {
+    display: none;
+  }
+
+  .star {
+    font-size: 40px;
+    color: gray;
+    cursor: pointer;
+  }
+
+  .star:hover {
+    color: gold;
+  }
+
+  .star-checkbox:checked + .star {
+    color: gold;
+  }
+
+  .chat {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .chat-bubble {
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .chat-bubble-left {
+    background-color: #e5e5ea;
+    align-self: flex-start;
+    position: relative;
+  }
+
+  .chat-bubble-right {
+    background-color: #007bff;
+    color: white;
+    align-self: flex-end;
+    position: relative; /* Added position relative */
+    z-index: 1; /* Added z-index to bring the bubble above the star */
+  }
+
+  img.loading {
+    width: 50px;
+    height: 50px;
+    transform: rotate(45deg);
+    position: relative;
+    top: -10px;
+    left: 40px;
+    animation: loadingAnimation 2s linear infinite;
+  }
+
+  .loading {
+    width: 50px;
+    height: 50px;
+  }
+
+  .message-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Change this to 'flex-start' if you want the star on the left side */
+  }
+
+  @keyframes loadingAnimation {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: 90%;
+    }
+  }
+
+  #chatbotOutput {
+    margin-bottom: 10px; /* adjust this to the size of the gap you want */
+  }
+
+  .chat-container {
+    flex-grow: 1;
+    overflow-y: auto;
+    max-height: calc(100vh - 430px); /* Adjusted for the 20px margin */
+    position: relative; /* Added position relative */
+  }
+
+  .form-and-buttons-container {
+    position: sticky; /* Adjust according to the height of your footer */
+    z-index: 2; /* Added z-index */
+  }
+
+  .header-container {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #212121;
+    color: #b3b3b3;
+    padding: 10px 20px;
+    display: flex;
+    height: 50px;
+    justify-content: space-between; /* Updated to space-between */
+    align-items: center;
+  }
+
+  .header-container select {
+    background-color: #212121;
+    border: none;
+    color: #b3b3b3;
+    outline-color: #7b1db9;
+    padding-left: 70px; /* Added margin-left */
+  }
+
+  .header-container .switch {
+    margin-right: 10px; /* Added margin-right */
+  }
+
+  .header-container select option {
+    background-color: #212121;
+    color: #b3b3b3;
+  }
+
+  .header-container select option[selected] {
+    color: #dc65e7;
+  }
+
+  .airline-input {
+    width: 100%;
+    text-align: center;
+  }
+
+  .question-input {
+    width: calc(
+      100% - 100px
+    ); /* Adjust this value based on the width of your Ask button */
+  }
+
+  .ask-button {
+    width: 100px; /* Adjust this value to your liking */
+  }
+
+  .buttons-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+  }
+
+  .buttons-container .btn-primary {
+    background-color: #001f3f;
+    color: white;
+    border-color: #001f3f;
+  }
+
+  .logo {
+    max-width: 30%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+  }
+
+  .container {
+    color: #000000;
+  }
+
+  .form-and-buttons-container button[type="submit"] {
+    background-color: #ceb3e7;
+    color: #212121;
+  }
+
+  /* Custom scroll bar styles */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #212121; /* Match the chat container background */
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #b41db9; /* Match the theme highlight color */
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #6b1177; /* Darken the color on hover */
+  }
+
+  .content-wrapper {
+    height: 1000px; /* Adjust the height value to your desired height */
+  }
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-left: 10px;
+    margin-top: 2px;
+  }
+
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  .checkbox {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #a7dcf5;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 34px;
+  }
+
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 50%;
+  }
+
+  input:checked + .slider {
+    background-color: #041c32;
+  }
+
+  input:focus + .slider {
+    box-shadow: 0 0 1px #a7dcf5;
+  }
+
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+
+  @media only screen and (max-width: 390px) {
+    .logo {
+      max-width: 30%;
+    }
+
+    .buttons-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+      gap: 10px;
+    }
+  }
+</style>
+<div class="header-container">
+  <select id="airlineInput" class="form-control airline-input">
+    <!-- Your options go here -->
+    <option selected>Enter airline name...</option>
+    <option value="westjet">WestJet</option>
+    <option value="allegiant">Allegiant</option>
+    <option value="spiritairline">Spirit Airline</option>
+  </select>
+  <label class="switch" style="float: right">
+    <input type="checkbox" id="darkModeToggle" />
+    <span class="slider round"></span>
+  </label>
+</div>
+
 <div class="container mt-5">
-    <div class="row">
-        <div class="col-md-8 offset-md-2">
-            <h2>Chat with TLDR</h2>
-            <form id="chatbotForm" class="mb-3">
-                <div class="input-group">
-                    <input type="text" id="airlineInput" class="form-control" placeholder="Enter airline name...">
-                    <input type="text" id="userInput" class="form-control" placeholder="Ask a question...">
-                    <button type="submit" class="btn btn-primary">Ask</button>
-                </div>
-            </form>
-            <div id="chatbotOutput" class="typing-output"></div>
-            <script src="/chatbot.js"></script>
+  <div class="row">
+    <div class="col-md-8 offset-md-2">
+      <img src="logo-black.png" alt="Logo" id="logoImage" class="logo" />
+      <div
+        id="chatbotOutput"
+        class="typing-output chat d-flex flex-column chat-container"
+      ></div>
+      <div class="form-and-buttons-container">
+        <form id="chatbotForm" class="mb-3 d-flex">
+          <input
+            type="text"
+            id="userInput"
+            class="form-control question-input"
+            placeholder="Ask a question..."
+          />
+          <button type="submit" class="btn btn-primary ask-button">Ask</button>
+        </form>
+        <div class="buttons-container">
+          <button id="button1" type="button" class="btn btn-primary">
+            Flight Overbooking
+          </button>
+          <button id="button2" type="button" class="btn btn-primary">
+            Flight Cancellation
+          </button>
+          <button id="button3" type="button" class="btn btn-primary">
+            Significant Flight Delay
+          </button>
+          <button id="button4" type="button" class="btn btn-primary">
+            Lost or Damaged Baggage
+          </button>
         </div>
+      </div>
     </div>
+  </div>
 </div>
 
-<div class="container mt-3 d-flex justify-content-center">
-    <div class="row">
-        <div class="col-6 text-center">
-            <button class="btn btn-primary rounded-pill w-500" type="button" onclick="window.location.href='/profile'">Profile</button>
-        </div>
-        <div class="col-6 text-center">
-            <button class="btn btn-primary rounded-pill w-500" type="button" onclick="window.location.href='/logout'">Logout</button>
-        </div>
-    </div>
-</div>
-
+<script src="/js/chatbot.js"></script>
+<script src="/JS/background.js"></script>
 <%- include("templates/footer") %>

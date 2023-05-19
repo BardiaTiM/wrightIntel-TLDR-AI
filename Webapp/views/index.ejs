@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TLDR</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pridi:wght@200&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="/styles/3d.css">
+</head>
+
+<body>
+    <header>
+        <label class="switch">
+            <input type="checkbox" id="darkModeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+        <div class="container">
+            <!--Logo, Earth and Get Started buutton-->
+            <div id="logo-container">
+                <div class="flex-container">
+                    <img src="logoW.png"/>
+                    <div id="earth-container"></div>
+                    <div class="members">
+                        <button onclick="location.href='login'" class="members-button" id="signup">GET STARTED</button>
+                        <div class="scroll-down content">Scroll Down</div>
+    
+                    </div>
+                </div>
+            </div>
+    
+            <!--Homepage Content-->
+            <div class="text-container">
+                <div id="title">
+                    <img src="rsz_airport.jpg"/>
+                    <h2 id="title-header" class="title">What is TLDR?</h2>
+                    <p id="title-content" class="content">TLDR is an innovative application designed to simplify and summarize complex airline policies and passenger rights, providing users with a clear understanding of their entitlements and potential compensation. The app also assists in filling out airline forms, streamlining the process of understanding policies and claiming compensation.</p>
+                </div>
+                <!--Airline Logos Slider-->
+                <div id="airlines">
+                    <img src="./airlinelogos/Air Canada.png" />
+                    <img src="./airlinelogos/airtransat.jpeg"/>
+                    <img src="./airlinelogos/Sunwing_Airlines-Logo.wine.png"/>
+                    <img src="./airlinelogos/Flair_Airlines-Logo.wine.png"/>
+                    <img src="./airlinelogos/porterlogo.png"/>
+                    <img src="./airlinelogos/westjet.png"/>
+                    <img src="./airlinelogos/American-Airlines-logo.png"/>
+                    <img src="./airlinelogos/Allegiant-Air-logo-500x281.png"/>
+                    <img src="./airlinelogos/Alaska-Airlines-Logo-700x394.png"/>
+                    <img src="./airlinelogos/Delta-Logo-700x394.png"/>
+                    <img src="./airlinelogos/Southwest-Airlines-Logo-700x394.png" />
+                    <img src="./airlinelogos/Spirit-Airlines-logo-500x281.png"/>
+                    <img src="./airlinelogos/hawaiian-airlines-vector-logo.png"/>
+                    <img src="./airlinelogos/JetBlue-Logo_Blue.png"/>
+                    <img src="./airlinelogos/united-airline-logos-2.png"/>
+                </div>
+                <div class="animation-container">
+                    <div id="problem" class="title" data-aos="fade-left">
+                        <h3 id="problem-title" class="title">The Problem</h3>
+                        <p id="problem-content" class="content" data-aos="fade-right">Airline policies and passenger rights are often confusing and difficult to comprehend, resulting in passengers being unaware of their rights and missing out on compensation they're entitled to. The process of claiming compensation can also be time-consuming and confusing due to complicated forms.</p>
+                    </div>
+                    <br/>
+                    <div id="solution">
+                        <h3 id="solution-title" class="title" data-aos="fade-left">The Solution</h3>
+                        <p id="solution-content" class="content" data-aos="fade-right">TLDR's AI-powered chatbot specializes in airline policy, government regulations on air travel, and passenger rights. It helps users navigate the complex world of airline policies, allowing them to make informed decisions and understand their rights in case of delays, cancellations, or other issues. <br/> The app also guides users through the process of filling out airline forms, making compensation claims more efficient.</p>
+                    </div>
+                    <br/>
+                    <div id="key-features">
+                        <h3 id="features-title" class="title" data-aos="fade-left">Key Features</h3>
+                        <ul id="features-content" class="content">
+                            <li data-aos="fade-right">AI-powered policy summarization: TLDR's AI chatbot simplifies complex policies into easily digestible summaries.</li>
+                            <li data-aos="fade-left">Comprehensive policy referencing: The chatbot references both airline and government policies for complete information.</li>
+                            <li data-aos="fade-right">Interactive chatbot assistance: Users receive personalized guidance on their specific situations and concerns.</li>
+                            <li data-aos="fade-left">Form-filling assistance: TLDR streamlines the form-filling process, ensuring users receive the compensation they deserve.</li>
+                            <li data-aos="fade-right">Policy comparison: Users can compare different airlines' policies side-by-side, enabling informed decision-making.</li>
+                        </ul>
+                    </div>
+                    <br/>
+                    <div id="conclusion">
+                        <h3 id="conclusion-title" class="title" data-aos="fade-left">Conclusion</h3>
+                        <br/>
+                        <p id="conclusion-content" class="content" data-aos="fade-right">TLDR aims to empower passengers by providing the knowledge and tools needed to understand complex airline policies and passenger rights. The AI-powered chatbot and form-filling assistance help users navigate air travel with confidence and ease, making the process of claiming compensation as efficient as possible. TLDR is revolutionizing the way people interact with airline policies and claim their rightful compensation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="/JS/background.js"></script>
+    <script type="module" src="/JS/3d.js"></script>
+    <script src="/JS/scrollAnimations.js" defer></script>
+    <script>AOS.init();</script>
+
+</body>
+
+</html>

@@ -1,4 +1,4 @@
-# Import necessary modules
+# Import necessary modules//
 import os
 
 import gradio as gr
@@ -10,6 +10,32 @@ from llama_index import GPTSimpleVectorIndex, LLMPredictor, ServiceContext
 from sentence_transformers import SentenceTransformer
 from flask import Flask, request, jsonify
 from flask_cors import CORS
+
+class AirlineChatBot:
+    def __init__(self, directory_path):
+        self.directory_path = directory_path
+        self.indexes = {}
+
+    def get_or_create_index(self, airline_name):
+        if airline_name not in self.indexes:
+            file_path = get_airline_file(airline_name, self.directory_path)
+            if file_path is None:
+                return None
+
+            with open(file_path, "r", encoding='utf-8') as f:
+                doc_text = f.read()
+
+            num_outputs = 250  # Adjusted this value
+            llm_predictor = LLMPredictor(llm=OpenAI(temperature=0.7, model_name="text-davinci-003", max_tokens=num_outputs))  # Adjusted the model name
+            service_context = ServiceContext.from_defaults(llm_predictor=llm_predictor)
+            doc = Document(text=doc_text)
+            index = GPTSimpleVectorIndex.from_documents([doc], service_context=service_context)
+            directory_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "AirLineJson")
+            filename = f"{airline_name}_index.json"
+            file_path = os.path.join(directory_path, filename)
+            index.save_to_disk(file_path)
+            self.indexes[airline_name] = index
+        return self.indexes[airline_name]
 
 app = Flask(__name__)
 CORS(app) 
@@ -51,38 +77,18 @@ def is_related(airline_name, question, min_similarity=0.2):
     return similarity > min_similarity
 
 
-def construct_index(airline_name, directory_path):
-    file_path = get_airline_file(airline_name, directory_path)
-    if file_path is None:
-        return None
-
-    with open(file_path, "r", encoding='utf-8') as f:
-        doc_text = f.read()
-
-    num_outputs = 200
-    llm_predictor = LLMPredictor(llm=OpenAI(temperature=0.7, model_name="text-davinci-003", max_tokens=num_outputs))
-    service_context = ServiceContext.from_defaults(llm_predictor=llm_predictor)
-    doc = Document(text=doc_text)
-    index = GPTSimpleVectorIndex.from_documents([doc], service_context=service_context)
-    directory_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "AirLineJson")
-    filename = f"{airline_name}_index.json"
-    file_path = os.path.join(directory_path, filename)
-    index.save_to_disk(file_path)
-    return index
-
+chat_bot = AirlineChatBot("Knowledge")
 
 def chatbot(airline_name, input_text):
+    if input_text.strip() == 'Hello' or input_text.strip() == 'Hi' or input_text.strip() == 'Hey' or input_text.strip() == 'hello' or input_text.strip() == 'hi' or input_text.strip() == 'hey':
+        return "Hello, I'm TLDR, the Airline Policy Expert. I can answer any questions you have about airline policies and laws."
+    
     if is_related(airline_name, input_text):
-        index = construct_index(airline_name, "Knowledge")
-        directory_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "AirLineJson")
-        filename = f"{airline_name}_index.json"
-        file_path = os.path.join(directory_path, filename)
-        index.save_to_disk(file_path)
-        index = GPTSimpleVectorIndex.load_from_disk(file_path)
+        index = chat_bot.get_or_create_index(airline_name)
         response = index.query(input_text, response_mode="compact")
         return response.response
     else:
-        return "I'm sorry, I cannot answer questions unrelated to my knowledge base."
+        return "I'm sorry, as an Airline Policy Expert, I don't have information outside of my training on airline regulations."
 
 iface = gr.Interface(fn=chatbot,
                      inputs=[gr.inputs.Textbox(lines=1, label="Enter the airline name"),

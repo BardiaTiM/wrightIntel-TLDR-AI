@@ -273,7 +273,7 @@ canvas {
     width: 85%;
     margin: 0 auto;
     overflow: hidden;
-    background-color: lightgrey;
+    background-color: white;
   }
 
   #airlines img {

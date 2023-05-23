@@ -1,7 +1,10 @@
- Contact information Read instructions on this website: https://rppa-appr.ca/eng/air-travel-complaints
+Contact information Read instructions on this website: https://rppa-appr.ca/eng/air-travel-complaints
+
+Call at 1 888 689-BAGS (2247)
+
  
  
-  Visit our COVID-19 information hub for Air Canada’s response to the pandemic and how to adjust your current or future travel with us.
+Visit our COVID-19 information hub for Air Canada’s response to the pandemic and how to adjust your current or future travel with us.
 Our Customer Commitment under the Canadian Air Passenger Protection Regulations
 We’re committed to providing the highest quality of service to all our customers, and we believe it’s important to make our service commitments readily available to you. To this end, below we have outlined the key elements that matter most to you, our valued customer.
 If you are denied boarding, your flight is cancelled or delayed for at least two hours, or your baggage is lost or damaged, you may be entitled to certain standards of treatment and compensation under the Air Passenger Protection Regulations. For more information about your passenger rights, please contact your air carrier or visit the Canadian Transportation Agency’s website
@@ -28,32 +31,6 @@ You will be reimbursed for reasonable interim out-of-pocket expenses upon submit
 External site which may not meet accessibility guidelines.
 (select Baggage Issues > Baggage > Submit Expenses). Claims must be submitted no later than 21 days from the date your baggage was placed at your disposal.
 Read more about our delayed and damaged baggage policies or review our domestic tariff and international tariff (Rule 60).
-Scroll to
-Top ↑
-Notifying you of delays or cancellations
-Note: This section applies to flights operated by Air Canada, Air Canada Rouge, and Air Canada Express flights.
-If a flight is delayed or cancelled due to an unforeseen problem, we’ll do our best to keep you well-informed at the airport and on board the affected aircraft. That’s why you must provide your contact information at the time of booking.
-Based on the information available, we will promptly provide timely updates, including the reason for the delay or cancellation:
-As soon as we’re aware of such a delay or cancellation, and then;
-At regular intervals of 30 minutes until a new departure time for the flight is set, or new travel arrangements for passengers have been made; and
-As soon as possible when new information is available.
-In the event of an extended delay or a cancellation
-Note: This section applies to flights operated by Air Canada, Air Canada Rouge and Air Canada Express flights. Please note that if you’re travelling on a codeshare flight (operated by another airline), you must contact the carrier directly, as the obligation to provide compensation and alternate travel arrangements is the responsibility of the carrier operating the flight which was delayed or cancelled.
-Some delays and cancellations are within an airline's control, whereas others, like those caused by severe weather or airport and air traffic disruptions, are simply out of our hands. Whatever the reason for the delay or cancellation, if your Air Canada, Air Canada Rouge or Air Canada Express flight is delayed or cancelled, our agents will do everything possible to assist you.
-Standards of Treatment:
-When a flight is delayed or cancelled due to reasons within Air Canada's control or required for safety purposes, and (i) you have been informed of the delay or cancellation less than 12 hours before the departure time indicated on your ticket, and (ii) you have waited two hours after the departure time indicated on your ticket, we’ll provide you with the following:
-Food and drink in reasonable quantities, considering the length of the wait, the time of day and location;
-Access to a means of communication; and
-Hotel or comparable accommodations for overnight delays, for out of town passengers, subject to availability and within reasonable distance from airport, along with transportation to the hotel or other accommodation, and back to the airport.
-
-If the delay is outside of Air Canada’s control, we’ll be happy to offer you our hotel contact information where you can access our valued customer rates.
-Alternative Travel Arrangements:
-If your flight is delayed by more than three hours or cancelled because of a situation that’s outside of our control, here’s how your travel plans will be accommodated:
-We’ll rebook you on the next available Air Canada, Air Canada Rouge, or Air Canada Express flight, or on one of our partner airlines on a reasonable route from the same airport, within 48 hours of your original departure time; or
-If we cannot do this, we’ll re-route you on any carrier via any reasonable air route to your destination or re-route you from another airport that is within a reasonable distance of your departure airport to your destination (if any). If your new departure is from such an airport, Air Canada will arrange for your transportation to that other airport.
-We can also change your return to match the same length of stay if necessary.
-If none of the rebooking options provided to you accommodate your needs, and your flight is disrupted by three hours or more, or cancelled, we can refund the unused portion of your ticket. If your travel no longer serves a purpose as a result of the delay or cancellation, we can also return you to your point of origin and refund the used portion.
-
 If your flight is delayed by more than three hours or cancelled due to a situation that is within our control or required for safety purposes, here’s how your travel plans will be accommodated:
 
 We’ll rebook you on the next available Air Canada, Air Canada Rouge, or Air Canada Express flight, or on one of our partner airlines within 9 hours of your original departure time; or
@@ -74,23 +51,6 @@ Should you wish to provide feedback or file a complaint about our services, plea
 External site which may not meet accessibility guidelines.
 and we’ll contact you shortly. You may also file a complaint with the Canadian Transportation Agency
 External site which may not meet accessibility guidelines.
-.
-Scroll to
-Top ↑
-If you are denied boarding
-Note: This section applies to flights operated by Air Canada, Air Canada Rouge and Air Canada Express flights*.
-It’s never our intention to inconvenience you. However, due to operational requirements and inventory control, sometimes we can’t accommodate you even though you have a confirmed reservation.
-Volunteers:
-During a denied boarding situation, Air Canada will first solicit volunteers who are willing to give up their seat in exchange for compensation.
-Boarding Priorities:
-If there aren’t enough volunteers, we may deny boarding involuntarily to passengers holding a confirmed reservation in accordance with our policy on denied boarding priority, as found in our domestic tariff and international tariff (Rule 90).  We’ll give priority, in the following order, to unaccompanied minors; passengers with a disability, their support person, service animal, or emotional support animal, if any; passengers travelling with family members; and passengers who were previously denied boarding on the same ticket, provided the carrier is informed of this fact.
-Information:
-If you’re involuntarily denied boarding, we’ll tell you why you were denied boarding, the compensation and standards of treatment to which you may be entitled as well as the recourses you have available.
-Rebooking:
-If you’re denied boarding because of a situation that’s outside of our control, here’s how your travel plans will be accommodated:
-We’ll rebook you on the next available Air Canada, Air Canada Rouge, or Air Canada Express flight, or on one of our partner airlines on a reasonable route from the same airport, within 48 hours of your original departure time; or
-If we cannot do this, we’ll re-route you on any carrier via any reasonable air route to your destination or re-route you from another airport that is within a reasonable distance of your departure airport to your destination (if any). If your new departure is from such an airport, Air Canada will arrange for your transportation to that other airport.
-If none of the rebooking options provided to you accommodate your needs, and your flight is disrupted by three hours or more, or cancelled, we can refund the unused portion of your ticket. If your travel no longer serves a purpose as a result of the delay or cancellation, we can also return you to your point of origin and refund the used portion.
 
 If you’re denied boarding due to a situation that is within our control or required for safety purposes, here’s how your travel plans will be accommodated:
 We’ll rebook you on the next available Air Canada, Air Canada Rouge or Air Canada Express flight or on one of our partner airlines within 9 hours of your original departure time; or
@@ -111,93 +71,7 @@ You’re offered accommodations on the same flight as the one specified on your 
 Denied boarding compensation is calculated based on your arrival time at destination and is $900 CAD (if delayed between 0 and 6 hours), $1,800 CAD (if delayed between 6 and 9 hours), and $2,400 CAD (if delayed by 9 hours and more).
 Read more about travelling on a different flight for compensation. The complete rules explaining your rights, the payment of compensation and boarding priorities are available at all airport counters and boarding locations, as well as in our domestic tariff and international tariff (Rule 90).
 * Please note that if you were denied boarding on a codeshare flight (operated by another airline than Air Canada), we recommend that you contact the carrier directly, as the obligation to provide compensation and alternate travel arrangements is the responsibility of the carrier operating the flight.
-Scroll to
-Top ↑
-Seating children with family
-Air Canada will do everything possible to ensure children under the age of 14 are seated close to their accompanying family member free of charge.
-Air Canada has a comprehensive policy that ensures every reasonable effort is made by Air Canada's airport staff, flight attendants and through in-flight procedures, to seat children under the age of 14 next to their accompanying adult. Please note that this policy does not apply to families who have opted to pay the advance seat selection fee.
-Passengers travelling in Signature Class pods must call Air Canada Reservations to ensure that they’re provided with proper family seating.
-Please refer to our section on Children and Travel for additional information.
-Scroll to
-Top ↑
-We invite you to read some of our other customer service commitments, which reflect our dedication to transparency and the highest level of service.
-Also, our Delayed Flights and Cancellations section answers a lot of other questions you may have if your plans are disrupted.
-Our Tariffs
-An air carrier's tariff is the document that contains the terms and conditions of carriage applicable to the air services it provides. All carriage sold by Air Canada is subject to its tariff.
-Air Canada is required by law to publish its domestic terms and conditions of carriage on this website and to make its domestic tariffs available for public inspection.
-Please consult our domestic tariffs as well as other applicable tariffs filed, where required, with the appropriate authorities, by clicking on the relevant links below.
-Domestic Tariff
-Open PDF file
-*
-(for travel within Canada)
-International Tariff
-Open PDF file
-*
-(for travel between Canada and a foreign country/region)
-Carrier Surcharge
-Open PDF file
-* Tariffs are subject to change without notice.
-Scroll to
-Top ↑
-Additional Air Canada Policies
-Please read below other important conditions that govern transportation on Air Canada, e.g. our check-in and boarding gate deadlines, baggage policies and other conditions of contract.
-Carry-on baggage policy
-Oversized carry-on bags aren’t permitted on our aircraft and may cause flight delays for all passengers. Please ensure your carry-on bags are within the maximum allowed size as indicated below; they’re required to fit in the double-size verification device at check-in or boarding time.
-You may carry items which fall within the 2-piece carry-on baggage allowance on board, as follows:
-One (1) carry-on bag or suitcase (wheels and handles included in the size) and
-One (1) personal article such as a briefcase, laptop computer, diaper bag, camera case or other similar item.
-  Standard article Personal article
-Maximum size 23 cm x 40 cm x 55 cm (9 in x 15.5 in x 21.5 in)
-Wheels and handles included. 16 x 33 x 43 cm
-(6 in x 13 in x 17 in)
-Maximum weight Your carry-on baggage must be light enough that you can store it in the overhead bin unassisted.
 
-It is recommended that documents and medication be packed in your carry-on baggage. All prescription medications must be properly labelled with the names of the patient, medication, and the issuing medical office or pharmacy.
-Learn more about carry-on baggage restrictions.
-Checked baggage policy
-When travelling with Air Canada, Air Canada Rouge and Air Canada Express, you are entitled to a free checked baggage allowance, depending on your destination and/or fare purchased. When the number, weight and/or overall dimensions (length + width + height) of your checked bags exceed the limits of your free checked baggage allowance, additional checked baggage charges will apply.
-Ensure your checked bags are properly identified.
-Please do not pack valuables in your checked baggage. Excess valuation may be declared on certain types of articles. Special rules apply to fragile, valuable or perishable articles. Learn more about checked baggage restrictions.
-  Maximum Overall Measurement
-(Length + Width + Height) Maximum Weight
-Economy Class
-(view complete baggage allowance) 158 cm
-62 in 23 kg
-50 lb
-Business Class
-Up to 3 bags 158 cm
-62 in 32 kg
-70 lb
-
-Bags exceeding 32 kg (70 lb) in weight, 292 cm (115 in) in linear dimensions (length + width + height, wheels and handles included) or 203 cm (80 in) in length will not be accepted as checked baggage. Please contact Air Canada Cargo for handling.
-If more than one carrier is providing the transportation for your journey, each carrier may apply different rules to baggage (both checked and carry-on).
-Check-in and boarding gate deadlines
-You must obtain your boarding pass and check in any baggage as per the check-in deadlines shown below.
-Additionally, you must be available for boarding at the boarding gate as per the boarding gate deadlines indicated below. Failure to respect check-in and boarding gate deadlines may result in the reassignment of any pre-reserved seats, the cancellation of a reservation, and/or ineligibility for denied boarding compensation.
-Itinerary When to arrive at the airport Check-in & baggage drop off deadline Boarding gate deadline** Boarding gate closes***
-Within Canada 90 minutes 45 minutes 30 minutes 15 minutes
-To/from the U.S. 120 minutes
-
-From Toronto (YYZ) & Montréal (YUL):
-180 minutes
-(3 hours)* 60 minutes 30 minutes 15 minutes
-From Toronto (YYZ) 90 minutes
-International (including Mexico and the Caribbean) 180 minutes
-
-From international airports:
-240 minutes
-(4 hours) 60 minutes 45 minutes 30 minutes
-* If you are travelling to the U.S., you must clear U.S. Customs and Border Protection (CBP) prior to departure in Canada. Note that for morning departures, pre-board security screening at YYZ opens at 4:30 am; YUL opens at 6:15 am.
-** This is the latest you should be at the departure gate, ready for boarding.
-*** Arriving after this time will result in reassignment of any reserved seats, the cancellation of reservations, and/or ineligibility for denied boarding compensation.
-Cancelling your flight
-Air Canada will cancel any purchased ticket and provide a full refund without penalty up to 24 hours after purchase. Beyond 24 hours, voluntary changes to your itinerary may require the payment of additional fees and fare upgrades. If you are travelling on a non- refundable ticket, we won’t be able to make exceptions in the event of an unexpected trip cancellation or medical emergency.
-We recommend the purchase of travel insurance.
-Any travel credit banked for unused tickets is non-transferable: when the credit is redeemed, it must be used by the same person whose name appears on the original ticket.
-For additional information, please refer to our Refunds page.
-Scroll to
-Top ↑
-Important Notices
 Passengers on a journey involving an ultimate destination or a stop in a country other than the country of departure are advised that international treaties known as the Montreal Convention, or its predecessor, the Warsaw Convention (including its amendments) may apply to the entire journey, including any portion thereof within a country. For such passengers, the applicable treaty, including special contracts of carriage embodied in any applicable tariffs, governs and may limit the liability of the carrier.
 Notice of liability limitations
 The Montreal Convention or the Warsaw Convention system may be applicable to your journey and these Conventions govern and may limit the liability of air carriers for death or bodily injury, for loss, delay, or damage to baggage.
@@ -248,102 +122,3 @@ Response plan for Tarmac Delays
 Our contingency plan for lengthy tarmac delays at Chinese airports is intended to provide you with information regarding Air Canada's policies and procedures for handling your travel on our airline in the event of a lengthy ground delay, while you are onboard our aircraft at a Chinese airport.
 Air Canada Privacy Policy
 Last update: 9 September 2022
-
-This Privacy Policy provides you with important information about how Air Canada handles your personal information. Your privacy is important to us, and safeguarding your privacy is fundamental to our business.
-Whether you are using our website, mobile application, other online platforms or contact centres, this policy applies.
-We encourage you to periodically review this policy, as we may update it from time to time. Updates will be posted on our website and we will take reasonable steps to alert customers to any significant changes before they take effect.
-This policy may be supplemented by other consents you provide, and by any terms and conditions that you agree to as part of your purchase or participation in any other Air Canada products, services, promotions, contests or events.
-Privacy Policy topics
-1.
-To what information does this policy apply?
-2.
-What personal information do we collect and when?
-3.
-Why do we use and share your personal information?
-4.
-Additional collection, use and disclosure of Aeroplan Member personal information
-5.
-What are your choices when it comes to the handling of your personal information?
-6.
-Where do we keep your personal information?
-7.
-How is your personal information protected? How long is it kept?
-8.
-How can you access or correct your personal information?
-9.
-How can you ask questions or raise concerns about privacy?
-Welcome
-Air Canada (“Air Canada”, “we”, “us”, “our”) thanks you for using our website, www.aircanada.com, as well as any other websites that are owned and operated by us (collectively, the “Website”). We believe you will find the Website informative and easy to use and we hope that it will become your primary tool when making travel plans.
-Acceptance of the Terms of Use
-The following terms of use (“Terms of Use”) govern your use of the Website. Please review these Terms of Use carefully before using the Website. Each time you access or use the Website, you are entering into a contract with us and you agree to be bound by these Terms of Use. If you do not agree to be bound by and comply with these Terms of Use, please do not access or use the Website.
-We also reserve the right to deny you access to or use of the Website if we have reason to believe that you do not comply with these Terms of Use.
-Changes
-Air Canada reserves the right to change these Terms of Use at any time. We will notify you of any changes by posting an updated version of the Terms of Use on this Website. It is your responsibility to regularly review these Terms of Use. If you use the Website after we make any changes, it means you have accepted the changes and that you agree to be bound by the Terms of Use as modified.
-Air Canada also reserves the right to modify or discontinue, either temporarily or permanently, the Website including any products, goods or services contained on or referenced on our Website, with or without notice and without any liability.
-Linking
-Representations and Warranties
-Limitations of Use
-Your Privacy
-Liability Disclaimer
-Indemnity
-Information you Provide to Air Canada
-Software Available on our Website
-Governing Law
-Injunctive and Similar Relief
-Entire Agreement
-Evidence
-Waiver
-Severability
-Additional Terms and Conditions
-English Language
-We’ve assembled information on our baggage policies, as well as details on our optional product and service charges. We hope you’ll use this information to plan and personalize your trip with us, and create your ultimate travel experience.
-About the prices on this page
-Fees are accurate as of March 28, 2017, and are subject to change without notice.
-
-Unless otherwise stated, fees are in Canadian dollars (CAD) (Bank of Canada Currency Converter)
-External site which may not meet accessibility guidelines.
-As you search for and book your flight, all prices will be displayed in the currency of the country edition you are using.
-Fees are inclusive of the minimum (0%) to maximum (20%) tax which may apply, based on your itinerary.
-As you search for and book your flight, the exact taxes, fees and other charges applicable to your booking will be displayed prior to completing your purchase.
-Fees apply to flights operated by Air Canada, Air Canada Express and Air Canada Rouge. Additional/different fees may apply if your flight is operated by another carrier.
-If you are travelling with Air Canada Vacations, please contact them directly, or view their specific terms and conditions
-Find out more about travelling with our Star Alliance or other airline partners.
-Rest assured that, as you search for and book your flight, all prices will be displayed in the currency of the country edition you are using. In addition, all taxes, fees and other charges will be displayed prior to completing your purchase.
-If you’re travelling with Air Canada Vacations
-Additional/different fees may apply. View specific terms and conditions
-Opens in New Window
-or contact Air Canada Vacations
-Opens in New Window
-if you have questions.
-Carry-on Baggage
-When you travel on Air Canada, Air Canada Rouge or Air Canada Express, you can bring on board:
-1 standard article
-1 personal article
-your coat, small purse, special need or infant care item, including a small collapsible stroller
-View our carry-on baggage policy for complete details.
-Checked Baggage
-When you travel on Air Canada, Air Canada Rouge or Air Canada Express (flights operated by Jazz), your free baggage allowance is determined by your fare, destination, date of ticket purchase and loyalty program status.
-If your itinerary includes travel with one of our codeshare partners or with another airline, it’s important to know that the baggage policies of the other carrier may apply
-Weight and size restrictions - all itineraries
-Maximum weight per bag 50 lb (23 kg)
-Maximum linear dimensions per bag 62 in (158 cm)
-Checked baggage charges
-Fees displayed below are per one way of travel.
-Effective January 01, 2017, the Chinese Ministry of Transport has approved the “Flight Regularity Administrative Regulations”. These regulations are formulated in accordance with relevant Chinese laws in order to improve flight punctuality rates, effectively manage flight delays, improve the quality of civil services, preserve the legal right of consumers and maintain aviation transportation order. These regulations are applicable to all Air Canada operations with regard to the management of flight regularity, delays and passenger complaints for any flight departing or having a stopover within Chinese territories (excluding Hong Kong, Macao and Taiwan). The Air Canada Contingency Plan for Lengthy Tarmac Delays at Chinese Airports is meant to comply with these regulations. The Contingency Plan is separate from and not a party of Air Canada’s General Conditions of Carriage.
-TARMAC DELAYS
-Limits of lengthy onboard ground delays
-Lengthy ground delays can take place during taxi-out prior departure, during taxi-in after landing or as a result of a diversion. Throughout all of these phases, the following limits apply:
-Air Canada will not permit an aircraft to remain on the tarmac at a Chinese Airport for more than three (3) hours, unless there is a definite take-off time. Upon reaching three (3) hours, unless there is a definite take-off time, Air Canada will return the aircraft to the gate or another suitable disembarkation point, where passengers will be allowed to deplane.
-Delays longer than the above time limit may be necessary if:
-the pilot-in-command determines there is a safety-related or security-related reason why the aircraft cannot leave its position on the tarmac to deplane passengers; or
-Air Traffic Control advises the pilot-in-command that returning to the gate or another disembarkation point elsewhere in order to deplane passengers would significantly disrupt airport operations.
-Passenger services during a lengthy onboard ground delay
-Air Canada will provide passengers with adequate food and potable water no later than two (2) hours after the aircraft leaves the gate (in the case of departure) or touches down (in the case of arrival and diversions) if the aircraft remains on the tarmac, unless the pilot-in-command determines that safety or security considerations preclude such service.
-For all flights, Air Canada will ensure that operable lavatory facilities will remain available while the aircraft remains on the tarmac. Air Canada will also ensure adequate medical attention is available, if needed.
-Passengers will receive notifications regarding the status of the tarmac delay every 30 minutes while the aircraft is delayed, including the reason for the delay, if known.
-Codeshare flights
-In the event that you are on a flight operated by one of Air Canada’s codeshare partners, the tarmac delay contingency plan of the carrier operating your flight will apply in the event of a tarmac delay.
-LARGE AREA FLIGHT DELAYS
-In the event of a large area flight delay, the Chinese Department of Transportation requires all carriers operating within Chinese territories to cooperate with the airport, ground handling agents, airport police department, ATM and other supporting service units to execute the large area flight delay emergency response plan. Air Canada has taken steps to ensure sufficient resources are available to support the execution of the large area flight delay emergency response plan, in coordination with all other involved bodies.
-RESPONSIBILITY
-System Operations Control (SOC) is responsible for the management and quality of these plans. The decision-making for these plans lies within the SOC Centre. SOC will make their decisions taking into account, notably, the effects of flights delays, flight cancellations and lengthy tarmac delays on passengers. Airport Customer Service (ACS), Flight Operations and In-Flight Service will carry out the plan at the station and flight level.

@@ -73,11 +73,7 @@ function sessionValidation(req, res, next) {
 
 /** Landing page. */
 app.get('/', (req, res) => {
-  if (!req.session.authenticated) {
-    res.render('index', { req: req });
-  } else {
-    res.redirect('/chatbot')
-  }
+  res.render('index', { req : req });
 })
 
 /** Sign up page. */

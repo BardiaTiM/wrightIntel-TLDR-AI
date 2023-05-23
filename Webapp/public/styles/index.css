@@ -44,17 +44,18 @@ body {
 
 .members-button {
     cursor: pointer;
-    background: #a7dcf5;
+    background: #1682e7;
     margin: 30px;
-    border-radius: 50px;
+    border-radius: 6px;
     width: 200px;
     height: 50px;
     z-index: 2;
+    border: none;
     /* box-shadow: 3px 5px rgb(194, 126, 1); */
 }
 
 .members-button:hover {
-    background: #fafc8b;
+    background: #90e0ef;
     transform: scale(1.02);
     transition: all 0.5s ease;
 }
@@ -134,4 +135,27 @@ input:checked+.slider:before {
 
 .slider.round:before {
     border-radius: 50%;
+}
+
+
+/* Custom scroll bar styles */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #146C94;
+    /* Match the chat container background */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #90e0ef;
+    /* Match the theme highlight color */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #1682e7;
+    /* Darken the color on hover */
 }

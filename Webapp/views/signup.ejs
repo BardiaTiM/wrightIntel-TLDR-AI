@@ -22,13 +22,13 @@
       <div id="title">SIGN UP</div>
       <form class="submit-container" action="/signupValidation" method="post">
         <div id="form-container">
-          <input id="name" type="text" name="name" placeholder="Name (no spaces)" required>
+          <input id="username" type="text" name="username" placeholder="Enter username" required>
+          <input id="email" type="email" name="email" placeholder="Enter email" required>
           <input id="phoneNumber" type="text" name="phoneNumber" placeholder="111-222-3333" required>
+          <input id="password" type="password" name="password" placeholder="New password" required>
         </div>
-        <input id="username" type="text" name="username" placeholder="New username" required>
-        <input id="email" type="email" name="email" placeholder="Enter email" required>
-        <input id="password" type="password" name="password" placeholder="New password" required>
         <button id="submit">SIGN UP</button>
+        <div><a href="login" id="login">Already have an account?</a></div>
       </form>
     </div>
   </div>

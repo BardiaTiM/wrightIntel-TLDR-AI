@@ -5,16 +5,19 @@ body {
 }
 
 .dark-mode {
-    background: linear-gradient(-45deg, #003566, #001d3d, #003566, #003566);
+    background: linear-gradient(-45deg, #146C94, #19A7CE, #146C94, #19A7CE);
     background-size: 400% 500%;
     animation: gradient 10s ease infinite;
 }
 
 
 @keyframes gradient {
-    0%, 100% {
+
+    0%,
+    100% {
         background-position: 0% 50%;
     }
+
     50% {
         background-position: 100% 50%;
     }
@@ -26,6 +29,7 @@ body {
 }
 
 .profile {
+    color: #B0DAFF;
     margin-top: 5%;
     margin-left: 20%;
     margin-right: 20%;
@@ -63,23 +67,23 @@ body {
 
 #edit-button {
     position: absolute;
+    margin-bottom: 10px;
     top: 0;
     right: 0;
-    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
     padding-left: 15px;
     padding-right: 15px;
-    background-color: #f5d3a4;
-    border: 0.5px solid black;
+    background-color: #1682e7;
+    border: none;
+    /* border: 0.5px solid black; */
 }
 
 #edit-button:hover {
-    background-color: #1682e7;
+    background-color: #90e0ef;
     transform: scale(1.02);
     transition: all 0.5s ease;
-}
-
-#edit-button:hover {
-    background-color: #fafc8b;
 }
 
 #username {
@@ -103,8 +107,7 @@ body {
 #usernameInput,
 #emailInput,
 #phoneNumInput {
-    /* margin: 0 auto; */
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 #profileImageTitle {
@@ -123,18 +126,22 @@ body {
 
 #save-button {
     /* cursor: pointer; */
-    background: #a7dcf5;
+    background: #1682e7;
     margin: 0 auto;
     /* margin: 30px; */
-    border-radius: 50px;
-    width: 200px;
-    height: 50px;
-    font-size: large;
+    border-radius: 6px;
+    /* width: 200px;
+    height: 50px; */
+    /* font-size: large; */
+    /* margin-bottom: 10px; */
+    width: 100px;
+    height: 30px;
+    border: none;
     /* box-shadow: 3px 5px rgb(194, 126, 1); */
 }
 
 #save-button:hover {
-    background: #1682e7;
+    background: #90e0ef;
     transform: scale(1.02);
     transition: all 0.5s ease;
 }
@@ -152,9 +159,16 @@ body {
 }
 
 .modal-content {
-    background: linear-gradient(-45deg, #1682e7, #fafc8b, #a7dcf5, #f5d3a4);
+    background: linear-gradient(-45deg, #146C94, #19A7CE, #146C94, #19A7CE);
     background-size: 1000% 2000%;
     animation: gradient 15s ease infinite;
+}
+
+#line {
+    width: 400px;
+    height: 47px;
+    border-bottom: 1px solid #19A7CE;
+    margin-bottom: 15px;
 }
 
 input {
@@ -186,7 +200,8 @@ input:focus {
     width: 60px;
     height: 34px;
     margin-left: auto;
-    margin-top: 10px;}
+    margin-top: 10px;
+}
 
 .switch input {
     opacity: 0;
@@ -251,13 +266,35 @@ input:checked+.slider:before {
     border-radius: 50%;
 }
 
+/* Custom scroll bar styles */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #146C94;
+    /* Match the chat container background */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #90e0ef;
+    /* Match the theme highlight color */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #1682e7;
+    /* Darken the color on hover */
+}
+
 
 @media screen and (max-width: 600px) {
 
     .profile {
-        margin-top: 20%;
-        margin-left: 20%;
-        margin-right: 20%;
+        margin-top: 25%;
+        margin-left: 10%;
+        margin-right: 10%;
         border-radius: 10px;
         padding: 10px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -280,4 +317,32 @@ input:checked+.slider:before {
     label {
         margin-left: 20px;
     }
+
+    .profile-image-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #line {
+        width: 400px;
+        height: 47px;
+        border-bottom: 1px solid #19A7CE;
+        margin-bottom: 15px;
+    }
+
+    #edit-button {
+        position: relative;
+        margin-bottom: 10px;
+        top: 0;
+        right: 0;
+        border-radius: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: #1682e7;
+        border: none;
+        /* border: 0.5px solid black; */
+    }
+
 }

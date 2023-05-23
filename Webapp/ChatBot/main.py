@@ -109,7 +109,7 @@ def chat():
 
 
 
-api_key2 = 'TaGGXjzKCpT0cZ1dxthulOliuG4zdQrC'
+api_key2 = os.getenv("FLIGHT_SECRET_KEY")
 api_url = 'https://aeroapi.flightaware.com/aeroapi/'
 
 @app.route('/flight_info', methods=['POST'])

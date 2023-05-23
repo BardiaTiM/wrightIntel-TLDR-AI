@@ -34,7 +34,6 @@
 canvas {
     display: block;
     position: relative;
-    z-index:2;
     background-color: transparent;
 }
 
@@ -47,11 +46,6 @@ canvas {
     height: 100vh;
   }
   
-
-  .globe-container {
-    position: absolute;
-    z-index: 1;
-  }
 
   #earth-container {
     display: flex;
@@ -152,7 +146,7 @@ canvas {
 
 
   .animation-container {
-    width: 95%;
+    width: 100%;
   }
 
   /*PROBLEM CONTENT*/
@@ -168,7 +162,7 @@ canvas {
   #problem-title {
     width: 35%;
     position: relative;
-    left: 30%;
+    left: 15%;
 
   }
 
@@ -216,7 +210,7 @@ canvas {
   #features-title {
     width: 35%;
     position: relative;
-    left: 30%;
+    left: 15%;
   }
 
   #features-content {
@@ -234,8 +228,10 @@ canvas {
     margin-bottom: 5vh;
   }
   #conclusion-title {
-    width: 5%;
-    margin: 0 auto;
+    position: relative;
+    width: 30%;
+    left: 60%;
+    
   }
 
   #conclusion-content {

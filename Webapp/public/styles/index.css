@@ -55,6 +55,11 @@ body {
     /* box-shadow: 3px 5px rgb(194, 126, 1); */
 }
 
+
+.wrightIntel {
+    z-index: 2;
+  }
+
 .members-button:hover {
     background: #90e0ef;
     transform: scale(1.02);

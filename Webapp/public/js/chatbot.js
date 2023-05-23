@@ -1,18 +1,22 @@
-const host = 'https://283e-2001-569-7f48-b900-75f8-db24-f8d-8623.ngrok-free.app/chat';
+const host =
+  "https://a2a6-2001-569-7f48-b900-542d-4092-2c70-826a.ngrok-free.app";
 let messageIndex = 0;
 
 function insertMessage(text, fromUser) {
-  const messageElement = document.createElement('div');
-  messageElement.className = `chat-bubble chat-bubble-${fromUser ? 'right' : 'left'} message-${messageIndex}`;
-  messageElement.id = `message-${messageIndex}-${fromUser ? 'right' : 'left'}`;
+  const messageElement = document.createElement("div");
+  messageElement.className = `chat-bubble chat-bubble-${
+    fromUser ? "right" : "left"
+  } message-${messageIndex}`;
+  messageElement.id = `message-${messageIndex}-${fromUser ? "right" : "left"}`;
   messageElement.dataset.index = messageIndex;
-  messageElement.dataset.airline = document.getElementById('airlineInput').value;
+  messageElement.dataset.airline =
+    document.getElementById("airlineInput").value;
 
-  const wrapperElement = document.createElement('div');
-  wrapperElement.className = 'message-wrapper';
+  const wrapperElement = document.createElement("div");
+  wrapperElement.className = "message-wrapper";
 
   if (isValidUrl(text)) {
-    const linkElement = document.createElement('a');
+    const linkElement = document.createElement("a");
     linkElement.href = text;
     linkElement.target = "_blank"; // to open in a new tab
     linkElement.rel = "noopener noreferrer"; // for security reasons
@@ -22,39 +26,40 @@ function insertMessage(text, fromUser) {
     animateText(text, messageElement);
   }
 
-  const chatbotOutput = document.getElementById('chatbotOutput');
+  const chatbotOutput = document.getElementById("chatbotOutput");
 
-  const starContainer = document.createElement('div');
+  const starContainer = document.createElement("div");
   starContainer.dataset.index = messageIndex;
 
   if (!fromUser) {
-    starContainer.className = 'star-container';
+    starContainer.className = "star-container";
 
     // Set starContainer to initially be transparent
-    starContainer.style.opacity = '0';
+    starContainer.style.opacity = "0";
 
-    const starCheckbox = document.createElement('input');
-    starCheckbox.type = 'checkbox';
+    const starCheckbox = document.createElement("input");
+    starCheckbox.type = "checkbox";
     starCheckbox.id = `star-${messageIndex}`;
-    starCheckbox.className = 'star-checkbox';
+    starCheckbox.className = "star-checkbox";
     starCheckbox.checked = false;
 
-    const starLabel = document.createElement('label');
+    const starLabel = document.createElement("label");
     starLabel.htmlFor = `star-${messageIndex}`;
-    starLabel.className = 'star';
-    starLabel.innerHTML = '&#9733;';
+    starLabel.className = "star";
+    starLabel.innerHTML = "&#9733;";
 
     starContainer.appendChild(starCheckbox);
     starContainer.appendChild(starLabel);
 
     // Add event listeners to wrapperElement
-    wrapperElement.addEventListener('mouseover', function() {
-      starContainer.style.opacity = '1'; // When mouse is over, star appears
+    wrapperElement.addEventListener("mouseover", function () {
+      starContainer.style.opacity = "1"; // When mouse is over, star appears
     });
 
-    wrapperElement.addEventListener('mouseout', function() {
-      if (!starCheckbox.checked) { // Only make the star transparent if it's not checked
-        starContainer.style.opacity = '0'; // When mouse leaves, star becomes transparent
+    wrapperElement.addEventListener("mouseout", function () {
+      if (!starCheckbox.checked) {
+        // Only make the star transparent if it's not checked
+        starContainer.style.opacity = "0"; // When mouse leaves, star becomes transparent
       }
     });
   }
@@ -65,28 +70,23 @@ function insertMessage(text, fromUser) {
   chatbotOutput.appendChild(wrapperElement);
   chatbotOutput.scrollTop = chatbotOutput.scrollHeight;
 
-  starContainer.style.display = 'flex';
-  starContainer.style.justifyContent = 'flex-end';
-  starContainer.style.padding = '0';
-  starContainer.style.margin = '0';
+  starContainer.style.display = "flex";
+  starContainer.style.justifyContent = "flex-end";
+  starContainer.style.padding = "0";
+  starContainer.style.margin = "0";
 }
-
-
-
 
 function isValidUrl(string) {
   try {
     new URL(string);
   } catch (_) {
-    return false;  
+    return false;
   }
   return true;
-
 }
 
-
 function animateText(text, messageElement) {
-  const words = text.split(' ');
+  const words = text.split(" ");
   let currentIndex = 0;
 
   const timer = setInterval(() => {
@@ -96,7 +96,7 @@ function animateText(text, messageElement) {
     }
 
     let word = words[currentIndex];
-    let trailingChar = '';
+    let trailingChar = "";
     if (isValidUrl(word)) {
       // Remove trailing punctuation and save it
       if (/[.,!?]/.test(word[word.length - 1])) {
@@ -104,7 +104,7 @@ function animateText(text, messageElement) {
         word = word.substring(0, word.length - 1);
       }
 
-      const linkElement = document.createElement('a');
+      const linkElement = document.createElement("a");
       linkElement.href = word;
       linkElement.target = "_blank"; // to open in a new tab
       linkElement.rel = "noopener noreferrer"; // for security reasons
@@ -113,155 +113,192 @@ function animateText(text, messageElement) {
       messageElement.appendChild(document.createTextNode(trailingChar + " ")); // add trailing punctuation and a space after the link
     } else {
       const currentText = messageElement.innerText;
-      messageElement.innerText = currentText + ' ' + words[currentIndex];
+      messageElement.innerText = currentText + " " + words[currentIndex];
     }
 
     currentIndex++;
   }, 100); // Adjust the delay (in milliseconds) between each word display
 }
 
-
-
-
 function showLoading() {
-    var chatbotOutput = document.getElementById('chatbotOutput');
+  var chatbotOutput = document.getElementById("chatbotOutput");
 
-    var loadingDiv = document.createElement('div');
-    loadingDiv.id = 'loading';
-    loadingDiv.className = 'loading-container';
-    loadingDiv.innerHTML = '<img src="loading.gif" alt="Loading..." class="loading">';
+  var loadingDiv = document.createElement("div");
+  loadingDiv.id = "loading";
+  loadingDiv.className = "loading-container";
+  loadingDiv.innerHTML =
+    '<img src="loading.gif" alt="Loading..." class="loading">';
 
-    chatbotOutput.appendChild(loadingDiv);
+  chatbotOutput.appendChild(loadingDiv);
 
-    // Scroll to bottom
-    chatbotOutput.scrollTop = chatbotOutput.scrollHeight;
+  // Scroll to bottom
+  chatbotOutput.scrollTop = chatbotOutput.scrollHeight;
 }
 
 function hideLoading() {
-    var loadingDiv = document.getElementById('loading');
-    if (loadingDiv) {
-        loadingDiv.parentNode.removeChild(loadingDiv);
-    }
+  var loadingDiv = document.getElementById("loading");
+  if (loadingDiv) {
+    loadingDiv.parentNode.removeChild(loadingDiv);
+  }
 }
 
 // Add an event listener to the parent element of the star checkboxes
-document.addEventListener('change', async (event) => {
+document.addEventListener("change", async (event) => {
   const starCheckbox = event.target;
-  if (starCheckbox.classList.contains('star-checkbox')) {
-    const starContainer = starCheckbox.closest('.star-container');
+  if (starCheckbox.classList.contains("star-checkbox")) {
+    const starContainer = starCheckbox.closest(".star-container");
     const messageIndex = starContainer.dataset.index;
     const isChecked = starCheckbox.checked;
     console.log(`Star checkbox ${messageIndex} changed to ${isChecked}`);
     if (isChecked) {
       // Change colour to yellow
-      starContainer.querySelector('.star').style.color = 'yellow';
+      starContainer.querySelector(".star").style.color = "yellow";
       // Save prompt data
       const promptData = {
-        airline: document.getElementById(`message-${messageIndex}-left`).dataset.airline,
-        question: document.getElementById(`message-${messageIndex}-right`).innerText,
-        response: document.getElementById(`message-${messageIndex}-left`).innerText
-        };
-      console.log('Saving prompt:', promptData);
+        airline: document.getElementById(`message-${messageIndex}-left`).dataset
+          .airline,
+        question: document.getElementById(`message-${messageIndex}-right`)
+          .innerText,
+        response: document.getElementById(`message-${messageIndex}-left`)
+          .innerText,
+      };
+      console.log("Saving prompt:", promptData);
       try {
         // Send a POST request to the server-side route
-        const response = await fetch('/save-Prompt', {
-        method: 'POST',
-        headers: {
-        'Content-Type': 'application/json'
-        },
-        // Convert the JS object into a JSON string
-        body: JSON.stringify({ prompt: promptData })
-    });
+        const response = await fetch("/save-Prompt", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          // Convert the JS object into a JSON string
+          body: JSON.stringify({ prompt: promptData }),
+        });
 
-    // Handle the response from the server-side route
-    if (response.ok) {
-        // Prompt saved successfully
-        console.log('Prompt saved successfully');
-    } else {
-        // Error occurred while saving the prompt
-        console.error('Error saving prompt:', response.status);
-    }
-    } catch (error) {
-    console.error('Error saving prompt:', error);
-    }
+        // Handle the response from the server-side route
+        if (response.ok) {
+          // Prompt saved successfully
+          console.log("Prompt saved successfully");
+        } else {
+          // Error occurred while saving the prompt
+          console.error("Error saving prompt:", response.status);
+        }
+      } catch (error) {
+        console.error("Error saving prompt:", error);
+      }
     } else {
       // Chnage colour to gray
-      starContainer.querySelector('.star').style.color = 'gray';
+      starContainer.querySelector(".star").style.color = "gray";
       // Delete prompt data
-      const airline = document.getElementById(`message-${messageIndex}-left`).dataset.airline;
-      const question = document.getElementById(`message-${messageIndex}-right`).innerText;
-      const response = document.getElementById(`message-${messageIndex}-left`).innerText;
-    console.log('Deleting prompt:', airline, question, response);
-    // Send a fetch request to the server to delete the prompt
-    fetch('/delete-Prompt', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify({ prompt: { airline, question, response } })
-    })
-    .then(response => response.json())
-    .then(data => {
-      // Handle the response from the server
-      console.log(data);
-      // Hide the accordion item associated with the clicked star
-      var accordionItem = star.closest('.accordion-item');
-      accordionItem.style.display = 'none';
-    })
-    .catch(error => {
-      // Handle any errors that occurred during the request
-      console.error('Error:', error);
-    });
+      const airline = document.getElementById(`message-${messageIndex}-left`)
+        .dataset.airline;
+      const question = document.getElementById(
+        `message-${messageIndex}-right`
+      ).innerText;
+      const response = document.getElementById(
+        `message-${messageIndex}-left`
+      ).innerText;
+      console.log("Deleting prompt:", airline, question, response);
+      // Send a fetch request to the server to delete the prompt
+      fetch("/delete-Prompt", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ prompt: { airline, question, response } }),
+      })
+        .then((response) => response.json())
+        .then((data) => {
+          // Handle the response from the server
+          console.log(data);
+          // Hide the accordion item associated with the clicked star
+          var accordionItem = star.closest(".accordion-item");
+          accordionItem.style.display = "none";
+        })
+        .catch((error) => {
+          // Handle any errors that occurred during the request
+          console.error("Error:", error);
+        });
+    }
   }
-}
 });
 
-document.getElementById('chatbotForm').addEventListener('submit', function(event) {
-  event.preventDefault();  // prevent the form from being submitted normally
+document
+  .getElementById("chatbotForm")
+  .addEventListener("submit", function (event) {
+    event.preventDefault(); // prevent the form from being submitted normally
 
-  var airlineInput = document.getElementById('airlineInput').value;
-  var userInput = document.getElementById('userInput').value;
-  
-  // Insert user's question
-  insertMessage(userInput, true);
+    var airlineInput = document.getElementById("airlineInput").value;
+    var userInput = document.getElementById("userInput").value;
 
-  // Show loading animation
-  showLoading();
-  
+    // Insert user's question
+    insertMessage(userInput, true);
 
+    // Show loading animation
+    showLoading();
 
-  fetch(host, {
-      method: 'POST',
+    fetch(host + "/chat", {
+      method: "POST",
       headers: {
-          'Content-Type': 'application/json'
+        "Content-Type": "application/json",
       },
       body: JSON.stringify({
-          airline_name: airlineInput,
-          input_text: userInput
+        airline_name: airlineInput,
+        input_text: userInput,
+      }),
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        // Hide loading animation
+        hideLoading();
+
+        // assuming the chatbot's response is in a field called 'response' in the returned JSON
+        insertMessage(data.response, false);
+        messageIndex++;
       })
+      .catch((error) => {
+        // Hide loading animation
+        hideLoading();
+
+        console.log("Error:", error);
+      });
+  });
+
+function fetchChatbotResponse(userInput) {
+  var airlineInput = document.getElementById("airlineInput").value;
+  console.log(airlineInput);
+
+  fetch(host + "/chat", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      airline_name: airlineInput,
+      input_text: userInput,
+    }),
   })
-  .then(response => response.json())
-  .then(data => {
+    .then((response) => response.json())
+    .then((data) => {
       // Hide loading animation
       hideLoading();
 
       // assuming the chatbot's response is in a field called 'response' in the returned JSON
       insertMessage(data.response, false);
-      messageIndex++;
-  })
-  .catch(error => {
+    })
+    .catch((error) => {
       // Hide loading animation
       hideLoading();
 
-      console.log('Error:', error);
-  });
-});
+      console.log("Error:", error);
+    });
+}
 
-document.getElementById('button1').addEventListener('click', function(event) {
-  event.preventDefault();  // prevent the form from being submitted normally
+document.getElementById("button1").addEventListener("click", function (event) {
+  event.preventDefault(); // prevent the form from being submitted normally
 
   // Set your pre-defined question for button1
-  var userInput = 'I was recently denied boarding on my flight due to overbooking. Can you please provide information on the compensation or refund options available to me?';
+  var userInput =
+    "I was recently denied boarding on my flight due to overbooking. Can you please provide information on the compensation or refund options available to me?";
 
   // Insert user's question
   insertMessage(userInput, true);
@@ -272,11 +309,12 @@ document.getElementById('button1').addEventListener('click', function(event) {
   fetchChatbotResponse(userInput);
 });
 
-document.getElementById('button2').addEventListener('click', function(event) {
-  event.preventDefault();  // prevent the form from being submitted normally
+document.getElementById("button2").addEventListener("click", function (event) {
+  event.preventDefault(); // prevent the form from being submitted normally
 
   // Set your pre-defined question for button2
-  var userInput = 'My flight was canceled, and I would like to know what compensation or refund options are available to passengers in such cases.';
+  var userInput =
+    "My flight was canceled, and I would like to know what compensation or refund options are available to passengers in such cases.";
 
   // Insert user's question
   insertMessage(userInput, true);
@@ -287,11 +325,12 @@ document.getElementById('button2').addEventListener('click', function(event) {
   fetchChatbotResponse(userInput);
 });
 
-document.getElementById('button3').addEventListener('click', function(event) {
-  event.preventDefault();  // prevent the form from being submitted normally
+document.getElementById("button3").addEventListener("click", function (event) {
+  event.preventDefault(); // prevent the form from being submitted normally
 
   // Set your pre-defined question for button3
-  var userInput = 'My flight was significantly delayed, and I would like to inquire about the compensation or refund policies for passengers affected by extended delays.';
+  var userInput =
+    "My flight was significantly delayed, and I would like to inquire about the compensation or refund policies for passengers affected by extended delays.";
 
   // Insert user's question
   insertMessage(userInput, true);
@@ -302,11 +341,12 @@ document.getElementById('button3').addEventListener('click', function(event) {
   fetchChatbotResponse(userInput);
 });
 
-document.getElementById('button4').addEventListener('click', function(event) {
-  event.preventDefault();  // prevent the form from being submitted normally
+document.getElementById("button4").addEventListener("click", function (event) {
+  event.preventDefault(); // prevent the form from being submitted normally
 
   // Set your pre-defined question for button4
-  var userInput = 'Unfortunately, my checked baggage has been lost/damaged during my journey. Can you please guide me on the procedure for filing a claim and the compensation options available?';
+  var userInput =
+    "Unfortunately, my checked baggage has been lost/damaged during my journey. Can you please guide me on the procedure for filing a claim and the compensation options available?";
 
   // Insert user's question
   insertMessage(userInput, true);
@@ -318,59 +358,176 @@ document.getElementById('button4').addEventListener('click', function(event) {
 });
 
 // This is a helper function to avoid repetition in the code
-function fetchChatbotResponse(userInput) {
-  var airlineInput = document.getElementById('airlineInput').value;
+document
+  .getElementById("flightNumForm")
+  .addEventListener("submit", function (event) {
+    event.preventDefault();
 
-  fetch(host, {
-      method: 'POST',
+    var flightNum = document.getElementById("flightNumInput").value;
+
+    fetch(host + "/flight_info", {
+      method: "POST",
       headers: {
-          'Content-Type': 'application/json'
+        "Content-Type": "application/json",
       },
       body: JSON.stringify({
-          airline_name: airlineInput,
-          input_text: userInput
+        flight_num: flightNum,
+      }),
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        var airlineName = data.airline_name;
+
+        // <option selected>Enter airline name...</option>
+        // <option value="aircanada">Air Canada</option>
+        // <option value="airtransat">Airtransat</option>
+        // <option value="alaskaairlines">Alaska Airlines</option>
+        // <option value="allegiant">Allegiant</option>
+        // <option value="americanairlines">American Airlines</option>
+        // <option value="deltaairlines">Delta Airlines</option>
+        // <option value="flair">Flair Airlines</option>
+        // <option value="frontierairlines">Frontier Airlines</option>
+        // <option value="hawaiianairlines">Hawaiian Airlines</option>
+        // <option value="jetblue">JetBlue</option>
+        // <option value="porter">Porter Airlines</option>
+        // <option value="southwestairlines">Southwest Airlines</option>
+        // <option value="spiritairline">Spirit Airlines</option>
+        // <option value="sunwing">Sunwing Airlines</option>
+        // <option value="unitedairlines">United Airlines</option>
+        // <option value="westjet">WestJet</option>
+
+        // Update airline name based on conditions
+        if (airlineName.toLowerCase().includes("west")) {
+          formalAirlineName = "WestJet";
+          airlineName = "westjet";
+        } else if (
+          airlineName.toLowerCase().includes("air canada") ||
+          airlineName.toLowerCase().includes("jazz")
+        ) {
+          formalAirlineName = "Air Canada";
+          airlineName = "aircanada";
+        } else if (airlineName.toLowerCase().includes("transat")) {
+          formalAirlineName = "Air Transat";
+          airlineName = "airtransat";
+        } else if (airlineName.toLowerCase().includes("sunwing")) {
+          formalAirlineName = "Sunwing Airlines";
+          airlineName = "sunwing";
+        } else if (airlineName.toLowerCase().includes("porter")) {
+          formalAirlineName = "Porter Airlines";
+          airlineName = "porter";
+        } else if (airlineName.toLowerCase().includes("alaska")) {
+          formalAirlineName = "Alaska Airlines";
+          airlineName = "alaskaairlines";
+        } else if (airlineName.toLowerCase().includes("allegiant")) {
+          formalAirlineName = "Allegiant Air";
+          airlineName = "allegiant";
+        } else if (airlineName.toLowerCase().includes("american")) {
+          formalAirlineName = "American Airlines";
+          airlineName = "americanairlines";
+        } else if (airlineName.toLowerCase().includes("delta")) {
+          formalAirlineName = "Delta Airlines";
+          airlineName = "deltaairlines";
+        } else if (airlineName.toLowerCase().includes("flair")) {
+          formalAirlineName = "Flair Airlines";
+          airlineName = "flair";
+        } else if (airlineName.toLowerCase().includes("frontier")) {
+          formalAirlineName = "Frontier Airlines";
+          airlineName = "frontierairlines";
+        } else if (airlineName.toLowerCase().includes("hawaiian")) {
+          formalAirlineName = "Hawaiian Airlines";
+          airlineName = "hawaiianairlines";
+        } else if (airlineName.toLowerCase().includes("jetblue")) {
+          formalAirlineName = "JetBlue";
+          airlineName = "jetblue";
+        } else if (airlineName.toLowerCase().includes("southwest")) {
+          formalAirlineName = "Southwest Airlines";
+          airlineName = "southwestairlines";
+        } else if (airlineName.toLowerCase().includes("spirit")) {
+          formalAirlineName = "Spirit Airlines";
+          airlineName = "spiritairline";
+        } else if (airlineName.toLowerCase().includes("united")) {
+          formalAirlineName = "United Airlines";
+          airlineName = "unitedairlines";
+        } else {
+          formalAirlineName = "Air Canada";
+          airlineName = "aircanada";
+        }
+
+        updateAirlineName(airlineName, formalAirlineName);
+        var departureDelay = data.departure_delay;
+        var flightStatus = data.flight_status;
+        var scheduledTime = data.scheduled_time;
+
+        console.log("Airline Name:", airlineName);
+        console.log("Departure Delay:", departureDelay);
+        console.log("Flight Status:", flightStatus);
+        console.log("Scheduled Time:", scheduledTime);
+
+        if (flightStatus.includes("Delayed")) {
+          var userInput =
+            "My flight is delayed by " + departureDelay + " hours.";
+        } else {
+          var userInput = "My flight is scheduled to depart on time.";
+        }
+
+        insertMessage(userInput, true);
+
+        // Show loading animation
+        showLoading();
+
+        fetchChatbotResponse(userInput);
       })
-  })
-  .then(response => response.json())
-  .then(data => {
-      // Hide loading animation
-      hideLoading();
+      .catch((error) => {
+        // Hide loading animation
+        hideLoading();
 
-      // assuming the chatbot's response is in a field called 'response' in the returned JSON
-      insertMessage(data.response, false);
-  })
-  .catch(error => {
-      // Hide loading animation
-      hideLoading();
+        console.log("Error:", error);
+      });
 
-      console.log('Error:', error);
+    console.log("sendFlight");
   });
-}
 
+// Function to update the airline name in the select element
+function updateAirlineName(airlineName, formalAirlineName) {
+  var airlineInput = document.getElementById("airlineInput");
+  var option = document.createElement("option");
+  option.value = airlineName;
+  option.textContent = formalAirlineName;
+
+  // Remove the existing options
+  while (airlineInput.firstChild) {
+    airlineInput.firstChild.remove();
+  }
+
+  // Add the new option
+  airlineInput.appendChild(option);
+
+  // Select the new option
+  option.selected = true;
+}
 
 
 //THESE FUNCTIONS ARE FOR THE BACKGROUND
 
-var darkModeToggle = document.querySelector('#darkModeToggle');
-var logoImage = document.querySelector('#logoImage');
+var darkModeToggle = document.querySelector("#darkModeToggle");
+var logoImage = document.querySelector("#logoImage");
 
-darkModeToggle.addEventListener('change', function () {
+darkModeToggle.addEventListener("change", function () {
   if (this.checked) {
     // Dark mode is enabled
-    logoImage.src = 'logo-white.png';
+    logoImage.src = "logo-white.png";
   } else {
     // Dark mode is disabled
-    logoImage.src = 'logo-black.png';
+    logoImage.src = "logo-black.png";
   }
 });
 
 // Get the initial dark mode preference from localStorage
-var darkModeEnabled = localStorage.getItem('darkModeEnabled');
+var darkModeEnabled = localStorage.getItem("darkModeEnabled");
 
 // If dark mode preference exists, update the logo image accordingly
 if (darkModeEnabled) {
-  logoImage.src = 'logo-white.png';
+  logoImage.src = "logo-white.png";
 } else {
-  logoImage.src = 'logo-black.png';
+  logoImage.src = "logo-black.png";
 }
-

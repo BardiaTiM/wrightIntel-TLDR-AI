@@ -298,9 +298,22 @@
   <select id="airlineInput" class="form-control airline-input">
     <!-- Your options go here -->
     <option selected>Enter airline name...</option>
-    <option value="westjet">WestJet</option>
+    <option value="aircanada">Air Canada</option>
+    <option value="airtransat">Airtransat</option>
+    <option value="alaskaairlines">Alaska Airlines</option>
     <option value="allegiant">Allegiant</option>
-    <option value="spiritairline">Spirit Airline</option>
+    <option value="americanairlines">American Airlines</option>
+    <option value="deltaairlines">Delta Airlines</option>
+    <option value="flair">Flair Airlines</option>
+    <option value="frontierairlines">Frontier Airlines</option>
+    <option value="hawaiianairlines">Hawaiian Airlines</option>
+    <option value="jetblue">JetBlue</option>
+    <option value="porter">Porter Airlines</option>
+    <option value="southwestairlines">Southwest Airlines</option>
+    <option value="spiritairline">Spirit Airlines</option>
+    <option value="sunwing">Sunwing Airlines</option>
+    <option value="unitedairlines">United Airlines</option>
+    <option value="westjet">WestJet</option>
   </select>
   <label class="switch" style="float: right">
     <input type="checkbox" id="darkModeToggle" />
@@ -339,7 +352,18 @@
           <button id="button4" type="button" class="btn btn-primary">
             Lost or Damaged Baggage
           </button>
+
+          <form id="flightNumForm" class="mb-3 d-flex">
+            <label for="flightNumberInput">Flight Number:</label>
+            <input type="text" id="flightNumInput" placeholder="Input Flight Number..."/>
+            <button type="submit" class="btn btn-primary ask-button">Send</button>
+          </form>
+
         </div>
+        <div id="flightInfo"></div>
+        <div id="flightStatus"></div>
+        <div id="airlineName"></div>
+        <div id="departureDelay"></div>
       </div>
     </div>
   </div>

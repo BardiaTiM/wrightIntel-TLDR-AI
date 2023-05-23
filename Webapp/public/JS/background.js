@@ -1,7 +1,9 @@
 // Function to enable dark mode
 function enableDarkMode() {
-    // Add dark mode class to body
-    document.body.classList.add('dark-mode');
+    // Set background gradient for dark mode
+    document.body.style.background = 'linear-gradient(-45deg, #003566, #001d3d, #003566, #003566)';
+    document.body.style.backgroundSize = '400% 500%';
+    document.body.style.animation = 'gradient 10s ease infinite';
 
     // Change font color to white
     document.body.style.color = 'white';
@@ -10,10 +12,13 @@ function enableDarkMode() {
     localStorage.setItem('darkModeEnabled', true);
 }
 
+
 // Function to disable dark mode
 function disableDarkMode() {
-    // Remove dark mode class from body
-    document.body.classList.remove('dark-mode');
+    // Set background gradient for light mode
+    document.body.style.background = 'linear-gradient(-45deg, #90e0ef, #00b4d8, #caf0f8, #00b4d8)';
+    document.body.style.backgroundSize = '400% 500%';
+    document.body.style.animation = 'gradient 10s ease infinite';
 
     // Change font color to black
     document.body.style.color = 'black';
@@ -25,7 +30,7 @@ function disableDarkMode() {
 // Get the dark/light mode toggle checkbox element
 var darkModeToggle = document.getElementById('darkMode');
 var lightModeToggle = document.getElementById('lightMode');
-var logoImage = document.querySelector('#logoImage');
+var logoImage = document.querySelector('.logo');
 
 // Check if dark mode preference is stored in localStorage
 var darkModeEnabled = localStorage.getItem('darkModeEnabled');

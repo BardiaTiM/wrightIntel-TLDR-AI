@@ -31,9 +31,6 @@
 
 
 /*Animations*/
-
-
-
 canvas {
     display: block;
     position: relative;
@@ -55,6 +52,7 @@ canvas {
     position: absolute;
     z-index: 1;
   }
+
   #earth-container {
     display: flex;
     justify-content: center;
@@ -79,13 +77,14 @@ canvas {
     margin-bottom: 0;
     padding-bottom: 0;
   }
+
+
   /*MAIN TITLE CONTENT*/
   #title {
     position: relative;
-    height: vh;
-    margin-bottom: 8vh;
-    margin-top: 0px;
+    height: 30vh;
     width: 100%;
+    margin-bottom: 5vh;
    
   }
 
@@ -93,7 +92,7 @@ canvas {
    max-width: 100%;
    height: auto;
    z-index: -1;
-   opacity: 0.6;
+   opacity: 0.65;
    margin-top: 0;
    padding-top: 0;
   }
@@ -121,47 +120,53 @@ canvas {
   }
 
 
+
+  /*AIRLINES TITLE*/
+  #airlines-title {
+    width: 50%;
+    position: relative;
+    margin: 0 auto;
+  }
+
+
+
   /*AIRLINES SLIDER*/
   #airlines {
     display: flex;
-    height: 15vh;
-    width: 85%;
+    height:auto;
+    width: 90%;
     margin: 0 auto;
     overflow: hidden;
-    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-bottom: 5vh;
+
   }
 
   #airlines img {
     height: 100px;
     width: 100px;
     float: left;
+    background: white;
   }
 
-  #airlines-title {
-    margin: 0 auto;
-    margin-top: 0px;
-    width: 12%;
 
+  .animation-container {
+    width: 95%;
   }
-
 
   /*PROBLEM CONTENT*/
   #problem {
-    height: 20vh;
+    height: 11vh;
     width: 100%;
-    margin-top: 4vh;
-  }
-
-  #problem img {
-    position: absolute;
-    width: 100%;
-    height: auto;
+    margin-bottom: 5vh;
+    background-color: rgb(186, 186, 186);
     border-radius: 10px;
-    opacity: 0.7;
+
   }
 
   #problem-title {
-    width: 30%;
+    width: 35%;
     position: relative;
     left: 30%;
 
@@ -176,15 +181,18 @@ canvas {
 
   /*SOLUTION CONTENT*/
   #solution{
-    height: 30vh;
+    height: 15vh;
     width: 100%;
-    margin-top: 4vh;
+    margin-bottom: 5vh;
+    background-color: rgb(186, 186, 186);
+    border-radius: 10px;
+
   }
 
   #solution-title {
     position: relative;
     left: 60%;
-    width: 30%;
+    width: 35%;
   }
 
   #solution-content {
@@ -197,13 +205,16 @@ canvas {
 
   /*FEATURES CONTENT*/
   #key-features {
-    height: 35vh;
+    height: 20vh;
     width: 100%;
-    margin-top: 4vh;
+    margin-bottom: 5vh;
+    background-color: rgb(186, 186, 186);
+    border-radius: 10px;
+
   }
 
   #features-title {
-    width: 22%;
+    width: 35%;
     position: relative;
     left: 30%;
   }
@@ -216,9 +227,11 @@ canvas {
 
   /*CONCLUSION CONTENT*/
   #conclusion {
-    height: 20vh;
+    height: 14vh;
     width: 100%;
-    margin-top: 4vh;
+    background-color: rgb(186, 186, 186);
+    border-radius: 10px;
+    margin-bottom: 5vh;
   }
   #conclusion-title {
     width: 5%;

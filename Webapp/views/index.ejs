@@ -24,12 +24,6 @@
 </head>
 
 <body>
-    <header>
-        <label class="switch">
-            <input type="checkbox" id="darkModeToggle">
-            <span class="slider round"></span>
-        </label>
-    </header>
         <div class="container">
             <!--Logo, Earth and Get Started buutton-->
             <div id="logo-container">
@@ -37,9 +31,12 @@
                     <img src="logoW.png"/>
                     <div id="earth-container"></div>
                     <div class="members">
-                        <button onclick="location.href='login'" class="members-button" id="signup">GET STARTED</button>
+                        <% if (req.session.authenticated) { %>
+                            <button onclick="window.location.href='chatbot'" class="members-button" id="signup">GET STARTED</button>
+                        <% } else { %>
+                            <button onclick="window.location.href='login'" class="members-button" id="signup">GET STARTED</button>
+                        <% } %>
                         <div class="scroll-down content">Scroll Down</div>
-    
                     </div>
                 </div>
             </div>

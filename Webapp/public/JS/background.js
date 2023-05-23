@@ -22,8 +22,10 @@ function disableDarkMode() {
     localStorage.removeItem('darkModeEnabled');
 }
 
-// Get the dark mode toggle checkbox element
-var darkModeToggle = document.querySelector('#darkModeToggle');
+// Get the dark/light mode toggle checkbox element
+var darkModeToggle = document.getElementById('darkMode');
+var lightModeToggle = document.getElementById('lightMode');
+var logoImage = document.querySelector('#logoImage');
 
 // Check if dark mode preference is stored in localStorage
 var darkModeEnabled = localStorage.getItem('darkModeEnabled');
@@ -43,12 +45,16 @@ if (darkModeEnabled !== null) {
 
 // Add event listener to the dark mode toggle switch
 darkModeToggle.addEventListener('click', function () {
-    // Toggle dark mode
-    darkModeEnabled = !darkModeEnabled; // Update the value
+    // Toggle light mode
+    darkModeEnabled = true; // Update the value
+    enableDarkMode();
+    logoImage.src = 'logo-white.png';
+});
 
-    if (darkModeEnabled) {
-        enableDarkMode();
-    } else {
-        disableDarkMode();
-    }
+// Add event listener to the dark mode toggle switch
+lightModeToggle.addEventListener('click', function () {
+    // Toggle light mode
+    darkModeEnabled = false; // Update the value
+    disableDarkMode();
+    logoImage.src = 'logo-black.png';
 });

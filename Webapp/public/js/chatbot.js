@@ -1,4 +1,4 @@
-const host = 'https://283e-2001-569-7f48-b900-75f8-db24-f8d-8623.ngrok-free.app/chat';
+const host = 'https://a2a6-2001-569-7f48-b900-542d-4092-2c70-826a.ngrok-free.app';
 let messageIndex = 0;
 
 function insertMessage(text, fromUser) {
@@ -71,9 +71,6 @@ function insertMessage(text, fromUser) {
   starContainer.style.margin = '0';
 }
 
-
-
-
 function isValidUrl(string) {
   try {
     new URL(string);
@@ -83,7 +80,6 @@ function isValidUrl(string) {
   return true;
 
 }
-
 
 function animateText(text, messageElement) {
   const words = text.split(' ');
@@ -119,9 +115,6 @@ function animateText(text, messageElement) {
     currentIndex++;
   }, 100); // Adjust the delay (in milliseconds) between each word display
 }
-
-
-
 
 function showLoading() {
     var chatbotOutput = document.getElementById('chatbotOutput');
@@ -230,7 +223,7 @@ document.getElementById('chatbotForm').addEventListener('submit', function(event
   
 
 
-  fetch(host, {
+  fetch(host + '/chat', {
       method: 'POST',
       headers: {
           'Content-Type': 'application/json'
@@ -256,6 +249,35 @@ document.getElementById('chatbotForm').addEventListener('submit', function(event
       console.log('Error:', error);
   });
 });
+
+function fetchChatbotResponse(userInput) {
+  var airlineInput = document.getElementById('airlineInput').value;
+
+  fetch(host + '/chat', {
+      method: 'POST',
+      headers: {
+          'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+          airline_name: airlineInput,
+          input_text: userInput
+      })
+  })
+  .then(response => response.json())
+  .then(data => {
+      // Hide loading animation
+      hideLoading();
+
+      // assuming the chatbot's response is in a field called 'response' in the returned JSON
+      insertMessage(data.response, false);
+  })
+  .catch(error => {
+      // Hide loading animation
+      hideLoading();
+
+      console.log('Error:', error);
+  });
+}
 
 document.getElementById('button1').addEventListener('click', function(event) {
   event.preventDefault();  // prevent the form from being submitted normally
@@ -318,26 +340,33 @@ document.getElementById('button4').addEventListener('click', function(event) {
 });
 
 // This is a helper function to avoid repetition in the code
-function fetchChatbotResponse(userInput) {
-  var airlineInput = document.getElementById('airlineInput').value;
+document.getElementById('flightNumForm').addEventListener('submit', function(event) {
+  event.preventDefault();
 
-  fetch(host, {
+  var flightNum = document.getElementById('flightNumInput').value;
+
+  fetch(host + '/flight_info', {
       method: 'POST',
       headers: {
           'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-          airline_name: airlineInput,
-          input_text: userInput
+          flight_num: flightNum
       })
   })
   .then(response => response.json())
   .then(data => {
-      // Hide loading animation
-      hideLoading();
+      var airlineName = data.airline_name;
+      var departureDelay = data.departure_delay;
+      var flightStatus = data.flight_status;
+      var scheduledTime = data.scheduled_time;
 
-      // assuming the chatbot's response is in a field called 'response' in the returned JSON
-      insertMessage(data.response, false);
+      console.log('Airline Name:', airlineName);
+      console.log('Departure Delay:', departureDelay);
+      console.log('Flight Status:', flightStatus);
+      console.log('Scheduled Time:', scheduledTime);
+
+
   })
   .catch(error => {
       // Hide loading animation
@@ -345,9 +374,24 @@ function fetchChatbotResponse(userInput) {
 
       console.log('Error:', error);
   });
-}
 
+    if (flightStatus == 'scheduled') {
+      var userInput = 'My flight is scheduled to depart on time at on time.';
+  } else if (flightStatus == 'delayed') {
+      var userInput = 'My flight is delayed by ' + departureDelay + ' minutes.';
+  } else {
+      var userInput = 'My flight has been cancelled.';
+  }
 
+  insertMessage(userInput, true);
+
+  // Show loading animation
+  showLoading();
+
+  fetchChatbotResponse(userInput);
+
+  console.log("sendFlight");
+});
 
 //THESE FUNCTIONS ARE FOR THE BACKGROUND
 

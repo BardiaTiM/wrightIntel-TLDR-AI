@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function () {
           <div class="accordion-body">
             <div class="star-container">
               <input type="checkbox" id="star-${index}" class="star-checkbox">
-              <label for="star-${index}" class="star" style="color: yellow;" onclick="toggleStarColor(event)" data-prompt-id="${prompt.id}" data-airline="${prompt.airline}" data-question="${prompt.question}" data-response="${prompt.response}">&#9734;</label>
+              <label for="star-${index}" class="star" style="color: yellow;" onclick="toggleStarColor(event)" data-prompt-id="${prompt.id}" data-airline="${prompt.airline}" data-question="${prompt.question}" data-response="${prompt.response}">&#9733;</label>
             </div>
             <p>${prompt.response}</p>
           </div>

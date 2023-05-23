@@ -7,12 +7,6 @@
     animation: gradient 10s ease infinite;
   }
 
-  .dark-mode {
-    background: linear-gradient(-45deg, #003566, #001d3d, #003566, #003566);
-    background-size: 400% 500%;
-    animation: gradient 10s ease infinite;
-  }
-
   @keyframes gradient {
     0%,
     100% {
@@ -315,10 +309,6 @@
     <option value="unitedairlines">United Airlines</option>
     <option value="westjet">WestJet</option>
   </select>
-  <label class="switch" style="float: right">
-    <input type="checkbox" id="darkModeToggle" />
-    <span class="slider round"></span>
-  </label>
 </div>
 
 <div class="container mt-5">
@@ -370,5 +360,4 @@
 </div>
 
 <script src="/js/chatbot.js"></script>
-<script src="/JS/background.js"></script>
 <%- include("templates/footer") %>

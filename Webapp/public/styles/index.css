@@ -93,7 +93,7 @@ body {
 
 .members-button {
   cursor: pointer;
-  background: #1682e7;
+  background: #627264;
   margin: 30px;
   border-radius: 6px;
   width: 200px;
@@ -104,7 +104,7 @@ body {
 }
 
 .members-button:hover {
-  background: #90e0ef;
+  background: #c57b57;
   transform: scale(1.02);
   transition: all 0.5s ease;
 }

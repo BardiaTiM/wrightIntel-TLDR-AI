@@ -1,5 +1,5 @@
 const host =
-  "https://a2a6-2001-569-7f48-b900-542d-4092-2c70-826a.ngrok-free.app";
+  "http://localhost:5001";
 let messageIndex = 0;
 
 function insertMessage(text, fromUser) {

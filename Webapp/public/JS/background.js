@@ -1,9 +1,9 @@
 // Function to enable dark mode
 function enableDarkMode() {
     // Set background gradient for dark mode
-    document.body.style.background = 'linear-gradient(-45deg, #0B0B0C, #121212, #393A41, #6A6B70)';
-    document.body.style.backgroundSize = '400% 500%';
-    document.body.style.animation = 'gradient 10s ease infinite';
+    document.body.style.background = '#F4C397';
+    // document.body.style.backgroundSize = '400% 500%';
+    // document.body.style.animation = 'gradient 10s ease infinite';
   
     // Change font color to white
     document.body.style.color = 'white';
@@ -12,11 +12,11 @@ function enableDarkMode() {
     var header = document.querySelector('header');
     var footer = document.querySelector('footer');
     if (header) {
-      header.style.background = '#001d3d';
+      header.style.background = '#212121';
       header.style.color = 'white';
     }
     if (footer) {
-      footer.style.background = '#001d3d';
+      footer.style.background = 'rgb(241, 229, 229)';
       footer.style.color = 'white';
     }
   
@@ -35,10 +35,10 @@ function enableDarkMode() {
   
   // Function to enable light mode
   function enableLightMode() {
-    // Set background gradient for light mode
-    document.body.style.background = 'linear-gradient(-45deg, #90e0ef, #00b4d8, #caf0f8, #00b4d8)';
-    document.body.style.backgroundSize = '400% 500%';
-    document.body.style.animation = 'gradient 10s ease infinite';
+    // Set background gradient for light mode #F4C397
+    document.body.style.background = '#F4C397';
+    // document.body.style.backgroundSize = '400% 500%';
+    // document.body.style.animation = 'gradient 10s ease infinite';
   
     // Change font color to black
     document.body.style.color = 'black';
@@ -47,11 +47,11 @@ function enableDarkMode() {
     var header = document.querySelector('header');
     var footer = document.querySelector('footer');
     if (header) {
-      header.style.background = '#90e0ef';
+      header.style.background = '#212121';
       header.style.color = 'black';
     }
     if (footer) {
-      footer.style.background = '#90e0ef';
+      footer.style.background = 'rgb(241, 229, 229)';
       footer.style.color = 'black';
     }
   

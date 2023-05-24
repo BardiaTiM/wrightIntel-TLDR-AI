@@ -28,13 +28,15 @@
   }
 
   .star {
-    font-size: 40px;
+    font-size: 20px;
     color: gray;
     cursor: pointer;
+    opacity: 0.4;
   }
 
   .star:hover {
     color: gold;
+    opacity: 1;
   }
 
   .star-checkbox:checked + .star {
@@ -48,7 +50,7 @@
   }
 
   .chat-bubble {
-    border-radius: 20px;
+    border-radius: 40px;
     padding: 10px;
     margin-bottom: 10px;
   }
@@ -60,7 +62,7 @@
   }
 
   .chat-bubble-right {
-    background-color: #007bff;
+    background-color: #627264;
     color: white;
     align-self: flex-end;
     position: relative; /* Added position relative */
@@ -159,10 +161,10 @@
     ); /* Adjust this value based on the width of your Ask button */
   }
 
-  input[type="text"], input[type="text"]:focus {
+  /* input[type="text"], input[type="text"]:focus {
     background-color: #212121;
     border: none;
-  }
+  } */
 
   .ask-button {
     width: 100px; /* Adjust this value to your liking */
@@ -175,9 +177,23 @@
   }
 
   .buttons-container .btn-primary {
-    background-color: #001f3f;
+    background-color: #627264;
     color: white;
-    border-color: #001f3f;
+    border-color: #627264;
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #c57b57;
+    --bs-btn-border-color: #c57b57;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #c57b57;
+    --bs-btn-hover-border-color: #c57b57;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #c57b57;
+    --bs-btn-active-border-color: #c57b57;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #c57b57;
+    --bs-btn-disabled-border-color: #c57b57;
   }
 
   .logo {
@@ -194,8 +210,23 @@
   }
 
   .form-and-buttons-container button[type="submit"] {
-    background-color: #001f3f;
+    background-color: #627264;
     color: white;
+    border-color: #627264;
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #c57b57;
+    --bs-btn-border-color: #c57b57;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #c57b57;
+    --bs-btn-hover-border-color: #c57b57;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #c57b57;
+    --bs-btn-active-border-color: #c57b57;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #c57b57;
+    --bs-btn-disabled-border-color: #c57b57;
   }
 
 /* Custom scroll bar styles */
@@ -204,19 +235,19 @@
 }
 
 ::-webkit-scrollbar-track {
-    background: #146C94;
+    background: #627264;
     /* Match the chat container background */
     border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #90e0ef;
+    background: #7b917d;
     /* Match the theme highlight color */
     border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #1682e7;
+    background: #c57b57;
     /* Darken the color on hover */
 }
 
@@ -252,7 +283,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #a7dcf5;
+    background-color: #c57b57;
     -webkit-transition: 0.4s;
     transition: 0.4s;
     border-radius: 34px;
@@ -276,7 +307,7 @@
   }
 
   input:focus + .slider {
-    box-shadow: 0 0 1px #a7dcf5;
+    box-shadow: 0 0 1px #c57b57;
   }
 
   input:checked + .slider:before {
@@ -358,11 +389,11 @@
             Lost or Damaged Baggage
           </button>
       
-          <form id="flightNumForm" class="mb-3 d-flex">
+          <!-- <form id="flightNumForm" class="mb-3 d-flex">
             <label for="flightNumberInput">Flight Number:</label>
             <input type="text" id="flightNumInput" placeholder="Input Flight Number..."/>
             <button type="submit" class="btn btn-primary ask-button">Send</button>
-          </form>
+          </form> -->
       
         </div>
         <div id="flightInfo"></div>

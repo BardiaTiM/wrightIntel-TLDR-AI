@@ -29,7 +29,7 @@ body {
 }
 
 .profile {
-    color: #B0DAFF;
+    color: white;
     margin-top: 5%;
     margin-left: 20%;
     margin-right: 20%;
@@ -75,13 +75,14 @@ body {
     border-radius: 6px;
     padding-left: 15px;
     padding-right: 15px;
-    background-color: #1682e7;
+    color: white;
+    background-color: #627264;
     border: none;
     /* border: 0.5px solid black; */
 }
 
 #edit-button:hover {
-    background-color: #90e0ef;
+    background-color: #c57b57;
     transform: scale(1.02);
     transition: all 0.5s ease;
 }
@@ -126,7 +127,7 @@ body {
 
 #save-button {
     /* cursor: pointer; */
-    background: #1682e7;
+    background: #627264;
     margin: 0 auto;
     /* margin: 30px; */
     border-radius: 6px;
@@ -141,7 +142,7 @@ body {
 }
 
 #save-button:hover {
-    background: #90e0ef;
+    background: #c57b57;
     transform: scale(1.02);
     transition: all 0.5s ease;
 }
@@ -340,7 +341,7 @@ input:checked+.slider:before {
         border-radius: 6px;
         padding-left: 15px;
         padding-right: 15px;
-        background-color: #1682e7;
+        background-color: #627264;
         border: none;
         /* border: 0.5px solid black; */
     }

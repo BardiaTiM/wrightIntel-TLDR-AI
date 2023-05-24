@@ -201,7 +201,7 @@ input:checked + .slider:before {
   opacity: 0.5;
 }
 
-/*Animations*/
+/*THREE.JS Globe Animation*/
 canvas {
   display: block;
   position: relative;
@@ -227,11 +227,27 @@ canvas {
   z-index: 1;
 }
 
-/*                                       */
+
+/* Scroll Down Animation */
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-.25em);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+.scroll-down {
+    animation: bounce 1s infinite;
+}
+
+                                       
 /* Landing Page Titles and Content Boxes */
-/*                                       */
-
-
 .overlay {
     position: relative;
     text-align: center;
@@ -387,6 +403,7 @@ canvas {
   
     .text-container {
       width: 100%;
+      margin-bottom: 3em;
     }
     
     #title-header {
@@ -395,6 +412,18 @@ canvas {
     
     #title-content {
       font-size: 16px;
+    }
+
+    .big-problem {
+        margin-bottom: 3em;
+    }
+
+    #solution {
+        margin-bottom: 3em;
+    }
+
+    #key-features {
+        margin-bottom: 3em;
     }
     
     .title {

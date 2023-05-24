@@ -107,7 +107,7 @@ body {
 #usernameInput,
 #emailInput,
 #phoneNumInput {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 #profileImageTitle {
@@ -334,10 +334,10 @@ input:checked+.slider:before {
 
     #edit-button {
         position: relative;
-        margin-bottom: 10px;
-        top: 0;
-        right: 0;
-        border-radius: 10px;
+        margin-bottom: 30px;
+        width: 100px;
+        height: 30px;
+        border-radius: 6px;
         padding-left: 15px;
         padding-right: 15px;
         background-color: #1682e7;

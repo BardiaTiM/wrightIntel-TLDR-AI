@@ -94,7 +94,7 @@ document.getElementById("edit-button").addEventListener("click", async (event) =
         }
     
         // Add border to the newly selected image
-        clickedImage.style.border = "2px solid black"; // Modify the border style as desired
+        clickedImage.style.border = "2px solid #c57b57"; // Modify the border style as desired
     
         selectedImage = clickedImage; // Update the selected image
     

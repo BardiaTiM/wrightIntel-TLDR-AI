@@ -25,13 +25,25 @@ body {
     font-size: 20px;
 }
 
+/* .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+} */
+
 .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 13px;
     padding-top: 20px;
     border-radius: 10px;
     margin: 0 auto;
-    margin-top: 100px;
     max-width: 500px;
+    margin-top: 100px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -46,7 +58,7 @@ body {
 #submit {
     border: none;
     cursor: pointer;
-    background: #1682e7;
+    background: #627264;
     border-radius: 6px;
     width: 200px;
     height: 50px;
@@ -55,7 +67,7 @@ body {
 }
 
 #submit:hover {
-    background: #a7dcf5;
+    background: #c57b57;
     transform: scale(1.02);
     transition: all 0.5s ease;
 }
@@ -69,7 +81,7 @@ body {
 #create-account {
     border: none;
     cursor: pointer;
-    background: #a7dcf5;
+    background: #c57b57;
     border-radius: 6px;
     width: 400px;
     height: 50px;
@@ -78,7 +90,7 @@ body {
 }
 
 #create-account:hover {
-    background: #1682e7;
+    background: #7b917d;
     transform: scale(1.02);
     transition: all 0.5s ease;
 }
@@ -144,7 +156,7 @@ body {
 }
 
 input:hover{
-    background: #a7dcf5;
+    background: #c57b57;
     transform: scale(1.02);
     transition: all 0.5s ease;
 }
@@ -232,7 +244,7 @@ input:checked+.slider:before {
         padding-top: 20px;
         border-radius: 10px;
         margin: 0 auto;
-        margin-top: 150px;
+        margin-top: 100px;
         max-width: 350px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
@@ -240,7 +252,6 @@ input:checked+.slider:before {
     #create-account {
         border: none;
         cursor: pointer;
-        background: #a7dcf5;
         border-radius: 6px;
         width: 300px;
         height: 50px;

@@ -1,6 +1,7 @@
 <%- include("templates/header") %>
+<link rel="stylesheet" href="/styles/login.css">
 
-  <!DOCTYPE html>
+  <!-- <!DOCTYPE html>
   <html lang="en">
 
   <head>
@@ -17,22 +18,25 @@
   </head>
 
   <body>
-    <div class="container">
-      <div class="sub-container">
-        <div id="title">SIGN IN</div>
-        <form class="submit-container" action="/loginValidation" method="post">
-          <input id="email" type="email" name="email" placeholder="Enter email" required>
-          <input id="password" type="password" name="password" placeholder="Enter password" required>
-          <button id="submit">LOG IN</button>
-          <div><a href="forgot-password" id="forgot-password">Forgot password</a></div>
-          <div class="line"></div>
-        </form>
-        <div>
-          <button id="create-account" onclick="window.location.href='signup'">Don't have an account</button>
-        </div>
+    <header>
+      <img src="/logo_images/white.png" alt="logo" class="logo" id="headerLogo" />
+    </header> -->
+  <div class="container">
+    <div class="sub-container">
+      <div id="title">SIGN IN</div>
+      <form class="submit-container" action="/loginValidation" method="post">
+        <input id="email" type="email" name="email" placeholder="Enter email" required>
+        <input id="password" type="password" name="password" placeholder="Enter password" required>
+        <button id="submit">LOG IN</button>
+        <div><a href="forgot-password" id="forgot-password">Forgot password</a></div>
+        <div class="line"></div>
+      </form>
+      <div>
+        <button id="create-account" onclick="window.location.href='signup'">Don't have an account</button>
       </div>
     </div>
-    <script src="/JS/background.js"></script>
+  </div>
+  <script src="/JS/background.js"></script>
 
   </body>
 

@@ -1,4 +1,5 @@
 <% if (!req.session.authenticated) { %> <% res.redirect('/login'); %> <% } %>
+<link rel="icon" href="/logo_images/black-globe.png">
 
 <style>
 
@@ -65,18 +66,42 @@
   .chat-container {
     flex-grow: 1;
     overflow-y: auto;
-    max-height: calc(100vh - 390px); /* Adjusted for the 20px margin */
+    max-height: calc(100vh - 360px); /* Adjusted for the 20px margin */
     position: relative; /* Added position relative */
   }
 
   .chatInput {
   position: fixed;
-  bottom: 55px;
+  bottom: 60px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;
   padding: 0%;
+  }
+
+.ask-button {
+  width: 100px;
+  background-color: #627264 !important;
+  color: white;
+  border-color: #627264 !important;
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #627264 !important;
+  --bs-btn-border-color: #627264 !important;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #627264 !important;
+  --bs-btn-hover-border-color: #627264 !important;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #627264 !important;
+  --bs-btn-active-border-color: #627264 !important;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #627264 !important;
+  --bs-btn-disabled-border-color: #627264 !important;
+
 }
+
+
 
   .header-container {
     position: sticky;
@@ -91,7 +116,8 @@
     align-items: center;
   }
 
-  .header-container select, select selected {
+  .header-container select,
+  select selected {
     background-color: #212121;
     border: none;
     color: #b3b3b3;
@@ -148,7 +174,7 @@
     --bs-btn-hover-color: #fff;
     --bs-btn-hover-bg: #c57b57;
     --bs-btn-hover-border-color: #c57b57;
-    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
     --bs-btn-active-color: #fff;
     --bs-btn-active-bg: #c57b57;
     --bs-btn-active-border-color: #c57b57;
@@ -181,7 +207,7 @@
     --bs-btn-hover-color: #fff;
     --bs-btn-hover-bg: #c57b57;
     --bs-btn-hover-border-color: #c57b57;
-    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
     --bs-btn-active-color: #fff;
     --bs-btn-active-bg: #c57b57;
     --bs-btn-active-border-color: #c57b57;
@@ -256,6 +282,113 @@
     transform: translateX(26px);
   }
 
+  /* CSS styles for the overlay */
+  #overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: F4C397;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+  }
+
+  .overlay-animation .overlay-content button {
+    animation: buttonAnimation 0.5s ease-in-out forwards;
+  }
+
+  .overlay-content button {
+  margin-top: 10px;
+  background-color: #627264;
+  color: white;
+  border-color: #627264;
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #c57b57;
+  --bs-btn-border-color: #c57b57;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #c57b57;
+  --bs-btn-hover-border-color: #c57b57;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #c57b57;
+  --bs-btn-active-border-color: #c57b57;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #c57b57;
+  --bs-btn-disabled-border-color: #c57b57;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+#flightNumInput {
+  border-radius: 7px;
+  padding: 8px;
+  margin-right: 10px;
+  flex-grow: 1;
+}
+
+.ask-button {
+  width: 100px;
+}
+
+
+
+  
+  .overlay {
+  transition: opacity 0.5s, transform 0.5s;
+  opacity: 0;
+  transform: translateY(-50%);
+}
+
+.overlay.overlay-animation {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+
+  .overlay-content {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .overlay-content button {
+    margin-top: 10px;
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+  }
+
+  @keyframes buttonAnimation {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+
+
+
   @media only screen and (max-width: 390px) {
     .logo {
       max-width: 30%;
@@ -268,6 +401,18 @@
     }
   }
 </style>
+
+<!-- Overlay HTML -->
+<div id="overlay" class="overlay">
+  <div class="overlay-content">
+    <button id="flightNumberButton" class="btn btn-primary">
+      Input Flight Number
+    </button>
+    <br />
+    <button id="chatButton" class="btn btn-primary mt-3">Go to Chat</button>
+  </div>
+</div>
+
 <div class="header-container">
   <select id="airlineInput" class="form-control airline-input">
     <!-- Your options go here -->
@@ -294,7 +439,8 @@
 <div class="container mt-5">
   <div class="row">
     <div class="col-md-8 offset-md-2">
-      <img src="logo-black.png" alt="Logo" id="logoImage" class="logo" />
+      <img src="logo2B.png" alt="logo2B" id="logo2B" class="logo2B" style="display: block; margin: 0 auto;" />
+
       <div
         id="chatbotOutput"
         class="typing-output chat d-flex flex-column chat-container"
@@ -328,13 +474,6 @@
           <button id="button4" type="button" class="btn btn-primary">
             Lost or Damaged Baggage
           </button>
-      
-          <!-- <form id="flightNumForm" class="mb-3 d-flex">
-            <label for="flightNumberInput">Flight Number:</label>
-            <input type="text" id="flightNumInput" placeholder="Input Flight Number..."/>
-            <button type="submit" class="btn btn-primary ask-button">Send</button>
-          </form> -->
-      
         </div>
         <div id="flightInfo"></div>
         <div id="flightStatus"></div>
@@ -345,7 +484,6 @@
   </div>
 </div>
 
-<script src="/js/chatbot.js"></script>
 <link rel="stylesheet" href="/styles/heart.css" />
 <link rel="stylesheet" href="/styles/scrollbar.css" />
-<%- include("templates/footer") %>
+<div class="footer"><%- include("templates/footer") %></div>

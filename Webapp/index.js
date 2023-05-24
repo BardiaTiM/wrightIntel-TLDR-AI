@@ -231,7 +231,6 @@ app.get('/logout', (req, res) => {
 
 /** Personal profile page. */
 app.get('/profile', (req, res) => {
-
   res.render('profile', {username: req.session.username, email: req.session.email, phoneNumber: req.session.phoneNumber, image: req.session.image});
 });
 
@@ -381,13 +380,9 @@ app.post('/profileUpdate', async (req, res) => {
   req.session.email = email;
   req.session.phoneNumber = phoneNum;
 
-  const result = await userCollection.find({ email: email }).project({ username: 1, email : 1, phoneNumber : 1, image : 1, _id: 1 }).toArray();
+  await userCollection.find({ email: email }).project({ username: 1, email : 1, phoneNumber : 1, image : 1, _id: 1 }).toArray();
 
-  console.log(result);
-
-  // Delay the redirect for 1 second (1000 milliseconds)
   res.redirect("/profile");
-
 });
 
 /** Save user prompts. */

@@ -23,6 +23,15 @@ body {
     }
 }
 
+.edit-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 48%;
+    padding-top: 10%;
+}
+
 #logo {
     width: 100px;
     height: auto;
@@ -38,11 +47,16 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.sub-profile {
+    display: flex;
+    flex-direction: row;
+}
+
 .image-display {
     border: 1px solid black;
     width: 200px;
     height: 200px;
-    margin: 20px;
+    margin: 50px;
     border-radius: 100%;
     overflow: hidden;
 }
@@ -59,19 +73,22 @@ body {
 }
 
 .card-header {
+    width: 50%;
     position: relative;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    text-align: center;
     align-items: center;
+    margin-top: 50px;
 }
 
 #edit-button {
-    position: absolute;
+    position: relative;
     margin-bottom: 10px;
     top: 0;
     right: 0;
-    width: 100px;
-    height: 30px;
+    width: 250px;
+    height: 40px;
     border-radius: 6px;
     padding-left: 15px;
     padding-right: 15px;
@@ -87,27 +104,36 @@ body {
 }
 
 #username {
-    margin: 0 auto;
+    /* text-align: left; */
     padding-bottom: 20px;
 }
 
-#email,
-#phoneNum {
+#email {
     margin-top: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
     text-align: center;
 }
 
+#phoneNum {
+    margin-bottom: 60px;
+    padding-right: 100px;
+}
+
 .info {
-    margin: 0 auto;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    padding-left: 80%;
+    padding-top: 30%;
 }
 
 #usernameInput,
 #emailInput,
 #phoneNumInput {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 #profileImageTitle {
@@ -288,17 +314,21 @@ input:checked+.slider:before {
     /* Darken the color on hover */
 }
 
-
 @media screen and (max-width: 600px) {
 
     .profile {
-        margin-top: 25%;
+        margin-top: 10%;
         margin-left: 10%;
         margin-right: 10%;
         border-radius: 10px;
         padding: 10px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
+
+    .sub-profile {
+        display: flex;
+        flex-direction: column;
+    }    
 
     .image-display {
         border: 1px solid black;
@@ -311,11 +341,27 @@ input:checked+.slider:before {
     }
 
     .card-header {
+        width: 100%;
+        position: relative;
+        display: flex;
         flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
     }
 
     label {
         margin-left: 20px;
+    }
+
+    .info {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .profile-image-container {
@@ -332,17 +378,43 @@ input:checked+.slider:before {
         margin-bottom: 15px;
     }
 
+    .edit-button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0%;
+    }
+
     #edit-button {
         position: relative;
         margin-bottom: 30px;
-        width: 100px;
-        height: 30px;
+        width: 250px;
+        height: 40px;
         border-radius: 6px;
         padding-left: 15px;
         padding-right: 15px;
         background-color: #1682e7;
         border: none;
         /* border: 0.5px solid black; */
+    }
+
+    #username {
+        padding-top: 20px;
+        margin: 0 auto;
+        /* padding-bottom: 20px; */
+    }
+
+    #email {
+        margin-top: 40px;
+        text-align: center;
+        padding-bottom: 0%;
+    }
+
+    #phoneNum {
+        margin-top: 20px;
+        margin-bottom: 60px;
+        padding-right: 0%;
     }
 
 }

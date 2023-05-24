@@ -104,14 +104,16 @@
   .chat-container {
     flex-grow: 1;
     overflow-y: auto;
-    max-height: calc(100vh - 430px); /* Adjusted for the 20px margin */
+    max-height: calc(100vh - 390px); /* Adjusted for the 20px margin */
     position: relative; /* Added position relative */
   }
 
-  .form-and-buttons-container {
-    position: sticky; /* Adjust according to the height of your footer */
-    z-index: 2; /* Added z-index */
-  }
+  .chatInput {
+  position: fixed;
+  bottom: 55;
+  z-index: 2;
+  padding: 0%;
+}
 
   .header-container {
     position: sticky;
@@ -126,12 +128,11 @@
     align-items: center;
   }
 
-  .header-container select {
+  .header-container select, select selected {
     background-color: #212121;
     border: none;
     color: #b3b3b3;
     outline-color: #7b1db9;
-    padding-left: 70px; /* Added margin-left */
   }
 
   .header-container .switch {
@@ -156,6 +157,11 @@
     width: calc(
       100% - 100px
     ); /* Adjust this value based on the width of your Ask button */
+  }
+
+  input[type="text"], input[type="text"]:focus {
+    background-color: #212121;
+    border: none;
   }
 
   .ask-button {
@@ -188,8 +194,8 @@
   }
 
   .form-and-buttons-container button[type="submit"] {
-    background-color: #ceb3e7;
-    color: #212121;
+    background-color: #001f3f;
+    color: white;
   }
 
 /* Custom scroll bar styles */
@@ -322,6 +328,12 @@
         id="chatbotOutput"
         class="typing-output chat d-flex flex-column chat-container"
       ></div>
+    </div>
+  </div>
+</div>
+<div class="container mt-7 chatInput">
+  <div class="row">
+    <div class="col-md-8 offset-md-2">
       <div class="form-and-buttons-container">
         <form id="chatbotForm" class="mb-3 d-flex">
           <input
@@ -345,13 +357,13 @@
           <button id="button4" type="button" class="btn btn-primary">
             Lost or Damaged Baggage
           </button>
-
+      
           <form id="flightNumForm" class="mb-3 d-flex">
             <label for="flightNumberInput">Flight Number:</label>
             <input type="text" id="flightNumInput" placeholder="Input Flight Number..."/>
             <button type="submit" class="btn btn-primary ask-button">Send</button>
           </form>
-
+      
         </div>
         <div id="flightInfo"></div>
         <div id="flightStatus"></div>

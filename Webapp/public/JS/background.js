@@ -1,7 +1,7 @@
 // Function to enable dark mode
 function enableDarkMode() {
     // Set background gradient for dark mode
-    document.body.style.background = 'linear-gradient(-45deg, #003566, #001d3d, #003566, #003566)';
+    document.body.style.background = 'linear-gradient(-45deg, #0B0B0C, #121212, #393A41, #6A6B70)';
     document.body.style.backgroundSize = '400% 500%';
     document.body.style.animation = 'gradient 10s ease infinite';
 

@@ -1,0 +1,27 @@
+.heart-container {
+  display: inline-block;
+  z-index: 2;
+  right: 0;
+}
+
+.heart-checkbox {
+  display: none;
+}
+
+.heart {
+  font-size: 30px;
+  color: gray;
+  cursor: pointer;
+  opacity: 0.4;
+}
+
+.heart:hover {
+  color: #A53860;
+  opacity: 1;
+}
+
+.heart-checkbox:checked + .heart {
+  color: #A53860;
+  opacity: 1;
+}
+

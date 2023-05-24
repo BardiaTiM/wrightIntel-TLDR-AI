@@ -18,7 +18,8 @@
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
 
           <!-- Custom CSS -->
-          <link rel="stylesheet" href="/styles/star.css" />
+          <link rel="stylesheet" href="/styles/heart.css" />
+          <link rel="stylesheet" href="/styles/scrollbar.css" />
           <title>TLDR</title>
           <style>
             .container-fluid {
@@ -28,34 +29,26 @@
               align-items: center;
               height: 100%;
               overflow-y: hidden;
+              padding: 5%;
             }
 
-            /* Custom scroll bar styles */
-            /* Custom scroll bar styles */
-            ::-webkit-scrollbar {
-              width: 6px;
-            }
-
-            ::-webkit-scrollbar-track {
-              background: #146C94;
-              /* Match the chat container background */
-              border-radius: 10px;
-            }
-
-            ::-webkit-scrollbar-thumb {
-              background: #90e0ef;
-              /* Match the theme highlight color */
-              border-radius: 10px;
-            }
-
-            ::-webkit-scrollbar-thumb:hover {
-              background: #1682e7;
-              /* Darken the color on hover */
+            .accordion {
+              --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25) !important;
+              --bs-accordian-btn-bg: #627264 !important;
+              --bs-accordion-btn-focus-border-color: #FFFFFF !important;
+              --bs-accordion-btn-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-color}'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+              --bs-accordion-btn-active-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-color}'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
             }
 
             .accordion-body {
-              background-color: #b3b3b3;
+              background-color: #C57B57;
             }
+
+            .accordion-button {
+              background-color: #627264 !important;
+              color: #FFFFFF !important;
+            }
+            
           </style>
         </head>
 

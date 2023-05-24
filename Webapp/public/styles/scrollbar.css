@@ -1,0 +1,21 @@
+/* Custom scroll bar styles */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #627264;
+    /* Match the chat container background */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #7b917d;
+    /* Match the theme highlight color */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #c57b57;
+    /* Darken the color on hover */
+}

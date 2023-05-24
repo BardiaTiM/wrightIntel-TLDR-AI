@@ -3,33 +3,6 @@
 
 <style>
 
-  .heart-container {
-    display: inline-block;
-    z-index: 2;
-    right: 0;
-  }
-
-  .heart-checkbox {
-    display: none;
-  }
-
-  .heart {
-    font-size: 30px;
-    color: gray;
-    cursor: pointer;
-    opacity: 0.4;
-  }
-
-  .heart:hover {
-    color: #A53860;
-    opacity: 1;
-  }
-
-  .heart-checkbox:checked + .heart {
-    color: #A53860;
-    opacity: 1;
-  }
-
   .chat {
     max-width: 800px;
     margin: auto;
@@ -242,28 +215,6 @@
     --bs-btn-disabled-color: #fff;
     --bs-btn-disabled-bg: #c57b57;
     --bs-btn-disabled-border-color: #c57b57;
-  }
-
-  /* Custom scroll bar styles */
-  ::-webkit-scrollbar {
-    width: 6px;
-  }
-
-  ::-webkit-scrollbar-track {
-    background: #627264;
-    /* Match the chat container background */
-    border-radius: 10px;
-  }
-
-  ::-webkit-scrollbar-thumb {
-    background: #7b917d;
-    /* Match the theme highlight color */
-    border-radius: 10px;
-  }
-
-  ::-webkit-scrollbar-thumb:hover {
-    background: #c57b57;
-    /* Darken the color on hover */
   }
 
   .content-wrapper {
@@ -533,5 +484,6 @@
   </div>
 </div>
 
-<script src="/js/chatbot.js"></script>
+<link rel="stylesheet" href="/styles/heart.css" />
+<link rel="stylesheet" href="/styles/scrollbar.css" />
 <div class="footer"><%- include("templates/footer") %></div>

@@ -1,14 +1,14 @@
-// Function to toggle the color of the star and hide the accordion div when clicked
-function toggleStarColor(event) {
-  var star = event.target;
-  star.style.color = star.style.color === 'black' ? 'yellow' : 'black';
+// Function to toggle the color of the heart and hide the accordion div when clicked
+function toggleheartColor(event) {
+  var heart = event.target;
+  heart.style.color = heart.style.color === 'black' ? 'A53860' : 'black';
 
-  // Get the prompt details associated with the star
-  var _id = star.dataset.promptId;
+  // Get the prompt details associated with the heart
+  var _id = heart.dataset.promptId;
   console.log(_id);
-  var airline = star.dataset.airline;
-  var question = star.dataset.question;
-  var response = star.dataset.response;
+  var airline = heart.dataset.airline;
+  var question = heart.dataset.question;
+  var response = heart.dataset.response;
 
   // Send a fetch request to the server to delete the prompt
   fetch('/delete-Prompt', {
@@ -23,8 +23,8 @@ function toggleStarColor(event) {
       // Handle the response from the server
       console.log(data);
 
-      // Hide the accordion item associated with the clicked star
-      var accordionItem = star.closest('.accordion-item');
+      // Hide the accordion item associated with the clicked heart
+      var accordionItem = heart.closest('.accordion-item');
       accordionItem.style.display = 'none';
     })
     .catch(error => {
@@ -46,14 +46,14 @@ document.addEventListener('DOMContentLoaded', function () {
       newAccordionItem.innerHTML = `
         <h2 class="accordion-header">
           <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#${accordionItemID}" aria-expanded="true" aria-controls="${accordionItemID}">
-            Airline: ${prompt.airline} Question: ${prompt.question}
+            Airline: ${prompt.airline}<br> Question: ${prompt.question}
           </button>
         </h2>
         <div id="${accordionItemID}" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <div class="star-container">
-              <input type="checkbox" id="star-${index}" class="star-checkbox">
-              <label for="star-${index}" class="star" style="color: yellow;" onclick="toggleStarColor(event)" data-prompt-id="${prompt.id}" data-airline="${prompt.airline}" data-question="${prompt.question}" data-response="${prompt.response}">&#9733;</label>
+            <div class="heart-container">
+              <input type="checkbox" id="heart-${index}" class="heart-checkbox">
+              <label for="heart-${index}" class="heart" style="color: #A53860;" onclick="toggleheartColor(event)" data-prompt-id="${prompt.id}" data-airline="${prompt.airline}" data-question="${prompt.question}" data-response="${prompt.response}">&#9829;</label>
             </div>
             <p>${prompt.response}</p>
           </div>

@@ -131,9 +131,11 @@ document.getElementById("edit-button").addEventListener("click", async (event) =
         if (response.ok) {
           // Request successful, handle the response here
           console.log("Profile update successful");
+          location.reload();
         } else {
           // Request failed, handle the error here
           console.log("Profile update failed");
+          
         }
       } catch (error) {
         // Error occurred, handle the error here

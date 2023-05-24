@@ -281,22 +281,11 @@ canvas {
 /* Centered, large typography */
 .title {
     font-size: 3em;
-    text-align: center;
     font-family: Arial, sans-serif;  /* Adjust as necessary */
     color: #333;  /* Adjust as necessary */
 }
 
-#title-header {
-  width: 70%;
-  border-radius: 5px;
-  position: absolute;
-  left: 5%;
-  top: 5%;
-  z-index: 1;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
-  font-size: 50px;
-}
+
 
 #title-content {
     width: 95%;
@@ -328,6 +317,8 @@ canvas {
   float: left;
   background: white;
 }
+
+
 
 .big-problem img {
     width: 50%;
@@ -363,8 +354,36 @@ canvas {
     color: white;
     font-family: "Bebas Neue", sans-serif;
     font-size: 60px; /* Increase the font size for HUGE headings */
-    text-align: center; /* Center the titles */
   }
+
+
+  #airlines-title{
+    text-align: center;
+  }
+
+  #problem-title {
+    position: relative;
+    left: 15%;
+    width: 32%;
+  }
+
+  #solution-title {
+    position: relative;
+    left: 60%;
+    width: 32%;
+  }
+
+  #features-title {
+    position: relative;
+    left: 15%;
+    width: 33%;
+  }
+
+  #conclusion-title {
+    text-align: center;
+  }
+
+  
   
 
   @media only screen and (min-width: 1400px) {
@@ -422,10 +441,6 @@ canvas {
     .text-container {
       width: 100%;
       margin-bottom: 3em;
-    }
-    
-    #title-header {
-      font-size: 50px;
     }
     
     #title-content {

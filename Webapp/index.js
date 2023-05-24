@@ -84,7 +84,6 @@ app.get('/signup', (req, res) => {
 
 /** Sign up validation. */
 app.post('/signupValidation', async (req, res) => {
-  var name = req.body.name;
   var username = req.body.username;
   var email = req.body.email;
   var phoneNum = req.body.phoneNumber;
@@ -111,11 +110,6 @@ app.post('/signupValidation', async (req, res) => {
     res.send(html);
     return;
   }
-  if (!name) {
-    html = `<h1>Sign up error</h1><p>Missing name</p><a href='/signup'>Try again</a>`;
-    res.send(html);
-    return;
-  }
 
   //Check for duplicate emails
   const existingUser = await userCollection.findOne({email: email});
@@ -127,14 +121,13 @@ app.post('/signupValidation', async (req, res) => {
   // Check for noSQL injection attacks
   const schema = joi.object(
     {
-      name: joi.string().alphanum().max(20).required(),
       username: joi.string().alphanum().max(20).required(),
       email: joi.string().email().required(),
       phoneNum: joi.string().max(12).required(),
       password: joi.string().max(20).required()
     });
   // Validate user input
-  const validationResult = schema.validate({ name, username, email, phoneNum, password });
+  const validationResult = schema.validate({ username, email, phoneNum, password });
   if (validationResult.error != null) {
     console.log(validationResult.error);
     res.status(400).json({ error: 'Potential NoSQL Injection detected.' });
@@ -143,11 +136,10 @@ app.post('/signupValidation', async (req, res) => {
   // Bcrypt password
   var hashedPassword = await bcrypt.hash(password, saltRounds);
   // Insert user into database
-  await userCollection.insertOne({ name: name, username: username, email: email, password: hashedPassword, phoneNumber: phoneNum, image: '' });
+  await userCollection.insertOne({ username: username, email: email, password: hashedPassword, phoneNumber: phoneNum, image: '' });
   console.log("Inserted user");
 
   // Go to members page
-  req.session.name = name;
   req.session.authenticated = true;
   req.session.username = username;
   req.session.email = email;
@@ -211,10 +203,7 @@ app.post('/loginValidation', async (req, res) => {
 
 /** Chatbot page. */
 app.get('/chatbot', (req, res) => {
-  const marmot1 = "/marmot1.gif";
-  const marmot2 = "/marmot2.gif";
-  const marmot3 = "/marmot3.gif";
-  res.render('chatbot', { req: req, res: res, username: req.session.username, pic1: marmot1, pic2: marmot2, pic3: marmot3 });
+  res.render('chatbot', { req: req });
 });
 
 /** Logout page. */

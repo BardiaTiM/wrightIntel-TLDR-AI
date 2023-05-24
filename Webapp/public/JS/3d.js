@@ -221,8 +221,7 @@ let mousePos = new Vector2(0,0);
             object.material.opacity = object.sunOpacity * (1-obj.t) + object.moonOpacity * obj.t;
           });
         });
-
-        sunBackground.style.opacity = 1-obj.t;
+        
         moonBackground.style.opacity = obj.t;
       },
       easing: 'easeInOutSine',

@@ -1,3 +1,8 @@
+body {
+  background: #F4C397;
+  color: white;
+}
+
 .container-fluid {
     display: flex;
     flex-direction: column;

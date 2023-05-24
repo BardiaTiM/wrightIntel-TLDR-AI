@@ -28,54 +28,60 @@ function insertMessage(text, fromUser) {
 
   const chatbotOutput = document.getElementById("chatbotOutput");
 
-  const starContainer = document.createElement("div");
-  starContainer.dataset.index = messageIndex;
+  const heartContainer = document.createElement("div");
+  heartContainer.dataset.index = messageIndex;
 
   if (!fromUser) {
-    starContainer.className = "star-container";
+    heartContainer.className = "heart-container";
 
-    // Set starContainer to initially be transparent
-    starContainer.style.opacity = "0";
+    // Set heartContainer to initially be transparent
+    heartContainer.style.opacity = "0";
 
-    const starCheckbox = document.createElement("input");
-    starCheckbox.type = "checkbox";
-    starCheckbox.id = `star-${messageIndex}`;
-    starCheckbox.className = "star-checkbox";
-    starCheckbox.checked = false;
+    const heartCheckbox = document.createElement("input");
+    heartCheckbox.type = "checkbox";
+    heartCheckbox.id = `heart-${messageIndex}`;
+    heartCheckbox.className = "heart-checkbox";
+    heartCheckbox.checked = false;
 
-    const starLabel = document.createElement("label");
-    starLabel.htmlFor = `star-${messageIndex}`;
-    starLabel.className = "star";
-    starLabel.innerHTML = "&#9733;";
+    const heartLabel = document.createElement("label");
+    heartLabel.htmlFor = `heart-${messageIndex}`;
+    heartLabel.className = "heart";
+    heartLabel.innerHTML = "&#9829;";
 
-    starContainer.appendChild(starCheckbox);
-    starContainer.appendChild(starLabel);
+    heartContainer.appendChild(heartCheckbox);
+    heartContainer.appendChild(heartLabel);
 
     // Add event listeners to wrapperElement
     wrapperElement.addEventListener("mouseover", function () {
-      starContainer.style.opacity = "1"; // When mouse is over, star appears
+      heartContainer.style.opacity = "1"; // When mouse is over, heart appears
     });
 
     wrapperElement.addEventListener("mouseout", function () {
-      if (!starCheckbox.checked) {
-        // Only make the star transparent if it's not checked
-        starContainer.style.opacity = "0"; // When mouse leaves, star becomes transparent
+      if (!heartCheckbox.checked) {
+        // Only make the heart transparent if it's not checked
+        heartContainer.style.opacity = "0"; // When mouse leaves, heart becomes transparent
       }
     });
   }
 
   wrapperElement.appendChild(messageElement);
-  wrapperElement.appendChild(starContainer);
-
+  wrapperElement.appendChild(heartContainer);
   chatbotOutput.appendChild(wrapperElement);
+
+  if (!fromUser) {
+  // Add the div containing an hr tag
+  const hrDiv = document.createElement("div");
+  const hrElement = document.createElement("hr");
+  hrDiv.appendChild(hrElement);
+  chatbotOutput.appendChild(hrDiv);
+  }
+    
   chatbotOutput.scrollTop = chatbotOutput.scrollHeight;
 
-  starContainer.style.display = "flex";
-  starContainer.style.justifyContent = "flex-end";
-  starContainer.style.padding = "0";
-  starContainer.style.margin = "0";
-
-  
+  heartContainer.style.display = "flex";
+  heartContainer.style.justifyContent = "flex-end";
+  heartContainer.style.padding = "0";
+  heartContainer.style.margin = "0";
 }
 
 function isValidUrl(string) {
@@ -144,17 +150,18 @@ function hideLoading() {
   }
 }
 
-// Add an event listener to the parent element of the star checkboxes
+// Add an event listener to the parent element of the heart checkboxes
 document.addEventListener("change", async (event) => {
-  const starCheckbox = event.target;
-  if (starCheckbox.classList.contains("star-checkbox")) {
-    const starContainer = starCheckbox.closest(".star-container");
-    const messageIndex = starContainer.dataset.index;
-    const isChecked = starCheckbox.checked;
-    console.log(`Star checkbox ${messageIndex} changed to ${isChecked}`);
+  const heartCheckbox = event.target;
+  if (heartCheckbox.classList.contains("heart-checkbox")) {
+    const heartContainer = heartCheckbox.closest(".heart-container");
+    const messageIndex = heartContainer.dataset.index;
+    const isChecked = heartCheckbox.checked;
+    console.log(`heart checkbox ${messageIndex} changed to ${isChecked}`);
     if (isChecked) {
       // Change colour to yellow
-      starContainer.querySelector(".star").style.color = "yellow";
+      heartContainer.querySelector(".heart").style.color = "#A53860";
+      heartContainer.querySelector(".heart").style.opacity = "1";
       // Save prompt data
       const promptData = {
         airline: document.getElementById(`message-${messageIndex}-left`).dataset
@@ -189,7 +196,8 @@ document.addEventListener("change", async (event) => {
       }
     } else {
       // Chnage colour to gray
-      starContainer.querySelector(".star").style.color = "gray";
+      heartContainer.querySelector(".heart").style.color = "gray";
+      heartContainer.querySelector(".heart").style.opacity = "0.4";
       // Delete prompt data
       const airline = document.getElementById(`message-${messageIndex}-left`)
         .dataset.airline;
@@ -212,8 +220,8 @@ document.addEventListener("change", async (event) => {
         .then((data) => {
           // Handle the response from the server
           console.log(data);
-          // Hide the accordion item associated with the clicked star
-          var accordionItem = star.closest(".accordion-item");
+          // Hide the accordion item associated with the clicked heart
+          var accordionItem = heart.closest(".accordion-item");
           accordionItem.style.display = "none";
         })
         .catch((error) => {

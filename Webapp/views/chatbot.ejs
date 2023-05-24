@@ -2,30 +2,31 @@
 
 <style>
 
-  .star-container {
+  .heart-container {
     display: inline-block;
     z-index: 2;
     right: 0;
   }
 
-  .star-checkbox {
+  .heart-checkbox {
     display: none;
   }
 
-  .star {
-    font-size: 20px;
+  .heart {
+    font-size: 30px;
     color: gray;
     cursor: pointer;
     opacity: 0.4;
   }
 
-  .star:hover {
-    color: gold;
+  .heart:hover {
+    color: #A53860;
     opacity: 1;
   }
 
-  .star-checkbox:checked + .star {
-    color: gold;
+  .heart-checkbox:checked + .heart {
+    color: #A53860;
+    opacity: 1;
   }
 
   .chat {
@@ -96,10 +97,12 @@
   }
 
   .chatInput {
-    position: fixed;
-    bottom: 60;
-    z-index: 2;
-    padding: 0%;
+  position: fixed;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  padding: 0%;
   }
 
 .ask-button {
@@ -121,6 +124,7 @@
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: #627264 !important;
   --bs-btn-disabled-border-color: #627264 !important;
+
 }
 
 
@@ -155,9 +159,10 @@
     color: #b3b3b3;
   }
 
-  .header-container select option[selected] {
-    color: #dc65e7;
+  .header-container #airlineInput option:hover {
+    background-color: green !important;
   }
+
 
   .airline-input {
     width: 100%;

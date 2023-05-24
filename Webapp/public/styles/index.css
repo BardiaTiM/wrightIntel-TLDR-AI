@@ -319,12 +319,6 @@ canvas {
 }
 
 
-
-.big-problem img {
-    width: 50%;
-    height: auto;
-}
-
 .animation-container {
   width: 100%;
 }
@@ -360,6 +354,28 @@ canvas {
   #airlines-title{
     text-align: center;
   }
+
+  .big-problem {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+  
+  }
+
+  #problem {
+    z-index: 1;
+  }
+
+  .big-problem img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+
 
   #problem-title {
     position: relative;
@@ -546,7 +562,9 @@ canvas {
     }
 
     .big-problem {
+
         margin-bottom: 3em;
+        
     }
 
     #solution {

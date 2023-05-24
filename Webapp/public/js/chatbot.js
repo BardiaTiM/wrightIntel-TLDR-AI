@@ -150,6 +150,11 @@ function hideLoading() {
   }
 }
 
+// Function to capitalize the first letter of a string
+function capitalizeFirstLetter(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
 // Add an event listener to the parent element of the heart checkboxes
 document.addEventListener("change", async (event) => {
   const heartCheckbox = event.target;
@@ -164,12 +169,12 @@ document.addEventListener("change", async (event) => {
       heartContainer.querySelector(".heart").style.opacity = "1";
       // Save prompt data
       const promptData = {
-        airline: document.getElementById(`message-${messageIndex}-left`).dataset
-          .airline,
-        question: document.getElementById(`message-${messageIndex}-right`)
-          .innerText,
-        response: document.getElementById(`message-${messageIndex}-left`)
-          .innerText,
+        airline: capitalizeFirstLetter(document.getElementById(`message-${messageIndex}-left`).dataset
+          .airline),
+        question: capitalizeFirstLetter(document.getElementById(`message-${messageIndex}-right`)
+          .innerText),
+        response: capitalizeFirstLetter(document.getElementById(`message-${messageIndex}-left`)
+          .innerText),
       };
       console.log("Saving prompt:", promptData);
       try {

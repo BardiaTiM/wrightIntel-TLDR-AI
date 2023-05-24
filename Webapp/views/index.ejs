@@ -27,8 +27,12 @@
         <div class="container">
             <!--Logo, Earth and Get Started buutton-->
             <div id="logo-container">
+                <div class="box up"></div>
+                <div class="box down"></div>
+                <div class="box left"></div>
+                <div class="box right"></div>
                 <div class="flex-container">
-                    <img src="logoW.png"/>
+                    <img id="logo" src="logoW.png"/>
                     <div id="earth-container"></div>
                     <div class="members">
                         <% if (req.session.authenticated) { %>

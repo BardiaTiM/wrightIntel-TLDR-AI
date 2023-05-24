@@ -1,8 +1,8 @@
-const host =
-  "http://localhost:5001";
+const host = "http://localhost:5001";
 let messageIndex = 0;
 
 function insertMessage(text, fromUser) {
+  replaceImage();
   const messageElement = document.createElement("div");
   messageElement.className = `chat-bubble chat-bubble-${
     fromUser ? "right" : "left"
@@ -367,135 +367,154 @@ document.getElementById("button4").addEventListener("click", function (event) {
   fetchChatbotResponse(userInput);
 });
 
-// This is a helper function to avoid repetition in the code
-document
-  .getElementById("flightNumForm")
-  .addEventListener("submit", function (event) {
-    event.preventDefault();
+// JavaScript code to handle the overlay functionality
+const overlay = document.getElementById("overlay");
+const flightNumberButton = document.getElementById("flightNumberButton");
+const chatButton = document.getElementById("chatButton");
 
-    var flightNum = document.getElementById("flightNumInput").value;
+window.addEventListener("load", () => {
+  overlay.style.display = "flex";
+  overlay.classList.add("overlay-animation");
 
-    fetch(host + "/flight_info", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        flight_num: flightNum,
-      }),
-    })
-      .then((response) => response.json())
-      .then((data) => {
-        var airlineName = data.airline_name;
+});
 
-        // <option selected>Enter airline name...</option>
-        // <option value="aircanada">Air Canada</option>
-        // <option value="airtransat">Airtransat</option>
-        // <option value="alaskaairlines">Alaska Airlines</option>
-        // <option value="allegiant">Allegiant</option>
-        // <option value="americanairlines">American Airlines</option>
-        // <option value="deltaairlines">Delta Airlines</option>
-        // <option value="flair">Flair Airlines</option>
-        // <option value="frontierairlines">Frontier Airlines</option>
-        // <option value="hawaiianairlines">Hawaiian Airlines</option>
-        // <option value="jetblue">JetBlue</option>
-        // <option value="porter">Porter Airlines</option>
-        // <option value="southwestairlines">Southwest Airlines</option>
-        // <option value="spiritairline">Spirit Airlines</option>
-        // <option value="sunwing">Sunwing Airlines</option>
-        // <option value="unitedairlines">United Airlines</option>
-        // <option value="westjet">WestJet</option>
+flightNumberButton.addEventListener("click", () => {
+  overlay.innerHTML = `
+<form id="flightNumForm" class="mb-3 d-flex">
+  <div class="input-wrapper">
+    <input type="text" id="flightNumInput" placeholder="Input Flight Number..." />
+    <button type="submit" class="btn btn-primary ask-button">Send</button>
+  </div>
+</form>
+      `;
 
-        // Update airline name based on conditions
-        if (airlineName.toLowerCase().includes("west")) {
-          formalAirlineName = "WestJet";
-          airlineName = "westjet";
-        } else if (
-          airlineName.toLowerCase().includes("air canada") ||
-          airlineName.toLowerCase().includes("jazz")
-        ) {
-          formalAirlineName = "Air Canada";
-          airlineName = "aircanada";
-        } else if (airlineName.toLowerCase().includes("transat")) {
-          formalAirlineName = "Air Transat";
-          airlineName = "airtransat";
-        } else if (airlineName.toLowerCase().includes("sunwing")) {
-          formalAirlineName = "Sunwing Airlines";
-          airlineName = "sunwing";
-        } else if (airlineName.toLowerCase().includes("porter")) {
-          formalAirlineName = "Porter Airlines";
-          airlineName = "porter";
-        } else if (airlineName.toLowerCase().includes("alaska")) {
-          formalAirlineName = "Alaska Airlines";
-          airlineName = "alaskaairlines";
-        } else if (airlineName.toLowerCase().includes("allegiant")) {
-          formalAirlineName = "Allegiant Air";
-          airlineName = "allegiant";
-        } else if (airlineName.toLowerCase().includes("american")) {
-          formalAirlineName = "American Airlines";
-          airlineName = "americanairlines";
-        } else if (airlineName.toLowerCase().includes("delta")) {
-          formalAirlineName = "Delta Airlines";
-          airlineName = "deltaairlines";
-        } else if (airlineName.toLowerCase().includes("flair")) {
-          formalAirlineName = "Flair Airlines";
-          airlineName = "flair";
-        } else if (airlineName.toLowerCase().includes("frontier")) {
-          formalAirlineName = "Frontier Airlines";
-          airlineName = "frontierairlines";
-        } else if (airlineName.toLowerCase().includes("hawaiian")) {
-          formalAirlineName = "Hawaiian Airlines";
-          airlineName = "hawaiianairlines";
-        } else if (airlineName.toLowerCase().includes("jetblue")) {
-          formalAirlineName = "JetBlue";
-          airlineName = "jetblue";
-        } else if (airlineName.toLowerCase().includes("southwest")) {
-          formalAirlineName = "Southwest Airlines";
-          airlineName = "southwestairlines";
-        } else if (airlineName.toLowerCase().includes("spirit")) {
-          formalAirlineName = "Spirit Airlines";
-          airlineName = "spiritairline";
-        } else if (airlineName.toLowerCase().includes("united")) {
-          formalAirlineName = "United Airlines";
-          airlineName = "unitedairlines";
-        } else {
-          formalAirlineName = "Air Canada";
-          airlineName = "aircanada";
-        }
+  document
+    .getElementById("flightNumForm")
+    .addEventListener("submit", function (event) {
+      event.preventDefault();
+      overlay.classList.remove("overlay-animation");
+      setTimeout(() => {
+        overlay.style.display = "none";
+      }, 500); // Adjust the delay based on the animation duration
 
-        updateAirlineName(airlineName, formalAirlineName);
-        var departureDelay = data.departure_delay;
-        var flightStatus = data.flight_status;
-        var scheduledTime = data.scheduled_time;
+      var flightNum = document.getElementById("flightNumInput").value;
 
-        console.log("Airline Name:", airlineName);
-        console.log("Departure Delay:", departureDelay);
-        console.log("Flight Status:", flightStatus);
-        console.log("Scheduled Time:", scheduledTime);
-
-        if (flightStatus.includes("Delayed")) {
-          var userInput =
-            "My flight is delayed by " + departureDelay + " hours.";
-        } else {
-          var userInput = "My flight is scheduled to depart on time.";
-        }
-
-        insertMessage(userInput, true);
-
-        // Show loading animation
-        showLoading();
-
-        fetchChatbotResponse(userInput);
+      fetch(host + "/flight_info", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          flight_num: flightNum,
+        }),
       })
-      .catch((error) => {
-        // Hide loading animation
-        hideLoading();
+        .then((response) => response.json())
+        .then((data) => {
+          var airlineName = data.airline_name;
 
-        console.log("Error:", error);
-      });
+          // Update airline name based on conditions
+          if (airlineName.toLowerCase().includes("west")) {
+            formalAirlineName = "WestJet";
+            airlineName = "westjet";
+          } else if (
+            airlineName.toLowerCase().includes("air canada") ||
+            airlineName.toLowerCase().includes("jazz")
+          ) {
+            formalAirlineName = "Air Canada";
+            airlineName = "aircanada";
+          } else if (airlineName.toLowerCase().includes("transat")) {
+            formalAirlineName = "Air Transat";
+            airlineName = "airtransat";
+          } else if (airlineName.toLowerCase().includes("sunwing")) {
+            formalAirlineName = "Sunwing Airlines";
+            airlineName = "sunwing";
+          } else if (airlineName.toLowerCase().includes("porter")) {
+            formalAirlineName = "Porter Airlines";
+            airlineName = "porter";
+          } else if (airlineName.toLowerCase().includes("alaska")) {
+            formalAirlineName = "Alaska Airlines";
+            airlineName = "alaskaairlines";
+          } else if (airlineName.toLowerCase().includes("allegiant")) {
+            formalAirlineName = "Allegiant Air";
+            airlineName = "allegiant";
+          } else if (airlineName.toLowerCase().includes("american")) {
+            formalAirlineName = "American Airlines";
+            airlineName = "americanairlines";
+          } else if (airlineName.toLowerCase().includes("delta")) {
+            formalAirlineName = "Delta Airlines";
+            airlineName = "deltaairlines";
+          } else if (airlineName.toLowerCase().includes("flair")) {
+            formalAirlineName = "Flair Airlines";
+            airlineName = "flair";
+          } else if (airlineName.toLowerCase().includes("frontier")) {
+            formalAirlineName = "Frontier Airlines";
+            airlineName = "frontierairlines";
+          } else if (airlineName.toLowerCase().includes("hawaiian")) {
+            formalAirlineName = "Hawaiian Airlines";
+            airlineName = "hawaiianairlines";
+          } else if (airlineName.toLowerCase().includes("jetblue")) {
+            formalAirlineName = "JetBlue";
+            airlineName = "jetblue";
+          } else if (airlineName.toLowerCase().includes("southwest")) {
+            formalAirlineName = "Southwest Airlines";
+            airlineName = "southwestairlines";
+          } else if (airlineName.toLowerCase().includes("spirit")) {
+            formalAirlineName = "Spirit Airlines";
+            airlineName = "spiritairline";
+          } else if (airlineName.toLowerCase().includes("united")) {
+            formalAirlineName = "United Airlines";
+            airlineName = "unitedairlines";
+          } else {
+            formalAirlineName = "Air Canada";
+            airlineName = "aircanada";
+          }
 
-    console.log("sendFlight");
-  });
+          updateAirlineName(airlineName, formalAirlineName);
+          var departureDelay = data.departure_delay;
+          var flightStatus = data.flight_status;
+          var scheduledTime = data.scheduled_time;
+
+          console.log("Airline Name:", airlineName);
+          console.log("Departure Delay:", departureDelay);
+          console.log("Flight Status:", flightStatus);
+          console.log("Scheduled Time:", scheduledTime);
+
+          if (flightStatus.includes("Delayed")) {
+            var userInput =
+              "My flight is delayed by " + departureDelay + " hours.";
+          } else {
+            var userInput = "My flight is scheduled to depart on time.";
+          }
+
+          insertMessage(userInput, true);
+
+          // Show loading animation
+          showLoading();
+
+          fetchChatbotResponse(userInput);
+        })
+        .catch((error) => {
+          console.log("Error:", error);
+        });
+    });
+});
+
+chatButton.addEventListener("click", () => {
+  overlay.classList.remove("overlay-animation");
+  setTimeout(() => {
+    overlay.style.display = "none";
+  }, 500); // Adjust the delay based on the animation duration
+});
+
+overlay.addEventListener("click", (event) => {
+  if (event.target === overlay) {
+    overlay.classList.remove("overlay-animation");
+    setTimeout(() => {
+      overlay.style.display = "none";
+    }, 500); // Adjust the delay based on the animation duration
+  }
+});
+
 
 // Function to update the airline name in the select element
 function updateAirlineName(airlineName, formalAirlineName) {
@@ -514,4 +533,11 @@ function updateAirlineName(airlineName, formalAirlineName) {
 
   // Select the new option
   option.selected = true;
+}
+
+// Replace the image with the specified source
+function replaceImage() {
+  const logoImage = document.getElementById("logo2B");
+  logoImage.src = "logo1B.png";
+  logoImage.style.width = "40%"; // Adjust the width value to the desired size
 }

@@ -1,46 +1,32 @@
 <% if (!req.session.authenticated) { %> <% res.redirect('/login'); %> <% } %>
 
 <style>
-  body {
-    background: linear-gradient(-45deg, #90e0ef, #00b4d8, #caf0f8, #00b4d8);
-    background-size: 400% 500%;
-    animation: gradient 10s ease infinite;
-  }
 
-  @keyframes gradient {
-    0%,
-    100% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-  }
-
-  .star-container {
+  .heart-container {
     display: inline-block;
     z-index: 2;
     right: 0;
   }
 
-  .star-checkbox {
+  .heart-checkbox {
     display: none;
   }
 
-  .star {
-    font-size: 20px;
+  .heart {
+    font-size: 30px;
     color: gray;
     cursor: pointer;
     opacity: 0.4;
   }
 
-  .star:hover {
-    color: gold;
+  .heart:hover {
+    color: #A53860;
     opacity: 1;
   }
 
-  .star-checkbox:checked + .star {
-    color: gold;
+  .heart-checkbox:checked + .heart {
+    color: #A53860;
+    opacity: 1;
   }
 
   .chat {
@@ -112,7 +98,9 @@
 
   .chatInput {
   position: fixed;
-  bottom: 55;
+  bottom: 55px;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 2;
   padding: 0%;
 }
@@ -146,9 +134,10 @@
     color: #b3b3b3;
   }
 
-  .header-container select option[selected] {
-    color: #dc65e7;
+  .header-container #airlineInput option:hover {
+    background-color: green !important;
   }
+
 
   .airline-input {
     width: 100%;

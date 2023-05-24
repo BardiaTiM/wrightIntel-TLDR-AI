@@ -82,26 +82,26 @@ function enableDarkMode() {
   
     if (darkModeEnabled) {
       enableDarkMode();
-      darkModeToggle.checked = true; // Update the checkbox state
+      // darkModeToggle.checked = true; // Update the checkbox state
     } else {
       enableLightMode();
       lightModeToggle.checked = true; // Update the checkbox state
     }
   }
   
-  // Add event listener to the dark mode toggle switch
-  darkModeToggle.addEventListener('click', function() {
-    // Toggle dark mode
-    darkModeEnabled = true; // Update the value
-    enableDarkMode();
-    logoImage.src = 'logo-white.png';
-  });
+  // // Add event listener to the dark mode toggle switch
+  // darkModeToggle.addEventListener('click', function() {
+  //   // Toggle dark mode
+  //   darkModeEnabled = true; // Update the value
+  //   enableDarkMode();
+  //   logoImage.src = 'logo-white.png';
+  // });
   
   // Add event listener to the light mode toggle switch
-  lightModeToggle.addEventListener('click', function() {
-    // Toggle light mode
-    darkModeEnabled = false; // Update the value
-    enableLightMode();
-    logoImage.src = 'logo-black.png';
-  });
+  // lightModeToggle.addEventListener('click', function() {
+  //   // Toggle light mode
+  //   darkModeEnabled = false; // Update the value
+  //   enableLightMode();
+  //   logoImage.src = 'logo-black.png';
+  // });
   

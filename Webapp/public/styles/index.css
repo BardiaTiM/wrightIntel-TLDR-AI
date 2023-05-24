@@ -241,10 +241,10 @@ canvas {
     }
 }
 
-
 .scroll-down {
     animation: bounce 1s infinite;
 }
+
 
                                        
 /* Landing Page Titles and Content Boxes */
@@ -361,6 +361,102 @@ canvas {
   }
   
 
+  @media only screen and (min-width: 1400px) {
+    .info-section {
+        padding: 2em;
+      }
+      
+      .text-container {
+        width: 100%;
+        margin-bottom: 3em;
+      }
+      
+      #title-header {
+        font-size: 50px;
+      }
+      
+      #title-content {
+        font-size: 20px;
+      }
+  
+      .big-problem {
+          margin-bottom: 3em;
+      }
+  
+      #solution {
+          margin-bottom: 3em;
+      }
+  
+      #key-features {
+          margin-bottom: 3em;
+      }
+      
+      .title {
+        font-size: 40px;
+      }
+      
+      .content {
+        font-size: 18px;
+      }
+  
+      #airlines {
+          width: 50%;
+        }
+
+  }
+
+
+/* Laptops and Desktop Computers */
+@media only screen and (min-width: 1025px) and (max-width: 1400px) {
+    .info-section {
+      padding: 2em;
+    }
+    
+    .text-container {
+      width: 100%;
+      margin-bottom: 3em;
+    }
+    
+    #title-header {
+      font-size: 50px;
+    }
+    
+    #title-content {
+      font-size: 20px;
+    }
+
+    .big-problem {
+        margin-bottom: 3em;
+    }
+
+    #solution {
+        margin-bottom: 3em;
+    }
+
+    #key-features {
+        margin-bottom: 3em;
+    }
+    
+    .title {
+      font-size: 40px;
+    }
+    
+    .content {
+      font-size: 18px;
+    }
+
+    #airlines {
+        width: 90%;
+      }
+}
+
+
+
+
+
+
+
+
 
 /* Tablets and small laptops (1024px and below) */
 @media only screen and (max-width: 1024px) {
@@ -370,6 +466,7 @@ canvas {
     
     .text-container {
       width: 100%;
+      margin-bottom: 3em;
     }
     
     #title-header {
@@ -378,6 +475,18 @@ canvas {
     
     #title-content {
       font-size: 18px;
+    }
+
+    .big-problem {
+        margin-bottom: 3em;
+    }
+
+    #solution {
+        margin-bottom: 3em;
+    }
+
+    #key-features {
+        margin-bottom: 3em;
     }
     
     .title {

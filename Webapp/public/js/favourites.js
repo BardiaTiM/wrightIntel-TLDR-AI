@@ -46,10 +46,10 @@ document.addEventListener('DOMContentLoaded', function () {
       newAccordionItem.innerHTML = `
         <h2 class="accordion-header">
           <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#${accordionItemID}" aria-expanded="true" aria-controls="${accordionItemID}">
-            Airline: ${prompt.airline}<br> Question: ${prompt.question}
+            Airline: ${prompt.airline}<br><br> Question: ${prompt.question}
           </button>
         </h2>
-        <div id="${accordionItemID}" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+        <div id="${accordionItemID}" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <div class="heart-container">
               <input type="checkbox" id="heart-${index}" class="heart-checkbox">

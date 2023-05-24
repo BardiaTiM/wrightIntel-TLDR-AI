@@ -18,38 +18,39 @@
 <body>
   <div class="main-container">
     <div class="profile">
-      <div class="card-header">
-        <div class="image-display">
-          <img src="/profile_images/<%= image %>" id="profile_image" class="avatar" width="200px" height="200px">
+      <div class="sub-profile">
+        <div class="card-header">
+          <h1 id="username"><%= username %></h1>
+          <div class="image-display">
+            <img src="/profile_images/<%= image %>" id="profile_image" class="avatar" width="200px" height="200px">
+          </div>
         </div>
-        <button type="button" id="edit-button" data-bs-toggle="modal" data-bs-target="#exampleModal">edit</button>
-        <h1 id="username"><%= username %></h1>
-      </div>
-      <form class="submit-container" action="/profileUpdate" method="post">
-
-        <div class="upload-button">
-          <!-- Modal -->
-          <div class="modal fade modal-background" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-scrollable">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="exampleModalLabel">Change Your Information</h1>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                </div>
-                <div class="modal-footer">
-                  <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">close</button> -->
+        <form class="submit-container" action="/profileUpdate" method="post">
+          <div class="upload-button">
+            <!-- Modal -->
+            <div class="modal fade modal-background" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Change Your Information</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                  </div>
+                  <div class="modal-footer">
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="info">
-          <h3 id="email"><%= email %></h3>
-          <h3 id="phoneNum"><%= phoneNumber %></h3>
-        </div>
+          <div class="info">
+            <h3 id="email"><%= email %></h3>
+            <h3 id="phoneNum"><%= phoneNumber %></h3>
+          </div>
+          <div class="edit-button">
+            <button type="button" id="edit-button" data-bs-toggle="modal" data-bs-target="#exampleModal">Change your information</button>
+          </div>
       </form>
     </div>
   </div>

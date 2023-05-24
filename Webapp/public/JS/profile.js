@@ -75,9 +75,9 @@ document.getElementById("edit-button").addEventListener("click", async (event) =
     createInput("phoneNumInput", phoneNum, "phoneNumInput", ".modal-body");
     createLine("line", ".modal-body");
     profileImageTitle();
-    listImages(["/profile_images/cat.png", "/profile_images/front-plane.png", "/profile_images/minions.png"
-      , "/profile_images/pilot-black.png", "/profile_images/pilot-blue.png", "/profile_images/pilot-pink.png"
-      , "/profile_images/side-plane.png", "/profile_images/lebron.png"]);
+    listImages(["/profile_images/captain-gray.png", "/profile_images/pilot-black.png", "/profile_images/pilot-blue-circle.png"
+      , "/profile_images/pilot-blue.png", "/profile_images/pilot-gray.png", "/profile_images/pilot-pink.png"
+      , "/profile_images/pilot-white.png", "/profile_images/woman-blue.png"]);
     createSaveButton();
 
     let selectedImage = null; // Track the currently selected image

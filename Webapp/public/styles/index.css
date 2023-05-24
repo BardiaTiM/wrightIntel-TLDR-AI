@@ -329,6 +329,11 @@ canvas {
   background: white;
 }
 
+.big-problem img {
+    width: 50%;
+    height: auto;
+}
+
 .animation-container {
   width: 100%;
 }
@@ -341,6 +346,7 @@ canvas {
     box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 }
 
+
 /* Landing Page Text styling */
 
 /*Text*/
@@ -351,7 +357,7 @@ canvas {
     text-align: center; /* Center the paragraphs */
   }
   
-  /*Titles*/
+
 /*Titles*/
 .title {
     color: white;
@@ -365,14 +371,15 @@ canvas {
     .info-section {
         padding: 2em;
       }
-      
+
       .text-container {
         width: 100%;
         margin-bottom: 3em;
       }
-      
-      #title-header {
-        font-size: 50px;
+
+      .main-title {
+        font-size: 80px;
+        
       }
       
       #title-content {
@@ -392,11 +399,11 @@ canvas {
       }
       
       .title {
-        font-size: 40px;
+        font-size: 70px;
       }
       
       .content {
-        font-size: 18px;
+        font-size: 25px;
       }
   
       #airlines {

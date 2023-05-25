@@ -134,6 +134,11 @@ function enableDarkMode() {
     headerContainer.style.background = 'rgb(33, 33, 33)';
   }
 
+  const goBackToIndexButton = document.querySelector('#go-back-button');
+  if (goBackToIndexButton) {
+    goBackToIndexButton.style.color = 'white';
+  }
+
   const navLinks = document.querySelectorAll('li.nav-item.text-center a.nav-link');
   navLinks.forEach(function (link) {
     link.style.color = brown;

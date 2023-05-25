@@ -262,7 +262,7 @@ app.post('/forgot-password', async (req, res) => {
   );
 
   // Send an email to the user with a link to the password reset page
-  const resetUrl = `http://localhost:4056/reset-password?token=${token}`;
+  const resetUrl = `https://tldr-node.onrender.com/reset-password?token=${token}`;
   const mailOptions = {
     from: email_user,
     to: email,
@@ -306,7 +306,7 @@ app.post('/reset-password', async (req, res) => {
     { $unset: { passwordResetToken: 1, passwordResetExpires: 1 } }
   );
 
-  res.status(200).send('Password reset successfully');
+  res.status(200).render('reset-password', { message: 'Password updated successfully', token });
 });
 
 // Password reset page
@@ -322,7 +322,7 @@ app.get('/reset-password', async (req, res) => {
   if (!user) {
     return res.status(400).send('Invalid or expired token');
   }
-  res.render('reset-password', { token });
+  res.render('reset-password', { message: ' ', token });
 });
 
 /* ALL ABOVE IMPORTANT FOR PASSWORD REST */

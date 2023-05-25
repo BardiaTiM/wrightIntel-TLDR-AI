@@ -1,11 +1,21 @@
 <%- include("templates/header") %>
+<!--Google Fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"/>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Pridi:wght@200&display=swap" rel="stylesheet"/>   
+
+<!--CSS Stylesheet-->
+<link rel="stylesheet" href="/styles/index.css" />
 <link rel="stylesheet" href="/styles/profile.css">
 
   <div class="main-container">
     <div class="profile">
       <div class="sub-profile">
         <div class="card-header">
-          <h1 id="username"><%= username %></h1>
+          <h1 id="username" class="title"><%= username %></h1>
           <div class="image-display">
             <img src="/profile_images/<%= image %>" id="profile_image" class="avatar" width="200px" height="200px">
           </div>
@@ -18,8 +28,8 @@
               <div class="modal-dialog modal-dialog-scrollable">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Change Your Information</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h1 class="modal-title fs-5" id="exampleModalLabel" class="content">Change Your Information</h1>
+                    <button type="button" class="btn-close content" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
                   </div>
@@ -30,11 +40,11 @@
             </div>
           </div>
           <div class="info">
-            <h3 id="email"><%= email %></h3>
-            <h3 id="phoneNum"><%= phoneNumber %></h3>
+            <h3 id="email" class="content"><%= email %></h3>
+            <h3 id="phoneNum" class="content"><%= phoneNumber %></h3>
           </div>
           <div class="edit-button">
-            <button type="button" id="edit-button" data-bs-toggle="modal" data-bs-target="#exampleModal">Change your information</button>
+            <button type="button" id="edit-button" class="content" data-bs-toggle="modal" data-bs-target="#exampleModal">Change your information</button>
           </div>
       </form>
     </div>

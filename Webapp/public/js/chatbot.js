@@ -1,5 +1,5 @@
 // Host for chatbot to connect to
-const host = "https://af80-2001-569-7f48-b900-8522-e7b8-2f68-ef9a.ngrok-free.app/";
+const host = "https://af80-2001-569-7f48-b900-8522-e7b8-2f68-ef9a.ngrok-free.app";
 let messageIndex = 0;
 
 function insertMessage(text, fromUser) {

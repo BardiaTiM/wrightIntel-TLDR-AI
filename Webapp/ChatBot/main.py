@@ -130,7 +130,7 @@ def flight_info():
             # Find the flight scheduled for today
             today = date.today().strftime("%Y-%m-%d")
             scheduled_flights = [flight for flight in flights if flight.get('scheduled_out')[:10] == today]
-            
+            60
             if scheduled_flights:
                 scheduled_flight = scheduled_flights[0]
                 operator_code = scheduled_flight.get('operator', None)  # Extract operator code
@@ -179,7 +179,7 @@ def flight_info():
         result['scheduled_time'] = 'Data not available'
         result['departure_delay'] = 'Data not available'
 
-    return jsonify(result)
+    return jsonify(result), 200, {'Access-Control-Allow-Origin': 'http://localhost:4056'}
 
 
 

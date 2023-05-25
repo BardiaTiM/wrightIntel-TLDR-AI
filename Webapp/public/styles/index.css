@@ -36,16 +36,6 @@ body {
   border-left: none;
 }
 
-.right {
-  top: 0;
-  right: 0;
-  transform: translate(50%, -50%);
-  max-width: 70%;
-  height: 100%;
-  padding-right: 10%;
-  border-right: none;
-}
-
 .scroll-down {
   z-index: 2;
 }
@@ -402,21 +392,21 @@ canvas {
   /* Card Styling */
   .card-container {
     justify-content: center;
-    padding: 1em;
-    
+    padding: 0%;
+    overflow: hidden;
   }
 
   .custom-card {
     border-radius: 10px;
     background-color: #f1f1f1;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-    
+    justify-content: center;
   }
 
   .custom-card1 {
     border-radius: 10px;
     background-color: #627264;
-    
+    justify-content: center;
   }
 
   .card-img {
@@ -451,6 +441,14 @@ canvas {
           width: 50%;
         }
 
+        .card-container {
+          justify-content: center;
+          padding: 0%;
+          overflow: hidden;
+          padding-left: 5%;
+          padding-right: 5%;
+        }
+
   }
 
 
@@ -483,6 +481,14 @@ canvas {
 
     #airlines {
         width: 90%;
+      }
+
+      .card-container {
+        justify-content: center;
+        padding: 0%;
+        overflow: hidden;
+        padding-left: 5%;
+        padding-right: 5%;
       }
 }
 
@@ -525,11 +531,17 @@ canvas {
         margin-bottom: 3em;
     }
     
-
-
     #airlines {
         width: 90%;
-      }
+    }
+
+    .card-container {
+        justify-content: center;
+        padding: 0%;
+        overflow: hidden;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
   }
   
   /* Mobile devices (768px and below) */

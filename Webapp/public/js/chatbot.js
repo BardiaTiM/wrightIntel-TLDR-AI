@@ -1,4 +1,4 @@
-const host = "http://localhost:5001";
+const host = "https://31c6-2001-569-7f48-b900-f44b-df18-bd13-8408.ngrok-free.app";
 let messageIndex = 0;
 
 function insertMessage(text, fromUser) {
@@ -111,20 +111,41 @@ function animateText(text, messageElement) {
         trailingChar = word[word.length - 1];
         word = word.substring(0, word.length - 1);
       }
-
+    
       const linkElement = document.createElement("a");
       linkElement.href = word;
       linkElement.target = "_blank"; // to open in a new tab
       linkElement.rel = "noopener noreferrer"; // for security reasons
       linkElement.textContent = word;
-      messageElement.appendChild(linkElement);
-      messageElement.appendChild(document.createTextNode(trailingChar + " ")); // add trailing punctuation and a space after the link
+    
+      // Create a space element before the link
+      const leadingSpaceElement = document.createTextNode(" ");
+    
+      // Create a space element after the link
+      const trailingSpaceElement = document.createTextNode(" ");
+    
+      // Create a span element to wrap the space, the link, and another space
+      const spanElement = document.createElement("span");
+      spanElement.appendChild(leadingSpaceElement);
+      spanElement.appendChild(linkElement);
+      spanElement.appendChild(trailingSpaceElement);
+    
+      // Add the span element to the message element
+      messageElement.appendChild(spanElement);
+    
+      // Add trailing punctuation after the span element
+      if (trailingChar) {
+        const trailingCharElement = document.createTextNode(trailingChar);
+        messageElement.appendChild(trailingCharElement);
+      }
     } else {
-      const currentText = messageElement.innerText;
-      messageElement.innerText = currentText + " " + words[currentIndex];
+      const textNode = document.createTextNode(" " + words[currentIndex]);
+      messageElement.appendChild(textNode);
     }
-
-    currentIndex++;
+    
+    currentIndex++;    
+    
+    
   }, 100); // Adjust the delay (in milliseconds) between each word display
 }
 

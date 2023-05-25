@@ -1,3 +1,8 @@
+body {
+    background: #F4C397;
+    color: white;
+}
+
 .edit-button {
     display: flex;
     flex-direction: column;

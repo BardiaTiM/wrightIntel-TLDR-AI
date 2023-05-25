@@ -4,7 +4,7 @@ function updateButtonColors() {
   const brown = '#c57b57';
   const buttons = document.querySelectorAll('.buttons-container button');
 
-  buttons.forEach(function(button) {
+  buttons.forEach(function (button) {
     button.style.border = 'none';
     if (document.body.classList.contains('dark-mode')) {
       // Update button colors for dark mode
@@ -19,9 +19,9 @@ function updateButtonColors() {
 function updateMessageBackground() {
   const green = '#627264';
   const brown = '#c57b57';
-  const buttons = document.querySelectorAll('.message-wrapper div');
+  const buttons = document.querySelectorAll('div.chat-bubble.chat-bubble-right.message-0');
 
-  buttons.forEach(function(div) {
+  buttons.forEach(function (div) {
     if (document.body.classList.contains('dark-mode')) {
       div.style.backgroundColor = brown;
     } else {
@@ -35,13 +35,13 @@ function changeButtonBackgroundOrangeToGreen(button, over, out) {
   if (button) {
     button.style.background = out;
     button.style.color = 'white';
-  
-    button.addEventListener('mouseover', function() {
+
+    button.addEventListener('mouseover', function () {
       button.style.background = over;
       // Additional styles for the hover state
     });
-  
-    button.addEventListener('mouseout', function() {
+
+    button.addEventListener('mouseout', function () {
       button.style.background = out;
       button.style.transform = 'scale(1.02)';
       button.style.transition = 'all 0.5s ease';
@@ -55,12 +55,12 @@ function changeButtonBackgroundGreenToOrange(button, over, out) {
     button.style.background = over;
     button.style.color = 'white';
 
-    button.addEventListener('mouseover', function() {
+    button.addEventListener('mouseover', function () {
       button.style.background = out;
       // Additional styles for the hover state
     });
 
-    button.addEventListener('mouseout', function() {
+    button.addEventListener('mouseout', function () {
       button.style.background = over;
       button.style.transform = 'scale(1.02)';
       button.style.transition = 'all 0.5s ease';
@@ -104,6 +104,11 @@ function enableDarkMode() {
     logoImage.src = '/logo_images/white.png';
   }
 
+  const indexLogo = document.querySelector('#index-logo');
+  if (indexLogo) {
+    indexLogo.src = '/logo_images/white-font.png';
+  }
+
   const getStartedButton = document.querySelector('.members-button');
   changeButtonBackgroundOrangeToGreen(getStartedButton, green, brown);
   const loginButton = document.querySelector('#submit');
@@ -117,7 +122,7 @@ function enableDarkMode() {
     cancelButtonForgotPassword.style.color = 'white';
   }
   const overlayButtons = document.querySelectorAll('.overlay-content button');
-  overlayButtons.forEach(function(button) {
+  overlayButtons.forEach(function (button) {
     button.style.border = 'none';
     changeButtonBackgroundOrangeToGreen(button, green, brown);
   });
@@ -128,15 +133,46 @@ function enableDarkMode() {
     headerContainer.style.color = 'black';
     headerContainer.style.background = 'rgb(33, 33, 33)';
   }
-    // Remove light mode class from body
-    document.body.classList.remove('light-mode');
 
-    // Add dark mode class to body
-    document.body.classList.add('dark-mode');
+  const navLinks = document.querySelectorAll('li.nav-item.text-center a.nav-link');
+  navLinks.forEach(function (link) {
+    link.style.color = brown;
 
-    // Update button colors
-    updateButtonColors();
-    updateMessageBackground();
+    link.addEventListener('mouseover', function () {
+      link.style.color = green;
+      // Additional styles for the hover state
+    });
+
+    link.addEventListener('mouseout', function () {
+      link.style.color = brown;
+      // Additional styles for the non-hover state
+    });
+  });
+
+  const settingButton = document.querySelector('button.btn.btn-secondary.dropdown-toggle.dropdown-item.nav-link');
+  if (settingButton) {
+    settingButton.style.color = brown;
+  }
+
+  settingButton.addEventListener('mouseover', function () {
+    settingButton.style.color = green;
+    // Additional styles for the hover state
+  });
+
+  settingButton.addEventListener('mouseout', function () {
+    settingButton.style.color = brown;
+    // Additional styles for the non-hover state
+  });
+
+  // Remove light mode class from body
+  document.body.classList.remove('light-mode');
+
+  // Add dark mode class to body
+  document.body.classList.add('dark-mode');
+
+  // Update button colors
+  updateButtonColors();
+  updateMessageBackground();
 
   // Store dark mode preference in localStorage
   localStorage.setItem('darkModeEnabled', 'true');
@@ -144,6 +180,8 @@ function enableDarkMode() {
 
 // Function to enable light mode
 function enableLightMode() {
+  const green = '#7b917d';
+  const brown = '#c57b57';
   // Set background gradient for light mode #F4C397
   document.body.style.background = '#F4C397';
   // document.body.style.backgroundSize = '400% 500%';
@@ -186,8 +224,38 @@ function enableLightMode() {
     headerContainer.style.backgroundColor = 'rgb(241, 229, 229)';
   }
 
-    // Remove dark-mode class from body
-    document.body.classList.remove('dark-mode');
+  const navLinks = document.querySelectorAll('li.nav-item.text-center a.nav-link');
+  navLinks.forEach(function (link) {
+    link.style.color = green;
+
+    link.addEventListener('mouseover', function () {
+      link.style.color = brown;
+      // Additional styles for the hover state
+    });
+
+    link.addEventListener('mouseout', function () {
+      link.style.color = green;
+      // Additional styles for the non-hover state
+    });
+  });
+
+  const settingButton = document.querySelector('button.btn.btn-secondary.dropdown-toggle.dropdown-item.nav-link');
+  if (settingButton) {
+    settingButton.style.color = green;
+  }
+
+  settingButton.addEventListener('mouseover', function () {
+    settingButton.style.color = brown;
+    // Additional styles for the hover state
+  });
+
+  settingButton.addEventListener('mouseout', function () {
+    settingButton.style.color = green;
+    // Additional styles for the non-hover state
+  });
+
+  // Remove dark-mode class from body
+  document.body.classList.remove('dark-mode');
 
   // Add light-mode class to body
   document.body.classList.add('light-mode');
@@ -229,9 +297,9 @@ darkModeToggle.addEventListener('click', function () {
   if (logoImage) {
     logoImage.src = '/logo_images/white.png';
   }
-    // Update button colors
-    updateButtonColors();
-    updateMessageBackground();
+  // Update button colors
+  updateButtonColors();
+  updateMessageBackground();
 });
 
 // Add event listener to the light mode toggle switch
@@ -242,7 +310,7 @@ lightModeToggle.addEventListener('click', function () {
   if (logoImage) {
     logoImage.src = '/logo_images/black.png';
   }
-    // Update button colors
-    updateButtonColors();
-    updateMessageBackground();
+  // Update button colors
+  updateButtonColors();
+  updateMessageBackground();
 });

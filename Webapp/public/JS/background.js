@@ -74,7 +74,7 @@ function enableDarkMode() {
   const green = '#7b917d';
   const brown = '#c57b57';
   // Set background gradient for dark mode
-  document.body.style.background = '#627264';
+  document.body.style.background = '#2C3E2E';
   // document.body.style.backgroundSize = '400% 500%';
   // document.body.style.animation = 'gradient 10s ease infinite';
 
@@ -314,3 +314,4 @@ lightModeToggle.addEventListener('click', function () {
   updateButtonColors();
   updateMessageBackground();
 });
+

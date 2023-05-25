@@ -354,28 +354,10 @@ canvas {
   #airlines-title{
     text-align: center;
   }
-
-  .big-problem {
-    position: relative;
-    overflow: hidden;
-    border-radius: 10px;
   
+  .big-problem {
+    border-radius: 10px;
   }
-
-  #problem {
-    z-index: 1;
-  }
-
-  .big-problem img {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    z-index: -1;
-  }
-
-
 
   #problem-title {
     position: relative;
@@ -399,7 +381,26 @@ canvas {
     text-align: center;
   }
 
-  
+
+
+
+  /* Card Styling */
+  .card-container {
+    justify-content: center;
+  }
+
+  .custom-card {
+    border-radius: 10px;
+    background-color: f1f1f1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+
+  }
+
+  .card-img {
+    height:auto;
+    width: 100%;
+    object-fit: cover;
+  }
   
 
   @media only screen and (min-width: 1400px) {
@@ -562,9 +563,7 @@ canvas {
     }
 
     .big-problem {
-
         margin-bottom: 3em;
-        
     }
 
     #solution {
@@ -585,4 +584,25 @@ canvas {
     
   
   }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   

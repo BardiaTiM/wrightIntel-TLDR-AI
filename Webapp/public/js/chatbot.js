@@ -157,7 +157,7 @@ function showLoading() {
   loadingDiv.id = "loading";
   loadingDiv.className = "loading-container";
   loadingDiv.innerHTML =
-    '<img src="loading.gif" alt="Loading..." class="loading">';
+    '<img src="./images/chatbot_images/loading.gif" alt="Loading..." class="loading">';
 
   chatbotOutput.appendChild(loadingDiv);
 

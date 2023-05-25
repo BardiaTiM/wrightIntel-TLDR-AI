@@ -3,6 +3,11 @@ body {
     color: white;
 }
 
+.modal-dialog-scrollable .modal-content {
+    max-height: 90% !important;
+    overflow: hidden;
+}
+
 .edit-button {
     display: flex;
     flex-direction: column;
@@ -174,7 +179,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow-x: hidden;
 }
 
 #line {
@@ -299,6 +303,10 @@ input:checked+.slider:before {
 
 @media screen and (max-width: 1300px) {
 
+    .modal-body {
+        overflow-x: hidden !important;
+    }
+
     .modal-dialog-scrollable .modal-content {
         max-height: 90% !important;
         overflow: hidden;
@@ -356,6 +364,7 @@ input:checked+.slider:before {
     }
 
     #profileImageTitle {
+        padding-right: 50px;
         text-align: center;
     }
 
@@ -412,8 +421,19 @@ input:checked+.slider:before {
 
     #phoneNum {
         /* margin-top: 20px; */
-        margin-bottom: 30px;
+        /* margin-bottom: 30px; */
         padding-right: 0%;
+    }
+
+    @media screen and (max-width: 600px) {
+        #profileImageTitle {
+            margin-right: 50px;
+            padding: 0;
+        }
+        .profile-image {
+            width: 100px;
+            height: 100px;            
+        }
     }
 
 }

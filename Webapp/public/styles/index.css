@@ -426,8 +426,7 @@ canvas {
 
   @media only screen and (min-width: 1400px) {
       .text-container {
-        width: 100%;
-        margin-bottom: 3em;
+        padding: 0;
       }
       
       #title-content {
@@ -456,7 +455,7 @@ canvas {
 /* Laptops and Desktop Computers */
 @media only screen and (min-width: 1025px) and (max-width: 1400px) {
     .info-section {
-      padding: 2em;
+      padding: 0;
     }
     
     .text-container {
@@ -496,7 +495,7 @@ canvas {
 /* Tablets and small laptops (1024px and below) */
 @media only screen and (max-width: 1024px) {
     .info-section {
-      padding: 2em;
+      padding: 0;
     }
     
     .text-container {

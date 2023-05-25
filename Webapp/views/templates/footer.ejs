@@ -10,7 +10,7 @@
       position: fixed;
       bottom: 0;
       background-color: rgb(241, 229, 229);
-      z-index: 2;
+      z-index: 9999;
     }
 
     .nav-link {
@@ -57,8 +57,17 @@
     }
 
     .light-mode .nav-item .fas{
-      color: #146C94;
+      color: #7b917d;
       /* Set icon color to black in light mode */
+    }
+
+    li.nav-item.text-center a.nav-link:hover{
+      color: #c57b57;
+    }
+
+    button.btn.btn-secondary.dropdown-toggle.dropdown-item.nav-link:hover {
+      color: #c57b57;
+
     }
   </style>
 

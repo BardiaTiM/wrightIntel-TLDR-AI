@@ -337,16 +337,34 @@ canvas {
     color: white;
     font-size: 12px;
     font-family: "Pridi", serif;
-    text-align: center; /* Center the paragraphs */
+  }
+
+  .content-dark {
+    color: black;
+    font-size: 12px;
+    font-family: "Pridi", serif;  
   }
   
 
 /*Titles*/
+.main-title {
+  width: 100%;
+  color: white;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1em; /* Increase the font size for HUGE headings */
+}
+
 .title {
     color: white;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 60px; /* Increase the font size for HUGE headings */
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3em; /* Increase the font size for HUGE headings */
   }
+
+.title-dark {
+  color: black;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3em; /* Increase the font size for HUGE headings */
+}
 
 
   #airlines-title{
@@ -382,18 +400,21 @@ canvas {
   /* Card Styling */
   .card-container {
     justify-content: center;
+    padding: 1em;
+    
   }
 
   .custom-card {
     border-radius: 10px;
     background-color: #f1f1f1;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    
   }
 
   .custom-card1 {
     border-radius: 10px;
     background-color: #627264;
-
+    
   }
 
   .card-img {
@@ -404,18 +425,8 @@ canvas {
   
 
   @media only screen and (min-width: 1400px) {
-    .info-section {
-        padding: 2em;
-      }
-
       .text-container {
-        width: 100%;
-        margin-bottom: 3em;
-      }
-
-      .main-title {
-        font-size: 80px;
-        
+        padding: 0;
       }
       
       #title-content {
@@ -433,15 +444,7 @@ canvas {
       #key-features {
           margin-bottom: 3em;
       }
-      
-      .title {
-        font-size: 70px;
-      }
-      
-      .content {
-        font-size: 25px;
-      }
-  
+
       #airlines {
           width: 50%;
         }
@@ -452,7 +455,7 @@ canvas {
 /* Laptops and Desktop Computers */
 @media only screen and (min-width: 1025px) and (max-width: 1400px) {
     .info-section {
-      padding: 2em;
+      padding: 0;
     }
     
     .text-container {
@@ -475,14 +478,6 @@ canvas {
     #key-features {
         margin-bottom: 3em;
     }
-    
-    .title {
-      font-size: 40px;
-    }
-    
-    .content {
-      font-size: 18px;
-    }
 
     #airlines {
         width: 90%;
@@ -500,7 +495,7 @@ canvas {
 /* Tablets and small laptops (1024px and below) */
 @media only screen and (max-width: 1024px) {
     .info-section {
-      padding: 2em;
+      padding: 0;
     }
     
     .text-container {
@@ -528,38 +523,22 @@ canvas {
         margin-bottom: 3em;
     }
     
-    .title {
-      font-size: 35px;
-    }
-    
-    .content {
-      font-size: 16px;
-    }
+
 
     #airlines {
         width: 90%;
       }
-  
-
   }
   
   /* Mobile devices (768px and below) */
   @media only screen and (max-width: 768px) {
     .info-section {
-      padding: 1em;
+      padding: 0;
     }
   
     .text-container {
       width: 100%;
       margin-bottom: 3em;
-    }
-    
-    #title-header {
-      font-size: 30px;
-    }
-    
-    #title-content {
-      font-size: 16px;
     }
 
     .big-problem {
@@ -574,13 +553,6 @@ canvas {
         margin-bottom: 3em;
     }
     
-    .title {
-      font-size: 25px;
-    }
-    
-    .content {
-      font-size: 14px;
-    }
     
   
   }

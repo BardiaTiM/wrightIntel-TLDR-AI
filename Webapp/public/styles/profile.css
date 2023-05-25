@@ -309,9 +309,9 @@ input:checked+.slider:before {
         margin-left: 10%;
         margin-right: 10%;
         border-radius: 10px;
-        padding-left: 10px;
-        padding-right: 10px;
-        /* padding-bottom: 10px; */
+        /* padding-left: 10px; */
+        /* padding-right: 10px; */
+        /* padding-bottom: 10px;  */
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
@@ -331,6 +331,7 @@ input:checked+.slider:before {
     }
 
     .card-header {
+        margin-top: 5px;
         width: 100%;
         position: relative;
         display: flex;
@@ -355,12 +356,13 @@ input:checked+.slider:before {
     }
 
     #profileImageTitle {
-        padding-right: 50px;
+        text-align: center;
     }
 
     .profile-image-container {
         padding-left: 60px;
         align-items: center;
+        justify-content: center;
     }
 
     .profile-image {
@@ -397,6 +399,7 @@ input:checked+.slider:before {
     }
 
     #username {
+        padding-top: 10px;
         margin: 0 auto;
         /* padding-bottom: 20px; */
     }
@@ -409,7 +412,7 @@ input:checked+.slider:before {
 
     #phoneNum {
         /* margin-top: 20px; */
-        margin-bottom: 60px;
+        margin-bottom: 30px;
         padding-right: 0%;
     }
 

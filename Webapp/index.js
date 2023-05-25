@@ -91,23 +91,23 @@ app.post('/signupValidation', async (req, res) => {
   var html;
   // Check for missing fields
   if (!username) {
-    html = `<h1>Sign up error</h1><p>Missing username</p><a href='/signup'>Try again</a>`;
-    res.send(html);
+    html = `Missing username`;
+    res.render('signup-error', { errorMsg: html });
     return;
   }
   if (!email) {
-    html = `<h1>Sign up error</h1><p>Missing email</p><a href='/signup'>Try again</a>`;
-    res.send(html);
+    html = `Missing email`;
+    res.render('signup-error', { errorMsg: html });
     return;
   }
   if (!password) {
-    html = `<h1>Sign up error</h1><p>Missing password</p><a href='/signup'>Try again</a>`;
-    res.send(html);
+    html = `Missing password`;
+    res.render('signup-error', { errorMsg: html });
     return;
   }
   if (!phoneNum) {
-    html = `<h1>Sign up error</h1><p>Missing phone number</p><a href='/signup'>Try again</a>`;
-    res.send(html);
+    html = `Missing phone number`;
+    res.render('signup-error', { errorMsg: html });
     return;
   }
 
@@ -195,8 +195,8 @@ app.post('/loginValidation', async (req, res) => {
     // Incorrect password
   } else {
     console.log("incorrect password");
-    html = `<h1>Login error</h1><p>Incorrect password</p><a href='/login'>Try again</a>`;
-    res.send(html);
+    html = `Incorrect password`;
+    res.render('signup-error', { errorMsg: html });
     return;
   }
 });
@@ -207,7 +207,7 @@ app.get('/chatbot', (req, res) => {
 });
 
 /** Logout page. */
-app.get('/logout', (req, res) => {
+app.get('/logout', (req, res) => {``
   // console.log("Logging out");
   req.session.destroy((err) => {
     if (err) {
@@ -306,7 +306,7 @@ app.post('/reset-password', async (req, res) => {
     { $unset: { passwordResetToken: 1, passwordResetExpires: 1 } }
   );
 
-  res.status(200).send('Password reset successfully');
+  res.status(200).render('reset-password', { message: 'Password updated successfully', token });
 });
 
 // Password reset page
@@ -322,7 +322,7 @@ app.get('/reset-password', async (req, res) => {
   if (!user) {
     return res.status(400).send('Invalid or expired token');
   }
-  res.render('reset-password', { token });
+  res.render('reset-password', { message: ' ', token });
 });
 
 /* ALL ABOVE IMPORTANT FOR PASSWORD REST */

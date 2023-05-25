@@ -34,7 +34,14 @@
     </header> -->
   <div class="container">
     <div class="sub-container">
+
       <div id="title" class="title">SIGN IN</div>
+
+      <div class="title-container">
+        <button id="go-back-button">Go Back</button>
+        <div id="title">SIGN IN</div>
+      </div>
+
       <form class="submit-container" action="/loginValidation" method="post">
         <input id="email" class="content" type="email" name="email" placeholder="Enter email" required>
         <input id="password" class="content" type="password" name="password" placeholder="Enter password" required>
@@ -47,6 +54,12 @@
       </div>
     </div>
   </div>
+  <script>
+    const goBackButton = document.getElementById('go-back-button');
+    goBackButton.addEventListener('click', () => {
+      window.location.href = '/';
+    });
+  </script>
   <script src="/JS/background.js"></script>
 
   </body>

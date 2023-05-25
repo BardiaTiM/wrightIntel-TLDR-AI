@@ -106,7 +106,7 @@
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;
-  padding: 3%;
+  padding: 1%;
   }
 
 .ask-button {
@@ -422,7 +422,7 @@
 </div>
 
 <div class="header-container">
-  <select id="airlineInput" class="form-control airline-input">
+  <select id="airlineInput" class="form-control airline-input" required>
     <!-- Your options go here -->
     <option selected>Select airline name...</option>
     <option value="aircanada">Air Canada</option>
@@ -466,6 +466,7 @@
             id="userInput"
             class="form-control question-input"
             placeholder="Ask a question..."
+            required
           />
           <button type="submit" class="btn btn-primary ask-button">Ask</button>
         </form>

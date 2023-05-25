@@ -5,7 +5,7 @@ body {
 
 .box {
   position: absolute;
-  width: 25%;
+  max-width: 25%;
   /* border: 2px solid black; */
   z-index: 2;
 }
@@ -40,7 +40,7 @@ body {
   top: 0;
   right: 0;
   transform: translate(50%, -50%);
-  width: 70%;
+  max-width: 70%;
   height: 100%;
   padding-right: 10%;
   border-right: none;
@@ -265,6 +265,8 @@ canvas {
     transform: translate(-50%, -50%);
     font-size: 3em;
   }
+  
+
 
 
 /*TEXT-CONTAINER CONTENT*/
@@ -334,14 +336,14 @@ canvas {
 
 /*Text*/
 .content {
-    color: white;
-    font-size: 12px;
+    font-size: 0.875em;
     font-family: "Pridi", serif;
   }
 
+
   .content-dark {
     color: black;
-    font-size: 12px;
+    font-size: 0.875em;
     font-family: "Pridi", serif;  
   }
   

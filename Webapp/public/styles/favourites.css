@@ -3,6 +3,7 @@ body {
   color: white;
 }
 
+
 .container-fluid {
     display: flex;
     flex-direction: column;
@@ -14,6 +15,8 @@ body {
   }
 
   .accordion {
+    height: 100vh;
+    overflow-y: auto;
     --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25) !important;
     --bs-accordian-btn-bg: #627264 !important;
     --bs-accordion-btn-focus-border-color: #FFFFFF !important;

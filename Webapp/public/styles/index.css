@@ -50,7 +50,7 @@ body {
   z-index: 2;
 }
 
-#index-logo {
+#logo {
   z-index: 2;
 }
 
@@ -199,7 +199,7 @@ input:checked + .slider:before {
   opacity: 0.5;
 }
 
-/*Animations*/
+/*THREE.JS Globe Animation*/
 canvas {
   display: block;
   position: relative;
@@ -225,11 +225,27 @@ canvas {
   z-index: 1;
 }
 
-/*                                       */
+
+/* Scroll Down Animation */
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-.25em);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.scroll-down {
+    animation: bounce 1s infinite;
+}
+
+
+                                       
 /* Landing Page Titles and Content Boxes */
-/*                                       */
-
-
 .overlay {
     position: relative;
     text-align: center;
@@ -263,22 +279,11 @@ canvas {
 /* Centered, large typography */
 .title {
     font-size: 3em;
-    text-align: center;
     font-family: Arial, sans-serif;  /* Adjust as necessary */
     color: #333;  /* Adjust as necessary */
 }
 
-#title-header {
-  width: 70%;
-  border-radius: 5px;
-  position: absolute;
-  left: 5%;
-  top: 5%;
-  z-index: 1;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
-  font-size: 50px;
-}
+
 
 #title-content {
     width: 95%;
@@ -311,6 +316,7 @@ canvas {
   background: white;
 }
 
+
 .animation-container {
   width: 100%;
 }
@@ -323,6 +329,7 @@ canvas {
     box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 }
 
+
 /* Landing Page Text styling */
 
 /*Text*/
@@ -333,15 +340,161 @@ canvas {
     text-align: center; /* Center the paragraphs */
   }
   
-  /*Titles*/
+
 /*Titles*/
 .title {
     color: white;
     font-family: "Bebas Neue", sans-serif;
     font-size: 60px; /* Increase the font size for HUGE headings */
-    text-align: center; /* Center the titles */
+  }
+
+
+  #airlines-title{
+    text-align: center;
   }
   
+  .big-problem {
+    border-radius: 10px;
+  }
+
+  #problem-title {
+    position: relative;
+    left: 15%;
+    width: 32%;
+  }
+
+  #solution-title {
+    position: relative;
+    left: 60%;
+    width: 32%;
+  }
+
+  #features-title {
+    position: relative;
+    left: 15%;
+    width: 33%;
+  }
+
+  #conclusion-title {
+    text-align: center;
+  }
+
+  /* Card Styling */
+  .card-container {
+    justify-content: center;
+  }
+
+  .custom-card {
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  }
+
+  .custom-card1 {
+    border-radius: 10px;
+    background-color: #627264;
+
+  }
+
+  .card-img {
+    height:100%;
+    width: auto;
+    object-fit: cover;
+  }
+  
+
+  @media only screen and (min-width: 1400px) {
+    .info-section {
+        padding: 2em;
+      }
+
+      .text-container {
+        width: 100%;
+        margin-bottom: 3em;
+      }
+
+      .main-title {
+        font-size: 80px;
+        
+      }
+      
+      #title-content {
+        font-size: 20px;
+      }
+  
+      .big-problem {
+          margin-bottom: 3em;
+      }
+  
+      #solution {
+          margin-bottom: 3em;
+      }
+  
+      #key-features {
+          margin-bottom: 3em;
+      }
+      
+      .title {
+        font-size: 70px;
+      }
+      
+      .content {
+        font-size: 25px;
+      }
+  
+      #airlines {
+          width: 50%;
+        }
+
+  }
+
+
+/* Laptops and Desktop Computers */
+@media only screen and (min-width: 1025px) and (max-width: 1400px) {
+    .info-section {
+      padding: 2em;
+    }
+    
+    .text-container {
+      width: 100%;
+      margin-bottom: 3em;
+    }
+    
+    #title-content {
+      font-size: 20px;
+    }
+
+    .big-problem {
+        margin-bottom: 3em;
+    }
+
+    #solution {
+        margin-bottom: 3em;
+    }
+
+    #key-features {
+        margin-bottom: 3em;
+    }
+    
+    .title {
+      font-size: 40px;
+    }
+    
+    .content {
+      font-size: 18px;
+    }
+
+    #airlines {
+        width: 90%;
+      }
+}
+
+
+
+
+
+
+
 
 
 /* Tablets and small laptops (1024px and below) */
@@ -352,6 +505,7 @@ canvas {
     
     .text-container {
       width: 100%;
+      margin-bottom: 3em;
     }
     
     #title-header {
@@ -360,6 +514,18 @@ canvas {
     
     #title-content {
       font-size: 18px;
+    }
+
+    .big-problem {
+        margin-bottom: 3em;
+    }
+
+    #solution {
+        margin-bottom: 3em;
+    }
+
+    #key-features {
+        margin-bottom: 3em;
     }
     
     .title {
@@ -385,6 +551,7 @@ canvas {
   
     .text-container {
       width: 100%;
+      margin-bottom: 3em;
     }
     
     #title-header {
@@ -393,6 +560,18 @@ canvas {
     
     #title-content {
       font-size: 16px;
+    }
+
+    .big-problem {
+        margin-bottom: 3em;
+    }
+
+    #solution {
+        margin-bottom: 3em;
+    }
+
+    #key-features {
+        margin-bottom: 3em;
     }
     
     .title {
@@ -406,3 +585,4 @@ canvas {
   
   }
   
+

@@ -157,7 +157,7 @@ function showLoading() {
   loadingDiv.id = "loading";
   loadingDiv.className = "loading-container";
   loadingDiv.innerHTML =
-    '<img src="loading.gif" alt="Loading..." class="loading">';
+    '<img src="./images/chatbot_images/loading.gif" alt="Loading..." class="loading">';
 
   chatbotOutput.appendChild(loadingDiv);
 
@@ -565,6 +565,6 @@ function updateAirlineName(airlineName, formalAirlineName) {
 // Replace the image with the specified source
 function replaceImage() {
   const logoImage = document.getElementById("logo2B");
-  logoImage.src = "logo1B.png";
+  logoImage.src = "./images/chatbot_images/logo1B.png";
   logoImage.style.width = "40%"; // Adjust the width value to the desired size
 }

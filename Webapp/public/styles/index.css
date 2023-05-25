@@ -381,9 +381,6 @@ canvas {
     text-align: center;
   }
 
-
-
-
   /* Card Styling */
   .card-container {
     justify-content: center;
@@ -393,12 +390,11 @@ canvas {
     border-radius: 10px;
     background-color: f1f1f1;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-
   }
 
   .card-img {
-    height:auto;
-    width: 100%;
+    height:100%;
+    width: auto;
     object-fit: cover;
   }
   

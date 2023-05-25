@@ -5,7 +5,7 @@ body {
 
 .box {
   position: absolute;
-  width: 25%;
+  max-width: 25%;
   /* border: 2px solid black; */
   z-index: 2;
 }
@@ -34,16 +34,6 @@ body {
   height: 100%;
   padding-left: 10%;
   border-left: none;
-}
-
-.right {
-  top: 0;
-  right: 0;
-  transform: translate(50%, -50%);
-  width: 70%;
-  height: 100%;
-  padding-right: 10%;
-  border-right: none;
 }
 
 .scroll-down {
@@ -265,6 +255,8 @@ canvas {
     transform: translate(-50%, -50%);
     font-size: 3em;
   }
+  
+
 
 
 /*TEXT-CONTAINER CONTENT*/
@@ -334,14 +326,14 @@ canvas {
 
 /*Text*/
 .content {
-    color: white;
-    font-size: 12px;
+    font-size: 0.875em;
     font-family: "Pridi", serif;
   }
 
+
   .content-dark {
     color: black;
-    font-size: 12px;
+    font-size: 0.875em;
     font-family: "Pridi", serif;  
   }
   
@@ -400,21 +392,21 @@ canvas {
   /* Card Styling */
   .card-container {
     justify-content: center;
-    padding: 1em;
-    
+    padding: 0%;
+    overflow: hidden;
   }
 
   .custom-card {
     border-radius: 10px;
     background-color: #f1f1f1;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-    
+    justify-content: center;
   }
 
   .custom-card1 {
     border-radius: 10px;
     background-color: #627264;
-    
+    justify-content: center;
   }
 
   .card-img {
@@ -449,6 +441,14 @@ canvas {
           width: 50%;
         }
 
+        .card-container {
+          justify-content: center;
+          padding: 0%;
+          overflow: hidden;
+          padding-left: 5%;
+          padding-right: 5%;
+        }
+
   }
 
 
@@ -481,6 +481,14 @@ canvas {
 
     #airlines {
         width: 90%;
+      }
+
+      .card-container {
+        justify-content: center;
+        padding: 0%;
+        overflow: hidden;
+        padding-left: 5%;
+        padding-right: 5%;
       }
 }
 
@@ -523,11 +531,17 @@ canvas {
         margin-bottom: 3em;
     }
     
-
-
     #airlines {
         width: 90%;
-      }
+    }
+
+    .card-container {
+        justify-content: center;
+        padding: 0%;
+        overflow: hidden;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
   }
   
   /* Mobile devices (768px and below) */

@@ -1,5 +1,16 @@
 <%- include("templates/header") %>
-  <link rel="stylesheet" href="/styles/login.css">
+
+<!--Google Fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"/>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Pridi:wght@200&display=swap" rel="stylesheet"/>   
+
+<!--CSS Stylesheet-->
+<link rel="stylesheet" href="/styles/index.css" />
+<link rel="stylesheet" href="/styles/login.css">
 
   <!-- <!DOCTYPE html>
   <html lang="en">
@@ -27,15 +38,16 @@
         <button id="go-back-button">Go Back</button>
         <div id="title">SIGN IN</div>
       </div>
+
       <form class="submit-container" action="/loginValidation" method="post">
-        <input id="email" type="email" name="email" placeholder="Enter email" required>
-        <input id="password" type="password" name="password" placeholder="Enter password" required>
-        <button id="submit">LOG IN</button>
-        <div><a href="forgot-password" id="forgot-password">Forgot password</a></div>
+        <input id="email" class="content" type="email" name="email" placeholder="Enter email" required>
+        <input id="password" class="content" type="password" name="password" placeholder="Enter password" required>
+        <button id="submit" class="content">LOG IN</button>
+        <div><a href="forgot-password" id="forgot-password" class="content">Forgot password</a></div>
         <div class="line"></div>
       </form>
       <div>
-        <button id="create-account" onclick="window.location.href='signup'">Don't have an account</button>
+        <button id="create-account" class="content" onclick="window.location.href='signup'">Don't have an account</button>
       </div>
     </div>
   </div>

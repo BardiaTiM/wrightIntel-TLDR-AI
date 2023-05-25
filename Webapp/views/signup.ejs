@@ -1,4 +1,14 @@
 <%- include('templates/header') %>
+<!--Google Fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"/>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Pridi:wght@200&display=swap" rel="stylesheet"/>   
+
+<!--CSS Stylesheet-->
+<link rel="stylesheet" href="/styles/index.css" />
 <link rel="stylesheet" href="/styles/signup.css">
 
 <!-- <!DOCTYPE html>
@@ -23,16 +33,16 @@
   </div> -->
   <div class="container">
     <div class="sub-container">
-      <div id="title">SIGN UP</div>
+      <div id="title" class="title">SIGN UP</div>
       <form class="submit-container" action="/signupValidation" method="post">
         <div id="form-container">
-          <input id="username" type="text" name="username" placeholder="Enter username" required>
-          <input id="email" type="email" name="email" placeholder="Enter email" required>
-          <input id="phoneNumber" type="text" name="phoneNumber" placeholder="111-222-3333" required>
-          <input id="password" type="password" name="password" placeholder="New password" required>
+          <input id="username" class="content" type="text" name="username" placeholder="Enter username" required>
+          <input id="email" class="content" type="email" name="email" placeholder="Enter email" required>
+          <input id="phoneNumber" class="content" type="text" name="phoneNumber" placeholder="111-222-3333" required>
+          <input id="password" class="content" type="password" name="password" placeholder="New password" required>
         </div>
-        <button id="submit">SIGN UP</button>
-        <div><a href="login" id="login">Already have an account?</a></div>
+        <button id="submit" class="content">SIGN UP</button>
+        <div><a href="login" id="login" class="content">Already have an account?</a></div>
       </form>
     </div>
   </div>

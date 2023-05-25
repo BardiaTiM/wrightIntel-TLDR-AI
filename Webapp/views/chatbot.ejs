@@ -1,498 +1,535 @@
 <% if (!req.session.authenticated) { %> <% res.redirect('/login'); %> <% } %>
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Bootstrap 5.0.2 CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
-  <link rel="icon" href="/logo_images/black-globe.png">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-    crossorigin="anonymous"></script>
+    <!-- Bootstrap 5.0.2 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/logo_images/black-globe.png" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
 
-  <!-- Custom CSS -->
-  <title>wrightIntel</title>
-</head>
-<link rel="icon" href="/logo_images/black-globe.png">
+    <!-- Custom CSS -->
+    <title>wrightIntel</title>
+  </head>
+  <link rel="icon" href="/logo_images/black-globe.png" />
 
-<style>
-
+  <style>
     body {
-      background: #F4C397;
+      background: #f4c397;
       color: white;
     }
 
-  .chat {
-    max-width: 800px;
-    margin: auto;
-    padding: 20px;
-  }
-
-  .chat-bubble {
-    border-radius: 30px;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
-
-  .chat-bubble-left {
-    background-color: #e5e5ea;
-    align-self: flex-start;
-    position: relative;
-  }
-
-  .chat-bubble-right {
-    background-color: #627264;
-    color: white;
-    align-self: flex-end;
-    position: relative; /* Added position relative */
-    z-index: 1; /* Added z-index to bring the bubble above the star */
-  }
-
-  .chat-bubble-right-dark-mode {
-    background-color: #c57b57;
-    color: white;
-    align-self: flex-end;
-    position: relative; /* Added position relative */
-    z-index: 1; /* Added z-index to bring the bubble above the star */
-  }
-
-  img.loading {
-    width: 50px;
-    height: 50px;
-    transform: rotate(45deg);
-    position: relative;
-    top: -10px;
-    left: 40px;
-    animation: loadingAnimation 2s linear infinite;
-  }
-
-  .loading {
-    width: 50px;
-    height: 50px;
-  }
-
-  .message-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end; /* Change this to 'flex-start' if you want the star on the left side */
-  }
-
-  @keyframes loadingAnimation {
-    0% {
-      left: 0;
+    .chat {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
     }
-    100% {
-      left: 90%;
+
+    .chat-bubble {
+      border-radius: 6px;
+      padding: 10px;
+      margin-bottom: 10px;
     }
-  }
 
-  #chatbotOutput {
-    margin-bottom: 10px; /* adjust this to the size of the gap you want */
-  }
+    .chat-bubble-left {
+      background-color: #e5e5ea;
+      align-self: flex-start;
+      position: relative;
+    }
 
-  .chat-container {
-    flex-grow: 1;
-    overflow-y: auto;
-    max-height: calc(100vh - 360px); /* Adjusted for the 20px margin */
-    position: relative; /* Added position relative */
-  }
+    .chat-bubble-right {
+      background-color: #627264;
+      color: white;
+      align-self: flex-end;
+      position: relative; /* Added position relative */
+      z-index: 1; /* Added z-index to bring the bubble above the star */
+    }
 
-  .chatInput {
-  position: fixed;
-  bottom: 60px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 2;
-  padding: 1%;
-  }
+    .chat-bubble-right-dark-mode {
+      background-color: #c57b57;
+      color: white;
+      align-self: flex-end;
+      position: relative; /* Added position relative */
+      z-index: 1; /* Added z-index to bring the bubble above the star */
+    }
 
-.ask-button {
-  width: 100px;
-  background-color: #627264 !important;
-  color: white;
-  border-color: #627264 !important;
-  --bs-btn-color: #fff;
-  --bs-btn-bg: #627264 !important;
-  --bs-btn-border-color: #627264 !important;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #627264 !important;
-  --bs-btn-hover-border-color: #627264 !important;
-  --bs-btn-focus-shadow-rgb: 49, 132, 253;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #627264 !important;
-  --bs-btn-active-border-color: #627264 !important;
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #627264 !important;
-  --bs-btn-disabled-border-color: #627264 !important;
-}
+    img.loading {
+      width: 50px;
+      height: 50px;
+      transform: rotate(45deg);
+      position: relative;
+      top: -10px;
+      left: 40px;
+      animation: loadingAnimation 2s linear infinite;
+    }
 
-  .header-container {
-    position: sticky;
-    top: 0;
-    z-index: 1;
-    background-color: #212121;
-    color: #b3b3b3;
-    padding: 10px 20px;
-    display: flex;
-    height: 50px;
-    justify-content: space-between; /* Updated to space-between */
-    align-items: center;
-  }
+    .loading {
+      width: 50px;
+      height: 50px;
+    }
 
-  .header-container select,
-  select selected {
-    /* background-color: #212121; */
-    border: none;
-    color: #b3b3b3;
-    outline-color: #7b1db9;
-  }
+    .message-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end; /* Change this to 'flex-start' if you want the star on the left side */
+    }
 
-  .header-container .switch {
-    margin-right: 10px; /* Added margin-right */
-  }
+    @keyframes loadingAnimation {
+      0% {
+        left: 0;
+      }
+      100% {
+        left: 90%;
+      }
+    }
 
-  .header-container select option {
-    /* background-color: #212121; */
-    color: #b3b3b3;
-  }
+    #chatbotOutput {
+      margin-bottom: 10px; /* adjust this to the size of the gap you want */
+    }
 
-  .header-container #airlineInput option:hover {
-    background-color: green !important;
-  }
+    .chat-container {
+      flex-grow: 1;
+      overflow-y: auto;
+      max-height: calc(100vh - 360px); /* Adjusted for the 20px margin */
+      position: relative; /* Added position relative */
+    }
 
+    .chatInput {
+      position: fixed;
+      bottom: 60px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 2;
+      padding: 1%;
+    }
 
-  .airline-input {
-    width: 100%;
-    text-align: center;
-  }
+    /* for the ask button on the chat page */
+    .container .ask-button {
+      width: 100px;
+      background-color: #627264 !important;
+      color: white;
+      border-color: #627264 !important;
+      --bs-btn-color: #fff;
+      --bs-btn-bg: #627264 !important;
+      --bs-btn-border-color: #627264 !important;
+      --bs-btn-hover-color: #fff;
+      --bs-btn-hover-bg: #627264 !important;
+      --bs-btn-hover-border-color: #627264 !important;
+      --bs-btn-focus-shadow-rgb: 49, 132, 253;
+      --bs-btn-active-color: #fff;
+      --bs-btn-active-bg: #627264 !important;
+      --bs-btn-active-border-color: #627264 !important;
+      --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+      --bs-btn-disabled-color: #fff;
+      --bs-btn-disabled-bg: #627264 !important;
+      --bs-btn-disabled-border-color: #627264 !important;
+    }
 
-  .question-input {
-    width: calc(
-      100% - 100px
-    ); /* Adjust this value based on the width of your Ask button */
-  }
+    /* for the input flight number */
+    .ask-button {
+      width: 100px;
+      background-color: #2c3e2e !important;
+      color: white;
+      border-color: #2c3e2e !important;
+      --bs-btn-color: #fff;
+      --bs-btn-bg: #2c3e2e !important;
+      --bs-btn-border-color: #2c3e2e !important;
+      --bs-btn-hover-color: #fff;
+      --bs-btn-hover-bg: #2c3e2e !important;
+      --bs-btn-hover-border-color: #2c3e2e !important;
+      --bs-btn-focus-shadow-rgb: 49, 132, 253;
+      --bs-btn-active-color: #fff;
+      --bs-btn-active-bg: #2c3e2e !important;
+      --bs-btn-active-border-color: #2c3e2e !important;
+      --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+      --bs-btn-disabled-color: #fff;
+      --bs-btn-disabled-bg: #2c3e2e !important;
+      --bs-btn-disabled-border-color: #2c3e2e !important;
+    }
 
-  /* input[type="text"], input[type="text"]:focus {
+    .header-container {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      background-color: #212121;
+      color: #b3b3b3;
+      padding: 10px 20px;
+      display: flex;
+      height: 50px;
+      justify-content: space-between; /* Updated to space-between */
+      align-items: center;
+    }
+
+    .header-container select,
+    select selected {
+      /* background-color: #212121; */
+      border: none;
+      color: #b3b3b3;
+      outline-color: #7b1db9;
+    }
+
+    .header-container .switch {
+      margin-right: 10px; /* Added margin-right */
+    }
+
+    .header-container select option {
+      /* background-color: #212121; */
+      color: #b3b3b3;
+    }
+
+    .header-container #airlineInput option:hover {
+      background-color: green !important;
+    }
+
+    .airline-input {
+      width: 100%;
+      text-align: center;
+    }
+
+    .question-input {
+      width: calc(
+        100% - 100px
+      ); /* Adjust this value based on the width of your Ask button */
+    }
+
+    /* input[type="text"], input[type="text"]:focus {
     background-color: #212121;
     border: none;
   } */
 
-  .ask-button {
-    width: 100px; /* Adjust this value to your liking */
-  }
-
-  .buttons-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 10px;
-  }
-
-  .buttons-container .btn-primary {
-    background-color: #627264;
-    color: white;
-    border-color: #627264;
-    --bs-btn-color: #fff;
-    --bs-btn-bg: #c57b57;
-    --bs-btn-border-color: #c57b57;
-    --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #c57b57;
-    --bs-btn-hover-border-color: #c57b57;
-    --bs-btn-focus-shadow-rgb: 49, 132, 253;
-    --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #c57b57;
-    --bs-btn-active-border-color: #c57b57;
-    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: #fff;
-    --bs-btn-disabled-bg: #c57b57;
-    --bs-btn-disabled-border-color: #c57b57;
-  }
-
-  .logo {
-    max-width: 30%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -30px;
-  }
-
-  .container {
-    color: #000000;
-  }
-
-  .form-and-buttons-container button[type="submit"] {
-    background-color: #627264;
-    color: white;
-    border-color: #627264;
-    --bs-btn-color: #fff;
-    --bs-btn-bg: #c57b57;
-    --bs-btn-border-color: #c57b57;
-    --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #c57b57;
-    --bs-btn-hover-border-color: #c57b57;
-    --bs-btn-focus-shadow-rgb: 49, 132, 253;
-    --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #c57b57;
-    --bs-btn-active-border-color: #c57b57;
-    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: #fff;
-    --bs-btn-disabled-bg: #c57b57;
-    --bs-btn-disabled-border-color: #c57b57;
-  }
-
-  .content-wrapper {
-    height: 1000px; /* Adjust the height value to your desired height */
-  }
-  .switch {
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 34px;
-    margin-left: 10px;
-    margin-top: 2px;
-  }
-
-  .switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-
-  .checkbox {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
-
-  .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #c57b57;
-    -webkit-transition: 0.4s;
-    transition: 0.4s;
-    border-radius: 34px;
-  }
-
-  .slider:before {
-    position: absolute;
-    content: "";
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    -webkit-transition: 0.4s;
-    transition: 0.4s;
-    border-radius: 50%;
-  }
-
-  input:checked + .slider {
-    background-color: #041c32;
-  }
-
-  input:focus + .slider {
-    box-shadow: 0 0 1px #c57b57;
-  }
-
-  input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
-  }
-
-  /* CSS styles for the overlay */
-  #overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #F4C397;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 9999;
-  }
-
-  .overlay-animation .overlay-content button {
-    animation: buttonAnimation 0.5s ease-in-out forwards;
-  }
-
-  .overlay-content button {
-  margin-top: 10px;
-  background-color: #627264;
-  color: white;
-  border-color: #627264;
-  --bs-btn-color: #fff;
-  --bs-btn-bg: #c57b57;
-  --bs-btn-border-color: #c57b57;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #c57b57;
-  --bs-btn-hover-border-color: #c57b57;
-  --bs-btn-focus-shadow-rgb: 49, 132, 253;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #c57b57;
-  --bs-btn-active-border-color: #c57b57;
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #c57b57;
-  --bs-btn-disabled-border-color: #c57b57;
-}
-
-.input-wrapper {
-  display: flex;
-  align-items: center;
-}
-
-#flightNumInput {
-  border: none;
-  border-radius: 7px;
-  padding: 8px;
-  margin-right: 10px;
-  flex-grow: 1;
-}
-
-.ask-button {
-  width: 100px;
-}
-
-
-.overlay {
-  transition: opacity 0.5s, transform 0.5s;
-  opacity: 0;
-  transform: translateY(-50%);
-}
-
-.overlay.overlay-animation {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-  .overlay-content {
-    padding: 20px;
-    text-align: center;
-  }
-
-  .overlay-content button {
-    margin-top: 10px;
-  }
-
-  @keyframes buttonAnimation {
-    0% {
-      transform: translateY(50px);
-      opacity: 0;
-    }
-    100% {
-      transform: translateY(0);
-      opacity: 1;
-    }
-  }
-
-  @media only screen and (max-width: 390px) {
-    .logo {
-      max-width: 30%;
+    .ask-button {
+      width: 100px; /* Adjust this value to your liking */
     }
 
     .buttons-container {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
       gap: 10px;
     }
-  }
-</style>
 
-<!-- Overlay HTML Fixed -->
-<div id="overlay" class="overlay">
-  <div class="overlay-content">
-    <button id="flightNumberButton" class="btn btn-primary">
-      Input Flight Number
-    </button>
-    <br />
-    <button id="chatButton" class="btn btn-primary mt-3">Go to Chat</button>
-  </div>
-</div>
+    .buttons-container .btn-primary {
+      background-color: #627264;
+      color: white;
+      border-color: #627264;
+      --bs-btn-color: #fff;
+      --bs-btn-bg: #c57b57;
+      --bs-btn-border-color: #c57b57;
+      --bs-btn-hover-color: #fff;
+      --bs-btn-hover-bg: #c57b57;
+      --bs-btn-hover-border-color: #c57b57;
+      --bs-btn-focus-shadow-rgb: 49, 132, 253;
+      --bs-btn-active-color: #fff;
+      --bs-btn-active-bg: #c57b57;
+      --bs-btn-active-border-color: #c57b57;
+      --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+      --bs-btn-disabled-color: #fff;
+      --bs-btn-disabled-bg: #c57b57;
+      --bs-btn-disabled-border-color: #c57b57;
+    }
 
-<div class="header-container">
-  <select id="airlineInput" class="form-control airline-input" required>
-    <!-- Your options go here -->
-    <option selected>Select airline name...</option>
-    <option value="aircanada">Air Canada</option>
-    <option value="airtransat">Airtransat</option>
-    <option value="alaskaairlines">Alaska Airlines</option>
-    <option value="allegiant">Allegiant</option>
-    <option value="americanairlines">American Airlines</option>
-    <option value="deltaairlines">Delta Airlines</option>
-    <option value="flair">Flair Airlines</option>
-    <option value="frontierairlines">Frontier Airlines</option>
-    <option value="hawaiianairlines">Hawaiian Airlines</option>
-    <option value="jetblue">JetBlue</option>
-    <option value="porter">Porter Airlines</option>
-    <option value="southwestairlines">Southwest Airlines</option>
-    <option value="spiritairline">Spirit Airlines</option>
-    <option value="sunwing">Sunwing Airlines</option>
-    <option value="unitedairlines">United Airlines</option>
-    <option value="westjet">WestJet</option>
-  </select>
-</div>
+    .logo {
+      max-width: 30%;
+      height: auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: -30px;
+    }
 
-<div class="container mt-5">
-  <div class="row">
-    <div class="col-md-8 offset-md-2">
-      <img src="logo2B.png" alt="logo2B" id="logo2B" class="logo2B" style="display: block; margin: 0 auto;" />
+    .container {
+      color: #000000;
+    }
 
-      <div
-        id="chatbotOutput"
-        class="typing-output chat d-flex flex-column chat-container"
-      ></div>
+    .form-and-buttons-container button[type="submit"] {
+      background-color: #627264;
+      color: white;
+      border-color: #627264;
+      --bs-btn-color: #fff;
+      --bs-btn-bg: #c57b57;
+      --bs-btn-border-color: #c57b57;
+      --bs-btn-hover-color: #fff;
+      --bs-btn-hover-bg: #c57b57;
+      --bs-btn-hover-border-color: #c57b57;
+      --bs-btn-focus-shadow-rgb: 49, 132, 253;
+      --bs-btn-active-color: #fff;
+      --bs-btn-active-bg: #c57b57;
+      --bs-btn-active-border-color: #c57b57;
+      --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+      --bs-btn-disabled-color: #fff;
+      --bs-btn-disabled-bg: #c57b57;
+      --bs-btn-disabled-border-color: #c57b57;
+    }
+
+    .content-wrapper {
+      height: 1000px; /* Adjust the height value to your desired height */
+    }
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 60px;
+      height: 34px;
+      margin-left: 10px;
+      margin-top: 2px;
+    }
+
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    .checkbox {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #c57b57;
+      -webkit-transition: 0.4s;
+      transition: 0.4s;
+      border-radius: 34px;
+    }
+
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 26px;
+      width: 26px;
+      left: 4px;
+      bottom: 4px;
+      background-color: white;
+      -webkit-transition: 0.4s;
+      transition: 0.4s;
+      border-radius: 50%;
+    }
+
+    input:checked + .slider {
+      background-color: #041c32;
+    }
+
+    input:focus + .slider {
+      box-shadow: 0 0 1px #c57b57;
+    }
+
+    input:checked + .slider:before {
+      -webkit-transform: translateX(26px);
+      -ms-transform: translateX(26px);
+      transform: translateX(26px);
+    }
+
+    /* CSS styles for the overlay */
+    #overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #f4c397;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+    }
+
+    .overlay-animation .overlay-content button {
+      animation: buttonAnimation 0.5s ease-in-out forwards;
+    }
+
+    .overlay-content button {
+      margin-top: 10px;
+      background-color: #627264;
+      color: white;
+      border-color: #627264;
+      --bs-btn-color: #fff;
+      --bs-btn-bg: #c57b57;
+      --bs-btn-border-color: #c57b57;
+      --bs-btn-hover-color: #fff;
+      --bs-btn-hover-bg: #c57b57;
+      --bs-btn-hover-border-color: #c57b57;
+      --bs-btn-focus-shadow-rgb: 49, 132, 253;
+      --bs-btn-active-color: #fff;
+      --bs-btn-active-bg: #c57b57;
+      --bs-btn-active-border-color: #c57b57;
+      --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+      --bs-btn-disabled-color: #fff;
+      --bs-btn-disabled-bg: #c57b57;
+      --bs-btn-disabled-border-color: #c57b57;
+    }
+
+    .input-wrapper {
+      display: flex;
+      align-items: center;
+    }
+
+    #flightNumInput {
+      border: none;
+      border-radius: 7px;
+      padding: 8px;
+      margin-right: 10px;
+      flex-grow: 1;
+    }
+
+    .ask-button {
+      width: 100px;
+    }
+
+    .overlay {
+      transition: opacity 0.5s, transform 0.5s;
+      opacity: 0;
+      transform: translateY(-50%);
+    }
+
+    .overlay.overlay-animation {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .overlay-content {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .overlay-content button {
+      margin-top: 10px;
+    }
+
+    @keyframes buttonAnimation {
+      0% {
+        transform: translateY(50px);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    @media only screen and (max-width: 390px) {
+      .logo {
+        max-width: 30%;
+      }
+
+      .buttons-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+        gap: 10px;
+      }
+    }
+  </style>
+
+  <!-- Overlay HTML Fixed -->
+  <div id="overlay" class="overlay">
+    <div class="overlay-content">
+      <button id="flightNumberButton" class="btn btn-primary">
+        Input Flight Number
+      </button>
+      <br />
+      <button id="chatButton" class="btn btn-primary mt-3">Go to Chat</button>
     </div>
   </div>
-</div>
-<div class="container mt-7 chatInput">
-  <div class="row">
-    <div class="col-md-8 offset-md-2">
-      <div class="form-and-buttons-container">
-        <form id="chatbotForm" class="mb-3 d-flex">
-          <input
-            type="text"
-            id="userInput"
-            class="form-control question-input"
-            placeholder="Ask a question..."
-            required
-          />
-          <button type="submit" class="btn btn-primary ask-button">Ask</button>
-        </form>
-        <div class="buttons-container">
-          <button id="button1" type="button" class="btn btn-primary">
-            Flight Overbooking
-          </button>
-          <button id="button2" type="button" class="btn btn-primary">
-            Flight Cancellation
-          </button>
-          <button id="button3" type="button" class="btn btn-primary">
-            Significant Flight Delay
-          </button>
-          <button id="button4" type="button" class="btn btn-primary">
-            Lost or Damaged Baggage
-          </button>
-        </div>
-        <div id="flightInfo"></div>
-        <div id="flightStatus"></div>
-        <div id="airlineName"></div>
-        <div id="departureDelay"></div>
+
+  <div class="header-container">
+    <select id="airlineInput" class="form-control airline-input" required>
+      <!-- Your options go here -->
+      <option selected>Select airline name...</option>
+      <option value="aircanada">Air Canada</option>
+      <option value="airtransat">Airtransat</option>
+      <option value="alaskaairlines">Alaska Airlines</option>
+      <option value="allegiant">Allegiant</option>
+      <option value="americanairlines">American Airlines</option>
+      <option value="deltaairlines">Delta Airlines</option>
+      <option value="flair">Flair Airlines</option>
+      <option value="frontierairlines">Frontier Airlines</option>
+      <option value="hawaiianairlines">Hawaiian Airlines</option>
+      <option value="jetblue">JetBlue</option>
+      <option value="porter">Porter Airlines</option>
+      <option value="southwestairlines">Southwest Airlines</option>
+      <option value="spiritairline">Spirit Airlines</option>
+      <option value="sunwing">Sunwing Airlines</option>
+      <option value="unitedairlines">United Airlines</option>
+      <option value="westjet">WestJet</option>
+    </select>
+  </div>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <img
+          src="logo2B.png"
+          alt="logo2B"
+          id="logo2B"
+          class="logo2B"
+          style="display: block; margin: 0 auto"
+        />
+
+        <div
+          id="chatbotOutput"
+          class="typing-output chat d-flex flex-column chat-container"
+        ></div>
       </div>
     </div>
   </div>
-</div>
-<script src="/js/chatbot.js"></script>
-<link rel="stylesheet" href="/styles/heart.css" />
-<link rel="stylesheet" href="/styles/scrollbar.css" />
-<%- include("templates/footer") %>
+  <div class="container mt-7 chatInput">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <div class="form-and-buttons-container">
+          <form id="chatbotForm" class="mb-3 d-flex">
+            <input
+              type="text"
+              id="userInput"
+              class="form-control question-input"
+              placeholder="Ask a question..."
+              required
+            />
+            <button type="submit" class="btn btn-primary ask-button">
+              Ask
+            </button>
+          </form>
+          <div class="buttons-container">
+            <button id="button1" type="button" class="btn btn-primary">
+              Flight Overbooking
+            </button>
+            <button id="button2" type="button" class="btn btn-primary">
+              Flight Cancellation
+            </button>
+            <button id="button3" type="button" class="btn btn-primary">
+              Significant Flight Delay
+            </button>
+            <button id="button4" type="button" class="btn btn-primary">
+              Lost or Damaged Baggage
+            </button>
+          </div>
+          <div id="flightInfo"></div>
+          <div id="flightStatus"></div>
+          <div id="airlineName"></div>
+          <div id="departureDelay"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="/js/chatbot.js"></script>
+  <link rel="stylesheet" href="/styles/heart.css" />
+  <link rel="stylesheet" href="/styles/scrollbar.css" />
+  <%- include("templates/footer") %>
+</html>

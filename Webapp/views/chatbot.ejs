@@ -6,6 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Pridi:wght@200&display=swap" rel="stylesheet"/>   
+
     <!-- Bootstrap 5.0.2 CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
@@ -36,6 +44,10 @@
       max-width: 800px;
       margin: auto;
       padding: 20px;
+    }
+
+    .content {
+      font-family: "Pridi", serif;
     }
 
     .chat-bubble {
@@ -441,34 +453,34 @@
   <!-- Overlay HTML Fixed -->
   <div id="overlay" class="overlay">
     <div class="overlay-content">
-      <button id="flightNumberButton" class="btn btn-primary">
+      <button id="flightNumberButton" class="btn btn-primary content">
         Input Flight Number
       </button>
       <br />
-      <button id="chatButton" class="btn btn-primary mt-3">Go to Chat</button>
+      <button id="chatButton" class="btn btn-primary mt-3 content">Go to Chat</button>
     </div>
   </div>
 
   <div class="header-container">
     <select id="airlineInput" class="form-control airline-input" required>
       <!-- Your options go here -->
-      <option selected>Select airline name...</option>
-      <option value="aircanada">Air Canada</option>
-      <option value="airtransat">Air Transat</option>
-      <option value="alaskaairlines">Alaska Airlines</option>
-      <option value="allegiant">Allegiant Airlines</option>
-      <option value="americanairlines">American Airlines</option>
-      <option value="deltaairlines">Delta Airlines</option>
-      <option value="flair">Flair Airlines</option>
-      <option value="frontierairlines">Frontier Airlines</option>
-      <option value="hawaiianairlines">Hawaiian Airlines</option>
-      <option value="jetblue">JetBlue Airways</option>
-      <option value="porter">Porter Airlines</option>
-      <option value="southwestairlines">Southwest Airlines</option>
-      <option value="spiritairline">Spirit Airlines</option>
-      <option value="sunwing">Sunwing Airlines</option>
-      <option value="unitedairlines">United Airlines</option>
-      <option value="westjet">WestJet</option>
+      <option selected class="content">Select airline name...</option>
+      <option value="aircanada" class="content">Air Canada</option>
+      <option value="airtransat" class="content">Air Transat</option>
+      <option value="alaskaairlines" class="content">Alaska Airlines</option>
+      <option value="allegiant" class="content">Allegiant Airlines</option>
+      <option value="americanairlines" class="content">American Airlines</option>
+      <option value="deltaairlines" class="content">Delta Airlines</option>
+      <option value="flair" class="content">Flair Airlines</option>
+      <option value="frontierairlines" class="content">Frontier Airlines</option>
+      <option value="hawaiianairlines" class="content">Hawaiian Airlines</option>
+      <option value="jetblue" class="content">JetBlue Airways</option>
+      <option value="porter" class="content">Porter Airlines</option>
+      <option value="southwestairlines" class="content">Southwest Airlines</option>
+      <option value="spiritairline" class="content">Spirit Airlines</option>
+      <option value="sunwing" class="content">Sunwing Airlines</option>
+      <option value="unitedairlines" class="content">United Airlines</option>
+      <option value="westjet" class="content">WestJet</option>
     </select>
   </div>
 
@@ -498,25 +510,25 @@
             <input
               type="text"
               id="userInput"
-              class="form-control question-input"
+              class="form-control question-input content"
               placeholder="Ask a question..."
               required
             />
-            <button type="submit" class="btn btn-primary ask-button">
+            <button type="submit" class="btn btn-primary ask-button content">
               Ask
             </button>
           </form>
           <div class="buttons-container">
-            <button id="button1" type="button" class="btn btn-primary">
+            <button id="button1" type="button" class="btn btn-primary content">
               Flight Overbooking
             </button>
-            <button id="button2" type="button" class="btn btn-primary">
+            <button id="button2" type="button" class="btn btn-primary content">
               Flight Cancellation
             </button>
-            <button id="button3" type="button" class="btn btn-primary">
+            <button id="button3" type="button" class="btn btn-primary content">
               Significant Flight Delay
             </button>
-            <button id="button4" type="button" class="btn btn-primary">
+            <button id="button4" type="button" class="btn btn-primary content">
               Lost or Damaged Baggage
             </button>
           </div>

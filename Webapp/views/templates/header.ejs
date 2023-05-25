@@ -21,24 +21,6 @@
 <body>
 
   <style>
-    body {
-      background: linear-gradient(-45deg, #90e0ef, #00b4d8, #caf0f8, #00b4d8);
-      background-size: 400% 500%;
-      animation: gradient 10s ease infinite;
-    }
-
-    @keyframes gradient {
-
-      0%,
-      100% {
-        background-position: 0% 50%;
-      }
-
-      50% {
-        background-position: 100% 50%;
-      }
-    }
-
     .content-wrappers {
       display: flex;
       justify-content: space-between;
@@ -121,9 +103,9 @@
       border-radius: 50%;
     }
 
-    header {
+    .header {
       position: sticky;
-      background-color: #212121;
+      background-color: rgb(241, 229, 229);
       padding-top: 10px;
       display: flex;
       justify-content: center;
@@ -143,6 +125,6 @@
     }
   </style>
 
-  <header>
-    <img src="/logo_images/white.png" alt="logo" height="80px" width="auto" id="logo"/>
-  </header>
+  <div class="header">
+    <img src="/logo_images/black.png" alt="logo" height="80px" width="auto" id="logo"/>
+  </div>

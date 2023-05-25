@@ -1,7 +1,4 @@
 body {
-  background: linear-gradient(-45deg, #90e0ef, #00b4d8, #caf0f8, #00b4d8);
-  background-size: 400% 500%;
-  animation: gradient 10s ease infinite;
   overflow-x: hidden;
 }
 
@@ -52,7 +49,7 @@ body {
   z-index: 2;
 }
 
-#logo {
+#index-logo {
   z-index: 2;
 }
 

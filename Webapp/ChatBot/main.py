@@ -38,7 +38,7 @@ class AirlineChatBot:
         return self.indexes[airline_name]
 
 app = Flask(__name__)
-CORS(app) 
+CORS(app, origins=['https://tldr-node.onrender.com']) 
 # Load env ariables from .env file
 load_dotenv()
 api_key = os.getenv("API_SECRET_KEY")

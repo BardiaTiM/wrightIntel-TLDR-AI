@@ -73,11 +73,7 @@ function sessionValidation(req, res, next) {
 
 /** Landing page. */
 app.get('/', (req, res) => {
-  if (!req.session.authenticated) {
-    res.render('index', { req: req });
-  } else {
-    res.redirect('/chatbot')
-  }
+  res.render('index', { req : req });
 })
 
 /** Sign up page. */
@@ -88,7 +84,6 @@ app.get('/signup', (req, res) => {
 
 /** Sign up validation. */
 app.post('/signupValidation', async (req, res) => {
-  var name = req.body.name;
   var username = req.body.username;
   var email = req.body.email;
   var phoneNum = req.body.phoneNumber;
@@ -96,28 +91,23 @@ app.post('/signupValidation', async (req, res) => {
   var html;
   // Check for missing fields
   if (!username) {
-    html = `<h1>Sign up error</h1><p>Missing username</p><a href='/signup'>Try again</a>`;
-    res.send(html);
+    html = `Missing username`;
+    res.render('signup-error', { errorMsg: html });
     return;
   }
   if (!email) {
-    html = `<h1>Sign up error</h1><p>Missing email</p><a href='/signup'>Try again</a>`;
-    res.send(html);
+    html = `Missing email`;
+    res.render('signup-error', { errorMsg: html });
     return;
   }
   if (!password) {
-    html = `<h1>Sign up error</h1><p>Missing password</p><a href='/signup'>Try again</a>`;
-    res.send(html);
+    html = `Missing password`;
+    res.render('signup-error', { errorMsg: html });
     return;
   }
   if (!phoneNum) {
-    html = `<h1>Sign up error</h1><p>Missing phone number</p><a href='/signup'>Try again</a>`;
-    res.send(html);
-    return;
-  }
-  if (!name) {
-    html = `<h1>Sign up error</h1><p>Missing name</p><a href='/signup'>Try again</a>`;
-    res.send(html);
+    html = `Missing phone number`;
+    res.render('signup-error', { errorMsg: html });
     return;
   }
 
@@ -131,14 +121,13 @@ app.post('/signupValidation', async (req, res) => {
   // Check for noSQL injection attacks
   const schema = joi.object(
     {
-      name: joi.string().alphanum().max(20).required(),
       username: joi.string().alphanum().max(20).required(),
       email: joi.string().email().required(),
       phoneNum: joi.string().max(12).required(),
       password: joi.string().max(20).required()
     });
   // Validate user input
-  const validationResult = schema.validate({ name, username, email, phoneNum, password });
+  const validationResult = schema.validate({ username, email, phoneNum, password });
   if (validationResult.error != null) {
     console.log(validationResult.error);
     res.status(400).json({ error: 'Potential NoSQL Injection detected.' });
@@ -147,11 +136,10 @@ app.post('/signupValidation', async (req, res) => {
   // Bcrypt password
   var hashedPassword = await bcrypt.hash(password, saltRounds);
   // Insert user into database
-  await userCollection.insertOne({ name: name, username: username, email: email, password: hashedPassword, phoneNumber: phoneNum, image: '' });
+  await userCollection.insertOne({ username: username, email: email, password: hashedPassword, phoneNumber: phoneNum, image: '' });
   console.log("Inserted user");
 
   // Go to members page
-  req.session.name = name;
   req.session.authenticated = true;
   req.session.username = username;
   req.session.email = email;
@@ -207,22 +195,19 @@ app.post('/loginValidation', async (req, res) => {
     // Incorrect password
   } else {
     console.log("incorrect password");
-    html = `<h1>Login error</h1><p>Incorrect password</p><a href='/login'>Try again</a>`;
-    res.send(html);
+    html = `Incorrect password`;
+    res.render('signup-error', { errorMsg: html });
     return;
   }
 });
 
 /** Chatbot page. */
 app.get('/chatbot', (req, res) => {
-  const marmot1 = "/marmot1.gif";
-  const marmot2 = "/marmot2.gif";
-  const marmot3 = "/marmot3.gif";
-  res.render('chatbot', { req: req, res: res, username: req.session.username, pic1: marmot1, pic2: marmot2, pic3: marmot3 });
+  res.render('chatbot', { req: req });
 });
 
 /** Logout page. */
-app.get('/logout', (req, res) => {
+app.get('/logout', (req, res) => {``
   // console.log("Logging out");
   req.session.destroy((err) => {
     if (err) {
@@ -235,7 +220,6 @@ app.get('/logout', (req, res) => {
 
 /** Personal profile page. */
 app.get('/profile', (req, res) => {
-
   res.render('profile', {username: req.session.username, email: req.session.email, phoneNumber: req.session.phoneNumber, image: req.session.image});
 });
 
@@ -322,7 +306,7 @@ app.post('/reset-password', async (req, res) => {
     { $unset: { passwordResetToken: 1, passwordResetExpires: 1 } }
   );
 
-  res.status(200).send('Password reset successfully');
+  res.status(200).render('reset-password', { message: 'Password updated successfully', token });
 });
 
 // Password reset page
@@ -338,7 +322,7 @@ app.get('/reset-password', async (req, res) => {
   if (!user) {
     return res.status(400).send('Invalid or expired token');
   }
-  res.render('reset-password', { token });
+  res.render('reset-password', { message: ' ', token });
 });
 
 /* ALL ABOVE IMPORTANT FOR PASSWORD REST */
@@ -385,13 +369,9 @@ app.post('/profileUpdate', async (req, res) => {
   req.session.email = email;
   req.session.phoneNumber = phoneNum;
 
-  const result = await userCollection.find({ email: email }).project({ username: 1, email : 1, phoneNumber : 1, image : 1, _id: 1 }).toArray();
+  await userCollection.find({ email: email }).project({ username: 1, email : 1, phoneNumber : 1, image : 1, _id: 1 }).toArray();
 
-  console.log(result);
-
-  // Delay the redirect for 1 second (1000 milliseconds)
   res.redirect("/profile");
-
 });
 
 /** Save user prompts. */

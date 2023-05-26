@@ -1,37 +1,79 @@
 body {
-    background: linear-gradient(-45deg, #90e0ef, #00b4d8, #caf0f8, #00b4d8);
-    background-size: 400% 500%;
-    animation: gradient 10s ease infinite;
-}
-
-.dark-mode {
-    background: linear-gradient(-45deg, #003566, #001d3d, #003566, #003566);
-    background-size: 400% 500%;
-    animation: gradient 10s ease infinite;
-}
-
-
-@keyframes gradient {
-    0%, 100% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
+    background: #F4C397;
+    color: white;
 }
 
 #title {
     margin-bottom: 30px;
-    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
 }
 
+.title-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#title {
+    padding-top: 50px;
+    position: absolute; /* Add position absolute to center the title */
+    top: 50%; /* Position the title vertically at 50% from the top */
+    left: 50%; /* Position the title horizontally at 50% from the left */
+    transform: translate(-50%, -50%); /* Center the title precisely */
+    padding-top: 20px;
+}
+
+#go-back-button {
+    position: absolute;
+    color:black;
+    font-size: 1em;
+    top: 0;
+    left: 0;
+    border: none;
+    cursor: pointer;
+    background: #e7ad91;
+    border-radius: 6px;
+    width: 80px;
+    height: auto;
+}
+
+#go-back-button:hover {
+    background: #c57b57;
+    transform: scale(1.02);
+    transition: all 0.5s ease;
+}
+
+#go-back-button:active {
+    transform: translate(0px, 10px);
+    -webkit-transform: translate(0px, 10px);
+    box-shadow: 0px 1px 0px 0px;
+}
+
+
+
+/* .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+} */
+
 .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 13px;
     padding-top: 20px;
     border-radius: 10px;
     margin: 0 auto;
-    margin-top: 180px;
     max-width: 500px;
+    margin-top: 100px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -44,16 +86,18 @@ body {
 }
 
 #submit {
+    border: none;
     cursor: pointer;
-    background: #a7dcf5;
-    border-radius: 50px;
+    background: #627264;
+    border-radius: 6px;
     width: 200px;
     height: 50px;
     margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 #submit:hover {
-    background: #fafc8b;
+    background: #c57b57;
     transform: scale(1.02);
     transition: all 0.5s ease;
 }
@@ -65,9 +109,26 @@ body {
 }
 
 #create-account {
-    display: flex;
-    justify-content: center;
+    border: none;
+    cursor: pointer;
+    background: #c57b57;
+    border-radius: 6px;
+    width: 400px;
+    height: 50px;
     margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+#create-account:hover {
+    background: #7b917d;
+    transform: scale(1.02);
+    transition: all 0.5s ease;
+}
+
+#create-account:active {
+    transform: translate(0px, 10px);
+    -webkit-transform: translate(0px, 10px);
+    box-shadow: 0px 1px 0px 0px;
 }
 
 .line-container {
@@ -82,7 +143,8 @@ body {
     flex-grow: 1;
     height: 1px;
     background-color: black;
-    margin: 10px;
+    /* margin: 10px; */
+    margin: 20px;
 }
 
 .auto-signup {
@@ -105,17 +167,27 @@ body {
     box-shadow: 0px 1px 0px 0px;
 }
 
-input {
+#email {
     width: 80%;
     padding: 10px;
     margin: 5px 0 22px 0;
     border: none;
     background: #f1f1f1;
     border-radius: 5px;
+    margin-top: 50px;
+}
+
+#password { 
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 5px;
 }
 
 input:hover{
-    background: #a7dcf5;
+    background: #c57b57;
     transform: scale(1.02);
     transition: all 0.5s ease;
 }
@@ -194,4 +266,27 @@ input:checked+.slider:before {
 
 .slider.round:before {
     border-radius: 50%;
+}
+
+@media screen and (max-width: 600px) {
+
+    .container {
+        padding: 13px;
+        padding-top: 20px;
+        border-radius: 10px;
+        margin: 0 auto;
+        margin-top: 100px;
+        max-width: 350px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    #create-account {
+        border: none;
+        cursor: pointer;
+        border-radius: 6px;
+        width: 300px;
+        height: 50px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
 }

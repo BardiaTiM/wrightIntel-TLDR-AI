@@ -1,137 +1,575 @@
 body {
-    background: linear-gradient(-45deg, #90e0ef, #00b4d8, #caf0f8, #00b4d8);
-    background-size: 400% 500%;
-    animation: gradient 10s ease infinite;
-    overflow-x: hidden;
+  background: #F4C397;
+  overflow-x: hidden;
 }
 
-.dark-mode {
-    background: linear-gradient(-45deg, #003566, #001d3d, #003566, #003566);
-    background-size: 400% 500%;
-    animation: gradient 10s ease infinite;
+.box {
+  position: absolute;
+  max-width: 25%;
+  /* border: 2px solid black; */
+  z-index: 2;
 }
 
-.scrollable-container {
-    max-height: 500px; /* Set the maximum height of the container */
-    overflow-y: scroll; /* Enable vertical scrolling */
+.up {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30%;
+  border-top: none;
 }
 
-@keyframes gradient {
-    0%, 100% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
+.down {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  border-bottom: none;
 }
+
+.left {
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 100%;
+  padding-left: 10%;
+  border-left: none;
+}
+
+.scroll-down {
+  z-index: 2;
+}
+
+#logo {
+  z-index: 2;
+}
+
+#airportPic {
+    width: 100%;
+    opacity: 0.5;
+  }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0%;
 }
 
 .members {
-    display: flex;
-    flex-direction: column;
-    margin: 100px;
-}
-
-#TLDR {
-    margin: 100px;
-    font-size: 100px;
+  display: flex;
+  flex-direction: column;
+  margin: 100px;
 }
 
 .members-button {
-    cursor: pointer;
-    background: #a7dcf5;
-    margin: 30px;
-    border-radius: 50px;
-    width: 200px;
-    height: 50px;
-    z-index: 2;
-    /* box-shadow: 3px 5px rgb(194, 126, 1); */
+  cursor: pointer;
+  background: #627264;
+  margin: 30px;
+  border-radius: 6px;
+  width: 200px;
+  height: 50px;
+  z-index: 2;
+  border: none;
+  /* box-shadow: 3px 5px rgb(194, 126, 1); */
 }
 
 .members-button:hover {
-    background: #fafc8b;
-    transform: scale(1.02);
-    transition: all 0.5s ease;
+  background: #c57b57;
+  transform: scale(1.02);
+  transition: all 0.5s ease;
 }
 
 .members-button:active {
-    transform: translate(0px, 10px);
-    -webkit-transform: translate(0px, 10px);
-    box-shadow: 0px 1px 0px 0px;
+  transform: translate(0px, 10px);
+  -webkit-transform: translate(0px, 10px);
+  box-shadow: 0px 1px 0px 0px;
 }
 
 .switch {
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 34px;
-    margin-left: auto;
-    margin-top: 10px;}
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin-left: auto;
+  margin-top: 10px;
+}
 
 .switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
+  opacity: 0;
+  width: 0;
+  height: 0;
 }
 
 .checkbox {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #a7dcf5;
-    -webkit-transition: 0.4s;
-    transition: 0.4s;
-    border-radius: 34px;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #a7dcf5;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 34px;
 }
 
 .slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #041c32;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #a7dcf5;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Custom scroll bar styles */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #627264;
+  /* Match the chat container background */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7b917d;
+  /* Match the theme highlight color */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c57b57;
+  /* Darken the color on hover */
+}
+
+.flex-container img {
+  width: 175px;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+}
+
+.members {
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+}
+
+.scroll-down {
+  margin-top: 0px;
+  margin: 0 auto;
+  color: grey;
+  opacity: 0.5;
+}
+
+/*THREE.JS Globe Animation*/
+canvas {
+  display: block;
+  position: relative;
+  background-color: transparent;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#earth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 25vh;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+}
+
+
+/* Scroll Down Animation */
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-.25em);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.scroll-down {
+    animation: bounce 1s infinite;
+}
+
+
+                                       
+/* Landing Page Titles and Content Boxes */
+.overlay {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .overlay img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay-text {
     position: absolute;
-    content: "";
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    -webkit-transition: 0.4s;
-    transition: 0.4s;
-    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+  }
+  
+
+
+
+/*TEXT-CONTAINER CONTENT*/
+.text-container {
+  width: 100%;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
-input:checked+.slider {
-    background-color: #041C32;
+/* Centered, large typography */
+.title {
+    font-size: 3em;
+    font-family: Arial, sans-serif;  /* Adjust as necessary */
+    color: #333;  /* Adjust as necessary */
 }
 
-input:focus+.slider {
-    box-shadow: 0 0 1px #a7dcf5;
+
+
+#title-content {
+    width: 95%;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 20px; /* Add margin to create space */
+    padding-top: 0px;
+    left: 5%;
+  }
+  
+
+/*AIRLINES SLIDER*/
+#airlines {
+  display: flex;
+  height: auto;
+  width: 60%;
+  margin: 0 auto;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin-bottom: 5vh;
 }
 
-input:checked+.slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
-
+#airlines img {
+  height: 100px;
+  width: 100px;
+  float: left;
+  background: white;
 }
 
-/* Rounded sliders */
-.slider.round {
-    border-radius: 34px;
+
+.animation-container {
+  width: 100%;
 }
 
-.slider.round:before {
-    border-radius: 50%;
+/* White, spaced-out content boxes with drop-shadow effect */
+.content-box {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 }
+
+
+/* Landing Page Text styling */
+
+/*Text*/
+.content {
+    color: #f1f1f1;
+    font-size: 0.875em;
+    font-family: "Pridi", serif;
+  }
+
+
+  .content-dark {
+    color: black;
+    font-size: 0.875em;
+    font-family: "Pridi", serif;  
+  }
+  
+
+/*Titles*/
+.main-title {
+  width: 100%;
+  color: white;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1em; /* Increase the font size for HUGE headings */
+}
+
+.title {
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3em; /* Increase the font size for HUGE headings */
+  }
+
+.title-dark {
+  color: black;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3em; /* Increase the font size for HUGE headings */
+}
+
+
+  #airlines-title{
+    text-align: center;
+  }
+  
+  .big-problem {
+    border-radius: 10px;
+  }
+
+  #problem-title {
+    position: relative;
+    left: 15%;
+    width: 32%;
+  }
+
+  #solution-title {
+    position: relative;
+    left: 60%;
+    width: 32%;
+  }
+
+  #features-title {
+    position: relative;
+    left: 15%;
+    width: 33%;
+  }
+
+  #conclusion-title {
+    text-align: center;
+  }
+
+  /* Card Styling */
+  .card-container {
+    justify-content: center;
+    padding: 0%;
+    overflow: hidden;
+  }
+
+  .custom-card {
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    justify-content: center;
+  }
+
+  .custom-card1 {
+    border-radius: 10px;
+    background-color: #627264;
+    justify-content: center;
+  }
+
+  .card-img {
+    height:100%;
+    width: auto;
+    object-fit: cover;
+  }
+  
+
+  @media only screen and (min-width: 1400px) {
+      .text-container {
+        padding: 0;
+      }
+      
+      #title-content {
+        font-size: 20px;
+      }
+  
+      .big-problem {
+          margin-bottom: 3em;
+      }
+  
+      #solution {
+          margin-bottom: 3em;
+      }
+  
+      #key-features {
+          margin-bottom: 3em;
+      }
+
+      #airlines {
+          width: 50%;
+        }
+
+        .card-container {
+          justify-content: center;
+          padding: 0%;
+          overflow: hidden;
+          padding-left: 5%;
+          padding-right: 5%;
+        }
+
+  }
+
+
+/* Laptops and Desktop Computers */
+@media only screen and (min-width: 1025px) and (max-width: 1400px) {
+    .info-section {
+      padding: 0;
+    }
+    
+    .text-container {
+      width: 100%;
+      margin-bottom: 3em;
+    }
+    
+    #title-content {
+      font-size: 20px;
+    }
+
+    .big-problem {
+        margin-bottom: 3em;
+    }
+
+    #solution {
+        margin-bottom: 3em;
+    }
+
+    #key-features {
+        margin-bottom: 3em;
+    }
+
+    #airlines {
+        width: 90%;
+      }
+
+      .card-container {
+        justify-content: center;
+        padding: 0%;
+        overflow: hidden;
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+}
+
+
+
+
+
+
+
+
+
+/* Tablets and small laptops (1024px and below) */
+@media only screen and (max-width: 1024px) {
+    .info-section {
+      padding: 0;
+    }
+    
+    .text-container {
+      width: 100%;
+      margin-bottom: 3em;
+    }
+    
+    #title-header {
+      font-size: 40px;
+    }
+    
+    #title-content {
+      font-size: 18px;
+    }
+
+    .big-problem {
+        margin-bottom: 3em;
+    }
+
+    #solution {
+        margin-bottom: 3em;
+    }
+
+    #key-features {
+        margin-bottom: 3em;
+    }
+    
+    #airlines {
+        width: 90%;
+    }
+
+    .card-container {
+        justify-content: center;
+        padding: 0%;
+        overflow: hidden;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+  }
+  
+  /* Mobile devices (768px and below) */
+  @media only screen and (max-width: 768px) {
+    .info-section {
+      padding: 0;
+    }
+  
+    .text-container {
+      width: 100%;
+      margin-bottom: 3em;
+    }
+
+    .big-problem {
+        margin-bottom: 3em;
+    }
+
+    #solution {
+        margin-bottom: 3em;
+    }
+
+    #key-features {
+        margin-bottom: 3em;
+    }
+    
+    
+  
+  }
+  
+

@@ -221,8 +221,7 @@ let mousePos = new Vector2(0,0);
             object.material.opacity = object.sunOpacity * (1-obj.t) + object.moonOpacity * obj.t;
           });
         });
-
-        sunBackground.style.opacity = 1-obj.t;
+        
         moonBackground.style.opacity = obj.t;
       },
       easing: 'easeInOutSine',
@@ -331,42 +330,9 @@ function makePlane(planeMesh, trailTexture, envMap, scene) {
 
 }
 
-let inactiveMouseTimer;
-let modelLoader = new GLTFLoader();
-let isMouseInactive = false;
 
-function switchModels() {
-  if (isMouseInactive) {
-    modelLoader.loadAsync('assets/marmots_low_poly.glb').then(model => {
-      scene.remove(scene.getObjectByName('plane'));
-      let marmotModel = model.scene.children[0];
-      marmotModel.name = 'marmot';
-      scene.add(marmotModel);
-    });
-  } else {
-    modelLoader.loadAsync('assets/plane/scene.glb').then(model => {
-      scene.remove(scene.getObjectByName('marmot'));
-      let planeModel = model.scene.children[0];
-      planeModel.name = 'plane';
-      scene.add(planeModel);
-    });
-  }
-}
 
 window.addEventListener("mousemove", (e) => {
-/*  clearTimeout(inactiveMouseTimer);
-
-  if (isMouseInactive) {
-    isMouseInactive = false;
-    switchModels();
-  }
-
-  inactiveMouseTimer = setTimeout(() => {
-    isMouseInactive = true;
-    switchModels();
-  }, 10000); // 30 seconds
-  */
-
   let x = e.clientX - innerWidth * 0.5; 
   let y = e.clientY - innerHeight * 0.5;
 

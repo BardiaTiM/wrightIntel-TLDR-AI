@@ -1,28 +1,19 @@
 body {
-    background: linear-gradient(-45deg, #90e0ef, #00b4d8, #caf0f8, #00b4d8);
-    background-size: 400% 500%;
-    animation: gradient 10s ease infinite;
-}
-
-.dark-mode {
-    background: linear-gradient(-45deg, #003566, #001d3d, #003566, #003566);
-    background-size: 400% 500%;
-    animation: gradient 10s ease infinite;
-}
-
-
-@keyframes gradient {
-    0%, 100% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
+    background: #F4C397;
+    color: white;
 }
 
 #title {
     margin-bottom: 30px;
     font-size: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
 }
 
 .container {
@@ -31,7 +22,7 @@ body {
     background-color: 1682e7;
     border-radius: 10px;
     margin: 0 auto;
-    margin-top: 180px;
+    margin-top: 100px;
     max-width: 500px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -40,21 +31,19 @@ body {
     text-align: center;
 }
 
-#forgot-password {
-    text-align: center;
-}
-
 #submit {
+    border: none;
     cursor: pointer;
-    background: #a7dcf5;
-    border-radius: 50px;
+    background: #7b917d;
+    border-radius: 6px;
     width: 200px;
     height: 50px;
     margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 #submit:hover {
-    background: #fafc8b;
+    background: #c57b57;
     transform: scale(1.02);
     transition: all 0.5s ease;
 }
@@ -116,7 +105,7 @@ input {
 }
 
 input:hover{
-    background: #a7dcf5;
+    background: #c57b57;
     transform: scale(1.02);
     transition: all 0.5s ease;
 }
@@ -195,4 +184,29 @@ input:checked+.slider:before {
 
 .slider.round:before {
     border-radius: 50%;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .container {
+        padding: 13px;
+        padding-top: 20px;
+        border-radius: 10px;
+        margin: 0 auto;
+        margin-top: 100px;
+        max-width: 350px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    #create-account {
+        border: none;
+        cursor: pointer;
+        background: #a7dcf5;
+        border-radius: 6px;
+        width: 300px;
+        height: 50px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
 }

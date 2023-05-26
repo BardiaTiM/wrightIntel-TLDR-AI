@@ -101,12 +101,12 @@ function enableDarkMode() {
   // Set logo for dark mode
   var logoImage = document.querySelector('#logo');
   if (logoImage) {
-    logoImage.src = '/logo_images/white.png';
+    logoImage.src = './images/logo_images/white.png';
   }
 
   const indexLogo = document.querySelector('#index-logo');
   if (indexLogo) {
-    indexLogo.src = '/logo_images/white-font.png';
+    indexLogo.src = './images/logo_images/white-font.png';
   }
 
   const getStartedButton = document.querySelector('.members-button');
@@ -210,12 +210,12 @@ function enableLightMode() {
   // Set logo for light mode
   var logoImage = document.querySelector('#logo');
   if (logoImage) {
-    logoImage.src = '/logo_images/black.png';
+    logoImage.src = './images/logo_images/black.png';
   }
 
   const indexLogo = document.querySelector('#index-logo');
   if (indexLogo) {
-    indexLogo.src = '/logo_images/black-font.png';
+    indexLogo.src = './images/logo_images/black-font.png';
   }
 
   const headerContainer = document.querySelector('.header-container');
@@ -300,7 +300,7 @@ darkModeToggle.addEventListener('click', function () {
   darkModeEnabled = true; // Update the value
   enableDarkMode();
   if (logoImage) {
-    logoImage.src = '/logo_images/white.png';
+    logoImage.src = './images/logo_images/white.png';
   }
   // Update button colors
   updateButtonColors();
@@ -313,7 +313,7 @@ lightModeToggle.addEventListener('click', function () {
   darkModeEnabled = false; // Update the value
   enableLightMode();
   if (logoImage) {
-    logoImage.src = '/logo_images/black.png';
+    logoImage.src = './images/logo_images/black.png';
   }
   // Update button colors
   updateButtonColors();

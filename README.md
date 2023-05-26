@@ -371,7 +371,7 @@ Our project, designated as project BBY-24, is in the process of developing 'TLDR
     - Set up the Python server
       - cd Webapp/Chatbot
         - Insert your OpenAI API key in main.py on line 44
-        - Insert your OpenAI API key in main.py on line 44
+        - Insert your Aero API key in main.py on line 112
         - Run main.py
           - The python code will interact with the Node back-end server
     - Launch the Node server
@@ -497,8 +497,8 @@ Our project, designated as project BBY-24, is in the process of developing 'TLDR
       GitHub: chino0522
 
   * James Langille
-      Email:
-      GitHub:
+      Email: langillejames11@gmail.com
+      GitHub: jamesnll
     
   * Bardia Timouri
       Email: bardia_il@yahoo.ca

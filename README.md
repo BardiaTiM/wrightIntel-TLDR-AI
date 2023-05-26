@@ -430,9 +430,9 @@ Our project, designated as project BBY-24, is in the process of developing 'TLDR
 
   * Using the Favourites page
     - Click the "Favourites" icon in the footer
-      - You will be able to see all of your favorited messages and conversations ------------------
+      - You will be able to see all of your favorited conversations 
       - Click on a message to expand the message and see its contents
-      - If you would like to unfavorite a message or conversation
+      - If you would like to unfavorite a conversation
         - Click the heart image
         - Your changes will be saved automatically
 

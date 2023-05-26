@@ -481,16 +481,16 @@ Our project, designated as project BBY-24, is in the process of developing 'TLDR
     - AI-related questions
 
   ## Limitations
-    Speed
-      * Due to the lack of datasets on airline policy and passenger rights, we had to create our own custom dataset, consisting of a set of text files. This caused delays up to 30 seconds in order for a user to get a response.
-      * When you first ask the chatbot a question about a specific airline, we used python to create JSON file of that airline's data, reducing the response-time drastically.
+   * Speed
+      - Due to the lack of datasets on airline policy and passenger rights, we had to create our own custom dataset, consisting of a set of text files. This caused delays up to 30 seconds in order for a user to get a response.
+      - When you first ask the chatbot a question about a specific airline, we used python to create JSON file of that airline's data, reducing the response-time drastically.
 
-    Cost
-      * OpenAI API charges users based on the number of tokens used per interaction (question and response). As our text files were of considerable size, each interaction was costing roughly 25 cents. 
+   * Cost
+     - OpenAI API charges users based on the number of tokens used per interaction (question and response). As our text files were of considerable size, each interaction was costing roughly 25 cents. 
 
-      * After implementing the aforemention python code, we were able to drop the cost to roughly 8 cents per interaction.
+     - After implementing the aforemention python code, we were able to drop the cost to roughly 8 cents per interaction.
 
-      * Ideally, we would've liked to organize all of our data into MongoDB, create a script to query our database for a response, which would then be passed to the OpenAI API. This would reduce the cost per interaction significantly, and improve the scalability of our product.
+     - Ideally, we would've liked to organize all of our data into MongoDB, create a script to query our database for a response, which would then be passed to the OpenAI API. This would reduce the cost per interaction significantly, and improve the scalability of our product.
 
 ## Contact Information
 

@@ -1,4 +1,5 @@
 <%- include("templates/header") %>
+
 <!--Google Fonts-->
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,7 +18,7 @@
         <div class="card-header">
           <h1 id="username" class="title"><%= username %></h1>
           <div class="image-display">
-            <img src="/profile_images/<%= image %>" id="profile_image" class="avatar" width="200px" height="200px">
+            <img src="./images/profile_images/<%= image %>" id="profile_image" class="avatar" width="200px" height="200px">
           </div>
         </div>
         <form class="submit-container" action="/profileUpdate" method="post">
@@ -28,7 +29,7 @@
               <div class="modal-dialog modal-dialog-scrollable">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel" class="content">Change Your Information</h1>
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Change Your Information</h1>
                     <button type="button" class="btn-close content" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">

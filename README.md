@@ -30,6 +30,7 @@ Our project, designated as project BBY-24, is in the process of developing 'TLDR
 
 ## File Contents
 
+```bash
 2800-202310-BBY24
 |   README.md
 |   
@@ -41,34 +42,34 @@ Our project, designated as project BBY-24, is in the process of developing 'TLDR
 |   |   vcs.xml
 |   |   
 |   \---inspectionProfiles
-|           profiles_settings.xml
-|           Project_Default.xml
+|          - profiles_settings.xml
+|          - Project_Default.xml
 |           
 +---Canada_Text_Files
-|       Accessible.txt
-|       Aeronautics.txt
-|       Aircanada.txt
-|       Airtransit.txt
-|       Catsa.txt
-|       Commercial.txt
-|       Flair.txt
-|       Porter.txt
-|       Protection.txt
-|       Sunwing.txt
-|       Westjet.txt
+|      - Accessible.txt
+|      - Aeronautics.txt
+|      - Aircanada.txt
+|      - Airtransit.txt
+|      - Catsa.txt
+|      - Commercial.txt
+|      - Flair.txt
+|      - Porter.txt
+|      - Protection.txt
+|      - Sunwing.txt
+|      - Westjet.txt
 |       
 +---Canada_Web_Scrape
-|       Accessible.py
-|       Aeronautics.py
-|       Aircanada.py
-|       Airtransit.py
-|       Catsa.py
-|       Commercial.py
-|       Flair.py
-|       Porter.py
-|       Protection.py
-|       Sunwing.py
-|       Westjet.py
+|      - Accessible.py
+|      - Aeronautics.py
+|      - Aircanada.py
+|      - Airtransit.py
+|      - Catsa.py
+|      - Commercial.py
+|      - Flair.py
+|      - Porter.py
+|      - Protection.py
+|      - Sunwing.py
+|      - Westjet.py
 |       
 +---Front_End
 |   |   3d.css
@@ -299,7 +300,8 @@ Our project, designated as project BBY-24, is in the process of developing 'TLDR
         \---templates
                 footer.ejs
                 header.ejs
-                
+```
+
 ## How to Set-up
 
   * Installations
